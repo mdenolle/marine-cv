@@ -1,0 +1,37 @@
+employment:
+  - company: Applied Environmental Intelligence
+    position: Co-Founder
+    start_date: 2025
+    end_date: present
+    location: Seattle
+    summary:
+    highlights:
+  - company: University of Washington
+    position: Associate Professor
+    start_date: 2024
+    end_date: present
+    location: Seattle, WA
+    summary: Department of Earth and Space Sciences
+    highlights:
+  - company: University of Washington
+    position: Assistant Professor
+    start_date: 2021
+    end_date: 2024
+    location: Seattle, WA
+    summary: Department of Earth and Space Sciences
+    highlights:
+  - company: Harvard University
+    position: Assistant Professor
+    start_date: 2016
+    end_date: 2021
+    location: Cambridge, MA
+    summary: Department of Earth and Planetary Sciences
+    highlights:
+  - company: UC San Diego, Scripps Institution of Oceanography
+    position: Green Postdoctoral Fellow
+    start_date: 2014
+    end_date: 2016
+    location: La Jolla, CA
+    summary: Institute of Geophysics and Planetary Physics
+    highlights:
+    - Supervisor Dr. Peter Shearer

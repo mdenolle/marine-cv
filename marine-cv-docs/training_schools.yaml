@@ -1,0 +1,37 @@
+training_schools:
+  - name: CRESCENT-SCOPED Workshop
+    date: '2025'
+    url: https://scoped-mlscience-book.readthedocs.io/
+    summary: co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+  - name: SCOPED Workshop
+    date: '2024'
+    url: https://seisscoped.org/HPS-book/intro.html
+    summary: Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+  - name: SSA Cloud 101 & Data Mining
+    date: '2024'
+    url: https://seisscoped.org/SSA-Cloud-101/intro.html
+    summary: Lead organizer of cloud workshop (80 participants)
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+  - name: CyberTraining Workshop
+    date: '2023'
+    url: https://seisscoped.org/HPS-book/intro.html
+    summary: Lead PI, coordinator, and instructor for HPC and Data Science
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+  - name: GeoSMART ML for Solid Earth Science
+    start_date: 2021
+    end_date: present
+    url: https://geo-smart.github.io/mlgeo-book/
+    summary: Co-organizer of ML training with Jupyter Book
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+  - name: SCEC-ERI VISES Summer School
+    date: '2016'
+    summary: Scientific committee member and instructor
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']

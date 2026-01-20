@@ -1,0 +1,23 @@
+datasets:
+  - name: 'PNW AI-Ready Seismic Dataset'
+    url: https://github.com/EarthML4PNW/PNW-ML
+    date: '2023'
+    summary: 'Curated Pacific Northwest seismic dataset for machine learning applications. First comprehensive ML-ready seismic dataset for regional studies.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Published in Seismica 2023 (Ni et al.)'
+      - 'DOI: 10.26443/seismica.v2i1.368'
+      - 'Version-controlled via GitHub for quality assurance'
+      - 'Improved metadata through research investigation'
+  - name: 'Global Seismic Phase Database'
+    url: https://doi.org/10.26443/seismica.v4i2.1738
+    date: '2025'
+    summary: '4.3 billion seismic phase picks from cloud-based processing of 1.3 petabytes of continuous seismic data. Largest seismic phase catalog ever produced.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Published in Seismica 2025 (Ni, Denolle, et al.)'
+      - 'DOI: 10.26443/seismica.v4i2.1738'
+      - 'Processed on AWS cloud infrastructure'
+      - 'Enables global-scale seismic monitoring and research'

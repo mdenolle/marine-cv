@@ -1,0 +1,63 @@
+phd_advisees:
+  - name: Michael Hemmett
+    start_date: 2025
+    end_date: present
+    location: UW Earth and Space Sciences
+    summary: PhD pre-candidate in offshore geophysics
+  - name: Manuela Kopefli
+    start_date: 2022
+    end_date: present
+    location: UW Earth and Space Sciences
+    summary: PhD candidate in geohazard
+    highlights:
+      - 1 publication, 1 in review, 1 in prep
+  - name: Akash Kharita
+    start_date: 2022
+    end_date: present
+    location: UW Earth and Space Sciences
+    summary: PhD pre-candidate in geohazard
+    highlights:
+      - 1 publication, 1 accepted
+  - name: Yiyu Ni
+    start_date: 2021
+    end_date: present
+    location: UW Earth and Space Sciences
+    summary: PhD candidate in machine learning and big data seismology
+    highlights:
+      - 8 publications
+  - name: Congcong Yuan
+    start_date: 2019
+    end_date: 2024
+    location: Harvard University
+    summary: |
+      PhD in time-dependent seismology, solid-fluid interaction
+      Next position: Cornell postdoc → Faculty Singapore
+    highlights:
+      - 4 publications
+  - name: Stephanie Olinger
+    start_date: 2018
+    end_date: 2023
+    location: Harvard University
+    summary: |
+      PhD in cryo-seismology (50% co-advised with Brad Lipovsky)
+      Next position: Stanford Thompson Postdoctoral Fellowship → CEO of AEI
+    highlights:
+      - 4 publications
+  - name: Tim Clements
+    start_date: 2016
+    end_date: 2021
+    location: Harvard University
+    summary: |
+      PhD in hydro-seismology and big-data seismology
+      Next position: USGS Mendenhall Postdoc → USGS geophysicist
+    highlights:
+      - 4 publications
+  - name: Jiuxun Yin
+    start_date: 2016
+    end_date: 2022
+    location: Harvard University
+    summary: |
+      PhD in earthquake seismology
+      Next position: Caltech SCSN Postdoc Fellowship → Schlumberger
+    highlights:
+      - 6 publications

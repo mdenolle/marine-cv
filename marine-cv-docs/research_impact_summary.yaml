@@ -1,0 +1,9 @@
+research_impact_summary:
+  - label: 'Research Citations'
+    details: '3,398 total citations, h-index: 24, i10-index: 45 (Google Scholar)'
+  - label: 'Open-Source Software'
+    details: '372 GitHub stars across 18 active repositories'
+  - label: 'Software Downloads'
+    details: '1,692+ PyPI downloads annually (NoisePy package)'
+  - label: 'Development Community'
+    details: '50+ contributors across lab and collaborative projects'

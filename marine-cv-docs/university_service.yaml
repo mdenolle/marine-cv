@@ -1,0 +1,30 @@
+university_service:
+  - name: AI@UW Advisory Committee to the VP
+    location: University of Washington
+    start_date: 2026
+    end_date: present
+  - name: Co-director of UW CS4Env
+    location: Computer Science 4 the Environment, University of Washington
+    start_date: 2024
+    end_date: present
+  - name: Chair of Curriculum Committee
+    location: UW/ESS
+    start_date: 2024
+    end_date: present
+  - name: Member of Curriculum Committee and Data Science Oversight Committee
+    location: UW/ESS
+    start_date: 2022
+    end_date: present
+  - name: Member of Executive Committee
+    location: UW/ESS
+    start_date: 2022
+    end_date: 2023
+  - name: Member of Research Faculty Search Committee
+    location: UW/ESS
+    start_date: 2022
+    end_date: 2023
+  - name: Multiple Committee Memberships
+    location: Harvard University
+    start_date: 2016
+    end_date: 2020
+    summary: 'Undergraduate Curriculum Committee, Graduate Student Council, IT Committee, Diversity Inclusion and Belonging Committee, Department Colloquium Committee'

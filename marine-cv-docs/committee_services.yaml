@@ -1,0 +1,28 @@
+committee_services:
+  - name: Member
+    location: Earthscope Consortium - Board of Directors
+    start_date: 2026
+    end_date: present
+  - name: Chair
+    location: Earthscope Consortium Integration and Innovation Advisory Committee
+    start_date: 2023
+    end_date: 2025
+  - name: Member
+    location: SCEC Science Steering Committee
+    start_date: 2024
+    end_date: 2025
+  - name: Member
+    location: IRIS Data Service Standing Committee
+    start_date: 2021
+    end_date: 2022
+  - name: Member
+    location: SCEC HPC Standing Committee
+    start_date: 2021
+    end_date: 2023
+  - name: Chair
+    location: Graduate Student Council, Stanford University
+    start_date: 2011
+    end_date: 2012
+  - name: Committee Member
+    location: Charles Richter Early Career Award Committee
+    start_date: 2022

@@ -1,0 +1,36 @@
+software:
+  - name: 'Machine Learning in the Geosciences Textbook'
+    url: https://geo-smart.github.io/mlgeo-book/
+    date: '2021-present'
+    summary: 'Open-access Jupyter Book for graduate-level ML course. First comprehensive textbook introducing ML concepts specifically for geoscience applications.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - '11 GitHub stars, 6 forks, 6 contributors (Jan 2026)'
+      - 'Adopted by multiple universities (Arizona, Berkeley)'
+      - 'Asynchronous teaching materials with curated datasets'
+      - 'Associated GitHub repository with homework sets'
+      - 'Active development with community contributions'
+  - name: NoisePy
+    url: https://github.com/noisepy/NoisePy
+    date: '2019-present'
+    summary: 'Open-source Python package to process ambient noise seismological data at large scale. Core tool for seismic monitoring and imaging.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - '207 GitHub stars, 83 forks, 19 contributors (Jan 2026)'
+      - '141 PyPI downloads/month'
+      - 'Taught at virtual workshops internationally'
+      - 'Used by researchers worldwide for noise cross-correlation'
+      - 'Cloud-optimized workflows for petabyte-scale processing'
+  - name: SeisNoise.jl
+    url: https://github.com/tclements/SeisNoise.jl/
+    date: '2020-present'
+    summary: 'Open-source Julia package for ambient noise seismology with CPU/GPU acceleration. High-performance implementation of core cross-correlation algorithms.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - '50 stars, 17 forks (as of Apr 2023)'
+      - 'Used by 3+ group members for research'
+      - 'Part of growing Julia seismology ecosystem'
+      - 'Particularly powerful for large-scale computations'

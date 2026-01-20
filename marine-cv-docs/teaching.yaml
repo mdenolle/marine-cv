@@ -1,0 +1,81 @@
+teaching:
+  - name: 'Machine Learning in the Geosciences'
+    url: https://geo-smart.github.io/mlgeo-book/
+    date: 'ESS 469/569'
+    location: 'University of Washington'
+    summary: 'Graduate and advanced undergraduate course introducing machine learning concepts and applications in Earth sciences. Developed comprehensive Jupyter textbook with hands-on datasets.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Fall 2021, 2022, 2023, 2024'
+      - 'Open-access Jupyter Book with asynchronous teaching materials'
+      - 'Course adopted by University of Arizona and UC Berkeley'
+      - 'Curated geoscience-specific ML datasets for homework'
+  - name: 'Computational/Advanced Seismology'
+    url: https://denolle-lab.github.io/
+    date: 'ESS 590/563'
+    location: 'University of Washington'
+    summary: 'Graduate-level course on advanced seismological methods including signal processing, waveform modeling, and computational techniques.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Spring 2023, 2024, 2025'
+      - 'Covers ambient noise seismology, earthquake source characterization'
+      - 'Julia and Python programming for high-performance computing'
+  - name: 'Introduction to Seismology'
+    date: 'ESS 412/512'
+    location: 'University of Washington'
+    summary: 'Undergraduate and graduate-level foundational course on seismology, earthquake sources, wave propagation, and seismic instrumentation.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Winter 2023, 2025, 2026'
+      - 'Covers earthquake physics, seismic waves, and hazard assessment'
+  - name: 'Geophysics'
+    date: 'ESS 314'
+    location: 'University of Washington'
+    summary: 'Undergraduate-level introduction to geophysical methods and Earth structure.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Spring 2021, 2023'
+  - name: 'Machine Learning in Earth and Planetary Sciences'
+    date: 'EPS 268'
+    location: 'Harvard University'
+    summary: 'Graduate seminar introducing machine learning applications to planetary science and geophysics.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Fall 2019'
+  - name: 'Induced Seismicity'
+    date: 'EPS 268'
+    location: 'Harvard University'
+    summary: 'Graduate seminar on anthropogenic seismicity, wastewater injection, and earthquake triggering mechanisms.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Fall 2018'
+  - name: 'Earthquakes and Faulting'
+    date: 'EPS 203'
+    location: 'Harvard University'
+    summary: 'Graduate-level course on earthquake mechanics, fault dynamics, and rupture processes.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Fall 2018, 2020'
+  - name: 'Earthquakes and Tectonics'
+    date: 'EPS 55'
+    location: 'Harvard University'
+    summary: 'Sophomore-level introduction to plate tectonics, seismology, and earthquake hazards.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Fall 2017, 2020'
+  - name: 'Earthquake Sources'
+    date: 'EPS 204'
+    location: 'Harvard University'
+    summary: 'Advanced graduate course on earthquake source physics and characterization methods.'
+    title: '__HIDDEN__'
+    authors: ['__HIDDEN__']
+    highlights:
+      - 'Taught Spring 2016'
