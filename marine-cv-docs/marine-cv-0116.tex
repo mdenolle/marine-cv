@@ -1,0 +1,921 @@
+% !BIB TS-program = biber
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
+\usepackage[hidelinks]{hyperref}
+\def\@biblabel#1{[#1]}% no trailing dot
+\usepackage{fontspec}
+% \usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{setspace}
+
+% \usepackage[backend=biber,style=numeric,sorting=ydnt,maxnames=99,giveninits=true]{biblatex}
+% \addbibresource{denolle-pub.bib}
+% \usepackage[numbers]{natbib}
+% \bibliographystyle{apalike} % or abbrvnat, unsrtnat, etc.
+% \usepackage{etaremune}
+
+% \renewcommand{\refname}{}
+
+% \usepackage[backend=biber,style=numeric,sorting=ydnt]{biblatex}
+% \addbibresource{denolle-pub.bib}
+
+\newenvironment{benumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    \begin{enumerate}
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+}
+% \setmainfont{Inter}
+
+\setmainfont{IBM Plex Serif}
+\newfontfamily\headingfont{IBM Plex Sans}
+% \usepackage{sectsty}
+% \allsectionsfont{\headingfont\bfseries}
+% \setmainfont{Montserrat}[
+%   Extension=.ttf,
+%   UprightFont=*-Regular,
+% %   ItalicFont=*-RegularItalic,
+%   BoldFont=*-Bold,
+% %   BoldItalicFont=*-BoldItalic,
+% ]
+% \setmainfont{[Montserrat-Regular.ttf],Boldfont=[Montserrat-Bold.ttf]}
+% \fontfamily{qag}
+
+\usepackage{xcolor}
+\definecolor{MyBlue}{rgb}{0.27,0.5,0.7}
+\sectionfont{\color{MyBlue}}
+\definecolor{MyRed}{rgb}{0.5,0,0}
+\definecolor{MyGreen}{rgb}{0,0.5,0}
+
+
+% \usepackage[margin=0in]{geometry}
+\setstretch{1.25}
+\begin{document} 
+
+\name{\color{MyRed}\textbf{Marine A. Denolle}\\[4pt]}     % the \\[12pt] adds a blank
+				        % line after name      
+
+
+\begin{resume}
+
+ {\bf Associate Professor, Department of Earth and Space Sciences}\\
+{\bf  e-mail}: mdenolle (at) uw (dot) edu \\
+{\bf Homepage} \href{https://denolle-lab.github.io/}{https://denolle-lab.github.io/} \\
+{\bf ORCID} \href{http://orcid.org/0000-0002-1610-2250}{orcid.org/0000-0002-1610-2250} \\
+{\bf GitHub} \href{https://github.com/mdenolle}{github.com/mdenolle}, \href{https://github.com/Denolle-Lab}{https://github.com/Denolle-Lab}
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%% EMPLOYMENT %%%%%%%%%%%%%%%%
+\section{\color{MyBlue}\large \textbf{1. EMPLOYMENT HISTORY}}  
+\begin{tabular}{ll}
+\color{MyRed} 2024- &{\bf Associate Professor}, Earth and Space Sciences, University of Washington \\ 
+\color{MyRed} 2021-2024 &{\bf Assistant Professor}, Earth and Space Sciences, University of Washington \\ 
+\color{MyRed} 2016-2021  & {\bf Assistant Professor}, Earth and Planetary Sciences, Harvard University \\    
+   \color{MyRed} 2014-2016  & {\bf Green Postdoctoral Fellow}, Institute of Geophysics and Planetary Physics, \\ & SIO, UC-San Diego  Supervisor: Dr. Peter Shearer   
+\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%% EDUCATION %%%%%%%%%%%%%%%%
+
+\section{\color{MyBlue}\large 2. EDUCATION HISTORY}   
+\begin{tabular}{ll}   
+   % \color{MyRed} 2014-2016  & {\bf Green Postdoctoral Fellow}, Institute of Geophysics and Planetary Physics, \\ & SIO, UC-San Diego, \\  & Supervisor: Dr. Peter Shearer \\ 
+    \color{MyRed} 2008-2014 & {\bf PhD} in Geophysics, Stanford University, USA \\ 
+    & Supervisor: Dr. Gregory Beroza ; co-supervisors: Dr. Eric Dunham, Dr. Jesse Lawrence\\
+    % & {\it Seismic Hazard Analysis using the Ambient Seismic field}\\
+    \color{MyRed} 2007-2008 &{\bf Master} in Geophysics, Ecole Normale Sup\'{e}rieure  - IPGP , France   \\      
+    & Supervisors: Dr. Satish Singh (IPGP), Dr. David Bercovici (Yale) \\
+    \color{MyRed} 2006 & {\bf Bachelor} in Earth Sciences, Ecole Normale Sup\'{e}rieure, France      \\   
+    \color{MyRed}2004-2005 & {\bf License} in Physics-Mathematics (Classe Pr\'{e}paratoire aux Grandes Ecoles), \\ & Lyc\'{e}e Chateaubriand, France     \end{tabular}
+
+ \section{\color{MyBlue}\large 3. AWARDS and FELLOWSHIPS}
+ (* bold represents a national and international-level recognition )\\
+ {\color{MyRed} 2023} Invited Professorship - 1 month visit to the Ecole Normale Sup\'{e}rieure rue d'Ulm-Paris\\
+{\color{MyRed} 2023-} Data Science Fellow, eScience Institute, University of Washington \\ 
+ {\color{MyRed} 2019} {\bf Charles F. Richter} Early Career award (Seismological Society of America)\\
+ {\color{MyRed} 2019} {\bf Kavli Frontiers of Science Fellow} (National Academic of Sciences)\\
+ {\color{MyRed} 2019} {\bf Radcliffe Assistant Professorship} Institute for Advanced Study Fellow \\
+ {\color{MyRed} 2018} {\bf CAREER} award - NSF\\
+ {\color{MyRed} 2017} {\bf The David and Lucile Packard Foundation} Fellowship\\
+{\color{MyRed} 2016} Outstanding \underline{Reviewer} citation for Geophysical Research Letters\\
+{\color{MyRed} 2015} Outstanding \underline{ Reviewer} citation for Geophysical Journal International\\
+{\color{MyRed} 2012} {\bf AGU} Outstanding \underline{Student} Paper Award \\
+{\color{MyRed} 2012}  {\bf SSA} \underline{Student} Presentation Award \\
+{\color{MyRed} 2010}  {\bf AGU} Outstanding \underline{Student} Paper Award
+
+
+%%%%%%%%%%%%%%%%%%%%%%% RESEARCH INTEREST %%%%%%%%%%%%%%%%
+% \section{\color{MyBlue}\large RESEARCH INTERESTS}
+% {\bf Ground Motion Prediction}: Long period strong ground motion in urban sedimentary basins. Surface waves observation and theory. Non-linear ground motions, near surface shaking damage and healing. \\
+% {\bf Earthquake Source Physics:} Imaging of spatial and temporal variation of earthquake rupture parameters. Earthquake energy budget, body- and surface-wave radiated energy, stress drop, radiation efficiency, fracture energy. Focus on surface ruptures. Earthquake co-seismic damage. \\
+% {\bf Environmental Seismology}: monitoring of subsurface hydrology using ambient seismic field, impacts of extreme events (droughts, wet climatic events).\\
+% {\bf High-performance Seismology:} Numerical tools to deal with TB-PB size data sets for ambient noise monitoring and imaging. Open-source software in Python and Julia. HPC and cloud computing. Machine learning for seismology.
+
+
+% %%%%%%%%%%%%%%%%%%%%%%% FIELD %%%%%%%%%%%%%%%%
+% \section{\color{MyBlue}\large SELECTED FIELD EXPERIMENTS}
+% {\bf SNOW-DAS} ({\color{MyRed}2020}) Deploy 200m-long fiber optic cable, seismometers, moisture and temperature probe in a snowy-field in a Vermont farm for controlled environmental seismology experiment\\
+% {\bf SEAQUAKE} ({\color{MyRed}2019})  Deploy 20 broadbands and 100 nodes in the downtown Seattle area. \\
+% {\bf BASIN} ({\color{MyRed} 2018}) Deployed 15 broadbands among the 23 broadband and 250 nodes of the BASIN project (Clayton, Denolle, Persaud, Polet) in San Gabriel and San Bernardino area  \\
+% {\bf Seismo-Geo-Jumbo} ({\color{MyRed}2017)} Controlled monitoring of ground water extraction and elastic property monitoring with ambient seismic field (Tufts, MA)  \\
+% {\bf Vaughan-Lewis Icefall Seismic Project (VLISP)} ({\color{MyRed} 2012})Configured and deployed a 1-month seismic array of 5 short-period seismometers and accelerometers near the Vaughan-Lewis Icefall, Juneau Icefield, AK,  \\
+% {\bf San Andreas Virtual Earthquake Los Angeles (SAVELA)} ({\color{MyRed} 2010}) Configured and deployed a 3-month temporary of a 10 broadband seismometer array along the southern
+% segment of the San Andreas Fault, CA \\
+%  {\bf Pre-Tsunami Investigation seismic Gap (PreTIGap)}  ({\color{MyRed} 2008}) Configured and collected active seismic profiles and multibeam bathymetry offshore Mentawai Islands, West Sumatra\\
+%%%%%%%%%%%%%%%%%%%%%%% TEACHING ACTIVITIES %%%%%%%%%%%%%%%%
+\section{\color{MyBlue}\large 4. TEACHING}
+{\bf Computational/Advanced seismology} (grad level)  - UW ESS 590/563 - {\color{MyRed} 2023, 2024, 2025} \\
+{\bf Introduction to seismology} (undergrad/grad level)  - UW ESS 412/512 - {\color{MyRed} 2023, 2025} \\
+{\bf Geophysics} (undergrad level)  - UW ESS 314 - {\color{MyRed}  2021, 2023} \\
+{\bf Machine learning in the geosciences} (undergrad+grad level)  - UW ESS 469/569 - {\color{MyRed} 2021, 2022, 2023, 2024} \\
+{\bf Machine Learning in Earth and Planetary Sciences} (graduate level seminar)  - Harvard EPS268 - {\color{MyRed} 2019} \\
+{\bf Induced Seismicity} (graduate level seminar)  - Harvard EPS268 - {\color{MyRed}Fall 2018}\\
+{\bf  Earthquakes and Faulting} (graduate level)  - Harvard EPS203- {\color{MyRed} 2018, 2020}\\
+{\bf Earthquakes and Tectonics} (sophomore level)  - Harvard EPS55- {\color{MyRed} 2017, 2020}\\
+{\bf Earthquake Sources }(graduate level)  - Harvard EPS204- {\color{MyRed} 2016}\\
+ % {\bf Intro to Seismology}, substitute lecturer (senior undergraduate science major - beginning graduate level), - Stanford - {\color{MyRed}Fall 2012-2013} \\
+ % {\bf Earthquakes and Volcanoes}, Teaching Assistant (undergraduate level - non science major) - Stanford -  {\color{MyRed}Spring 2012} \\
+ % {\bf Inverse Theory}, Teaching Assistant (graduate level) - Stanford - {\color{MyRed}Fall 2010} \\
+ 
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%% OUTSIDE ACTIVITIES %%%%%%%%%%%%%%%%
+\section{\color{MyBlue}\large 5. PROFESSIONAL SERVICE}
+% {\bf Guest Lecturer} \\
+% {\color{MyRed}2023} Guest Lecturer for a course in Victoria University of Wellington, New Zealand, ``Big Data Seismology" \\
+{\bf Research Community Service}
+% \begin{xltabular}{\textwidth}{lXX}
+% {\color{MyRed}{\bf Year}} & {\bf Committee} & {\bf Role}\\
+% \hline
+
+% {\color{MyRed}2024} &NSF - Review Panel& reviewed 10 proposals, attended online panel review, and wrote summary reports.\\
+% {\color{MyRed}2023-2025} &  Earthscope Consortium - (invited) Chair of the Integration and Innovation Advisory Committee & Lead a group of 9, write reports to the Earthscope Board about the frontiers in geophysics and funding opportunities to the facility or extended community.\\
+% {\color{MyRed}2021-2022} & member of the IRIS Data Service Standing Committee & 2 2days meetings/year\\
+% {\color{MyRed}2022} & Charles Richter Early career award committee & reviewed nominations, CVs, and met with committee\\
+% {\color{MyRed}2021-} &member of Southern California Earthquake Center  HPC standing committee & attending multiple virtual meetings and submitted a proposal as PI on behalf of the committee\\
+% {\color{MyRed}2020} &NSF Geophysics  Review Panel & reviewed 7-10 proposals, attended the online panel review, wrote summary reports, and made recommendations\\
+% {\color{MyRed}2018} &USGS - Review Panel& reviewed 3 proposals, attended online panel review, and wrote summary reports.\\
+% {\color{MyRed}2016} &USGS - Review Panel& reviewed 5-7 proposals, attended the in-person panel, and wrote summary reports.\\
+% {\color{MyRed}2011-2012} & Stanford Outdoors Education Program & led activities for the graduate ski club that took 100s of graduate students to ski lessons.\\
+% {\color{MyRed}2011} &Chair of the Graduate Student Council (Stanford University)& oversight of a \$450k annual budget to distribute as student activities designed to improve student mental health and belonging, especially for international students, liaison between students and administration.\\
+% {\color{MyRed}2009} &Chair Graduate Student Advisory Council (School of Earth Sciences, Stanford University)& liaison between student and department administration, coordination of annual research symposium, ski trip, welcoming weekend, and regular activities.\\
+% \end{xltabular}
+
+{\color{MyRed}2024} {\bf NSF - Review Panel}: reviewed 10 proposals, attended online panel review, and wrote summary reports.\\
+{\color{MyRed}2023-2025} {\bf Earthscope Consortium - (invited) Chair of the Integration and Innovation Advisory Committee}: Lead a group of 9, write reports to the Earthscope Board about the frontiers in geophysics and funding opportunities to the facility or extended community.\\
+{\color{MyRed}2021-2022} {\bf Member of the IRIS Data Service Standing Committee}: 2x2days meetings/year\\
+{\color{MyRed}2022} {\bf Charles Richter Early career award committee}: Reviewed nominations, CVs, and met with committee\\
+{\color{MyRed}2021-} ember of Southern California Earthquake Center  HPC standing committee: Attending multiple virtual meetings and submitted a proposal as PI on behalf of the committee\\
+{\color{MyRed}2020} {\bf NSF Geophysics  Review Panel}: Reviewed 7-10 proposals, attended the online panel review, wrote summary reports, and made recommendations\\
+{\color{MyRed}2026, 2018} {\bf USGS - Review Panel}: Reviewed 10+ proposals, attended online panel review, and wrote reports.\\
+{\color{MyRed}2011-2012} {\bf Stanford Outdoors Education Program}: Led activities for the graduate ski club that took 100s of graduate students to ski lessons.\\
+{\color{MyRed}2011} {\bf Chair of the Graduate Student Council (Stanford University)}\\
+% Oversight of a \$450k annual budget to distribute as student activities designed to improve student mental health and belonging, especially for international students, liaison between students and administration.\\
+{\color{MyRed}2009} {\bf Chair Graduate Student Advisory Council (School of Earth Sciences, Stanford University)}
+% : liaison between student and department administration, coordination of annual research symposium, ski trip, welcoming weekend, and regular activities.
+
+{\bf Workshop and Summer School service}:
+\begin{xltabular}{\textwidth}{lXX}
+{\color{MyRed}{\bf Year}} & {\bf Workshop} & {\bf Role}\\
+\hline
+{\color{MyRed}2025} & CRESCENT-SCOPED Workshop & co-PI: organized (logistics and scientific planning) a workshop for 35 in-person participants as a spring school to learn about Machine Learning and Earthquake Catalog Building  processing in seismology, held at UW\\
+{\color{MyRed}2024} & SCOPED Workshop & Lead PI: organized (logistics and scientific planning) a workshop for 50 in-person participants and 50 remote participants as a spring school to learn about Cloud, HPC, wavefield simulations, and big-data processing in seismology, held at UW\\
+{\color{MyRed}2024} & SSA: Cloud 101 \& Data Mining & Lead organizer of a cloud workshop with 80 in-person participants. \\
+{\color{MyRed}2023} & CyberTraining workshop for HPC and Data Science in seismology & Lead PI, workshop coordinator, lead instructor\\
+{\color{MyRed}2018} &  Modeling earthquake source processes: from tectonics to dynamic rupture & Co-organizer of workshop and member of the scientific committee for the writing report.\\
+{\color{MyRed}2016} & SCEC-ERI VISES Summer School, Lake Arrowhead, CA & member of the scientific committee and instructor. \\
+\end{xltabular}
+
+ 
+{\bf National Conference Session Organizer and Chair}:\\
+{\color{MyRed}2024} AGU, ``Computational and Theoretical Seismology" annual fall meeting. \\
+{\color{MyRed}2019} SSA, ``Environmental Seismology" and ``Earthquake Ground Motions and Structural Response in Subduction Zones: A Focus on Cascadia " \\
+ {\color{MyRed}2018} AGU, Earthquake Source Physics Inferred from Macroscopic Source Parameters and Seismicity Parameters\\
+ {\color{MyRed}2016} AGU, NH11A-NH14A Geophysical Methods in Urban Basins\\
+  {\color{MyRed}2015} AGU, S24B Progress in Ambient Field Studies Driven by Complete Wavefields Initiatives\\
+  {\color{MyRed}2014} AGU, S31F Physics of Subduction Earthquakes: From the Trench to the Transition Zone \\
+  {\color{MyRed}2014} AGU, S11B Fault Mechanics at the Brittle-Ductile Transition of Subduction Zone 
+  
+{\bf Referee activities}:\\
+ {\color{MyRed}2025-}  Editor for Geophysical Journal International \\
+ {\color{MyRed}2017-2020} Associate Editor for Geophysical Research Letters, handling/reviewing about 2 papers per month for 2 years. \\
+ {\color{MyRed}2014-now} Geophysical Journal International, Bulletin of the Seismological Society of America, Nature Communications, Geophysical Research Letters, NSF, NASA, Tectonophysics, Journal of Geophysical Research, Science, Earth-Planets and Space, Solid Earth, Swiss National Foundation, $\geq 150$ reviews. \\
+
+ 
+\section{\color{MyBlue}\large 6. UNIVERSITY SERVICE}
+ {\color{MyRed} 2024- (at 
+\bf{UW}) } co-director of UW CS4Env (Computer Science 4 the Environment) \\
+ {\color{MyRed} 2023 (at 
+\bf{UW}/ESS)} Reviewer - Royalty Research Fund \\
+ {\color{MyRed} 2022-2023 (at 
+\bf{UW}/ESS)} Member Executive Committee \\
+ {\color{MyRed} 2022-2023 (at 
+\bf{UW}/ESS)} Member Research Faculty Search Committee \\
+ {\color{MyRed} 2024- (at 
+\bf{UW}/ESS)} Chair of the curriculum committee\\
+ {\color{MyRed} 2022- (at 
+\bf{UW}/ESS)} Member of the Curriculum Committee and the Data Science Oversight Committee\\
+ {\color{MyRed} 2021- (at \bf{UW}/ESS)} Member of the search committee for the seismic Network Manager position, graduate preliminary exam committee \\
+ {\color{MyRed}2016-2020 (at Harvard)} Undergraduate Curriculum Committee, Graduate Student Council, IT Committee, Diversity Inclusion, and Belonging Committee, Department Colloquium Committee.\\
+ 
+\section{\color{MyBlue}\large 7. STUDENT ADVISEES}  
+\textbf{Ph.D. Primary advisor}\\
+(4 at UW Earth and Space Sciences; **4 at Harvard - Earth and Planetary Sciences)\\
+\begin{xltabular}{\textwidth}{llXXX} 
+{\color{MyRed}{\bf Year}}  &{\bf Name}& {\bf Level} & {\bf Topics} \\  
+\hline
+     {\color{MyRed}2025-}  &Michael Hemmett &PhD pre-candidate & offshore geophysics\\ 
+     {\color{MyRed}2022-}  &Manuela Kopefli &PhD candidate& geohazard. 1 publication. \\  
+     {\color{MyRed}2022-}  &Akash Kharita &PhD pre-candidate & geohazard. 1  publication, 1 in prep. \\  
+     {\color{MyRed}2021-}  &Yiyu Ni &PhD candidate& machine learning - big data seismology. 8 publications. \\  
+     {\color{MyRed}2019-2024}  &Congcong Yuan (*)&PhD (Postdoc at Cornell - Faculty in Singapore)& time-dependent seismology, solid-fluid interaction. 4 publications. \\   
+    {\color{MyRed}2018-2023}  &Stephanie Olinger (*)&PhD (recipient of the 
+ {\bf Stanford Thompson Postdoctoral Fellowship}, CEO of AEI & cryo-seismology (* 50\% co-advised with Brad Lipovsky). 4 publications. \\  
+    {\color{MyRed}2016-2021}  &Tim Clements (*)&Ph.D. (recipient of {\bf Mendenhall Postdoc}, now USGS geophysicist) &hydro-seismology, big-data seismology. 4 publications. \\   
+    {\color{MyRed}2016-2022} &Jiuxun Yin (*) &Ph.D. (received {\bf Caltech SCSN Postdoc}, now at Schlumberger)& earthquake seismology. 6 publications.\\    
+\end{xltabular}
+
+
+\textbf{Graduate Student Supervision}\\
+(*) at UW, roles are secondary advisor, primary advisor on one manuscript. 
+(**) advising resulted in a publication. 
+My total time commitment to these grad students is 1-2 hours per week.
+
+\begin{tabular}{ll} 
+    {\color{MyRed}2018-2025}  &Natasha Toghramadjian, Earth and Planetary Sciences, Harvard University. \\
+    % {\color{MyRed}2024-}  & Andrew Sparks, {\bf University of Washington} (co-advised with Renate Hartog). \\ 
+    {\color{MyRed}2021-}  & Maleen Kidiwela, {\bf University of Washington} (co-advised with William Wilcock). (**) \\  
+    {\color{MyRed}2021-2024}  & Zoe Krauss, {\bf University of Washington} (co-advised with William Wilcock). (**)\\  
+    {\color{MyRed}2021-}  & Parker Sprinkle, {\bf University of Washington}  (co-advised) \\  
+    {\color{MyRed}2018-2021}  & Zhuo Yang, Harvard University. (**)\\  
+    {\color{MyRed}2017-2019}  &  Manuel Florez, MIT, member of the dissertation committee\\ 
+    {\color{MyRed}2019}  &  Congcong Yuan, USTC China, master student visiting researcher (**)\\   
+     {\color{MyRed}2019 } &  William Flanagan, Harvard University\\
+    {\color{MyRed}2018 } & Philippe Danr\'{e}, Master student, Ecole Normale Sup\'{e}rieure, Paris. (**) \\   
+    {\color{MyRed}2017 } & Thibault P\'{e}rol, Harvard University.(**)\\    
+\end{tabular}
+
+{\bf UW PhD student dissertation Committee Service.}
+
+\begin{xltabular}{\textwidth}{ll l l}
+\textbf{\color{MyRed} Student Name} & \textbf{ \color{MyRed} Department} & \textbf{\color{MyRed} Role} & \textbf{ \color{MyRed} Dates} \\
+\hline
+Chien, Mu-Ting & Atmospheric Sciences & GSR & 2023 -- 2024 \\
+DeGrande, Jensen & Earth and Space Sciences & Member & 2023 -- \\
+Jones, Randall & Atmospheric Sciences & GSR & 2025 -- \\
+Kharita, Akash & Earth and Space Sciences & Advisor & 2023 -- \\
+Kidiwela, Maleen & School of Oceanography  & Member & 2024 -- \\
+Koepfli, Manuela & Earth and Space Sciences & Chair & 2024 -- \\
+Krauss, Zoe &  School of Oceanography & GSR & 2022 -- 2024 \\
+Ni, Yiyu & Earth and Space Sciences & Chair & 2024 -- \\
+Pearson, Anna Elaine Rogers & Earth and Space Sciences & Member & 2024 -- \\
+Ragland, John & Electrical and Computer Engineering & GSR & 2023 -- 2024 \\
+Rasanen, Ryan & Civil And Environmental Engineering & GSR & 2022 -- 2023 \\
+Sangmin, Song & School of Oceanography & GSR & 2024 -- \\
+Sprinkle, Parker & Earth and Space Sciences & Member & 2022 -- \\
+Sweeney, Aodhan & Atmospheric Sciences & GSR & 2024 -- \\
+Velappan, Hemalatha & School of Env. Forest Sciences & GSR & 2023 -- \\
+Velegar, Meghana S & Applied Mathematics & GSR & 2023 -- 2023 \\
+Zahn, Olivia & Physics & GSR & 2022 -- 2024 \\
+Zhang, Maochuan &  School of Oceanography & GSR & 2023 -- \\
+% \hline
+\end{xltabular}
+% \end{table}
+
+{\bf Undergraduate Advising}: My advising experience includes research opportunities, such as summer programs or independent studies conducted during the academic year. During the academic year, students enroll in 499 for a few credits to continue their research with me. On breaks or during the summer, I provide them with hourly pay. (*) Resulted in a presentation at a national conference.  (**) Resulted in a peer-reviewed publication. (***) In-prep for peer-reviewed publication. (+) Students received a GRFP with my letters written based on our collaborative research.
+
+
+% Table of students and research projects
+% \begin{table}[h!]
+% \centering
+\begin{xltabular}{\textwidth}{lXXX}
+% \toprule
+\textbf{\color{MyRed} Year} & \textbf{ \color{MyRed} Name} & \textbf{\color{MyRed} Institution} & \textbf{ \color{MyRed} Research Topics} \\
+% \midrule
+\hline
+
+2025- & Alex Rose & UW-Oceano &  Deep Learning with distributed acoustic sensing\\[1ex]
+2024- & Anjani Mirchandi & UW-AMATH & Deep Learning with distributed acoustic sensing \\[1ex]
+2023- & Hiroto Bito & UW-ESS & Earthquake Catalog Building offshore Cascadia \\[1ex]
+2023 & Nicholas Wolfe & UW-ESS & Earthquake magnitudes \\[1ex]
+2023 & \begin{tabular}[t]{@{}l@{}}Informatics Capstone:\\ Rona Guo,\\ Nathan Limono,\\ William Phan,\\ Michael Yung,\\ Matthew Herradura\end{tabular} & UW & Distributed Acoustic Sensing web platform \\[1ex]
+2022 & Lucas Swanson & UW-Informatics & Distributed Acoustic Sensing web platform \\[1ex]
+2022--2023 & Francesca Skene (*,***) & UW-ESS (now master at CU Boulder) & Surface event cataloging: location and characterization \\[1ex]
+2022--2023 & Nick Smoczyk (*,***) & UW-University of Minnesota & Volcano seismology: data mining using ML and template matching \\[1ex]
+2020--2021 & Julian Schmitt (*,+) & \begin{tabular}[t]{@{}l@{}}Harvard \\ (Ph.D. grad at Caltech)\end{tabular} & Ambient noise seismology in Julia -- BASIN project \\[1ex]
+2019 & Jared Bryan (*,**,+) &  SCEC program -- Harvard University - (now Ph.D. grad at MIT) & Ambient noise monitoring of fault zones \\[1ex]
+2018 & Albert Aguilar (*) & IRIS Harvard University - now Ph.D. grad at Stanford & Subduction-zone seismology / data mining \\[1ex]
+2016 & Leore Lavin & Senior Thesis -- Harvard  & Ambient noise seismology and ground motion prediction \\[1ex]
+2014 & Roy Bowling & 
+Scripps Institution of Oceanography  & Ambient noise seismology \\
+2012 & Tara Larrue & SURGE program -- Stanford University & Ambient noise seismology \\
+2011 & Penprapa Wutthijuk & SURGE program -- Stanford University & Ambient noise seismology \\
+% \bottomrule
+\end{xltabular}
+\label{tab:students}
+% \end{table}
+
+
+\textbf{International PhD Dissertation Reader} (dissertation and defense evaluative committee)\\
+\begin{tabular}{l l} 
+     {\color{MyRed}2024} & Marius Paul Isken, GFZ-Germany\\
+     {\color{MyRed}2023} & Luc Illien, GFZ-Germany (* I did not participate to his public defense)\\
+     {\color{MyRed}2023} & Daniel Mattas, Geoazure, Universit\'{e} de Nice, France\\
+     {\color{MyRed}2023} & Zoe Renat, Universit\'{e} de Lorraine, France\\
+     {\color{MyRed}2022} & Reza Esfahani, GFZ-Germany (* I did not participate to his public defense)\\ 
+     {\color{MyRed}2019} & Kurama Okubo, IPGP-Paris \\ 
+\end{tabular}
+
+
+\textbf{Postdocs}\\
+\begin{tabular}{ll} 
+     {\color{MyRed}2022-2024}  & Dr. Qibin Shi, Earth and Space Sciences, University of Washington \\
+     &  now Postdoctoral Fellow at Rice University \\ 
+     {\color{MyRed}2023-2024}  & Dr. Kuan-Fu Feng, Earth and Space Sciences,  University of Washington,\\
+     & (now postdoc at U Utah) \\ 
+     {\color{MyRed}2023-2025}  & Dr. Ethan Williams, Earth and Space Sciences,  University of Washington, \\
+     & now assistant professor at UC Santa Cruz \\ 
+     {\color{MyRed}2023}  & Dr. Stephanie Olinger, Earth and Space Sciences,  University of Washington, now in Climate Tech\\
+     {\color{MyRed}2020-2022}  & Dr. Laura Ermert, Earth and Planetary Sciences, Harvard University \\&  Earth and Space Sciences,  University of Washington  \\ & (now assistant professor in ISTerre)\\
+     {\color{MyRed}2019-2020}  & Dr. Xiaotao Yang, Earth and Planetary Sciences, Harvard University \\& (now assistant professor at Purdue)\\
+     {\color{MyRed}2019-2020}  & Dr. Kurama Okubo, Earth and Planetary Sciences, Harvard University \\  & (now researcher at NIED, Japan)\\
+     {\color{MyRed}2019}  & Dr. Zhitu Ma, Earth and Planetary Sciences, Harvard University \\& (now assistant prof at Tongji University - China)  \\   
+     {\color{MyRed}2018-2019}  & Dr. Chengxin Jiang, Earth and Planetary Sciences, Harvard University \\& (now research associate at Australian National University)\\         
+     {\color{MyRed}2016-2017}  & Dr. Chris Van Houtte, Earth and Planetary Sciences, Harvard University \\    
+     {\color{MyRed}2016-2018}  & Dr. Lo\"{i}c Viens, Earth and Planetary Sciences, Harvard University \\& (now researcher at Los Alamos) \\  
+\end{tabular}\\
+
+\section{\color{MyBlue}\large 8. INVITED PRESENTATIONS}
+
+\begin{xltabular}{\textwidth}{llX}
+
+ {\color{MyRed} \bf Year} & {\bf Type} & {\bf Institution} \\
+ \hline
+ {\color{MyRed} 2025} & Plenary Speaker  & SIAM Geoscience Meeting\\
+ {\color{MyRed} 2025} & Plenary Speaker  & Workshop on Earthquake Physics and Applications of Artificial Intelligence to Tectonic Faulting, Italy\\
+ {\color{MyRed} 2025} & Department Seminar &Civil Environmental Engineering, University of Washington\\
+ {\color{MyRed} 2025} & Short Talk  & Radcliffe Institute of Advanced Studies, on the road\\
+ {\color{MyRed} 2025} & Department Colloquium  & Washington University, Saint Louis\\
+ {\color{MyRed} 2024} & Department Colloquium  & University of Southern California\\
+ {\color{MyRed} 2024} & Department Colloquium  & University of Southern California\\
+ {\color{MyRed} 2024} & Department Colloquium  & University of California, Davis\\
+ {\color{MyRed} 2024} & Department Colloquium  & Northern Arizona University\\
+ {\color{MyRed} 2024} & Invited Speaker at Workshop  & Passive imaging and monitoring in wave physics: from seismology to ultrasound, Cargese, France.\\
+ {\color{MyRed} 2024} & Plenary Speaker  & Statewide California Earthquake Center\\
+ {\color{MyRed} 2023} & S\'{e}minaire Departemental & Ecole Normale Sup\'{e}rieure, Paris\\
+ {\color{MyRed} 2023} & Data Science Seminar, eScience Institute & University of Washington\\
+ {\color{MyRed} 2023} & Department Colloquium & Sandia National Lab - GNEM seminar series \\
+ {\color{MyRed} 2022} & Invited to Conference (talk) & x2 American Geophysical Union \\
+ {\color{MyRed} 2022} & Department Colloquium & University of New Mexico\\
+ {\color{MyRed} 2021}& Seismo Colloquium & University of Oregon\\
+ {\color{MyRed} 2021}& Seismo Colloquium& U Utah, Seismo Tea\\
+ {\color{MyRed} 2021}& Department Colloquium& University of Wisconsin\\
+ {\color{MyRed} 2021}& Department Colloquium& Colorado School of Mines\\
+ {\color{MyRed} 2020}& Invited to Conference (talk) &Mexico a traves de los sismos\\
+ {\color{MyRed} 2020}& Department Colloquium& U Washington\\
+ {\color{MyRed} 2020}& Department Colloquium& UC Berkeley\\
+ {\color{MyRed} 2019}& Department Colloquium& Yale University\\
+ {\color{MyRed} 2019}& Seismo Colloquium & University of Washington, seismolunch\\
+ {\color{MyRed} 2019}& Invited to Conference (talk) & EGU, annual meeting, Vienna.\\
+ {\color{MyRed} 2019}& Department Colloquium& Michigan State University \\
+ {\color{MyRed} 2019}& Public Lecture& Victoria University, of Wellington, SN Jepson Lecture, New Zealand \\
+ {\color{MyRed} 2019}& Department Colloquium& GNS-Science, New Zealand \\
+ {\color{MyRed} 2019}& Department Colloquium& Stanford University, Department of Geophysics \\
+ {\color{MyRed} 2019}& Department Colloquium& Tufts University, department of Civil Engineering seminar\\
+ {\color{MyRed} 2018}& Department Colloquium& Brown University\\
+ {\color{MyRed} 2018}& Department Colloquium& Ecole Normale Superieure, Paris\\
+ {\color{MyRed} 2017}& Invited Conference (talk) & AGU,New Orleans.\\
+ {\color{MyRed} 2017}& Department Colloquium& University of Columbia - Lamont Doherty Earth Observatory\\
+ 
+{\color{MyRed} 2016} & Public Lecture & Harvard Museum of Natural History\\
+ {\color{MyRed} 2016}& Department Colloquium& University of Oregon\\
+ {\color{MyRed} 2016}& Department Colloquium& University of New Hampshire, Chapman Colloquium.\\
+ {\color{MyRed} 2016}& Department Colloquium& UC Santa Cruz, Institute of Geophysics and Planetary Physics seminar.\\
+ {\color{MyRed} 2016}&Department Colloquium& Massachusetts Institute of Technology\\
+ {\color{MyRed} 2015}& Department Colloquium& USGS, Menlo Park, Earthquake Hazard Program seminar.\\
+ {\color{MyRed} 2015}& Department Colloquium& University of Victoria, BC, Canada\\
+ {\color{MyRed} 2015}&Department Colloquium& Penn State, Geodynamics seminar.\\
+ {\color{MyRed} 2015}& Department Colloquium& Harvard, Earth and Planetary Sciences\\
+ {\color{MyRed} 2015}& Department Colloquium& UT Austin, Solid Earth seminar.\\
+ {\color{MyRed} 2015}& Department Colloquium& UCLA, seismology/tectonics seminar.\\
+ {\color{MyRed} 2015}& Invited Conference (talk) & HOKUDAN - International Symposium on Active Faulting in the Commemoration of the 20th Anniversary of the 1995 Great Hanshin-Awaji Earthquake, Awaji, Japan.\\
+ {\color{MyRed} 2015}&  Invited Conference (talk)&Information Theory and Applications workshop, La Jolla.\\
+  {\color{MyRed} 2015}&Department Colloquium & IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar. \\
+ {\color{MyRed}  2015}& Department Colloquium&University of Southern California, Geophysics seminar.\\
+ {\color{MyRed}  2014}&  Invited Conference (talk) &Strong Motion, Site Effect, and Risk Evaluation Studies for Future Mega-Quakes, DPRI, Kyoto University, Japan. \\
+ {\color{MyRed}  2014}& Invited Conference (talk)&AGU-SEG Summer Research workshop, Vancouver, Canada. \\
+ {\color{MyRed}  2014}& Department Colloquium&San Diego State University, Department Colloquium.\\
+ {\color{MyRed}  2014}& Department Colloquium&UC Santa Barbara, Department Colloquium.\\
+  {\color{MyRed} 2014}& Department Colloquium&IGPP-Scripps Institution of Oceanography-UC San Diego, Geophysics seminar.\\
+ {\color{MyRed} 2013}& Invited Conference (talk)&AGU, Meeting of the Americas, Cancun, Mexico.\\
+ {\color{MyRed} 2012}& Department Colloquium&Berkeley Seismo Lab, Seismo seminar.\\
+ {\color{MyRed} 2013}& Department Colloquium&Caltech Seismo Lab., Seismo seminar.\\
+ {\color{MyRed} 2013}& Department Colloquium&USGS, Menlo Park.\\
+ {\color{MyRed} 2013}& Department Colloquium &Stanford ICME seminar.\\
+ {\color{MyRed} 2013}& Department Colloquium&Earthquake Research Institute, Tokyo University, Japan.\\
+ {\color{MyRed} 2013}& Department Colloquium&Advanced Industrial Science and Technology, Japan.\\
+ {\color{MyRed} 2013}& Department Colloquium&Disaster Prevention Research Institute, Japan. \\
+ {\color{MyRed} 2012}& Invited Conference (talk) &ACOUSTICS, France \\
+ {\color{MyRed} 2011}& Department Colloquium &Institut de Physique du Globe de Paris, Earthquake seminar.\\
+\end{xltabular}
+ 
+\section{\color{MyBlue}\large 9. GRANT SUPPORT}
+Total Grant support: over \$5M. Total grants dedicated to PI Denolle's research funds (no infrastructure), \$2.2M. Total brought to UW for research greater than \$2M. PI refers to Principal Investigator. SP refers to Senior Personnel. Lead-PI refers to multi-institution grants with lead PI role.
+
+
+\begin{xltabular}{\textwidth}{|l|X|l|l|X|X|}
+\hline
+{\color{MyRed} {\bf Year}} & {\bf Sponsor} & {\bf Role} & {\bf Total to PI} & {\bf Title} & {\bf Notes} \\
+\hline
+
+% POSE, $1.5M, 2 years
+% ERC Synergy grant 2023: $2.1, 6 years.
+% CODA, $213K, 3 years
+% MTRAINIER, $821K, 3 years
+
+{\color{MyRed}2025} & Jerry Paros & co-PI  & \$200,000 & Multi-Geohazard Monitoring at Mt Rainier & Donor's gift to support multi-geohazard, multi-sensor research at Mt Rainier  {\bf Gift}\\
+\hline
+{\color{MyRed}2025} & NSF & co-PI  & \$735,074 & Collaborative Research: CAIG: Framework for Artificial Intelligence-Enhanced Modeling of Wildfire Geohazards (FAIM-WG): Applications for postfire Debris flows across the Western US. & 2 institutions, led by Dr. Erkan Istanbullgluo. \\
+\hline
+{\color{MyRed}2025} & NSF & SP & \$62,000 & Separating the Signal from the Noise: Promoting Alaskan students’ inquiry with geographically relevant seismic data and machine learning technique & CS4All education project. \\
+\hline
+% {\color{MyRed}Pending} & NSF & lead-PI  & \$652,891 & Collaborative Research: CAIG: Multi-scale Seismic Wave Physics for Ground Motion Prediction & UW lead institution, collaboration with Stanford University. \\
+% \hline
+{\color{MyRed}2025} & NSF &  SP & \$152,000 & R2I2: Cascadia Coastal Community Climate Resilience Innovation Incubator & RCN grant led by Dr Ann Bostrom. \\
+\hline
+{\color{MyRed}2025} & NSF &  co-PI & \$880,490 & Multi-span distributed fiber sensing on the Ocean Observatories Initiative Regional Cabled Array& Technology Dev Grant. \\
+% \hline
+% {\color{MyRed}Recommended-Solicitation Closed} & NSF & co-PI & \$3,000,000 & NRT: HDR (Harnessing the Data Revolution): Computing for the Environment & NSF Research Training, led by Dorothy Reed (CEE). \\
+% \hline
+
+\hline
+{\color{MyRed}2023} & NSF & PI & \$226,022 & Collaborative Research: Slippery when wet? A seismic investigation of slow slip and fault locking along the Alaska-Aleutian subduction zone & 3 years. Distributed Acoustic Sensing analysis -funds part for a student/postdoc to provide a data product for seismic imaging.\\
+\hline
+{\color{MyRed}2023} & IRIS-DMC &  PI & \$98,239 & Developing a near-real-time shallow tomography model using DAS and broadband seismometers on the Cloud & 2 years. Seismic software development with partial support for my student.\\
+\hline
+{\color{MyRed}2023} & Ecole Normale Sup\'{e}rieure, Paris &  PI & 3,500\texteuro  & Visiting Professorshop & 6/15/2023-7/15/2023. Will teach 2-3 lectures about ambient noise seismology and cloud computing, and start collaboration. {\bf Fellowship}\\
+\hline
+{\color{MyRed}2022} & Southern California Earthquake Center & PI & \$35,229  & CyberTraining for Seismology: Data Science and HPC & 2/1/2022-1/31/2023. Overall was \$70K. 2 institutions. UW is the lead. Supports a workshop.\\
+\hline
+{\color{MyRed}2021} & Murdock Charitable Trust Fund & co-I & \$950,000 & UW FiberLab& UW PI Lipovsky is lead. My role has cost-sharing on computing and seismic instrumentation. My lead is the cyberinfrastructure of the data generated by the equipment. {\bf Equipment}\\
+\hline
+{\color{MyRed}2021} & The Lucile and David Packard Foundation &PI & \$50,00 & URG2: URG2: Undergraduate Research in Geosciences for UnderRepresented Groups & 10/1/2021-9/30/2022. Overall was \$180,000, 7 institutions. UW was the lead, and I organized a 4-day workshop at Pack Forest, WA. Supports undergraduate research.\\
+\hline
+{\color{MyRed}2021} & National Science Foundation & co-PI &\$995,817 & CyberTraining: Implementation: Medium: GeoSMART: Developing a Machine Learning workforce for earth science studies through training and curriculum development & 9/1/2021-8/31/2024. OAC-2117834 CSSI, lead PI Nicoleta Cristea. I have 2mos/year student, 0.8mo for me. I led 1/3 of the project by developing a new graduate-level course (ESS 469/569) \\
+\hline 
+{\color{MyRed}2021} & National Science Foundation &  PI & \$660,591 & Collaborative Research: Frameworks: Seismic COmputational Platform for Empowering Discovery (SCOPED) & 09/01/2021-8/30/2025. OAC-2103701, Multi-Institution grant. lead-PI Carl Tape (University of Alaska Fairbanks), total project budget ~\$3.5M. UW leads the cloud workflows and training from observational seismology.\\
+\hline
+{\color{MyRed}2020} & Southern California Earthquake Center& PI &  \$33,307 &Aftershock patterns and co-seismic off-fault damage elucidate dynamic rupture processes on the 2019 Ridgecrest earthquake sequence &  \#20010. 1 year. Declined.\\
+\hline
+{\color{MyRed}2019} & Harvard University David Rockefeller Center for Latin American Studies  & PI & \$85,00& Monitoring Seismic Hazards in Mexico City using Grillo, a Low-Cost Earthquake Early Warning System & 1 year. We purchased equipment for the non-profit Grillo. They ended up deploying in Haiti and Puerto Rico.\\
+\hline
+{\color{MyRed}2019} & Harvard Data Science Initiative & PI & \$27,210 & Ambient-noise seismology using Cloud Computing & Supported student to develop cloud workflows \\
+\hline
+{\color{MyRed}2019} & National Science Foundation &  PI &\$167,804& Collaborative Research: Cross-Validation of Empirical and Physics-based ground motion predictions&. Multi-Institution with San Diego State University (Kim Olsen). Denolle was the lead PI. 04/15/2019-3/31/2021, EAR-1850015. \$ 59,460.0 transferred to UW. \\
+\hline
+{\color{MyRed}2018} & Southern California Earthquake Center &  PI &  \$28,085& Data Collection for Virtual Earthquakes on Cajon Pass&  2/1/2018-1/31/2019. \#18125. Fieldwork support. \\
+\hline
+{\color{MyRed}2018}& National Science Foundation & PI & \$504,315& CAREER: Dynamics of surface rupturing thrust earthquakes&  EAR-1749556, 2124722 7/1/2018-6/30/2023. {\bf CAREER award}, supported graduate student and postdoc research. \$ 274,605.00 transferred to UW.\\
+\hline
+{\color{MyRed}2017} & Southern California Earthquake Center & PI &\$25,000 & Static and dynamic source parameters of global strike-slip earthquakes&  2/1/2018-1/31/2019. \#16246. Support a visiting master student's research.\\
+\hline
+{\color{MyRed}2017} & National Science Foundation &  PI  & \$324,495 & Collaborative Proposal - PREEVENTS Track 2: Cascadia Scenario Earthquakes: Source, Path, and implications for Earthquake Early Warning & 08/01/2017-7/31/2020. Lead PI on the project is Yihe Huang (U Michigan). ICER-1663827. Support several years of postdocs for research. \\
+\hline
+{\color{MyRed}2017} &The Lucile and David Packard Foundation & PI &\$875,000 & Changing Basin, Changing Hazards & 11/15/2017-11/14/2023. Supporting multiple postdocs and a PI for research, along with a small amount for computing. \$442,451 transferred to UW. {\bf Fellowship}\\
+\hline
+{\color{MyRed}2017} & Southern California Earthquake Center &  PI & \$26,173 &Epistemic uncertainties in ground motion prediction from virtual earthquakes & \#16246, 2/1/2016-1/31/2017. basic research. \\
+\hline
+{\color{MyRed}2016} & Southern California Earthquake Center & PI &\$20,000 & Basin Response to Virtual Earthquakes on the San Jacinto Fault and the Itoigawa-Shizuoka Fault&  \#15036,  2/1/2015-1/31/2016. basic research. \\
+\hline
+\end{xltabular}
+ 
+% In addition to the list of pending grants below, in the calendar year of 2024, I submitted several basic research standard proposals that got rejected: 
+% \begin{itemize}
+%     \item NSF Geophysics: ``Collaborative Research: Advancing coda-based seismic interferometry through dense array analysis". Submitted Jan 2024.
+%     \item NSF Geophysics: ``Understanding Glacio-Volcanic Hazards at Mt Rainier Using Large-N/Large-T Seismology (Rainier LN/LT)". Submitted Feb 2024.
+%     \item NSF CAIG: ``Collaborative Research: CAIG: Advancing Data and Model-Driven Discovery of Multi-scale Wave Physics". Submitted March 2024. {\it resubmitted}.
+%     \item Royal Research Fund: ``Transforming arrays of seismometers into distributed soil moisture sensors"
+%     \item SoilTech: 
+%     \item NSF {\bf STC} pre-proposal: ``Center for Weather-Driven Extreme GEohazards". Submitted in November, but a technical issue from the co-PI at UNR led to a desk reject.
+% \end{itemize}
+
+
+
+% \section{ \color{MyBlue}\large 10. Non-Refeered materials reflecting scholarly and creative activities} 
+
+
+
+
+{\bf TEXTBOOK: Machine Learning in the Geoscience}:  Open-Access Jupyter Book \href{ https://geo-smart.github.io/mlgeo-book/}{\bf (link)} A jupyter-text book for a graduate-level machine learning class. Ongoing development includes asynchronous teaching materials and curated data sets for homework. Associated Course Github repository \href{https://github.com/UW-ESS-DS/MLGeo-Autumn23}{\bf(link) } with homework sets. The context for this work is that there is no textbook to teach machine learning in the geosciences and that most researchers learn on the fly. This textbook aims to formally introduce ML concepts and toolkits in the graduate-level classroom. The significance of this work will be the adoption of this material in other geoscience programs. The University of Arizona and UC Berkeley expressed interest in contributing to their own course. 
+
+{\bf SOFTWARE: Ambient-noise seismology package}
+Open-source software in observational seismology is eclectic and mostly maintained by single users. I have written two proposals to the NSF to gather the community around a few flagship codes. We are the only group developing the Julia ecosystem in seismology and are developing core codes.
+\begin{enumerate}
+    \item {\bf \href{https://github.com/mdenolle/NoisePy}{noisepy}}: A open-source python package to process ambient noise seismological data at large scale. As of 08/21/2023, the package was forked 60 times, starred 122, and is now maintained by 15 contributors, software engineers, and scientists. It is taught at virtual workshops.
+    \item {\bf \href{https://github.com/tclements/SeisNoise.jl/}{SeisNoise}}: A open-source python package to process ambient noise seismological data at large scale in Julia. As of 04/2/2023, the package was forked 17 times, starred 50, and is now maintained by 1 contributor. SeisNoise represents the core cross-correlation package that is used by at least 3 group members. It is particularly powerful, but I am starting a community effort to develop the ecosystem.
+\end{enumerate}
+
+{\bf DATASETS: EarthML4PNW}: A \href{https://github.com/EarthML4PNW}{GitHub organization} with curated data sets for data relevant to Pacific Northwest geosciences. Our first package was published as a \href{https://github.com/EarthML4PNW/PNW-ML}{Seismic Data Set}. We are using GitHub to version-control the curated data set and hope to improve the quality of the metadata through research investigation.
+
+
+\section{\color{MyBlue}\large 11. PUBLICATIONS}
+(*) denotes advisees/mentees.
+
+% \nocite{*}          % include all entries from the .bib, even if uncited
+% \bibliographystyle{apalike}  % or your preferred .bst
+% \bibliography{denolle-pub}   % <-- exact .bib filename (without .bib)\begin{thebibliography}{}
+
+\begingroup
+\renewcommand{\refname}{}
+% \renewcommand{\bibname}{}
+\begin{thebibliography}{}
+
+% \bibitem[]{}
+% \medskip\noindent\textbf{\textit{In Review}}
+
+\bibitem[62]{NO_KEY}
+Feng, K. (*), \textbf{Denolle}, M., Lin, F., and Van Dam, T. (2025).
+A decadal survey of the near-surface seismic velocity response to hydrological variations in Utah, United States.
+\textit{in review in Journal of Geophysical Research}.
+
+
+\medskip\noindent\textbf{\textit{In Press}}
+
+\bibitem[61]{NO_KEY}
+\textbf{Denolle}, M., Shi, Q., Clements, T., Viens, L., Rodriguez-Tribaldos, V., and Cotton, F. (2025).
+Ambient Field Seismology in Critical Zone Hydrological Sciences.
+\textit{Comptes Rendu  Geosciences - Sciences de la Terre}, \textit{X}, X.
+\url{https://doi.org/in press}.
+
+
+\medskip\noindent\textbf{\textit{Published}}
+
+\bibitem[60]{NO_KEY}
+Ni, Y., \textbf{Denolle}, M., Thomas, A., Hamilton, A., Münchmeyer, J., Wang, Y., Bachelot, L., Trabant, C., and Mencin, D. (2025).
+A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale.
+\textit{Seismica}, \textit{4}(2).
+\url{https://doi.org/10.26443/seismica.v4i2.1738}.
+
+\bibitem[59]{NO_KEY}
+Ni, Y., \textbf{Denolle}, M., Thomas, A., Hamilton, A., Münchmeyer, J., Wang, Y., Bachelot, L., Trabant, C., and Mencin, D. (2025).
+A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale.
+\textit{Seismica}, \textit{4}(2).
+\url{https://doi.org/10.26443/seismica.v4i2.1738}.
+
+\bibitem[58]{NO_KEY}
+Ni, Y., \textbf{Denolle}, M. A., Münchmeyer, J., Wang, Y., Feng, K. F., Suarez, C. G. J., Thomas, A. M., Trabant, C., Hamilton, A., and Mencin, D. (2025).
+A Review of Cloud Computing and Storage in Seismology.
+\textit{Geophysical Journal International}, ggaf322.
+\url{https://doi.org/10.1093/gji/ggaf322}.
+
+\bibitem[57]{NO_KEY}
+\textbf{Denolle}, M., Tape, C., Bozdag, E., Wang, Y., Waldhauser, F., Gabriel, A., Braunmiller, J., Chow, B., Ding, L., Feng, K., Ghosh, A., Groebner, N., Gupta, A., Krauss, Z., McPherson, A. M., Nagaso, M., Niu, Z., Ni, Y., Örsvuran, R., Pavlis, G., Rodriguez‐Cardozo, F., Sawi, T., Schaff, D., Schliwa, N., Schneller, D., Shi, Q., Thurin, J., Wang, C., Wang, K., Wong, J. W. C., Wolf, S., and Yuan, C. (2025).
+Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities.
+\textit{Seismological Research Letters}, \textit{96}(5), 3265--3279.
+\url{https://doi.org/10.1785/0220240413}.
+
+\bibitem[56]{NO_KEY}
+Shi, Q., \textbf{Denolle}, M. A., Ni, Y., Williams, E. F., and You, N. (2025).
+Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection.
+\textit{JGR: Solid Earth}, \textit{130}, e2024JB029728.
+\url{https://doi.org/10.1029/2024JB029728}.
+
+\bibitem[55]{NO_KEY}
+Shi, Q., Williams, E. F., Lipovsky, B. P., \textbf{Denolle}, M. A., Wilcock, W. S. D., Kelley, D. S., and Schoedl, K. (2025).
+Multiplexed Distributed Acoustic Sensing Offshore Central Oregon.
+\textit{Seismological Research Letters}, \textit{96}(2A), 784--800.
+\url{https://doi.org/10.1785/0220240460}.
+
+\bibitem[54]{NO_KEY}
+\textbf{Denolle}, M., Shi, Q. (*), T., Clements, Viens, L., Rodriguez-Tribaldos, V., Feng, K., and Cotton, F. (2025).
+Ambient Field Seismology in Critical Zone Hydrological Sciences.
+\textit{in review in Comptes Rendus de Geosciences}.
+
+\bibitem[53]{NO_KEY}
+Ni, Y. (*), \textbf{Denolle}, M. A., Shi, Q. (*), Lipovsky, B. P., Pan, S., and Kutz, J. N. (2024).
+Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing.
+\textit{Journal of Geophysical Research: Machine Learning and Computation}, \textit{1}, e2024JH000247.
+\url{https://doi.org/10.1029/2024JH000247}.
+
+\bibitem[52]{NO_KEY}
+Makus, P., \textbf{Denolle}, M. A., Sens-Sch\"onfelder, C., K\"opfli, M. (*), and Tilmann, F. (2024).
+Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens.
+\textit{Seismological Research Letters}, \textit{95}(5), 2674--2688.
+\url{https://doi.org/10.1785/0220240088}.
+
+\bibitem[51]{NO_KEY}
+K\"opli, M. (*), \textbf{Denolle}, M. A., Thelen, W., Makus, P., and Malone, S. (2024).
+Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens.
+\textit{Seismological Research Letters}, \textit{95}(5), 2622--2636.
+\url{https://doi.org/10.1785/0220240079}.
+
+\bibitem[50]{NO_KEY}
+Diewald, F., \textbf{Denolle}, M., Timothy, J. J., and Gehlen, C. (2024).
+Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete.
+\textit{Scientific Reports}, \textit{14}, 18861.
+\url{https://doi.org/10.1038/s41598-024-69564-4}.
+
+\bibitem[49]{NO_KEY}
+Okubo, K. , Delbridge, B., and \textbf{Denolle}, M. (2024).
+Monitoring velocity change over 20 years at Parkfield.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{129}, e2023JB028084.
+\url{https://doi.org/10.1029/2023JB028084}.
+
+\bibitem[48]{NO_KEY}
+Cochard, T., Svetlizky, I., Albertini, G., Viesca, R. C., Rubinstein, S. M., Spaepen, F., Yuan, C. (*), \textbf{Denolle}, M., Song, Y. Q., Xiao, L., and Weitz, D. A. (2024).
+Extended crack propagation by local nucleation and rapid transverse expansion.
+\textit{Nature Physics}.
+\url{https://doi.org/10.1038/s41567-023-02365-0}.
+
+\bibitem[47]{NO_KEY}
+Kharita, A. (*), \textbf{Denolle}, M., and West, M. (2023).
+Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm.
+\textit{Geophysical Journal International}.
+\url{https://doi.org/10.1093/gji/ggae106}.
+
+\bibitem[46]{NO_KEY}
+Olinger, S. (*), Lipovsky, B., and \textbf{Denolle}, M. (2023).
+Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event.
+\textit{AGU Advances}, \textit{5}, e2023AV001023.
+\url{https://doi.org/10.1029/2023AV001023}.
+
+\bibitem[45]{NO_KEY}
+Yuan, C. (*), Cochard, T., \textbf{Denolle}, M., Gomberg, J., Wech, A., Xiao, L., and Weitz, D. (2023).
+Laboratory hydrofracture as analogs to tectonic tremors.
+\textit{AGU Advances}, \textit{5}, e2023AV001002.
+\url{https://doi.org/10.1029/2023AV001002}.
+
+\bibitem[44]{NO_KEY}
+Shi, Q. (*), and \textbf{Denolle}, M. (2023).
+Improved observations of deep earthquake ruptures using machine learning.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{128}, e2023JB027334.
+\url{https://doi.org/10.1029/2023JB027334}.
+
+\bibitem[43]{NO_KEY}
+Yuang, C. (*), Ni, Y. (*), and \textbf{Denolle}, M. (2023).
+Better Together: Ensemble Learning for Earthquake Detection and Phase Picking.
+\textit{IEEE Transactions on Geoscience and Remote Sensing}.
+\url{https://doi.org/10.1109/TGRS.2023.3320148}.
+
+\bibitem[42]{NO_KEY}
+Ni, Y. (*), \textbf{Denolle}, M. A., Fatland, R., Alterman, N., Lipovsky, B. P., and Knuth, F. (2023).
+An Object Storage for Distributed Acoustic Sensing.
+\textit{Seismological Research Letters}, \textit{95}(1), 499--511.
+\url{https://doi.org/10.1785/0220230172}.
+
+\bibitem[41]{NO_KEY}
+Krauss, Z. (*), Ni, Y. (*), Henderson, S., and \textbf{Denolle}, M. (2023).
+Seismology in the cloud: guidance for the individual researcher.
+\textit{Seismica}, \textit{2}(2).
+\url{https://doi.org/10.26443/seismica.v2i2.979}.
+
+\bibitem[40]{NO_KEY}
+Ni, Y. (*), Hutko, A., Skene, F. (*), \textbf{Denolle}, M., Malone, S., Bodin, P., Hartog, R., and Wright, A. (2023).
+Curated Pacific Northwest AI-ready Seismic Dataset.
+\textit{Seismica}, \textit{2}(1).
+\url{https://doi.org/10.26443/seismica.v2i1.368}.
+
+\bibitem[39]{NO_KEY}
+Ermert, L. (*), Cabral-Cano, E., Chaussard, E., Solano-Rojas, D., Quintanar, L., Morales Padilla, D., Fernandez-Torres, E. A., and \textbf{Denolle}, M. A. (2023).
+Probing environmental and tectonic changes underneath Ciudad de M\'exico with the urban seismic field.
+\textit{Solid Earth (EGU)}.
+\url{https://doi.org/10.5194/egusphere-2022-1361}.
+
+\bibitem[38]{NO_KEY}
+Clements, T. (*), and \textbf{Denolle}, M. A. (2023).
+The Seismic Signature of California's Earthquakes, Droughts, and Floods.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{128}(1), e2022JB025553.
+\url{https://doi.org/10.1029/2022JB025553}.
+
+\bibitem[37]{NO_KEY}
+Yin, J. (*), \textbf{Denolle}, M. A., and He, B. (2022).
+A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms.
+\textit{Geophysical Journal International}, \textit{231}(3), 1806--1822.
+\url{https://doi.org/10.1093/gji/ggac290}.
+
+\bibitem[36]{NO_KEY}
+Jiang, C., and \textbf{Denolle}, M. A. (2022).
+Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{127}(8), e2022JB024613.
+\url{https://doi.org/10.1029/2022JB024613}.
+
+\bibitem[35]{NO_KEY}
+Viens, L., Jiang, C., and \textbf{Denolle}, M. A. (2022).
+Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions.
+\textit{Geophysical Journal International}, \textit{230}(2), 1080--1091.
+\url{https://doi.org/10.1093/gji/ggac101}.
+
+\bibitem[34]{NO_KEY}
+Olinger, S. D. (*), Lipovsky, B. P., \textbf{Denolle}, M. A., and Crowell, B. W. (2022).
+Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica.
+\textit{Geophysical Research Letters}, e2021GL097604.
+\url{https://doi.org/10.1029/2021GL097604}.
+
+\bibitem[33]{NO_KEY}
+Yang, Z. (*), Yuan, C. (*), and \textbf{Denolle}, M. A. (2022).
+Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring.
+\textit{The Seismic Record}, \textit{2}(1), 38--49.
+\url{https://doi.org/10.1785/0320210036}.
+
+\bibitem[32]{NO_KEY}
+Yin, J. (*), and \textbf{Denolle}, M. A. (2021).
+The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes.
+\textit{AGU Advances}, \textit{2}(3), e2021AV000413.
+\url{https://doi.org/10.1029/2021AV000413}.
+
+\bibitem[31]{NO_KEY}
+Yuan, C. (*), Bryan, J. (*), and \textbf{Denolle}, M. A. (2021).
+Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains.
+\textit{Geophysical Journal International}, \textit{226}(2), 828--846.
+\url{https://doi.org/10.1093/gji/ggab140}.
+
+\bibitem[30]{NO_KEY}
+Yin, J. (*), Li, Z., and \textbf{Denolle}, M. A. (2021).
+Source time function clustering reveals patterns in earthquake dynamics.
+\textit{Seismological Research Letters}, \textit{92}(4), 2343--2353.
+\url{https://doi.org/10.1785/0220200403}.
+
+\bibitem[29]{NO_KEY}
+Clements, T. (*), and \textbf{Denolle}, M. A. (2021).
+SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia.
+\textit{Seismological Research Letters}, \textit{92}(1), 517--527.
+\url{https://doi.org/10.1785/0220200192}.
+
+\bibitem[28]{NO_KEY}
+\textbf{Denolle}, M. A., and Nissen-Meyer, T. (2020).
+Quiet Anthropocene, quiet Earth.
+\textit{Science}, \textit{369}(6509), 1299--1300.
+\url{https://doi.org/10.1126/science.abd8358}.
+
+\bibitem[27]{NO_KEY}
+Jones, J. P., Okubo, K. (*), Clements, T. (*), and \textbf{Denolle}, M. A. (2020).
+SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language.
+\textit{Seismological Research Letters}, \textit{91}, 2368--2377.
+\url{https://doi.org/10.1785/0220190295}.
+
+\bibitem[26]{NO_KEY}
+Jiang, C. (*), and \textbf{Denolle}, M. A. (2020).
+NoisePy: A new high-performance python tool for ambient-noise seismology.
+\textit{Seismological Research Letters}, \textit{91}(3), 1853--1866.
+\url{https://doi.org/10.1785/0220190364}.
+
+\bibitem[25]{NO_KEY}
+Danr\'e, P. (*), Yin, J. (*), Lipovsky, B., and \textbf{Denolle}, M. (2019).
+Earthquakes Within Earthquakes: Patterns in Rupture Complexity.
+\textit{Geophysical Research Letters}, \textit{43}(13), 7352--7360.
+\url{https://doi.org/10.1029/2019GL083093}.
+
+\bibitem[24]{NO_KEY}
+Viens, L. (*), and \textbf{Denolle}, M. (2019).
+Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan.
+\textit{Bulletin of the Seismological Society of America}, \textit{109}(4), 1312--1330.
+\url{https://doi.org/10.1785/0120180320}.
+
+\bibitem[23]{NO_KEY}
+\textbf{Denolle}, M. (2019).
+Energetic Onset of Earthquakes.
+\textit{Geophysical Research Letters}, \textit{46}(5), 2458--2466.
+\url{https://doi.org/10.1029/2018GL080687}.
+
+\bibitem[22]{NO_KEY}
+Yin, J. (*), and \textbf{Denolle}, M. (2019).
+Relating teleseismic backprojection images to earthquake kinematics.
+\textit{Geophysical Journal International}, \textit{217}(2), 729--747.
+\url{https://doi.org/10.1093/gji/ggz048}.
+
+\bibitem[21]{NO_KEY}
+Wang, Y., \textbf{Denolle}, M., and Day, S. M. (2019).
+Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake.
+\textit{Journal of Geophysical Research}, \textit{124}(2), 1544--1568.
+\url{https://doi.org/10.1029/2018JB016602}.
+
+\bibitem[20]{NO_KEY}
+Clements, T. (*), and \textbf{Denolle}, M. (2018).
+Tracking ground water using the ambient seismic field.
+\textit{(User text suggests possible mismatch of volume/issue) Geophysical Research Letters}, \textit{123}(4), 2923--294.
+\url{https://doi.org/10.1029/2018GL077706}.
+
+\bibitem[19]{NO_KEY}
+Viens, L. (*), \textbf{Denolle}, M., Hirata, N., and Nakagawa, S. (2018).
+Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{123}(7), 5710--5729.
+
+\bibitem[18]{NO_KEY}
+\textbf{Denolle}, M. A., Bou\'e, P., Hirata, N., and Beroza, G. C. (2018).
+Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{123}(5), 3968--3992.
+
+\bibitem[17]{NO_KEY}
+Van Houtte, C. (*), and \textbf{Denolle}, M. (2018).
+Improved model fitting for the empirical Green's function approach using hierarchical models.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{123}(4), 2923--2942.
+
+\bibitem[16]{NO_KEY}
+Clements, T. (*), and \textbf{Denolle}, M. A. (2018).
+Tracking groundwater levels using the ambient seismic field.
+\textit{Geophysical Research Letters}, \textit{45}, 6459--6465.
+\url{https://doi.org/10.1029/2018GL077706}.
+
+\bibitem[15]{NO_KEY}
+Perol, T. (*), Gharbi, M., and \textbf{Denolle}, M. (2018).
+Convolutional neural network for earthquake detection and location.
+\textit{Science Advances}, \textit{4}(2), e1700578.
+
+\bibitem[14]{NO_KEY}
+Yin, J. (*), \textbf{Denolle}, M. A., and Yao, H. (2018).
+Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{123}(1), 344--367.
+\url{https://doi.org/10.1002/2017JB014265}.
+
+\bibitem[13]{NO_KEY}
+Sheng, Y., \textbf{Denolle}, M. A., and Beroza, G. C. (2017).
+Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction.
+\textit{Bulletin of the Seismological Society of America}, \textit{107}(6), 2836--2845.
+\url{https://doi.org/10.1785/0120170053}.
+
+\bibitem[12]{NO_KEY}
+Viens, L. (*), \textbf{Denolle}, M., Miyake, H., Sakai, S., and Nakagawa, S. (2017).
+Retrieving impulse response function amplitudes from the ambient seismic field.
+\textit{Geophysical Journal International}, \textit{210}(1), 210--222.
+\url{https://doi.org/10.1093/gji/ggx155}.
+
+\bibitem[11]{NO_KEY}
+Boue, P., \textbf{Denolle}, M., Hirata, N., Nakagawa, S., and Beroza, G. C. (2016).
+Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field.
+\textit{Geophysical Journal International}, \textit{206}(2), 1261--1272.
+\url{https://doi.org/10.1093/gji/ggw205}.
+
+\bibitem[10]{NO_KEY}
+\textbf{Denolle}, M., and Shearer, P. M. (2016).
+New perspective on self-similarity of shallow thrust earthquakes.
+\textit{Journal of Geophysical Research: Solid Earth}, \textit{121}(9), 6533--6565.
+\url{https://doi.org/10.1002/2016JB013105}.
+
+\bibitem[9]{NO_KEY}
+\textbf{Denolle}, M., Fan, W., and Shearer, P. M. (2015).
+Dynamics of the M7.8 2015 Nepal Earthquake.
+\textit{Geophysical Research Letters}, \textit{42}(18), 7467--7475.
+\url{https://doi.org/10.1002/2015GL065336}.
+
+\bibitem[8]{NO_KEY}
+Lee, E. J., Chen, P., Jordan, T. H., Maechling, P. B., \textbf{Denolle}, M., and Beroza, G. C. (2014).
+Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods.
+\textit{Journal of Geophysical Research}, \textit{119}(8), 6421--6451.
+\url{https://doi.org/10.1002/2014JB011236}.
+
+\bibitem[7]{NO_KEY}
+\textbf{Denolle}, M., Miyake, H., Nakagawa, S., Hirata, N., and Beroza, G. C. (2014).
+Long-period seismic amplification in the Kanto Basin from the ambient seismic field.
+\textit{Geophysical Research Letters}, \textit{41}(18), 7467--7475.
+\url{https://doi.org/10.1002/2014GL059425}.
+
+\bibitem[6]{NO_KEY}
+\textbf{Denolle}, M., Dunham, E. M., Prieto, G. A., and Beroza, G. C. (2014).
+Strong Ground Motion Prediction using Virtual Earthquakes.
+\textit{Science}, \textit{343}(6169), 399--403.
+\url{https://doi.org/10.1126/science.1245678}.
+
+\bibitem[5]{NO_KEY}
+\textbf{Denolle}, M., Dunham, E. M., Prieto, G. A., and Beroza, G. C. (2013).
+Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field.
+\textit{Journal of Geophysical Research}, \textit{118}(5), 2102--2118.
+\url{https://doi.org/10.1029/2012JB009603}.
+
+\bibitem[4]{NO_KEY}
+Lawrence, J. F., \textbf{Denolle}, M., Seats, K. J., and Prieto, G. (2013).
+A numeric evaluation of attenuation from ambient noise correlation functions.
+\textit{Journal of Geophysical Research}, \textit{118}(12), 6134--6145.
+\url{https://doi.org/10.1002/2012JB009513}.
+
+\bibitem[3]{NO_KEY}
+\textbf{Denolle}, M., Dunham, E. M., and Beroza, G. C. (2012).
+Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation.
+\textit{Bulletin of the Seismological Society of America}, \textit{102}(3), 1214--1223.
+\url{https://doi.org/10.1785/0120110183}.
+
+\bibitem[2]{NO_KEY}
+Prieto, G. A., \textbf{Denolle}, M., Lawrence, J. F., and Beroza, G. C. (2011).
+On amplitude carried by the ambient seismic field.
+\textit{Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise)}, \textit{343}, 600--614.
+\url{https://doi.org/10.1016/j.crte.2011.03.006}.
+
+\bibitem[1]{NO_KEY}
+Singh, S., Hananto, N., Chauhan, A., Permana, H., \textbf{Denolle}, M., Hendriyana, A., and Natawidjaja, D. (2010).
+Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra.
+\textit{Geophysical Journal International}, \textit{180}(2), 703--714.
+\url{https://doi.org/10.1111/j.1365-246X.2009.04458.x}.
+
+\end{thebibliography}
+\endgroup
+\end{resume}
+\end{document}

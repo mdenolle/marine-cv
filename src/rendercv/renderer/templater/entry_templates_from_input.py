@@ -51,6 +51,8 @@ def render_entry_templates[EntryType: Entry](
         key.upper(): value for key, value in entry.model_dump(exclude_none=True).items()
     }
 
+
+
     # Handle special placeholders:
     if "HIGHLIGHTS" in entry_fields:
         highlights = getattr(entry, "highlights", None)
@@ -58,7 +60,29 @@ def render_entry_templates[EntryType: Entry](
             raise RenderCVInternalError("HIGHLIGHTS in fields but highlights is None")
         entry_fields["HIGHLIGHTS"] = process_highlights(highlights)
 
-    if "AUTHORS" in entry_fields:
+    if "CITATIONS" in entry_fields:
+        citations = getattr(entry, "citations", None)
+        if citations is not None:
+            entry_fields["CITATIONS"] = process_citations(citations)
+        else:
+            entry_fields["CITATIONS"] = ""  # Field not present in entry
+
+    if "MEDIA_COVERAGE" in entry_fields:
+        media_coverage = getattr(entry, "media_coverage", None)
+        if media_coverage is None:
+            raise RenderCVInternalError(
+                "MEDIA_COVERAGE in fields but media_coverage is None"
+            )
+        entry_fields["MEDIA_COVERAGE"] = process_media_coverage(
+            media_coverage
+        )
+
+
+    # For NormalEntry (e.g., teaching), use 'name' as the title and do not require 'authors'
+    if entry.__class__.__name__ == "NormalEntry":
+        entry_fields["TITLE"] = entry_fields.get("NAME", "")
+        # Do not require AUTHORS for teaching/NormalEntry
+    elif "AUTHORS" in entry_fields:
         authors = getattr(entry, "authors", None)
         if authors is None:
             raise RenderCVInternalError("AUTHORS in fields but authors is None")
@@ -107,11 +131,24 @@ def render_entry_templates[EntryType: Entry](
     if "DOI" in entry_fields:
         entry_fields["URL"] = process_url(entry)  # ty: ignore[invalid-argument-type]
         entry_fields["DOI"] = process_doi(entry)  # ty: ignore[invalid-argument-type]
+        # Add JOURNAL_WITH_DOI for inline DOI display
+        if "JOURNAL" in entry_fields:
+            journal = entry_fields["JOURNAL"]
+            doi = entry_fields["DOI"]
+            entry_fields["JOURNAL_WITH_DOI"] = f"{journal}, {doi}"
 
     if "SUMMARY" in entry_fields:
         entry_fields["SUMMARY"] = process_summary(entry_fields["SUMMARY"])
 
-    entry_templates = remove_not_provided_placeholders(entry_templates, entry_fields)
+    # Remove or hide fields marked as '__HIDDEN__'
+    hidden_keys = {k for k, v in entry_fields.items() if v == "__HIDDEN__" or v == ["__HIDDEN__"]}
+    if hidden_keys:
+        # Remove these placeholders from templates and entry_fields
+        for k in hidden_keys:
+            entry_fields.pop(k, None)
+        entry_templates = remove_not_provided_placeholders(entry_templates, entry_fields)
+    else:
+        entry_templates = remove_not_provided_placeholders(entry_templates, entry_fields)
 
     for template_name, template in (entry_templates | entry_fields).items():
         setattr(
@@ -161,6 +198,72 @@ def process_authors(authors: list[str]) -> str:
         Comma-separated author string.
     """
     return ", ".join(authors)
+
+
+def process_media_coverage(media_coverage: list[str]) -> str:
+    """Format media coverage URLs as markdown links with source names.
+    
+    Extracts the domain name from URLs to use as display text.
+    
+    Example:
+        ```py
+        # Entry with multiple URLs
+        urls = ['https://news.washington.edu/article', 'https://harvard.edu/gazette']
+        result = process_media_coverage(urls)
+        # Returns: "Featured in: [UW News](...), [Harvard](...)"
+        ```
+    
+    Args:
+        media_coverage: List of media coverage URLs.
+        
+    Returns:
+        Formatted markdown string with links.
+    """
+    if not media_coverage:
+        return ""
+    
+    def extract_source_name(url: str) -> str:
+        """Extract a friendly name from URL domain."""
+        # Common patterns for news sources
+        domain_map = {
+            'news.washington.edu': 'UW News',
+            'washington.edu': 'UW News',
+            'news.harvard.edu': 'Harvard Gazette',
+            'harvard.edu': 'Harvard Gazette',
+            'news.stanford.edu': 'Stanford News',
+            'sciencedaily.com': 'ScienceDaily',
+            'eos.org': 'EOS',
+            'science.org': 'Science',
+            'sciencemag.org': 'Science',
+            'nature.com': 'Nature',
+            'youtube.com': 'Video',
+            'youtu.be': 'Video',
+        }
+        
+        # Extract domain from URL
+        import re
+        domain_match = re.search(r'https?://(?:www\.)?([^/]+)', url)
+        if not domain_match:
+            return 'Coverage'
+        
+        domain = domain_match.group(1)
+        
+        # Check for known domains
+        for pattern, name in domain_map.items():
+            if pattern in domain:
+                return name
+        
+        # Default: use domain name, capitalize first word
+        parts = domain.split('.')
+        if len(parts) >= 2:
+            return parts[0].capitalize()
+        return 'Coverage'
+    
+    links = [
+        f"[{extract_source_name(url)}]({url})"
+        for url in media_coverage
+    ]
+    return "Featured in: " + ", ".join(links)
 
 
 def process_date(
@@ -297,6 +400,24 @@ def process_doi(entry: Entry) -> str:
     if isinstance(entry, PublicationEntry) and entry.doi:
         return f"[{entry.doi}]({entry.doi_url})"
     raise RenderCVInternalError("DOI is not provided for this entry.")
+
+
+def process_citations(citations: int) -> str:
+    """Format citation count for display.
+    
+    Args:
+        citations: Number of citations (-1 = no data, 0 = no citations yet, >0 = citation count)
+        
+    Returns:
+        Formatted string like \"Cited by 450\" or \"Citations: no data\"
+    """
+    if citations < 0:
+        return "Citations: no data"
+    elif citations == 0:
+        return "Citations: 0"
+    else:
+        return f"Cited by {citations}"
+    return ""
 
 
 def process_summary(summary: str) -> str:

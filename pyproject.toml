@@ -44,6 +44,10 @@ dependencies = [
     'pydantic-extra-types>=2.10.6', # Validate extra types
     'ruamel.yaml>=0.18.10',         # Parse YAML files
     'markdown>=3.10',               # Convert Markdown to HTML
+    'bibtexparser>=1.4.1',          # Parse BibTeX files for publications
+    'scholarly>=1.7.0',             # Fetch Google Scholar citation counts
+    'fuzzywuzzy>=0.18.0',           # Fuzzy string matching for titles
+    'python-Levenshtein>=0.21.0',   # Fast fuzzy matching backend
 ]
 classifiers = [
     "Intended Audience :: Science/Research",

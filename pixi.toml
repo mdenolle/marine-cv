@@ -1,0 +1,73 @@
+[project]
+name = "marinecv"
+version = "0.1.0"
+description = "CV generator"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64", "win-64"]
+
+
+[tasks]
+# Development tasks
+lint = "ruff check src tests"
+format = "ruff format src tests"
+type-check = "ty check"
+test = "pytest"
+test-coverage = "pytest --cov --cov-report=term-missing"
+docs-serve = "mkdocs serve"
+docs-build = "mkdocs build"
+
+# Install the package in editable mode
+install-dev = "pip install -e '.[full]'"
+
+[dependencies]
+python = ">=3.12,<3.15"
+pip = ">=24.0"
+# Core dependencies
+jinja2 = ">=3.1.6"
+pydantic = ">=2.10.6"
+"ruamel.yaml" = ">=0.18.10"
+markdown = ">=3.10"
+
+# Full optional dependencies
+typer = ">=0.20.0"
+watchdog = ">=6.0.0"
+packaging = ">=25.0"
+scholarly = ">=1.7.11,<2"
+fuzzywuzzy = ">=0.18.0,<0.19"
+python-levenshtein = ">=0.27.3,<0.28"
+
+[pypi-dependencies]
+# Packages not available on conda-forge or with version conflicts
+phonenumbers = ">=9.0.19"
+pydantic-extra-types = ">=2.10.6"
+typst = ">=0.14.4"
+rendercv-fonts = ">=0.5.1"
+ty = ">=0.0.5"
+prek = ">=0.2.23"
+markdown-callouts = ">=0.4.0"
+
+[feature.dev.dependencies]
+# Development tools
+ruff = ">=0.14.10"
+black = ">=25.12.0"
+pytest = ">=9.0.2"
+pytest-cov = ">=7.0.0"
+pytest-xdist = ">=3.8.0"
+
+[feature.docs.dependencies]
+# Documentation tools
+mkdocs-material = ">=9.7.0"
+mkdocs-gen-files = ">=0.6.0"
+mkdocs-literate-nav = ">=0.6.2"
+mkdocs-macros-plugin = ">=1.5.0"
+mkdocstrings-python = ">=1.0.0"
+
+[feature.dev.tasks]
+# Development environment tasks
+dev-install = "pip install -e '.[full]'"
+
+[environments]
+default = { features = ["dev", "docs"], solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
+docs = { features = ["docs"], solve-group = "default" }
+minimal = { solve-group = "default" }

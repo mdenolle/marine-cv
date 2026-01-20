@@ -1,0 +1,44 @@
+name: Update GitHub & PyPI Statistics
+
+on:
+  schedule:
+    # Run monthly on the 1st at 3am UTC
+    - cron: '0 3 1 * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests ruamel.yaml
+      
+      - name: Fetch GitHub and PyPI statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/fetch_github_stats.py --force-refresh
+      
+      - name: Update CV with latest statistics
+        run: |
+          python scripts/update_cv_stats.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add marine-cv-docs/github_stats_cache.json
+          git add marine-cv-docs/github_stats_history.csv
+          git add marine-cv-docs/Marine_Denolle_CV.yaml
+          git diff --staged --quiet || git commit -m "Update GitHub/PyPI stats [automated]"
+          git push
