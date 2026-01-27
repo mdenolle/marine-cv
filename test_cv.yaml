@@ -1,0 +1,31 @@
+cv:
+  name: Test User
+  headline: Testing CV Rendering
+  email: test@example.com
+  
+  sections:
+    software:
+      - name: Test Software
+        location: GitHub
+        link: https://github.com/test/software
+        summary: This is a test software entry without authors or date
+        highlights:
+          - Feature 1
+          - Feature 2
+    
+    publications:
+      - title: Test Publication with Authors
+        authors:
+          - John Doe
+          - Jane Smith
+        journal: Test Journal
+        date: 2024-01
+        doi: 10.1234/test
+      
+      - title: Test Publication without Authors
+        journal: Another Journal
+        date: 2023-01
+        url: https://example.com
+
+design:
+  theme: classic

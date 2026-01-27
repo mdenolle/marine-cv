@@ -16,7 +16,8 @@ class BasePublicationEntry(BaseEntry):
             "Advances in Quantum Computing",
         ],
     )
-    authors: list[str] = pydantic.Field(
+    authors: list[str] | None = pydantic.Field(
+        default=None,
         description="You can bold your name with **double asterisks**.",
         examples=[["John Doe", "**Jane Smith**", "Bob Johnson"]],
     )

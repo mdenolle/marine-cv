@@ -66,17 +66,70 @@
       "description": null,
       "properties": {
         "bullet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
           "examples": [
             "Python, JavaScript, C++",
             "Excellent communication skills"
           ],
-          "title": "Bullet",
-          "type": "string"
+          "title": "Bullet"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "institution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Institution"
+        },
+        "topic": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Topic"
         }
       },
-      "required": [
-        "bullet"
-      ],
       "title": "BulletEntry",
       "type": "object"
     },
@@ -155,7 +208,7 @@
       "type": "object"
     },
     "Cv": {
-      "additionalProperties": false,
+      "additionalProperties": true,
       "properties": {
         "name": {
           "anyOf": [
@@ -2475,38 +2528,13 @@
       "description": null,
       "properties": {
         "company": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
           "examples": [
             "Microsoft",
             "Google",
             "Princeton Plasma Physics Laboratory"
           ],
-          "title": "Company"
-        },
-        "university": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "examples": [
-            "Stanford University",
-            "Harvard University",
-            "University of Washington"
-          ],
-          "title": "University"
+          "title": "Company",
+          "type": "string"
         },
         "position": {
           "examples": [
@@ -2634,6 +2662,7 @@
         }
       },
       "required": [
+        "company",
         "position"
       ],
       "title": "ExperienceEntry",
@@ -2817,6 +2846,18 @@
           "type": "string"
         },
         "authors": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
           "description": "You can bold your name with **double asterisks**.",
           "examples": [
             [
@@ -2825,11 +2866,7 @@
               "Bob Johnson"
             ]
           ],
-          "items": {
-            "type": "string"
-          },
-          "title": "Authors",
-          "type": "array"
+          "title": "Authors"
         },
         "summary": {
           "anyOf": [
@@ -2915,31 +2952,11 @@
             "Fall 2023",
             "Summer 2020"
           ]
-        },
-        "media_coverage": {
-          "anyOf": [
-            {
-              "items": {
-                "type": "string"
-              },
-              "type": "array"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "description": "List of URLs to media coverage of this publication (news articles, press releases, etc.)",
-          "examples": [
-            [
-              "https://news.harvard.edu/gazette/story/2014/01/predicting-big-quakes/",
-              "https://phys.org/news/2014-01-virtual-earthquakes.html"
-            ]
-          ],
-          "title": "Media Coverage"
         }
       },
-      "required": [],
+      "required": [
+        "title"
+      ],
       "title": "PublicationEntry",
       "type": "object"
     },

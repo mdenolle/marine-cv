@@ -139,14 +139,17 @@ For work history and professional roles.
 {$ elif entry_name == "PublicationEntry" $}
 For papers, articles, and other publications.
 
-| Field     | Required | Description                                      |
-| --------- | -------- | ------------------------------------------------ |
-| `title`   | Yes      | Publication title                                |
-| `authors` | Yes      | List of author names (use `*Name*` for emphasis) |
-| `doi`     | No       | Digital Object Identifier                        |
-| `url`     | No       | Link to the publication                          |
-| `journal` | No       | Journal, conference, or venue name               |
-| `date`    | No       | Publication date                                 |
+| Field             | Required | Description                                                  |
+| ----------------- | -------- | ------------------------------------------------------------ |
+| `title`           | Yes      | Publication title                                            |
+| `authors`         | No       | List of author names (use `**Name**` for bold emphasis)      |
+| `doi`             | No       | Digital Object Identifier                                    |
+| `url`             | No       | Link to the publication (ignored if DOI is provided)         |
+| `journal`         | No       | Journal, conference, or venue name                           |
+| `date`            | No       | Publication date                                             |
+| `summary`         | No       | Brief description or abstract                                |
+| `citations`       | No       | Citation count (e.g., from Google Scholar)                   |
+| `media_coverage`  | No       | List of media coverage URLs                                  |
 
 {$ elif entry_name == "NormalEntry" $}
 A flexible entry for projects, awards, certifications, or anything else.
@@ -249,4 +252,18 @@ experience:
     revenue: $5M ARR  # Custom field
     highlights:
       - Built product from zero to profitability
+```
+
+### Hiding Optional Fields
+
+You can explicitly hide any field from rendering by setting it to `__HIDDEN__`. This is useful when you want to keep the field in your YAML for reference but don't want it to appear in the rendered CV.
+
+```yaml
+software:
+  - name: My Open Source Project
+    url: https://github.com/example/project
+    date: __HIDDEN__  # Keep date in YAML but don't show in CV
+    summary: A collaborative project
+    highlights:
+      - 1000+ stars on GitHub
 ```

@@ -1,0 +1,2089 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+
+# ==============================================================================
+# DESIGN CONFIGURATION
+# Customize the visual appearance of your CV here
+# ==============================================================================
+design:
+  theme: moderncv  # Options: moderncv, classic, engineeringresumes, sb2nov, engineeringclassic
+  page:
+    size: us-letter  # Paper size: us-letter or a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.3in
+    right_margin: 0.7in
+  colors:
+    # Color scheme matching original LaTeX CV
+    name: rgb(128, 0, 0)  # MyRed - name color (dark red)
+    section_titles: rgb(69, 128, 179)  # MyBlue - section headers (blue)
+    connections: rgb(0, 0, 0)  # Contact info (black)
+    links: rgb(0, 79, 144)  # Hyperlinks (blue)
+  typography:
+    font_family:
+      body: 'IBM Plex Serif'  # Main text font
+      section_titles: 'IBM Plex Sans'  # Section header font (bold, sans-serif)
+    font_size:
+      body: 10pt
+      section_titles: 1.4em
+  header:
+    connections:
+      separator: ' | '  # Separator between contact items
+  sections:
+    grant_support: grant_support.yaml
+    international_phd_dissertation_readers: international_phd_dissertation_readers.yaml
+    other_graduate_student_supervision: other_graduate_student_supervision.yaml
+    graduate_student_committees: graduate_student_committees.yaml
+    invited_talks: invited_talks.yaml
+    publications: publications.yaml
+    research_impact_summary: research_impact_summary.yaml
+    employment: employment.yaml
+    education: education.yaml
+    awards: awards.yaml
+    teaching: teaching.yaml
+    phd_advisees: phd_advisees.yaml
+    postdocs: postdocs.yaml
+    undergraduate_students: undergraduate_students.yaml
+    committee_services: committee_services.yaml
+    editorial_services: editorial_services.yaml
+    professional_service: professional_service.yaml
+    university_service: university_service.yaml
+    sponsored_research_review_panels: sponsored_research_review_panels.yaml
+    training_schools: training_schools.yaml
+    datasets: datasets.yaml
+    software: software.yaml
+
+    professional_service:
+    - bullet: 'Over 150 peer reviews for leading geoscience journals. Extensive editorial and committee service supporting the research community and advancing geophysical research.'
+
+    editorial_services:
+    - name: Editor
+      location: Geophysical Journal International
+      date:
+      start_date: 2025
+      end_date: present
+      summary:
+
+      
+    training_schools:
+    - name: CRESCENT-SCOPED Workshop
+      date: '2025'
+      url: https://scoped-mlscience-book.readthedocs.io/
+      summary: co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+    - name: SCOPED Workshop
+      date: '2024'
+      url: https://seisscoped.org/HPS-book/intro.html
+      summary: Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+    - name: SSA Cloud 101 & Data Mining
+      date: '2024'
+      url: https://seisscoped.org/SSA-Cloud-101/intro.html
+      summary: Lead organizer of cloud workshop (80 participants)
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+    - name: CyberTraining Workshop
+      date: '2023'
+      url: https://seisscoped.org/HPS-book/intro.html
+      summary: Lead PI, coordinator, and instructor for HPC and Data Science
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+    - name: GeoSMART ML for Solid Earth Science
+      date:
+      start_date: 2021
+      end_date: present
+      url: https://geo-smart.github.io/mlgeo-book/
+      summary: Co-organizer of ML training with Jupyter Book
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+    - name: SCEC-ERI VISES Summer School
+      date: '2016'
+      url:
+      summary: Scientific committee member and instructor
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+
+    university_service:
+    - name: AI@UW Advisory Committee to the VP
+      location: University of Washington
+      date:
+      start_date: 2026
+      end_date: present
+      summary:
+    - name: Co-director of UW CS4Env
+      location: Computer Science 4 the Environment, University of Washington
+      date:
+      start_date: 2024
+      end_date: present
+      summary:
+    - name: Chair of Curriculum Committee
+      location: UW/ESS
+      date:
+      start_date: 2024
+      end_date: present
+      summary:
+    - name: Member of Curriculum Committee and Data Science Oversight Committee
+      location: UW/ESS
+      date:
+      start_date: 2022
+      end_date: present
+      summary:
+    - name: Member of Executive Committee
+      location: UW/ESS
+      date:
+      start_date: 2022
+      end_date: 2023
+      summary:
+    - name: Member of Research Faculty Search Committee
+      location: UW/ESS
+      date:
+      start_date: 2022
+      end_date: 2023
+      summary:
+    - name: Multiple Committee Memberships
+      location: Harvard University
+      date:
+      start_date: 2016
+      end_date: 2020
+      summary: 'Undergraduate Curriculum Committee, Graduate Student Council, IT Committee, Diversity Inclusion and Belonging Committee, Department Colloquium Committee'
+
+    phd_advisees:
+    - name: Michael Hemmett
+      date:
+      start_date: 2025
+      end_date: present
+      location: UW Earth and Space Sciences
+      summary: PhD pre-candidate in offshore geophysics
+      highlights:
+    - name: Manuela Kopefli
+      date:
+      start_date: 2022
+      end_date: present
+      location: UW Earth and Space Sciences
+      summary: PhD candidate in geohazard
+      highlights:
+      - 1 publication, 1 in review, 1 in prep
+    - name: Akash Kharita
+      date:
+      start_date: 2022
+      end_date: present
+      location: UW Earth and Space Sciences
+      summary: PhD pre-candidate in geohazard
+      highlights:
+      - 1 publication, 1 accepted
+    - name: Yiyu Ni
+      date:
+      start_date: 2021
+      end_date: present
+      location: UW Earth and Space Sciences
+      summary: PhD candidate in machine learning and big data seismology
+      highlights:
+      - 8 publications
+    - name: Congcong Yuan
+      date:
+      start_date: 2019
+      end_date: 2024
+      location: Harvard University
+      summary: |
+        PhD in time-dependent seismology, solid-fluid interaction
+        Next position: Cornell postdoc → Faculty Singapore
+      highlights:
+      - 4 publications
+    - name: Stephanie Olinger
+      date:
+      start_date: 2018
+      end_date: 2023
+      location: Harvard University
+      summary: |
+        PhD in cryo-seismology (50% co-advised with Brad Lipovsky)
+        Next position: Stanford Thompson Postdoctoral Fellowship → CEO of AEI
+      highlights:
+      - 4 publications
+    - name: Tim Clements
+      date:
+      start_date: 2016
+      end_date: 2021
+      location: Harvard University
+      summary: |
+        PhD in hydro-seismology and big-data seismology
+        Next position: USGS Mendenhall Postdoc → USGS geophysicist
+      highlights:
+      - 4 publications
+    - name: Jiuxun Yin
+      date:
+      start_date: 2016
+      end_date: 2022
+      location: Harvard University
+      summary: |
+        PhD in earthquake seismology
+        Next position: Caltech SCSN Postdoc Fellowship → Schlumberger
+      highlights:
+      - 6 publications
+
+    postdocs:
+    - name: Dr. Qibin Shi
+      date:
+      start_date: 2022
+      end_date: 2024
+      location: University of Washington
+      summary: |
+        Next position: Postdoctoral Fellow at Rice University
+      highlights:
+    - name: Dr. Kuan-Fu Feng
+      date:
+      start_date: 2023
+      end_date: 2024
+      location: University of Washington
+      summary: |
+        Next position: Postdoc at University of Utah
+      highlights:
+    - name: Dr. Ethan Williams
+      date:
+      start_date: 2023
+      end_date: 2025
+      location: University of Washington
+      summary: |
+        Next position: Assistant Professor at UC Santa Cruz
+      highlights:
+    - name: Dr. Stephanie Olinger
+      date:
+      start_date: 2024
+      end_date: 2025
+      location: University of Washington
+      summary: |
+        Next position: Climate Tech → CEO Applied Environmental Intelligence
+      highlights:
+      - 3 publications
+    - name: Dr. Laura Ermert
+      date:
+      start_date: 2020
+      end_date: 2022
+      location: Harvard University/University of Washington
+      summary: |
+        Next position: Assistant Professor at ISTerre
+      highlights:
+    - name: Dr. Xiaotao Yang
+      date:
+      start_date: 2019
+      end_date: 2020
+      location: Harvard University
+      summary: |
+        Next position: Assistant Professor at Purdue
+      highlights:
+    - name: Dr. Kurama Okubo
+      date:
+      start_date: 2019
+      end_date: 2020
+      location: Harvard University
+      summary: |
+        Next position: Researcher at NIED, Japan
+      highlights:
+    - name: Dr. Zhitu Ma
+      date:
+      start_date: 2019
+      end_date:
+      location: Harvard University
+      summary: |
+        Next position: Assistant Professor at Tongji University, China
+      highlights:
+    - name: Dr. Chengxin Jiang
+      date:
+      start_date: 2018
+      end_date: 2019
+      location: Harvard University
+      summary: |
+        Next position: Research Associate at Australian National University
+      highlights:
+    - name: Dr. Chris Van Houtte
+      date:
+      start_date: 2016
+      end_date: 2017
+      location: Harvard University
+      summary:
+      highlights:
+    - name: Dr. Loïc Viens
+      date:
+      start_date: 2016
+      end_date: 2018
+      location: Harvard University
+      summary: |
+        Next position: Researcher at Los Alamos
+      highlights:
+
+    undergraduate_students:
+    - 'My advising experience includes research opportunities, such as summer programs or independent studies conducted during the academic year. During the academic year, students enroll in 499 for a few credits to continue their research with me. On breaks or during the summer, I provide them with hourly pay. Note: (*) Resulted in a presentation at a national conference. (**) Resulted in a peer-reviewed publication. (***) In-prep for peer-reviewed publication. (+) Students received a GRFP with my letters written based on our collaborative research.'
+    - '**2025-present**, **Alex Rose**, University of Washington Oceano, Research experience on DAS data processing'
+    - '**2024-present**, **Anjani Mirchandi**, University of Washington AMATH, Research experience on DAS data processing'
+    - '**2023**, **Hiroto Bito**, University of Washington ESS, Research experience on ML for seismology: earthquake catalog building and spatio-temporal forecast'
+    - '**2023**, **Nicholas Wolfe**, University of Washington ESS, Earthquake magnitudes project'
+    - '**2023**, **Informatics Capstone Team (Rona Guo(*), Nathan Limono, William Phan, Michael Yung, Matthew Herradura)**, University of Washington Informatics, DAS Platform'
+    - '**2023**, **Lucas Swanson**, University of Washington Informatics, DAS Software'
+    - '**2022-2023**, **Francesca Skene (*)**, University of Washington ESS, Surface Event catalog'
+    - '**2022-2024**, **Nick Smoczyk (*,***)**, University of Minnesota, Volcanoseismology, redpy catalog'
+    - '**2020-2021**, **Julian Schmitt (*,+)**, Harvard University EPS, Ambient noise seismology on the cloud and using julia software, BASIN project'
+    - '**2019**, **Jared Bryan (*,**,+)**, Harvard University EPS, Ambient noise monitoring, SCEC Internship'
+    - '**2018**, **Albert Aguilar (*)**, Harvard University EPS, Subduction zone, seismology, data mining'
+    - '**2016**, **Leore Lavin**, Harvard University EPS, Ground motion simulations with ambient noise'
+    - '**2014**, **Roy Bowling**, Scripps Institution of Oceanography IGPP, Ambient noise seismology; SCEC Internship'
+    - '**2012**, **Tara Larrue**, Stanford Geophysics, Ambient noise seismology; SURGE program'
+    - '**2011**, **Penprapa Wutthijuk**, Stanford University, Ambient noise seismology; SURGE program'
+
+    international_phd_dissertation_readers:
+    - label: Note
+      details: 'Dissertation and defense evaluating committee members'
+    - label: '2024'
+      details: 'Marius Paul Isken (GFZ, Germany)'
+    - label: '2023'
+      details: 'Luc Illien (GFZ, Germany)'
+    - label: '2023'
+      details: 'Zoe Renate (Universite de Lorraine, France)'
+    - label: '2022'
+      details: 'Reza Esfahani (GFZ, Germany)'
+    - label: '2019'
+      details: 'Kurama Okubo (ENS, Paris, France)'
+
+    other_graduate_student_supervision:
+    - label: Note
+      details: '(* ) At UW, roles are secondary advisor, primary advisor on one project/manuscript. (**) advising resulted in a publication'
+    - label: '2018-2025'
+      details: 'Natasha Toghramadjian (*,**), Earth and Planetary Sciences, Harvard University'
+    - label: '2021-present'
+      details: 'Maleen Kidiwela (*,**), University of Washington (co-advised with William Wilcock)'
+    - label: '2021-2024'
+      details: 'Zoe Krauss (*,**), University of Washington (co-advised with William Wilcock)'
+    - label: '2021-present'
+      details: 'Parker Sprinkle (*), University of Washington (co-advised)'
+    - label: '2018-2021'
+      details: 'Zhuo Yang (*,**), Harvard University'
+    - label: '2017-2019'
+      details: 'Manuel Florez, MIT, member of the dissertation committee'
+    - label: '2019'
+      details: 'Congcong Yuan (*,**), USTC China, master student visiting researcher'
+    - label: '2019'
+      details: 'William Flanagan, Harvard University'
+    - label: '2018'
+      details: 'Philippe Danré (*,**), Master student, Ecole Normale Supérieure, Paris'
+    - label: '2017'
+      details: 'Thibault Pérol (*,**), Harvard University'
+
+    graduate_student_committees:
+    - label: 'Chien, Mu-Ting'
+      details: 'Atmospheric Sciences, GSR, 2023-2024'
+    - label: 'DeGrande, Jensen'
+      details: 'Earth and Space Sciences, Member, 2023-present'
+    - label: 'Jones, Randall'
+      details: 'Atmospheric Sciences, GSR, 2025-present'
+    - label: 'Kharita, Akash'
+      details: 'Earth and Space Sciences, Advisor, 2023-present'
+    - label: 'Kidiwela, Maleen'
+      details: 'School of Oceanography, Member, 2024-present'
+    - label: 'Koepfli, Manuela'
+      details: 'Earth and Space Sciences, Chair, 2024-present'
+    - label: 'Krauss, Zoe'
+      details: 'School of Oceanography, GSR, 2022-2024'
+    - label: 'Ni, Yiyu'
+      details: 'Earth and Space Sciences, Chair, 2024-present'
+    - label: 'Pearson, Anna Elaine Rogers'
+      details: 'Earth and Space Sciences, Member, 2024-present'
+    - label: 'Ragland, John'
+      details: 'Electrical and Computer Engineering, GSR, 2023-2024'
+    - label: 'Rasanen, Ryan'
+      details: 'Civil And Environmental Engineering, GSR, 2022-2023'
+    - label: 'Sangmin, Song'
+      details: 'School of Oceanography, GSR, 2024-present'
+    - label: 'Sprinkle, Parker'
+      details: 'Earth and Space Sciences, Member, 2022-present'
+    - label: 'Sweeney, Aodhan'
+      details: 'Atmospheric Sciences, GSR, 2024-present'
+    - label: 'Velappan, Hemalatha'
+      details: 'School of Env. Forest Sciences, GSR, 2023-present'
+    - label: 'Velegar, Meghana S'
+      details: 'Applied Mathematics, GSR, 2023-2023'
+    - label: 'Zahn, Olivia'
+      details: 'Physics, GSR, 2022-2024'
+    - label: 'Zhang, Maochuan'
+      details: 'School of Oceanography, GSR, 2023-present'
+
+    invited_talks:
+    - name: Conference Speaker
+      date: '2026'
+      # start_date: 2026
+      # end_date: 2026
+      location: WCCM 2026, Munich
+    - name: Conference Speaker
+      date: '2026'
+      # start_date: 2026
+      # end_date: 2026
+      location: European Geophysical Union
+    - name: Department Colloquium
+      date: '2026'
+      start_date: 2026
+      end_date: 2026
+      location: CERI Memphis
+    - name: Plenary Speaker
+      date: '2025'
+      start_date: 2025
+      end_date: 2025
+      location: SIAM Geoscience Meeting
+    - name: Plenary Speaker
+      date: '2025'
+      start_date: 2025
+      end_date: 2025
+      location: Workshop on Earthquake Physics and Applications of AI to Tectonic Faulting, Italy
+    - name: Department Colloquium
+      date: '2025'
+      start_date: 2025
+      end_date: 2025
+      location: Civil Environmental Engineering, University of Washington
+    - name: Short Talk
+      date: '2025'
+      start_date: 2025
+      end_date: 2025
+      location: Radcliffe Institute of Advanced Studies, on the road
+    - name: Department Colloquium
+      date: '2025'
+      start_date: 2025
+      end_date: 2025
+      location: Washington University, Saint Louis
+    - name: Department Colloquium
+      date: '2024'
+      start_date: 2024
+      end_date: 2024
+      location: University of Southern California
+    - name: Department Colloquium
+      date:
+      start_date: 2024
+      end_date: 2024
+      location: University of California, Davis
+    - name: Department Colloquium
+      date: '2024'
+      start_date: 2024
+      end_date: 2024
+      location: Northern Arizona University
+    - name: Invited Conference Talk
+      date: '2024'
+      # start_date: 2024
+      # end_date: 2024
+      location: Passive imaging and monitoring in wave physics (Cargese, France)
+    - name: Plenary Speaker
+      date: '2024'
+      start_date: 2024
+      end_date: 2024
+      location: Statewide California Earthquake Center
+    - name: Séminaire Departemental
+      date: '2023'
+      start_date: 2023
+      end_date: 2023
+      location: Ecole Normale Supérieure, Paris
+    - name: Data Science Seminar
+      date: '2023'
+      start_date: 2023
+      end_date: 2023
+      location: eScience Institute, University of Washington
+    - name: Department Colloquium
+      date: '2023'
+      start_date: 2023
+      end_date: 2023
+      location: Sandia National Lab, GNEM seminar series
+    - name: Invited Conference Talk
+      date: '2022'
+      start_date: 2022
+      end_date: 2022
+      location: American Geophysical Union (x2)
+    - name: Department Colloquium
+      date: '2022'
+      start_date: 2022
+      end_date: 2022
+      location: University of New Mexico
+    - name: Seismo Colloquium
+      date: '2021'
+      start_date: 2021
+      end_date: 2021
+      location: University of Oregon
+    - name: Seismo Colloquium
+      date: '2021'
+      start_date: 2021
+      end_date: 2021
+      location: U Utah, Seismo Tea
+    - name: Department Colloquium
+      date: '2021'
+      start_date: 2021
+      end_date: 2021
+      location: University of Wisconsin
+    - name: Department Colloquium
+      date: '2021'
+      start_date: 2021
+      end_date: 2021
+      location: Colorado School of Mines
+    - name: Invited Conference Talk
+      date: '2021'
+      start_date: 2020
+      end_date: 2020
+      location: Mexico a traves de los sismos
+    - name: Department Colloquium
+      date: '2020'
+      start_date: 2020
+      end_date: 2020
+      location: University of Washington
+    - name: Department Colloquium
+      date: '2020'
+      start_date: 2020
+      end_date: 2020
+      location: UC Berkeley
+    - name: Department Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: Yale University
+    - name: Seismo Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: University of Washington, seismolunch
+    - name: Invited Conference Talk
+      date: '2019'
+      # start_date: 2019
+      # end_date: 2019
+      location: EGU annual meeting, Vienna
+    - name: Department Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: Michigan State University
+    - name: Public Lecture
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: Victoria University of Wellington, SN Jepson Lecture, New Zealand
+    - name: Department Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: GNS-Science, New Zealand
+    - name: Department Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: Stanford University, Department of Geophysics
+    - name: Department Colloquium
+      date: '2019'
+      start_date: 2019
+      end_date: 2019
+      location: Tufts University, Civil Engineering seminar
+    - name: Department Colloquium
+      date: '2018'
+      start_date: 2018
+      end_date: 2018
+      location: Brown University
+    - name: Department Colloquium
+      date: '2018'
+      start_date: 2018
+      end_date: 2018
+      location: Ecole Normale Superieure, Paris
+    - name: Invited Conference Talk
+      date: '2017'
+      start_date: 2017
+      end_date: 2017
+      location: AGU, New Orleans
+    - name: Department Colloquium
+      date: '2017'
+      start_date: 2017
+      end_date: 2017
+      location: Columbia University, Lamont Doherty Earth Observatory
+    - name: Public Lecture
+      date: '2016'
+      start_date: 2016
+      end_date: 2016
+      location: Harvard Museum of Natural History
+    - name: Department Colloquium
+      date: '2016'
+      start_date: 2016
+      end_date: 2016
+      location: University of Oregon
+    - name: Department Colloquium
+      date: '2016'
+      start_date: 2016
+      end_date: 2016
+      location: University of New Hampshire, Chapman Colloquium
+    - name: Department Colloquium
+      date: '2016'
+      start_date: 2016
+      end_date: 2016
+      location: UC Santa Cruz, IGPP seminar
+    - name: Department Colloquium
+      date: '2016'
+      start_date: 2016
+      end_date: 2016
+      location: Massachusetts Institute of Technology
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: USGS, Menlo Park, Earthquake Hazard Program
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: University of Victoria, BC, Canada
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: Penn State, Geodynamics seminar
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: Harvard, Earth and Planetary Sciences
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: UT Austin, Solid Earth seminar
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: UCLA, seismology/tectonics seminar
+    - name: Invited Conference Talk
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: HOKUDAN International Symposium on Active Faulting, Awaji, Japan
+    - name: Invited Conference Talk
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: Information Theory and Applications workshop, La Jolla
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar
+    - name: Department Colloquium
+      date: '2015'
+      start_date: 2015
+      end_date: 2015
+      location: University of Southern California, Geophysics seminar
+    - name: Invited Conference Talk
+      date: '2015'
+      start_date: 2014
+      end_date: 2014
+      location: Strong Motion Studies for Future Mega-Quakes, DPRI, Kyoto University, Japan
+    - name: Invited Conference Talk
+      date: '2014'
+      start_date: 2014
+      end_date: 2014
+      location: AGU-SEG Summer Research workshop, Vancouver, Canada
+    - name: Department Colloquium
+      date: '2014'
+      start_date: 2014
+      end_date: 2014
+      location: San Diego State University
+    - name: Department Colloquium
+      date: '2014'
+      start_date: 2014
+      end_date: 2014
+      location: UC Santa Barbara
+    - name: Department Colloquium
+      date: '2014'
+      start_date: 2014
+      end_date: 2014
+      location: IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar
+    - name: Invited Conference Talk
+      date: '2014'
+      start_date: 2013
+      end_date: 2013
+      location: AGU, Meeting of the Americas, Cancun, Mexico
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: Caltech Seismo Lab
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: USGS, Menlo Park
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: Stanford ICME seminar
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: Earthquake Research Institute, Tokyo University, Japan
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: Advanced Industrial Science and Technology, Japan
+    - name: Department Colloquium
+      date: '2013'
+      start_date: 2013
+      end_date: 2013
+      location: Disaster Prevention Research Institute, Japan
+    - name: Invited Conference Talk
+      date: '2012'
+      start_date: 2012
+      end_date: 2012
+      location: ACOUSTICS, France
+    - name: Department Colloquium
+      date: '2012'
+      start_date: 2012
+      end_date: 2012
+      location: Berkeley Seismo Lab
+    - name: Department Colloquium
+      date: '2011'
+      start_date: 2011
+      end_date: 2011
+      location: Institut de Physique du Globe de Paris, Earthquake seminar
+
+    grant_support:
+    - label: 'Total Grant Support'
+      details: 'Over $5M total; $2.2M dedicated to PI research; >$2M brought to UW'
+    - label: "NSF CS4All: Separating the Signal from the Noise: Promoting Alaskan students' inquiry with geographically relevant seismic data and machine learning techniques"
+      date: '2025'
+      amount:
+      details: '$500,000 -- CS4All project (co-PI)'
+    - label: 'NSF CAIG (2025)'
+      details: '$735,074 -- AI-Enhanced Modeling of Wildfire Geohazards (co-PI)'
+    - label: 'NSF (2025)'
+      details: '$880,490 -- Multi-span DAS on Ocean Observatories Initiative (co-PI)'
+    - label: 'NSF (2023)'
+      details: '$226,022 -- Alaska-Aleutian subduction zone DAS analysis (PI)'
+    - label: 'IRIS-DMC (2023)'
+      details: '$98,239 -- Near-real-time shallow tomography with DAS (PI)'
+    - label: 'Murdock Trust (2021)'
+      details: '$950,000 -- UW FiberLab equipment (co-I)'
+    - label: 'NSF CyberTraining (2021)'
+      details: '$995,817 -- GeoSMART ML workforce development (co-PI)'
+    - label: 'NSF SCOPED (2021)'
+      details: '$660,591 -- Seismic Computational Platform (PI, lead-PI Carl Tape)'
+    - label: 'NSF CAREER (2018)'
+      details: '$504,315 -- Dynamics of surface rupturing thrust earthquakes (PI)'
+    - label: 'David and Lucile Packard Foundation (2017)'
+      details: '$875,000 -- Fellowship (PI)'
+    - label: 'NSF PREEVENTS (2017)'
+      details: '$324,495 -- Cascadia Scenario Earthquakes (PI)'
+    - label: 'Multiple SCEC grants'
+      details: '$20,000-$35,000 each -- Various basic research projects (2015-2020)'
+
+    software:
+    - name: 'Machine Learning in the Geosciences Textbook'
+      url: https://geo-smart.github.io/mlgeo-book/
+      date: '2021-present'
+      summary: 'Open-access Jupyter Book for graduate-level ML course. First comprehensive textbook introducing ML concepts specifically for geoscience applications.'
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+      highlights:
+      - '11 GitHub stars, 6 forks, 6 contributors (Jan 2026)'
+      - 'Adopted by multiple universities (Arizona, Berkeley)'
+      - 'Asynchronous teaching materials with curated datasets'
+      - 'Associated GitHub repository with homework sets'
+      - 'Active development with community contributions'
+    - name: NoisePy
+      url: https://github.com/noisepy/NoisePy
+      date: '2019-present'
+      summary: 'Open-source Python package to process ambient noise seismological data at large scale. Core tool for seismic monitoring and imaging.'
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+      highlights:
+      - '207 GitHub stars, 83 forks, 19 contributors (Jan 2026)'
+      - '141 PyPI downloads/month'
+      - 'Taught at virtual workshops internationally'
+      - 'Used by researchers worldwide for noise cross-correlation'
+      - 'Cloud-optimized workflows for petabyte-scale processing'
+    - name: SeisNoise.jl
+      url: https://github.com/tclements/SeisNoise.jl/
+      date: '2020-present'
+      summary: 'Open-source Julia package for ambient noise seismology with CPU/GPU acceleration. High-performance implementation of core cross-correlation algorithms.'
+      title: '__HIDDEN__'
+      authors: ['__HIDDEN__']
+      highlights:
+      - '50 stars, 17 forks (as of Apr 2023)'
+      - 'Used by 3+ group members for research'
+      - 'Part of growing Julia seismology ecosystem'
+      - 'Particularly powerful for large-scale computations'
+    - name: 'Global Seismic Phase Database'
+      url: https://doi.org/10.26443/seismica.v4i2.1738
+      date: '2025'
+      summary: '4.3 billion seismic phase picks from cloud-based processing of 1.3 petabytes of continuous seismic data. Largest seismic phase catalog ever produced.'
+      highlights:
+      - 'Published in Seismica 2025 (Ni, Denolle, et al.)'
+      - 'DOI: 10.26443/seismica.v4i2.1738'
+      - 'Processed on AWS cloud infrastructure'
+      - 'Enables global-scale seismic monitoring and research'
+
+    # ==============================================================================
+    # PUBLICATIONS
+    # To automatically update from denolle-pub.bib, run:
+    #   python scripts/generate_publications.py > temp_pubs.yaml
+    # Then replace the selected_publications section with the output
+    # Group member co-authors are automatically tagged with asterisk (*)
+    # ==============================================================================
+    publications:
+      # AUTO-GENERATED from denolle-pub.bib using scripts/generate_publications.py
+      # 66 publications with group member tagging (*)
+      # Citations marked with -1 indicate 'no data available'
+
+      - title: Distributed Acoustic Sensing Records of Earthquakes and Surface Processes at Mount Rainier Volcano
+        datasets:
+        - name: 'PNW AI-Ready Seismic Dataset'
+          url: https://github.com/EarthML4PNW/PNW-ML
+          date: '2023'
+          summary: 'Curated Pacific Northwest seismic dataset for machine learning applications. First comprehensive ML-ready seismic dataset for regional studies.'
+          title: '__HIDDEN__'
+          authors: ['__HIDDEN__']
+          highlights:
+          - 'Published in Seismica 2023 (Ni et al.)'
+          - 'DOI: 10.26443/seismica.v2i1.368'
+          - 'Version-controlled via GitHub for quality assurance'
+          - 'Improved metadata through research investigation'
+        - name: 'Global Seismic Phase Database'
+          url: https://doi.org/10.26443/seismica.v4i2.1738
+          date: '2025'
+          summary: '4.3 billion seismic phase picks from cloud-based processing of 1.3 petabytes of continuous seismic data. Largest seismic phase catalog ever produced.'
+          title: '__HIDDEN__'
+          authors: ['__HIDDEN__']
+          highlights:
+          - 'Published in Seismica 2025 (Ni, Denolle, et al.)'
+          - 'DOI: 10.26443/seismica.v4i2.1738'
+          - 'Processed on AWS cloud infrastructure'
+          - 'Enables global-scale seismic monitoring and research'
+        date: 2026-01
+        citations: -1
+
+      - title: Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)
+        authors:
+          - Townend
+          - John
+          - Del Carmen Juarez-Garfias
+          - Ilma*
+          - Pita-Sllim
+          - Olivia
+          - Chamberlain
+          - Calum J.
+          - Warren-Smith
+          - Emily
+          - Holden
+          - Caroline
+          - van Wijk
+          - Kasper
+          - Denolle
+          - Marine*
+          - Curtis
+          - Andrew
+          - and Miyake
+          - Hiroe
+        summary:
+        journal: in press in Seismological Research Letters
+        date: 2026-01
+        citations: -1
+
+      - title: Probing the Seattle Basin edge using a dense urban nodal array in 100 backyards
+        authors:
+          - Toghramadjian
+          - Natasha*
+          - Denolle
+          - Marine A.*
+          - Ermert
+          - Laura*
+          - and Jiang
+          - Chengxin*
+        summary:
+        journal: in press in Seismological Research Letters
+        date: 2026-01
+        citations: -1
+
+      - title: The Seismic Wavefield Common Task Framework
+        authors:
+          - Yermakov
+          - Alexey*
+          - Zhao
+          - Yue
+          - Denolle
+          - Marine*
+          - Ni
+          - Yiyu*
+          - Wyder
+          - Philippe M.
+          - Goldfeder
+          - Judah
+          - Riva
+          - Stefano
+          - Williams
+          - Jan*
+          - Zoro
+          - David
+          - Rude
+          - Amy Sara
+          - Tomasetto
+          - Matteo*
+          - Germany
+          - Joe*
+          - Bakarji
+          - Joseph
+          - Maierhofer
+          - Georg*
+          - Cranmer
+          - Miles
+          - and Kutz
+          - J. Nathan
+        summary:
+        doi: 10.48550/arXiv.2512.19927
+        url: https://doi.org/10.48550/arXiv.2512.19927
+        journal: arXiv
+        date: 2026-01
+        citations: 0
+
+      - title: "Agroseismology: unraveling the impact of farming practices on soil hydrodynamics"
+        authors:
+          - Shi
+          - Qibin*
+          - Montgomery
+          - David
+          - Swann
+          - Abigail L.S.
+          - Cristea
+          - Nicoleta C.*
+          - Williams
+          - Ethan*
+          - You
+          - Nan
+          - Collins
+          - Joe
+          - Prada Barrio
+          - Ana
+          - Jeffrey
+          - Simon
+          - Misiewicz
+          - Ana
+          - Nissen-Meyer
+          - Tarje*
+          - and Denolle
+          - Marine A.*
+        summary:
+        doi: 10.48550/arXiv.2509.09821
+        url: https://doi.org/10.48550/arXiv.2509.09821
+        journal: in review in Science - preprint on Arxiv
+        date: 2026-01
+        citations: 0
+
+      - title: Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest
+        authors:
+          - Kharita
+          - Akash*
+          - Denolle
+          - Marine*
+          - Hutko
+          - Alexander R
+          - Hartog
+          - J Renate
+          - and Malone
+          - Stephen D*
+        summary:
+        doi: 10.48550/arXiv.2510.23795
+        url: https://doi.org/10.48550/arXiv.2510.23795
+        journal: accepted in Seismica, pre-print on Arxiv
+        date: 2025-01
+        citations: -1
+
+      - title: A decadal survey of the near-surface seismic velocity response to hydrological variations in Utah, United States
+        authors:
+          - Feng
+          - KK.*
+          - Denolle
+          - M
+          - Lin
+          - FC
+          - and Van Dam
+          - T
+        summary:
+        doi: 10.1029/2024JB030689
+        url: https://doi.org/10.1029/2024JB030689
+        journal: accepted in Journal of Geophysical Research
+        date: 2025-01
+        citations: -1
+
+      - title: A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale
+        authors:
+          - Ni
+          - Yiyu*
+          - Denolle
+          - Marine*
+          - Thomas
+          - Amanda*
+          - Hamilton
+          - Alex
+          - Münchmeyer
+          - Jannes
+          - Wang
+          - Yinzhi*
+          - Bachelot
+          - Loïc
+          - Trabant
+          - Chad
+          - and Mencin
+          - David
+        summary:
+        doi: 10.26443/seismica.v4i2.1738
+        journal: Seismica, 4
+        date: 2025-01
+        citations: -1
+        media_coverage:
+          - 'https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc'
+
+      - title: A Review of Cloud Computing and Storage in Seismology
+        authors:
+          - Ni
+          - Yiyu*
+          - Denolle
+          - Marine A*
+          - Münchmeyer
+          - Jannes
+          - Wang
+          - Yinzhi*
+          - Feng
+          - Kuan-Fu*
+          - Suarez
+          - Carlos Garcia Jurado
+          - Thomas
+          - Amanda M*
+          - Trabant
+          - Chad
+          - Hamilton
+          - Alex
+          - and Mencin
+          - David
+        summary:
+        doi: 10.1093/gji/ggaf322
+        journal: Geophysical Journal International
+        date: 2025-01
+        citations: 2
+
+      - title: "Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities"
+        authors:
+          - Denolle
+          - Marine A.*
+          - Tape
+          - Carl
+          - Bozdağ
+          - Ebru
+          - Wang
+          - Yinzhi*
+          - Waldhauser
+          - Felix
+          - Gabriel
+          - Alice‐Agnes
+          - Braunmiller
+          - Jochen
+          - Chow
+          - Bryant*
+          - Ding
+          - Liang
+          - Feng
+          - Kuan‐Fu*
+          - Ghosh
+          - Ayon
+          - Groebner
+          - Nathan
+          - Gupta
+          - Aakash
+          - Krauss
+          - Zoe
+          - McPherson
+          - Amanda M.*
+          - Nagaso
+          - Masaru*
+          - Niu
+          - Zihua*
+          - Ni
+          - Yiyu*
+          - Örsvuran
+          - Rıdvan
+          - Pavlis
+          - Gary
+          - Rodriguez‐Cardozo
+          - Felix
+          - Sawi
+          - Theresa
+          - Schaff
+          - David
+          - Schliwa
+          - Nico*
+          - Schneller
+          - David
+          - Shi
+          - Qibin*
+          - Thurin
+          - Julien
+          - Wang
+          - Chenxiao
+          - Wang
+          - Kaiwen
+          - Wong
+          - Jeremy Wing Ching
+          - Wolf
+          - Sebastian
+          - and Yuan
+          - Congcong*
+        summary:
+        doi: 10.1785/0220240413
+        journal: Seismological Research Letters, 96
+        date: 2025-01
+        citations: 3
+        media_coverage:
+          - 'https://www.washington.edu/news/2024/12/05/seismology-training/'
+          - 'https://example.com/article2'
+
+      - title: Ambient field seismology in critical zone hydrological sciences
+        authors:
+          - Marine A. Denolle*
+          - Qibin Shi*
+          - Tim Clements*
+          - Lo{\"i}c Viens*
+          - Veronica Rodriguez-Tribaldos*
+          - and Fabrice Cotton
+        summary:
+        doi: 10.5802/crgeos.310
+        url: https://doi.org/10.5802/crgeos.310
+        journal: Comptes Rendus. Géoscience, 357
+        date: 2025-01
+        citations: 0
+
+      - title: Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection
+        authors:
+          - Shi
+          - Q.*
+          - Denolle
+          - M. A.
+          - Ni
+          - Y.*
+          - Williams
+          - E. F.*
+          - and You
+          - N.
+        summary:
+        doi: 10.1029/2024JB029728
+        url: https://doi.org/10.1029/2024JB029728
+        journal: "JGR: Solid Earth, 130"
+        date: 2025-01
+        citations: 8
+
+      - title: Multiplexed Distributed Acoustic Sensing Offshore Central Oregon
+        authors:
+          - Shi
+          - Q.*
+          - Williams
+          - E. F.*
+          - Lipovsky
+          - B. P.
+          - Denolle
+          - M. A.
+          - Wilcock
+          - W. S. D.
+          - Kelley
+          - D. S.
+          - and Schoedl
+          - K.
+        summary:
+        doi: 10.1785/0220240460
+        url: https://doi.org/10.1785/0220240460
+        journal: Seismological Research Letters, 96
+        date: 2025-01
+        citations: 13
+        media_coverage:
+          - 'https://www.washington.edu/news/2025/07/24/seismologists-use-fiber-optic-cables-to-study-offshore-faults/'
+          - 'https://phys.org/news/2025-07-ai-fiber-optics-reveal-hidden.html'
+
+      - title: "Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing"
+        authors:
+          - Ni
+          - Y.*
+          - Denolle
+          - M. A.
+          - Shi
+          - Q.*
+          - Lipovsky
+          - B. P.
+          - Pan
+          - S.
+          - and Kutz
+          - J. N.
+        summary:
+        doi: 10.1029/2024JH000247
+        url: https://doi.org/10.1029/2024JH000247
+        journal: "Journal of Geophysical Research: Machine Learning and Computation, 1"
+        date: 2024-01
+        citations: 8
+
+      - title: Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens
+        authors:
+          - Makus
+          - P.*
+          - Denolle
+          - M. A.
+          - Sens-Sch{ö}nfelder
+          - C.
+          - K{ö}pfli
+          - M.
+          - and Tilmann
+          - F.*
+        summary:
+        doi: 10.1785/0220240088
+        url: https://doi.org/10.1785/0220240088
+        journal: Seismological Research Letters, 95
+        date: 2024-01
+        citations: 6
+
+      - title: Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens
+        authors:
+          - K{ö}pli
+          - M.
+          - Denolle
+          - M. A.
+          - Thelen
+          - W.
+          - Makus
+          - P.*
+          - and Malone
+          - S.*
+        summary:
+        doi: 10.1785/0220240079
+        url: https://doi.org/10.1785/0220240079
+        journal: Seismological Research Letters, 95
+        date: 2024-01
+        citations: 3
+
+      - title: Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete
+        authors:
+          - Diewald
+          - F.
+          - Denolle
+          - M.
+          - Timothy
+          - J. J.
+          - and Gehlen
+          - C.
+        summary:
+        doi: 10.1038/s41598-024-69564-4
+        url: https://doi.org/10.1038/s41598-024-69564-4
+        journal: Scientific Reports, 14
+        date: 2024-01
+        citations: 15
+
+      - title: Monitoring velocity change over 20 years at Parkfield
+        authors:
+          - Okubo
+          - K.*
+          - Delbridge
+          - B.
+          - and Denolle
+          - M.
+        summary:
+        doi: 10.1029/2023JB028084
+        url: https://doi.org/10.1029/2023JB028084
+        journal: "Journal of Geophysical Research: Solid Earth, 129"
+        date: 2024-01
+        citations: 15
+
+      - title: Extended crack propagation by local nucleation and rapid transverse expansion
+        authors:
+          - Cochard
+          - T.
+          - Svetlizky
+          - I.
+          - Albertini
+          - G.*
+          - Viesca
+          - R. C.
+          - Rubinstein
+          - S. M.
+          - Spaepen
+          - F.
+          - Yuan
+          - C.*
+          - Denolle
+          - M.
+          - Song
+          - Y.-Q.
+          - Xiao
+          - L.
+          - and Weitz
+          - D. A.
+        summary:
+        doi: 10.1038/s41567-023-02365-0
+        url: https://doi.org/10.1038/s41567-023-02365-0
+        journal: Nature Physics
+        date: 2024-01
+        citations: -1
+
+      - title: "Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm"
+        authors:
+          - Kharita
+          - A.*
+          - Denolle
+          - M.
+          - and West
+          - M.
+        summary:
+        doi: 10.1093/gji/ggae106
+        url: https://doi.org/10.1093/gji/ggae106
+        journal: Geophysical Journal International
+        date: 2023-01
+        citations: 4
+
+      - title: Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event
+        authors:
+          - Olinger
+          - S.*
+          - Lipovsky
+          - B.
+          - and Denolle
+          - M.
+        summary:
+        doi: 10.1029/2023AV001023
+        url: https://doi.org/10.1029/2023AV001023
+        journal: AGU Advances, 5
+        date: 2023-01
+        citations: 8
+        media_coverage:
+          - 'https://www.washington.edu/news/2024/02/28/80-mph-speed-record-for-glacier-fracture-helps-reveal-the-physics-of-ice-sheet-collapse/'
+
+      - title: Laboratory hydrofracture as analogs to tectonic tremors
+        authors:
+          - Yuan
+          - C.*
+          - Cochard
+          - T.
+          - Denolle
+          - M.
+          - Gomberg
+          - J.
+          - Wech
+          - A.
+          - Xiao
+          - L.
+          - and Weitz
+          - D.
+        summary:
+        doi: 10.1029/2023AV001002
+        url: https://doi.org/10.1029/2023AV001002
+        journal: AGU Advances, 5
+        date: 2023-01
+        citations: 7
+        media_coverage:
+          - 'https://www.washington.edu/news/2024/01/29/qa-how-slow-slip-earthquakes-may-be-driven-by-deep-hydraulic-fracturing/'
+
+      - title: Improved observations of deep earthquake ruptures using machine learning
+        authors:
+          - Shi
+          - Q.* and Denolle
+          - M.
+        summary:
+        doi: 10.1029/2023JB027334
+        url: https://doi.org/10.1029/2023JB027334
+        journal: "Journal of Geophysical Research: Solid Earth, 128"
+        date: 2023-01
+        citations: 10
+
+      - title: "Better Together: Ensemble Learning for Earthquake Detection and Phase Picking"
+        authors:
+          - Yuang
+          - C.*
+          - Ni
+          - Y.*
+          - and Denolle
+          - M.
+        summary:
+        doi: 10.1109/TGRS.2023.3320148
+        url: https://doi.org/10.1109/TGRS.2023.3320148
+        journal: IEEE Transactions on Geoscience and Remote Sensing
+        date: 2023-01
+        citations: 20
+
+      - title: An Object Storage for Distributed Acoustic Sensing
+        authors:
+          - Ni
+          - Yiyu*
+          - Denolle
+          - Marine A.*
+          - Fatland
+          - Rob
+          - Alterman
+          - Naomi*
+          - Lipovsky
+          - Bradley P.
+          - and Knuth
+          - Friedrich
+        summary:
+        doi: 10.1785/0220230172
+        journal: Seismological Research Letters, 95
+        date: 2023-01
+        citations: 10
+
+      - title: "Seismology in the cloud: guidance for the individual researcher"
+        authors:
+          - Krauss
+          - Z.
+          - Ni
+          - Y.*
+          - Henderson
+          - S.
+          - and Denolle
+          - M.
+        summary:
+        doi: 10.26443/seismica.v2i2.979
+        url: https://doi.org/10.26443/seismica.v2i2.979
+        journal: Seismica, 2
+        date: 2023-01
+        citations: 6
+
+      - title: Curated Pacific Northwest AI-ready Seismic Dataset
+        authors:
+          - Ni
+          - Y.*
+          - Hutko
+          - A.
+          - Skene
+          - F.*
+          - Denolle
+          - M.
+          - Malone
+          - S.*
+          - Bodin
+          - P.
+          - Hartog
+          - R.
+          - and Wright
+          - A.
+        summary:
+        doi: 10.26443/seismica.v2i1.368
+        url: https://doi.org/10.26443/seismica.v2i1.368
+        journal: Seismica, 2
+        date: 2023-01
+        citations: 35
+
+      - title: Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field
+        authors:
+          - Ermert
+          - L.*
+          - Cabral-Cano
+          - E.
+          - Chaussard
+          - E.
+          - Solano-Rojas
+          - D.
+          - Quintanar
+          - L.
+          - Morales Padilla
+          - D.
+          - Fernandez-Torres
+          - E. A.
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.5194/egusphere-2022-1361
+        url: https://doi.org/10.5194/egusphere-2022-1361
+        journal: Solid Earth (EGU)
+        date: 2023-01
+        citations: 12
+
+      - title: "The Seismic Signature of California's Earthquakes, Droughts, and Floods"
+        authors:
+          - Clements
+          - T.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1029/2022JB025553
+        url: https://doi.org/10.1029/2022JB025553
+        journal: "Journal of Geophysical Research: Solid Earth, 128"
+        date: 2023-01
+        citations: -1
+
+      - title: A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms
+        authors:
+          - Yin
+          - J.*
+          - Denolle
+          - M. A.
+          - and He
+          - B.
+        summary:
+        doi: 10.1093/gji/ggac290
+        url: https://doi.org/10.1093/gji/ggac290
+        journal: Geophysical Journal International, 231
+        date: 2022-01
+        citations: 23
+
+      - title: "Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging"
+        authors:
+          - Jiang
+          - C.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1029/2022JB024613
+        url: https://doi.org/10.1029/2022JB024613
+        journal: "Journal of Geophysical Research: Solid Earth, 127"
+        date: 2022-01
+        citations: 30
+
+      - title: Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions
+        authors:
+          - Viens
+          - L.*
+          - Jiang
+          - C.*
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.1093/gji/ggac101
+        url: https://doi.org/10.1093/gji/ggac101
+        journal: Geophysical Journal International, 230
+        date: 2022-01
+        citations: 16
+
+      - title: "Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica"
+        authors:
+          - Olinger
+          - S. D.*
+          - Lipovsky
+          - B. P.
+          - Denolle
+          - M. A.
+          - and Crowell
+          - B. W.
+        summary:
+        doi: 10.1029/2021GL097604
+        url: https://doi.org/10.1029/2021GL097604
+        journal: Geophysical Research Letters
+        date: 2022-01
+        citations: 24
+
+      - title: Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring
+        authors:
+          - Yang
+          - Z.*
+          - Yuan
+          - C.*
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.1785/0320210036
+        url: https://doi.org/10.1785/0320210036
+        journal: The Seismic Record, 2
+        date: 2022-01
+        citations: 5
+
+      - title: "The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes"
+        authors:
+          - Yin
+          - J.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1029/2021AV000413
+        url: https://doi.org/10.1029/2021AV000413
+        journal: AGU Advances, 2
+        date: 2021-01
+        citations: 18
+
+      - title: Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains
+        authors:
+          - Yuan
+          - C.*
+          - Bryan
+          - J.*
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.1093/gji/ggab140
+        url: https://doi.org/10.1093/gji/ggab140
+        journal: Geophysical Journal International, 226
+        date: 2021-01
+        citations: -1
+
+      - title: Source time function clustering reveals patterns in earthquake dynamics
+        authors:
+          - Yin
+          - J.*
+          - Li
+          - Z.
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.1785/0220200403
+        url: https://doi.org/10.1785/0220200403
+        journal: Seismological Research Letters, 92
+        date: 2021-01
+        citations: 27
+
+      - title: "SeisNoise.jl}: Ambient Seismic Noise Cross Correlation on the {CPU} and {GPU} in {Julia"
+        authors:
+          - Clements
+          - T.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1785/0220200192
+        url: https://doi.org/10.1785/0220200192
+        journal: Seismological Research Letters, 92
+        date: 2021-01
+        citations: 26
+
+      - title: Quiet Anthropocene, quiet Earth
+        authors:
+          - Denolle
+          - M. A. and Nissen-Meyer
+          - T.*
+        summary:
+        doi: 10.1126/science.abd8358
+        url: https://doi.org/10.1126/science.abd8358
+        journal: Science, 369
+        date: 2020-01
+        citations: 14
+
+      - title: "{SeisIO}: A Fast, Efficient Geophysical Data Architecture for the {Julia} Language"
+        authors:
+          - Jones
+          - J. P.
+          - Okubo
+          - K.*
+          - Clements
+          - T.*
+          - and Denolle
+          - M. A.
+        summary:
+        doi: 10.1785/0220190295
+        url: https://doi.org/10.1785/0220190295
+        journal: Seismological Research Letters, 91
+        date: 2020-01
+        citations: 11
+
+      - title: "{NoisePy}: A new high-performance python tool for ambient-noise seismology"
+        authors:
+          - Jiang
+          - C.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1785/0220190364
+        url: https://doi.org/10.1785/0220190364
+        journal: Seismological Research Letters, 91
+        date: 2020-01
+        citations: 75
+
+      - title: "Earthquakes Within Earthquakes: Patterns in Rupture Complexity"
+        authors:
+          - Danr{é}
+          - P.
+          - Yin
+          - J.*
+          - Lipovsky
+          - B.
+          - and Denolle
+          - M.
+        summary:
+        doi: 10.1029/2019GL083093
+        url: https://doi.org/10.1029/2019GL083093
+        journal: Geophysical Research Letters, 43
+        date: 2019-01
+        citations: 39
+        media_coverage:
+          - 'https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/'
+
+      - title: Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan
+        authors:
+          - Viens
+          - L.* and Denolle
+          - M.
+        summary:
+        doi: 10.1785/0120180320
+        url: https://doi.org/10.1785/0120180320
+        journal: Bulletin of the Seismological Society of America, 109
+        date: 2019-01
+        citations: 10
+
+      - title: Energetic Onset of Earthquakes
+        authors:
+          - Denolle
+          - M.
+        summary:
+        doi: 10.1029/2018GL080687
+        url: https://doi.org/10.1029/2018GL080687
+        journal: Geophysical Research Letters, 46
+        date: 2019-01
+        citations: 24
+
+      - title: Relating teleseismic backprojection images to earthquake kinematics
+        authors:
+          - Yin
+          - J.* and Denolle
+          - M.
+        summary:
+        doi: 10.1093/gji/ggz048
+        url: https://doi.org/10.1093/gji/ggz048
+        journal: Geophysical Journal International, 217
+        date: 2019-01
+        citations: 28
+
+      - title: Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake
+        authors:
+          - Wang
+          - Y.
+          - Denolle
+          - M.
+          - and Day
+          - S. M.
+        summary:
+        doi: 10.1029/2018JB016602
+        url: https://doi.org/10.1029/2018JB016602
+        journal: Journal of Geophysical Research, 124
+        date: 2019-01
+        citations: 22
+
+      - title: Tracking ground water using the ambient seismic field
+        authors:
+          - Clements
+          - T.* and Denolle
+          - M.
+        summary:
+        doi: 10.1029/2018GL077706
+        url: https://doi.org/10.1029/2018GL077706
+        journal: (User text suggests possible mismatch of volume/issue) Geophysical Research Letters, 123
+        date: 2018-01
+        citations: 217
+
+      - title: Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions
+        authors:
+          - Viens
+          - L.*
+          - Denolle
+          - M.
+          - Hirata
+          - N.
+          - and Nakagawa
+          - S.
+        summary:
+        journal: "Journal of Geophysical Research: Solid Earth, 123"
+        date: 2018-01
+        citations: 55
+
+      - title: Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake
+        authors:
+          - Denolle
+          - M. A.
+          - Bou{é}
+          - P.
+          - Hirata
+          - N.
+          - and Beroza
+          - G. C.
+        summary:
+        journal: "Journal of Geophysical Research: Solid Earth, 123"
+        date: 2018-01
+        citations: 21
+
+      - title: "Improved model fitting for the empirical Green's function approach using hierarchical models"
+        authors:
+          - Van Houtte
+          - C.* and Denolle
+          - M.
+        summary:
+        journal: "Journal of Geophysical Research: Solid Earth, 123"
+        date: 2018-01
+        citations: 17
+
+      - title: Tracking groundwater levels using the ambient seismic field
+        authors:
+          - Clements
+          - T.* and Denolle
+          - M. A.
+        summary:
+        doi: 10.1029/2018GL077706
+        url: https://doi.org/10.1029/2018GL077706
+        journal: Geophysical Research Letters, 45
+        date: 2018-01
+        citations: 217
+
+      - title: Convolutional neural network for earthquake detection and location
+        authors:
+          - Perol
+          - T.*
+          - Gharbi
+          - M.
+          - and Denolle
+          - M.
+        summary:
+        journal: Science Advances, 4
+        date: 2018-01
+        citations: 1129
+
+      - title: "Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile"
+        authors:
+          - Yin
+          - J.*
+          - Denolle
+          - M. A.
+          - and Yao
+          - H.
+        summary:
+        doi: 10.1002/2017JB014265
+        url: https://doi.org/10.1002/2017JB014265
+        journal: "Journal of Geophysical Research: Solid Earth, 123"
+        date: 2018-01
+        citations: 17
+
+      - title: "Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction"
+        authors:
+          - Sheng
+          - Y.
+          - Denolle
+          - M. A.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1785/0120170053
+        url: https://doi.org/10.1785/0120170053
+        journal: Bulletin of the Seismological Society of America, 107
+        date: 2017-01
+        citations: 14
+
+      - title: Retrieving impulse response function amplitudes from the ambient seismic field
+        authors:
+          - Viens
+          - L.*
+          - Denolle
+          - M.
+          - Miyake
+          - H.
+          - Sakai
+          - S.
+          - and Nakagawa
+          - S.
+        summary:
+        doi: 10.1093/gji/ggx155
+        url: https://doi.org/10.1093/gji/ggx155
+        journal: Geophysical Journal International, 210
+        date: 2017-01
+        citations: 31
+
+      - title: "Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field"
+        authors:
+          - Boue
+          - P.
+          - Denolle
+          - M.
+          - Hirata
+          - N.
+          - Nakagawa
+          - S.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1093/gji/ggw205
+        url: https://doi.org/10.1093/gji/ggw205
+        journal: Geophysical Journal International, 206
+        date: 2016-01
+        citations: 65
+
+      - title: New perspective on self-similarity of shallow thrust earthquakes
+        authors:
+          - Denolle
+          - M. and Shearer
+          - P. M.
+        summary:
+        doi: 10.1002/2016JB013105
+        url: https://doi.org/10.1002/2016JB013105
+        journal: "Journal of Geophysical Research: Solid Earth, 121"
+        date: 2016-01
+        citations: 119
+
+      - title: Dynamics of the M7.8 2015 Nepal Earthquake
+        authors:
+          - Denolle
+          - M.
+          - Fan
+          - W.
+          - and Shearer
+          - P. M.
+        summary:
+        doi: 10.1002/2015GL065336
+        url: https://doi.org/10.1002/2015GL065336
+        journal: Geophysical Research Letters, 42
+        date: 2015-01
+        citations: 67
+
+      - title: Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods
+        authors:
+          - Lee
+          - E.-J.
+          - Chen
+          - P.
+          - Jordan
+          - T. H.
+          - Maechling
+          - P. B.*
+          - Denolle
+          - M.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1002/2014JB011236
+        url: https://doi.org/10.1002/2014JB011236
+        journal: Journal of Geophysical Research, 119
+        date: 2014-01
+        citations: 286
+
+      - title: Long-period seismic amplification in the Kanto Basin from the ambient seismic field
+        authors:
+          - Denolle
+          - M.
+          - Miyake
+          - H.
+          - Nakagawa
+          - S.
+          - Hirata
+          - N.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1002/2014GL059425
+        url: https://doi.org/10.1002/2014GL059425
+        journal: Geophysical Research Letters, 41
+        date: 2014-01
+        citations: 74
+
+      - title: Strong Ground Motion Prediction using Virtual Earthquakes
+        authors:
+          - Denolle
+          - M.
+          - Dunham
+          - E. M.
+          - Prieto
+          - G. A.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1126/science.1245678
+        url: https://doi.org/10.1126/science.1245678
+        journal: Science, 343
+        date: 2014-01
+        citations: 143
+
+      - title: Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field
+        authors:
+          - Denolle
+          - M.
+          - Dunham
+          - E. M.
+          - Prieto
+          - G. A.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1029/2012JB009603
+        url: https://doi.org/10.1029/2012JB009603
+        journal: Journal of Geophysical Research, 118
+        date: 2013-01
+        citations: 90
+
+      - title: A numeric evaluation of attenuation from ambient noise correlation functions
+        authors:
+          - Lawrence
+          - J. F.
+          - Denolle
+          - M.
+          - Seats
+          - K. J.
+          - and Prieto
+          - G.
+        summary:
+        doi: 10.1002/2012JB009513
+        url: https://doi.org/10.1002/2012JB009513
+        journal: Journal of Geophysical Research, 118
+        date: 2013-01
+        citations: 74
+
+      - title: Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation
+        authors:
+          - Denolle
+          - M.
+          - Dunham
+          - E. M.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: 10.1785/0120110183
+        url: https://doi.org/10.1785/0120110183
+        journal: Bulletin of the Seismological Society of America, 102
+        date: 2012-01
+        citations: 42
+
+      - title: On amplitude carried by the ambient seismic field
+        authors:
+          - Prieto
+          - G. A.
+          - Denolle
+          - M.
+          - Lawrence
+          - J. F.
+          - and Beroza
+          - G. C.
+        summary:
+        doi: https://doi.org/10.1016/j.crte.2011.03.006
+        url: https://doi.org/https://doi.org/10.1016/j.crte.2011.03.006
+        journal: "Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343"
+        date: 2011-01
+        citations: 117
+
+      - title: Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra
+        authors:
+          - Singh
+          - S.
+          - Hananto
+          - N.
+          - Chauhan
+          - A.
+          - Permana
+          - H.*
+          - Denolle
+          - M.
+          - Hendriyana
+          - A.
+          - and Natawidjaja
+          - D.
+        summary:
+        doi: 10.1111/j.1365-246X.2009.04458.x
+        url: https://doi.org/10.1111/j.1365-246X.2009.04458.x
+        journal: Geophysical Journal International, 180
+        date: 2010-01
+        citations: 115
+
+
+    total_publications:
+      - bullet: '**66 peer-reviewed publications** (see full list at [ORCID](http://orcid.org/0000-0002-1610-2250))'
+      - bullet: 'Publications in *Science*, *Science Advances*, *AGU Advances*, *Nature Physics*, and leading geophysics journals'
+      - bullet: 'Highly cited works in ambient noise seismology, machine learning for seismology, and earthquake physics'
+      - bullet: 'Group member co-authors marked with asterisk (*)'
+
+    media_coverage:
+    - bullet: '[2025 Global-scale Database of Seismic Phases](https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc)'
+    - bullet: '[2024 Ambient Field Monitoring in the Shallow Crust](https://youtu.be/oG4_MrOfums?si=bw6AwACloHAjqTU1)'
+    - bullet: '[2024 Making Big Data Look Small](https://youtu.be/nZ2qozO0VVs?si=pPCX3nAduKDX8GGJ)'
+    - bullet: '[2023 UW eScience Seminar](https://youtu.be/iRJliquttKg?si=NgscKZLTdOZ0cE9K)'
+    - bullet: '[2023 Open Science in Seismology](https://youtu.be/WeZ2vJxBuTg?si=hNuIRAPEjxtYAsJG)'
+    - bullet: '[2023 UW News Fiber Sensing](https://youtu.be/ff-AJRic0HY?si=Lnzyw0Ih7K87lLw7)'
+    - bullet: '[2018 Radcliffe Seminar: Where we stand in Earthquake Prediction](https://youtu.be/-1GbSmiOt70?si=OExw9eGY7pMXEP67)'
+locale:
+  language: english
+
+settings:
+  current_date: '2026-01-16'
+  render_command:
+    typst_path: rendercv_output/Marine_Denolle_CV.typ
+    pdf_path: rendercv_output/Marine_Denolle_CV.pdf
+    markdown_path: rendercv_output/Marine_Denolle_CV.md
+    html_path: rendercv_output/Marine_Denolle_CV.html
+    png_path: rendercv_output/Marine_Denolle_CV.png

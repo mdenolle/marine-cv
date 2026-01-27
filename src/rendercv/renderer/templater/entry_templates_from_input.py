@@ -84,9 +84,11 @@ def render_entry_templates[EntryType: Entry](
         # Do not require AUTHORS for teaching/NormalEntry
     elif "AUTHORS" in entry_fields:
         authors = getattr(entry, "authors", None)
-        if authors is None:
-            raise RenderCVInternalError("AUTHORS in fields but authors is None")
-        entry_fields["AUTHORS"] = process_authors(authors)
+        if authors is not None:
+            entry_fields["AUTHORS"] = process_authors(authors)
+        else:
+            # Remove AUTHORS from fields if None, so placeholder removal will handle it
+            entry_fields.pop("AUTHORS", None)
 
     if (
         "DATE" in entry_fields
