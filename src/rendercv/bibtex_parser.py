@@ -78,23 +78,33 @@ def clean_bibtex_string(s: str) -> str:
     return s.strip()
 
 
-def format_authors(authors: List[str], group_members: Optional[List[str]] = None) -> str:
-    """Format author list with group member tagging.
+def format_authors_as_list(authors: List[str], group_members: Optional[List[str]] = None) -> List[str]:
+    """Format author list with group member tagging, returning a list.
     
     Args:
-        authors: List of author strings from BibTeX
+        authors: List of author strings from BibTeX (in "Last, First" format)
         group_members: List of group member last names to mark with asterisk
         
     Returns:
-        Formatted author string with group members marked
+        List of formatted author names with group members marked with asterisk
     """
     if not authors:
-        return ''
+        return []
     
     formatted = []
     for author in authors:
         # Clean up author name
         author = clean_bibtex_string(author.strip())
+        
+        # Skip empty authors
+        if not author:
+            continue
+        
+        # Parse "Last, First" format to "First Last"
+        if ', ' in author:
+            parts = author.split(', ', 1)
+            if len(parts) == 2:
+                author = f"{parts[1]} {parts[0]}"
         
         # Check if this is a group member
         is_group_member = False
@@ -110,6 +120,21 @@ def format_authors(authors: List[str], group_members: Optional[List[str]] = None
             formatted.append(f'{author}*')
         else:
             formatted.append(author)
+    
+    return formatted
+
+
+def format_authors(authors: List[str], group_members: Optional[List[str]] = None) -> str:
+    """Format author list with group member tagging as a string.
+    
+    Args:
+        authors: List of author strings from BibTeX
+        group_members: List of group member last names to mark with asterisk
+        
+    Returns:
+        Formatted author string with group members marked
+    """
+    formatted = format_authors_as_list(authors, group_members)
     
     # Join with commas
     if len(formatted) <= 2:
@@ -183,7 +208,7 @@ def bibtex_to_rendercv(
         # Format publication entry
         entry = {
             'title': pub['title'],
-            'authors': format_authors(pub['authors'], group_members).split(', '),
+            'authors': format_authors_as_list(pub['authors'], group_members),
             'date': f"{pub['year']}-01" if pub['year'] else '',
             'journal': pub['journal'],
             'citation_key': pub['citation_key']  # Keep citation key for citation matching

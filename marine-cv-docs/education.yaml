@@ -1,29 +1,28 @@
-education:
-  - institution: Stanford University
-    area: Geophysics
-    degree: PhD
-    start_date: 2008
-    end_date: 2014
-    location: Stanford, CA
-    highlights:
-      - 'Supervisor: Dr. Gregory Beroza'
-      - 'Co-supervisors: Dr. Eric Dunham, Dr. Jesse Lawrence'
-  - institution: Ecole Normale Supérieure - IPGP
-    area: Geophysics
-    degree: Master
-    start_date: 2007
-    end_date: 2008
-    location: Paris, France
-    highlights:
-      - 'Supervisors: Dr. Satish Singh (IPGP), Dr. David Bercovici (Yale)'
-  - institution: Ecole Normale Supérieure
-    area: Earth Sciences
-    degree: Bachelor
-    date: '2006'
-    location: Paris, France
-  - institution: Lycée Chateaubriand, Rennes
-    area: Physics-Mathematics
-    degree: License (Classe Préparatoire aux Grandes Ecoles)
-    start_date: 2004
-    end_date: 2005
-    location: Rennes, France
+- institution: Stanford University
+  area: Geophysics
+  degree: PhD
+  start_date: 2008
+  end_date: 2014
+  location: Stanford, CA
+  highlights:
+    - 'Supervisor: Dr. Gregory Beroza'
+    - 'Co-supervisors: Dr. Eric Dunham, Dr. Jesse Lawrence'
+- institution: Ecole Normale Supérieure - IPGP
+  area: Geophysics
+  degree: Master
+  start_date: 2007
+  end_date: 2008
+  location: Paris, France
+  highlights:
+    - 'Supervisors: Dr. Satish Singh (IPGP), Dr. David Bercovici (Yale)'
+- institution: Ecole Normale Supérieure
+  area: Earth Sciences
+  degree: Bachelor
+  date: '2006'
+  location: Paris, France
+- institution: Lycée Chateaubriand, Rennes
+  area: Physics-Mathematics
+  degree: License (Classe Préparatoire aux Grandes Ecoles)
+  start_date: 2004
+  end_date: 2005
+  location: Rennes, France

@@ -24,6 +24,8 @@ cv:
     research_impact_summary:
       - label: 'Research Citations'
         details: '3,398 total citations, h-index: 24, i10-index: 45 (Google Scholar)'
+      - label: 'Publications'
+        details: '66 peer-reviewed publications in Science, Nature Physics, AGU Advances, and top geophysics journals'
       - label: 'Open-Source Software'
         details: 'NoisePy (75 citations), SeisNoise.jl (26 citations), SeisIO.jl (11 citations)'
       - label: 'Training Impact'
@@ -31,107 +33,29 @@ cv:
       - label: 'Data Products'
         details: 'Global seismic phase database, PNW AI-ready dataset (35 citations)'
     # Phase 1: Core Academic Sections
-    education:
-      - institution: Stanford University
-        area: Geophysics
-        degree: PhD
-        start_date: 2008
-        end_date: 2014
-        location: Stanford, CA
-        highlights:
-          - 'Supervisor: Dr. Gregory Beroza'
-          - 'Co-supervisors: Dr. Eric Dunham, Dr. Jesse Lawrence'
-      - institution: Ecole Normale Supérieure - IPGP
-        area: Geophysics
-        degree: Master
-        start_date: 2007
-        end_date: 2008
-        location: Paris, France
-        highlights:
-          - 'Supervisors: Dr. Satish Singh (IPGP), Dr. David Bercovici (Yale)'
-      - institution: Ecole Normale Supérieure
-        area: Earth Sciences
-        degree: Bachelor
-        date: '2006'
-        location: Paris, France
-      - institution: Lycée Chateaubriand, Rennes
-        area: Physics-Mathematics
-        degree: License (Classe Préparatoire aux Grandes Ecoles)
-        start_date: 2004
-        end_date: 2005
-        location: Rennes, France
+    education: !include education.yaml
     
-    employment:
-      - company: Applied Environmental Intelligence
-        position: Co-Founder
-        start_date: 2025
-        end_date: present
-        location: Seattle
-        summary:
-        highlights:
-      - company: University of Washington
-        position: Associate Professor
-        start_date: 2024
-        end_date: present
-        location: Seattle, WA
-        summary: Department of Earth and Space Sciences
-        highlights:
-      - company: University of Washington
-        position: Assistant Professor
-        start_date: 2021
-        end_date: 2024
-        location: Seattle, WA
-        summary: Department of Earth and Space Sciences
-        highlights:
-      - company: Harvard University
-        position: Assistant Professor
-        start_date: 2016
-        end_date: 2021
-        location: Cambridge, MA
-        summary: Department of Earth and Planetary Sciences
-        highlights:
-      - company: UC San Diego, Scripps Institution of Oceanography
-        position: Green Postdoctoral Fellow
-        start_date: 2014
-        end_date: 2016
-        location: La Jolla, CA
-        summary: Institute of Geophysics and Planetary Physics
-        highlights:
-        - Supervisor Dr. Peter Shearer
+    employment: !include employment.yaml
     
     # Phase 2: Recognition & Awards
-    awards:
-      - label: '2023'
-        details: Invited Professorship, Ecole Normale Supérieure rue d'Ulm-Paris
-      - label: '2023'
-        details: Data Science Fellow, eScience Institute, University of Washington
-      - label: '2019'
-        details: Charles F. Richter Early Career Award, Seismological Society of America
-      - label: '2019'
-        details: Kavli Frontiers of Science Fellow, National Academy of Sciences
-      - label: '2019'
-        details: Radcliffe Assistant Professorship, Institute for Advanced Study
-      - label: '2018'
-        details: CAREER Award, NSF
-      - label: '2017'
-        details: David and Lucile Packard Foundation Fellowship
-      - label: '2016'
-        details: Outstanding Reviewer, Geophysical Research Letters
-      - label: '2015'
-        details: Outstanding Reviewer, Geophysical Journal International
-      - label: '2012'
-        details: AGU Outstanding Student Paper Award, American Geophysical Union
-      - label: '2012'
-        details: SSA Student Presentation Award, Seismological Society of America
-      - label: '2010'
-        details: AGU Outstanding Student Paper Award, American Geophysical Union
-    
-    total_publications:
-      - bullet: '**66 peer-reviewed publications** (see full list at [ORCID](http://orcid.org/0000-0002-1610-2250))'
-      - bullet: 'Publications in *Science*, *Science Advances*, *AGU Advances*, *Nature Physics*, and leading geophysics journals'
-      - bullet: 'Highly cited works in ambient noise seismology, machine learning for seismology, and earthquake physics'
-      - bullet: 'Group member co-authors marked with asterisk (*)'
+    awards: !include awards.yaml
 
+    # Phase 3: Teaching/Mentoring
+    teaching: !include teaching.yaml
+    
+    # Student Advisees - Organized by level of involvement
+    # PhD Advisees (Primary Advisor)
+    phd_advisees: !include phd_advisees.yaml
+    
+    # Other Graduate Student Supervision  
+    other_graduate_student_supervision: !include other_graduate_student_supervision.yaml
+    
+    # PhD Dissertation Committee Service (UW)
+    graduate_student_committees: !include graduate_student_committees.yaml
+    
+    # Undergraduate Research Advising
+    undergraduate_students: !include undergraduate_students.yaml
+    
     media_coverage:
       - bullet: '[2025 Global-scale Database of Seismic Phases](https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc)'
       - bullet: '[2024 Ambient Field Monitoring in the Shallow Crust](https://youtu.be/oG4_MrOfums?si=bw6AwACloHAjqTU1)'
@@ -166,6 +90,14 @@ design:
     font_size:
       body: 10pt
       section_titles: 1.4em
+  templates:
+    single_date: YEAR
+    education_entry:
+      main_column: "**INSTITUTION**, AREA\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: "DATE"
+    experience_entry:
+      main_column: "**POSITION**\nSUMMARY\nURL\nHIGHLIGHTS"
+      date_and_location_column: "COMPANY\nLOCATION\nDATE"
 locale:
   language: english
 

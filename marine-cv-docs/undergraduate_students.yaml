@@ -1,17 +1,45 @@
-undergraduate_students:
-  - 'My advising experience includes research opportunities, such as summer programs or independent studies conducted during the academic year. During the academic year, students enroll in 499 for a few credits to continue their research with me. On breaks or during the summer, I provide them with hourly pay. Note: (*) Resulted in a presentation at a national conference. (**) Resulted in a peer-reviewed publication. (***) In-prep for peer-reviewed publication. (+) Students received a GRFP with my letters written based on our collaborative research.'
-  - '**2025-present**, **Alex Rose**, University of Washington Oceano, Research experience on DAS data processing'
-  - '**2024-present**, **Anjani Mirchandi**, University of Washington AMATH, Research experience on DAS data processing'
-  - '**2023**, **Hiroto Bito**, University of Washington ESS, Research experience on ML for seismology: earthquake catalog building and spatio-temporal forecast'
-  - '**2023**, **Nicholas Wolfe**, University of Washington ESS, Earthquake magnitudes project'
-  - '**2023**, **Informatics Capstone Team (Rona Guo(*), Nathan Limono, William Phan, Michael Yung, Matthew Herradura)**, University of Washington Informatics, DAS Platform'
-  - '**2023**, **Lucas Swanson**, University of Washington Informatics, DAS Software'
-  - '**2022-2023**, **Francesca Skene (*)**, University of Washington ESS, Surface Event catalog'
-  - '**2022-2024**, **Nick Smoczyk (*,***)**, University of Minnesota, Volcanoseismology, redpy catalog'
-  - '**2020-2021**, **Julian Schmitt (*,+)**, Harvard University EPS, Ambient noise seismology on the cloud and using julia software, BASIN project'
-  - '**2019**, **Jared Bryan (*,**,+)**, Harvard University EPS, Ambient noise monitoring, SCEC Internship'
-  - '**2018**, **Albert Aguilar (*)**, Harvard University EPS, Subduction zone, seismology, data mining'
-  - '**2016**, **Leore Lavin**, Harvard University EPS, Ground motion simulations with ambient noise'
-  - '**2014**, **Roy Bowling**, Scripps Institution of Oceanography IGPP, Ambient noise seismology; SCEC Internship'
-  - '**2012**, **Tara Larrue**, Stanford Geophysics, Ambient noise seismology; SURGE program'
-  - '**2011**, **Penprapa Wutthijuk**, Stanford University, Ambient noise seismology; SURGE program'
+# Undergraduate Research Advising - Using OneLineEntry format
+# Notes: (*) Presentation at national conference | (**) Peer-reviewed publication 
+# (***) Publication in prep | (+) Received NSF GRFP with support letter
+
+# Advising Context
+- label: Note
+  details: 'My undergraduate advising includes research opportunities through summer programs and independent studies (ESS 499 for credit during academic year, hourly pay during summer/breaks). I mentor students toward conference presentations and publications, and support competitive fellowship applications. Legend: (\*) Conference presentation | (\*\*) Peer-reviewed publication | (\*\*\*) Publication in prep | (+) NSF GRFP recipient'
+
+# Current Students (2024-2026)
+- label: '2025-present'
+  details: 'Alex Rose, UW Oceanography - DAS data processing research'
+- label: '2024-present'
+  details: 'Anjani Mirchandi, UW Applied Math - DAS data processing research'
+
+# Recent Students (2020-2024) - Note: Many resulted in publications/awards
+- label: '2023'
+  details: 'Hiroto Bito, UW ESS - ML for earthquake catalog building and spatio-temporal forecasting'
+- label: '2023'
+  details: 'Nicholas Wolfe, UW ESS - Earthquake magnitude estimation project'
+- label: '2023'
+  details: 'Informatics Capstone Team (Rona Guo(\*), Nathan Limono, William Phan, Michael Yung, Matthew Herradura), UW Informatics - DAS Platform development, resulted in conference presentation'
+- label: '2023'
+  details: 'Lucas Swanson, UW Informatics - DAS software development'
+- label: '2022-2023'
+  details: 'Francesca Skene (\*), UW ESS - Surface event catalog, resulted in conference presentation'
+- label: '2022-2024'
+  details: 'Nick Smoczyk (\*,\*\*\*), University of Minnesota - Volcano seismology using RedPy catalog, resulted in conference presentation and publication in prep'
+- label: '2020-2021'
+  details: 'Julian Schmitt (\*,+), Harvard EPS - Ambient noise seismology on cloud computing with Julia, BASIN project, resulted in conference presentation and NSF GRFP'
+
+# Harvard Students (2016-2019) - Multiple publications and fellowships
+- label: '2019'
+  details: 'Jared Bryan (\*,\*\*,+), Harvard EPS - Ambient noise monitoring, SCEC Internship, resulted in conference presentation, publication, and NSF GRFP'
+- label: '2018'
+  details: 'Albert Aguilar (\*), Harvard EPS - Subduction zone seismology and data mining, SCEC, resulted in conference presentation'
+- label: '2016'
+  details: 'Leore Lavin, Harvard EPS - Ground motion simulations with ambient noise'
+
+# Early Career Students (2011-2014) - Stanford and Scripps
+- label: '2014'
+  details: 'Roy Bowling, Scripps IGPP - Ambient noise seismology, SCEC Internship'
+- label: '2012'
+  details: 'Tara Larrue, Stanford Geophysics - Ambient noise seismology, SURGE program'
+- label: '2011'
+  details: 'Penprapa Wutthijuk, Stanford - Ambient noise seismology, SURGE program'

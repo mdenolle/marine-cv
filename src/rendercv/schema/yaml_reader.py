@@ -2,10 +2,41 @@ import pathlib
 
 import ruamel.yaml
 import ruamel.yaml.scanner
+import ruamel.yaml.nodes
 from ruamel.yaml.comments import CommentedMap
 from ruamel.yaml.scanner import RoundTripScanner
 
 from rendercv.exception import RenderCVInternalError, RenderCVUserError
+
+
+def _build_yaml_parser(base_dir: pathlib.Path | None) -> ruamel.yaml.YAML:
+    yaml_parser = ruamel.yaml.YAML()
+
+    # Disable ISO date parsing, keep it as a string:
+    yaml_parser.constructor.yaml_constructors["tag:yaml.org,2002:timestamp"] = (
+        lambda loader, node: loader.construct_scalar(node)
+    )
+
+    def include_constructor(
+        loader: ruamel.yaml.constructor.BaseConstructor,
+        node: ruamel.yaml.nodes.Node,
+    ) -> CommentedMap:
+        if base_dir is None:
+            message = "Cannot resolve !include without a base file path."
+            raise RenderCVUserError(message)
+
+        if not isinstance(node, ruamel.yaml.nodes.ScalarNode):
+            message = "!include must be a scalar path."
+            raise RenderCVUserError(message)
+
+        include_value = loader.construct_scalar(node)
+        include_path = pathlib.Path(include_value)
+        if not include_path.is_absolute():
+            include_path = base_dir / include_path
+        return read_yaml(include_path)
+
+    yaml_parser.constructor.add_constructor("!include", include_constructor)
+    return yaml_parser
 
 
 def read_yaml(file_path_or_contents: pathlib.Path | str) -> CommentedMap:
@@ -30,6 +61,8 @@ def read_yaml(file_path_or_contents: pathlib.Path | str) -> CommentedMap:
     Returns:
         Dictionary with line/column metadata for error reporting.
     """
+    base_dir: pathlib.Path | None = None
+
     if isinstance(file_path_or_contents, pathlib.Path):
         # Check if the file exists:
         if not file_path_or_contents.exists():
@@ -46,11 +79,13 @@ def read_yaml(file_path_or_contents: pathlib.Path | str) -> CommentedMap:
             )
             raise RenderCVUserError(message)
 
+        base_dir = file_path_or_contents.parent
         file_content = file_path_or_contents.read_text(encoding="utf-8")
     else:
         file_content = file_path_or_contents
 
-    yaml_as_dictionary: CommentedMap = yaml.load(file_content)
+    yaml_parser = _build_yaml_parser(base_dir)
+    yaml_as_dictionary: CommentedMap = yaml_parser.load(file_content)
 
     if yaml_as_dictionary is None:
         message = "The input file is empty!"
@@ -78,9 +113,3 @@ class ScannerNoAlias(RoundTripScanner):
 
 # Monkey-patch the RoundTripScanner to treat * as a regular character:
 ruamel.yaml.scanner.RoundTripScanner = ScannerNoAlias  # ty: ignore[invalid-assignment]
-yaml = ruamel.yaml.YAML()
-
-# Disable ISO date parsing, keep it as a string:
-yaml.constructor.yaml_constructors["tag:yaml.org,2002:timestamp"] = (
-    lambda loader, node: loader.construct_scalar(node)
-)

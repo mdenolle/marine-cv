@@ -1,37 +1,51 @@
-awards:
-  - name: Invited Professorship
-    location: Ecole Normale Supérieure rue d'Ulm-Paris
-    date: '2023'
-  - name: Data Science Fellow
-    location: eScience Institute, University of Washington
-    date: '2023'
-  - name: Charles F. Richter Early Career Award
-    location: Seismological Society of America
-    date: '2019'
-  - name: Kavli Frontiers of Science Fellow
-    location: National Academy of Sciences
-    date: '2019'
-  - name: Radcliffe Assistant Professorship
-    location: Institute for Advanced Study
-    date: '2019'
-  - name: CAREER Award
-    location: NSF
-    date: '2018'
-  - name: David and Lucile Packard Foundation Fellowship
-    location: David and Lucile Packard Foundation
-    date: '2017'
-  - name: Outstanding Reviewer
-    location: Geophysical Research Letters
-    date: '2016'
-  - name: Outstanding Reviewer
-    location: Geophysical Journal International
-    date: '2015'
-  - name: AGU Outstanding Student Paper Award
-    location: American Geophysical Union
-    date: '2012'
-  - name: SSA Student Presentation Award
-    location: Seismological Society of America
-    date: '2012'
-  - name: AGU Outstanding Student Paper Award
-    location: American Geophysical Union
-    date: '2010'
+# Awards and Honors
+# Using EducationEntry format: institution=award_name, area=organization, date=year
+# This format enables year display in left sidebar like education entries
+
+- institution: Invited Professorship
+  area: Ecole Normale Supérieure rue d'Ulm-Paris
+  date: 2023
+  
+- institution: Data Science Fellow
+  area: eScience Institute, University of Washington
+  date: 2023
+  
+- institution: Charles F. Richter Early Career Award
+  area: Seismological Society of America
+  date: 2019
+  
+- institution: Kavli Frontiers of Science Fellow
+  area: National Academy of Sciences
+  date: 2019
+  
+- institution: Radcliffe Assistant Professorship
+  area: Institute for Advanced Study
+  date: 2019
+  
+- institution: CAREER Award
+  area: NSF
+  date: 2018
+  
+- institution: David and Lucile Packard Foundation Fellowship
+  area: David and Lucile Packard Foundation
+  date: 2017
+  
+- institution: Outstanding Reviewer
+  area: Geophysical Research Letters
+  date: 2016
+  
+- institution: Outstanding Reviewer
+  area: Geophysical Journal International
+  date: 2015
+  
+- institution: AGU Outstanding Student Paper Award
+  area: American Geophysical Union
+  date: 2012
+  
+- institution: SSA Student Presentation Award
+  area: Seismological Society of America
+  date: 2012
+  
+- institution: AGU Outstanding Student Paper Award
+  area: American Geophysical Union
+  date: 2010

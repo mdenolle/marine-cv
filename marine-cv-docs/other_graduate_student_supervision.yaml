@@ -1,23 +1,32 @@
-other_graduate_student_supervision:
-  - label: Note
-    details: '(* ) At UW, roles are secondary advisor, primary advisor on one project/manuscript. (**) advising resulted in a publication'
-  - label: '2018-2025'
-    details: 'Natasha Toghramadjian (*,**), Earth and Planetary Sciences, Harvard University'
-  - label: '2021-present'
-    details: 'Maleen Kidiwela (*,**), University of Washington (co-advised with William Wilcock)'
-  - label: '2021-2024'
-    details: 'Zoe Krauss (*,**), University of Washington (co-advised with William Wilcock)'
-  - label: '2021-present'
-    details: 'Parker Sprinkle (*), University of Washington (co-advised)'
-  - label: '2018-2021'
-    details: 'Zhuo Yang (*,**), Harvard University'
-  - label: '2017-2019'
-    details: 'Manuel Florez, MIT, member of the dissertation committee'
-  - label: '2019'
-    details: 'Congcong Yuan (*,**), USTC China, master student visiting researcher'
-  - label: '2019'
-    details: 'William Flanagan, Harvard University'
-  - label: '2018'
-    details: 'Philippe Danré (*,**), Master student, Ecole Normale Supérieure, Paris'
-  - label: '2017'
-    details: 'Thibault Pérol (*,**), Harvard University'
+# Other Graduate Student Supervision - Using OneLineEntry format
+# Notes: (*) Secondary advisor at UW, primary on project/manuscript | (**) Resulted in publication
+# This section shows collaborative mentoring relationships beyond primary PhD advising
+
+- label: Note
+  details: '(\*) At UW, roles are secondary advisor or primary advisor on one project/manuscript. (\*\*) Advising resulted in a peer-reviewed publication.'
+
+# Current and Recent Graduate Collaborations (UW)
+- label: '2021-present'
+  details: 'Maleen Kidiwela (\*,\*\*), UW Oceanography (co-advised with William Wilcock) - DAS and offshore seismology, resulted in publication'
+- label: '2021-2024'
+  details: 'Zoe Krauss (\*,\*\*), UW Oceanography (co-advised with William Wilcock) - Axial Seamount hydrothermal monitoring, resulted in publication'
+- label: '2021-present'
+  details: 'Parker Sprinkle (\*), UW ESS (co-advised) - Earthquake early warning and machine learning'
+
+# Harvard Graduate Students (Secondary Advising)
+- label: '2018-2025'
+  details: 'Natasha Toghramadjian (\*,\*\*), Harvard EPS - Seismic attenuation and site effects, resulted in publications'
+- label: '2018-2021'
+  details: 'Zhuo Yang (\*,\*\*), Harvard EPS - Machine learning for seismic phase picking, resulted in publication'
+- label: '2019'
+  details: 'William Flanagan, Harvard EPS - Volcano seismology project'
+- label: '2017'
+  details: 'Thibault Pérol (\*,\*\*), Harvard EPS - Deep learning for earthquake detection, resulted in multiple publications'
+
+# Visiting Researchers and External Committees
+- label: '2019'
+  details: 'Congcong Yuan (\*,\*\*), USTC China - Master student visiting researcher on time-dependent seismology, resulted in publication'
+- label: '2018'
+  details: 'Philippe Danré (\*,\*\*), Ecole Normale Supérieure Paris - Master thesis on seismic monitoring, resulted in publication'
+- label: '2017-2019'
+  details: 'Manuel Florez, MIT - Dissertation committee member for geophysics PhD'
