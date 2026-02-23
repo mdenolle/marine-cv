@@ -53,9 +53,14 @@ cv:
     # PhD Dissertation Committee Service (UW)
     graduate_student_committees: !include graduate_student_committees.yaml
     
+    # international PhD student advising (non-UW)
+    international_phd_advising: !include international_phd_dissertation_readers.yaml
+
     # Undergraduate Research Advising
     undergraduate_students: !include undergraduate_students.yaml
     
+  # Phase 4: Media Coverage & Outreach
+
     media_coverage:
       - bullet: '[2025 Global-scale Database of Seismic Phases](https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc)'
       - bullet: '[2024 Ambient Field Monitoring in the Shallow Crust](https://youtu.be/oG4_MrOfums?si=bw6AwACloHAjqTU1)'
