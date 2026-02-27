@@ -56,11 +56,7 @@ cv:
     # international PhD student advising (non-UW)
     international_phd_advising: !include international_phd_dissertation_readers.yaml
 
-    # Undergraduate Research Advising
-    undergraduate_students: !include undergraduate_students.yaml
-    
   # Phase 4: Media Coverage & Outreach
-
     media_coverage:
       - bullet: '[2025 Global-scale Database of Seismic Phases](https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc)'
       - bullet: '[2024 Ambient Field Monitoring in the Shallow Crust](https://youtu.be/oG4_MrOfums?si=bw6AwACloHAjqTU1)'
@@ -69,6 +65,16 @@ cv:
       - bullet: '[2023 Open Science in Seismology](https://youtu.be/WeZ2vJxBuTg?si=hNuIRAPEjxtYAsJG)'
       - bullet: '[2023 UW News Fiber Sensing](https://youtu.be/ff-AJRic0HY?si=Lnzyw0Ih7K87lLw7)'
       - bullet: '[2018 Radcliffe Seminar: Where we stand in Earthquake Prediction](https://youtu.be/-1GbSmiOt70?si=OExw9eGY7pMXEP67)'
+
+    # Undergraduate Research Advising
+    undergraduate_students: !include undergraduate_students.yaml
+
+  # Phase 5: Service & Leadership
+    training_workshops: !include training_schools.yaml
+    university_service: !include university_service.yaml
+    professional_service: !include committee_service.yaml
+    review_panels: !include review_panels.yaml
+    editorial_service: !include editorial_service.yaml
 
 # ==============================================================================
 # DESIGN CONFIGURATION
