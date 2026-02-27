@@ -166,7 +166,7 @@ cython_debug/
 .vscode/
 
 # RenderCV output
-rendercv_output/
+# rendercv_output/
 
 # Include reference files
 !/tests/testdata/**/*.pdf
