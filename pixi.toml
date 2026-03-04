@@ -37,8 +37,7 @@ fuzzywuzzy = ">=0.18.0,<0.19"
 python-levenshtein = ">=0.27.3,<0.28"
 
 [pypi-dependencies]
-# Packages not available on conda-forge or with version conflicts
-phonenumbers = ">=9.0.19"
+# Packages not available on conda-forge or with version conflictsbibtexparser = ">=1.4.1"phonenumbers = ">=9.0.19"
 pydantic-extra-types = ">=2.10.6"
 typst = ">=0.14.4"
 rendercv-fonts = ">=0.5.1"

@@ -58,13 +58,29 @@ jobs:
           print(f"Validated {len(data)} publications")
           PY
 
-      - name: Ensure no placeholder DOI values
+      - name: Ensure no placeholder DOI or URL values
         run: |
-          if grep -q "doi: XX" marine-cv-docs/publications_section.yaml; then
-            echo "Found invalid placeholder DOI values (doi: XX)."
+          if grep -qE "(doi: XX|url: https://doi\.org/XX)" marine-cv-docs/publications_section.yaml; then
+            echo "Found placeholder DOI/URL values in publications_section.yaml."
             exit 1
           fi
 
-      - name: Ensure generated file is committed
+      # On push to main: auto-commit so the file is always up-to-date.
+      - name: Commit regenerated publications if changed (push)
+        if: github.event_name != 'pull_request'
         run: |
-          git diff --exit-code -- marine-cv-docs/publications_section.yaml
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add marine-cv-docs/publications_section.yaml
+          git diff --staged --quiet || (git commit -m "chore: regenerate publications_section.yaml [automated]" && git push)
+
+      # On PRs: block merge if the file is stale so the author commits it.
+      - name: Ensure publications_section.yaml is up-to-date (PR check)
+        if: github.event_name == 'pull_request'
+        run: |
+          git diff --exit-code -- marine-cv-docs/publications_section.yaml || {
+            echo "ERROR: publications_section.yaml is out of date."
+            echo "Run: python scripts/generate_publications.py > marine-cv-docs/publications_section.yaml"
+            echo "Then commit and push the updated file."
+            exit 1
+          }

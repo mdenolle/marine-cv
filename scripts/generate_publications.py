@@ -40,26 +40,48 @@ MEDIA_COVERAGE = {
 }
 
 
+def _yaml_quote(s: str) -> str:
+    """Wrap a string in double-quotes for YAML, escaping backslashes and double-quotes."""
+    escaped = s.replace('\\', '\\\\').replace('"', '\\"')
+    return f'"{escaped}"'
+
+
+def _needs_quoting(s: str) -> bool:
+    """Return True if the string requires YAML double-quoting."""
+    return any(c in s for c in ["'", '"', ":", "#", "[", "]", "{", "}", "|", ">", "!", "&", "*", "@", "`"])
+
+
 def main():
     """Generate publications YAML section."""
+    import traceback
+
+    try:
+        _generate()
+    except Exception as exc:
+        print(f"Error in generate_publications.py: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        sys.exit(1)
+
+
+def _generate():
+    """Inner logic — separated so try/except in main() catches all errors."""
     # Path to BibTeX file
     bib_file = Path(__file__).parent.parent / 'marine-cv-docs' / 'denolle-pub.bib'
-    
+
     if not bib_file.exists():
-        print(f"Error: BibTeX file not found: {bib_file}", file=sys.stderr)
-        sys.exit(1)
-    
+        raise FileNotFoundError(f"BibTeX file not found: {bib_file}")
+
     # Convert BibTeX to RenderCV format
     publications = bibtex_to_rendercv(
         str(bib_file),
         group_members=DEFAULT_GROUP_MEMBERS,
         media_coverage=MEDIA_COVERAGE
     )
-    
+
     # Add citation counts from cache
     from rendercv.bibtex_parser import add_citations_to_publications
     publications = add_citations_to_publications(publications)
-    
+
     # Generate YAML array entries for direct section include
     print("# AUTO-GENERATED from denolle-pub.bib using scripts/generate_publications.py")
     print(f"# {len(publications)} publications")
@@ -67,56 +89,52 @@ def main():
     print("# See publications_legend section in Marine_Denolle_CV.yaml for the rendered legend.")
     print("# Citations marked with -1 indicate 'no data available'")
     print()
-    
+
     for pub in publications:
-        # Manually handle YAML string escaping
-        # For single-line strings in YAML, just need to handle special chars
         title = pub['title']
         journal = pub['journal']
-        
-        # Quote strings if they contain: apostrophes, colons, or special YAML chars
-        needs_quotes_title = any(c in title for c in ["'", ":", "#", "[", "]", "{", "}", "|", ">", "!", "&", "*", "@", "`"])
-        needs_quotes_journal = any(c in journal for c in ["'", ":", "#", "[", "]", "{", "}", "|", ">", "!", "&", "*", "@", "`"])
-        
-        if needs_quotes_title:
-            title = f'"{title}"'
-        if needs_quotes_journal:
-            journal = f'"{journal}"'
-        
+
+        # Double-quote strings that contain special YAML characters.
+        # _yaml_quote also escapes any embedded double-quotes and backslashes.
+        if _needs_quoting(title):
+            title = _yaml_quote(title)
+        if _needs_quoting(journal):
+            journal = _yaml_quote(journal)
+
         print(f'- title: {title}')
         print("  authors:")
         for author in pub['authors']:
-            # Authors starting with * (Markdown bold/italic) must be double-quoted in YAML.
-            # Escape backslashes first, then double-quotes, to produce valid YAML.
-            if author.startswith('*'):
-                safe = author.replace('\\', '\\\\').replace('"', '\\"')
-                print(f'    - "{safe}"')
+            # Authors starting with * (Markdown bold/italic) must be double-quoted.
+            if author.startswith('*') or _needs_quoting(author):
+                print(f'    - {_yaml_quote(author)}')
             else:
                 print(f"    - {author}")
-        
+
         if 'summary' in pub and pub['summary']:
             print(f"  summary: {pub['summary']}")
         else:
             print("  summary:")
-        
+
         if 'doi' in pub and isinstance(pub['doi'], str) and pub['doi'].startswith('10.'):
             print(f"  doi: {pub['doi']}")
-        
-        if 'url' in pub:
-            print(f"  url: {pub['url']}")
-        
+
+        # Only print url if it is a real URL (not a placeholder like https://doi.org/XX)
+        url = pub.get('url', '')
+        if url and (not url.startswith('https://doi.org/') or url.startswith('https://doi.org/10.')):
+            print(f"  url: {url}")
+
         print(f'  journal: {journal}')
         print(f"  date: {pub['date']}")
-        
-        # Citations - always show if available (even if 0 or -1 for 'no data')
+
+        # Citations — always show if available (even if 0 or -1 for 'no data')
         if 'citations' in pub:
             print(f"  citations: {pub['citations']}")
-        
+
         if 'media_coverage' in pub:
             print("  media_coverage:")
-            for url in pub['media_coverage']:
-                print(f"    - '{url}'")
-        
+            for murl in pub['media_coverage']:
+                print(f"    - '{murl}'")
+
         print()
 
 
