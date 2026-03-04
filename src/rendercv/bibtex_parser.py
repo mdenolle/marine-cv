@@ -38,7 +38,7 @@ def parse_bibtex_file(bib_file: str) -> List[Dict]:
             'pages': entry.get('pages', ''),
             'doi': entry.get('doi', ''),
             'url': entry.get('url', ''),
-            'note': entry.get('note', ''),
+            'note': entry.get('note') or entry.get('notes', ''),  # handle both 'note' and 'notes' fields
             'entry_type': entry.get('ENTRYTYPE', 'article')
         }
         publications.append(pub)
@@ -60,67 +60,89 @@ def clean_bibtex_string(s: str) -> str:
     """
     # Remove outer curly braces
     s = re.sub(r'^\{(.*)\}$', r'\1', s)
+    # Handle accented characters with curly-brace notation {\"X} before other cleanup
+    umlaut_map = {'a': 'ä', 'e': 'ë', 'i': 'ï', 'o': 'ö', 'u': 'ü',
+                  'A': 'Ä', 'E': 'Ë', 'I': 'Ï', 'O': 'Ö', 'U': 'Ü'}
+    s = re.sub(r'\{\\\"(?:\\)?([aeiouAEIOUi])\}', lambda m: umlaut_map.get(m.group(1), m.group(0)), s)
+    acute_map = {'a': 'á', 'e': 'é', 'i': 'í', 'o': 'ó', 'u': 'ú', 'y': 'ý',
+                 'A': 'Á', 'E': 'É', 'I': 'Í', 'O': 'Ó', 'U': 'Ú', 'Y': 'Ý'}
+    s = re.sub(r"\{\\'([aeiouyAEIOUY])\}", lambda m: acute_map.get(m.group(1), m.group(0)), s)
     # Remove LaTeX commands like \textit, \textbf, etc.
     s = re.sub(r'\\text[a-z]+\{([^}]*)\}', r'\1', s)
     # Remove other common LaTeX commands
     s = re.sub(r'\\[a-z]+\{([^}]*)\}', r'\1', s)
     # Handle special characters
-    # bibtexparser returns \\' sequences, but Python literals use \'
-    s = s.replace("\\'e", 'é').replace('\\\'e', 'é').replace("\\'a", 'á').replace("\\'E", 'É')
+    # bibtexparser returns \\' sequences, but Python literals use \'    
+    s = s.replace("\\'e", 'é').replace("\\'\'e", 'é').replace("\\'a", 'á').replace("\\'E", 'É')
     s = s.replace('\\"o', 'ö').replace('\\"u', 'ü').replace('\\"O', 'Ö').replace('\\"U', 'Ü')
+    s = s.replace('\\"i', 'ï').replace('\\"e', 'ë').replace('\\"I', 'Ï').replace('\\"E', 'Ë')
     s = s.replace('\\~n', 'ñ').replace('\\~N', 'Ñ')
     s = s.replace('\\"a', 'ä').replace('\\"A', 'Ä')
-    s = s.replace("\\`e", 'è').replace('\\`a', 'à')
+    s = s.replace("\\'`e", 'è').replace("\\'`a", 'à')
     s = s.replace('\\^e', 'ê').replace('\\^a', 'â')
     s = s.replace('\\c{c}', 'ç').replace('\\c{C}', 'Ç')
+    # Remove remaining curly braces left over from LaTeX grouping
+    s = s.replace('{', '').replace('}', '')
     # Remove any remaining single backslashes before letters (but keep escaped quotes)
     s = re.sub(r'\\([a-zA-Z])', r'\1', s)
     return s.strip()
 
 
 def format_authors_as_list(authors: List[str], group_members: Optional[List[str]] = None) -> List[str]:
-    """Format author list with group member tagging, returning a list.
-    
+    """Format author list with Markdown bold/italic highlighting, returning a list.
+
+    Formatting rules:
+        - Marine Denolle (PI) → **First Last** (bold)
+        - Group members / mentees → *First Last* (italic)
+        - All other co-authors → First Last (plain)
+
     Args:
         authors: List of author strings from BibTeX (in "Last, First" format)
-        group_members: List of group member last names to mark with asterisk
-        
+        group_members: List of mentee full names for italic tagging
+
     Returns:
-        List of formatted author names with group members marked with asterisk
+        List of formatted author names with Markdown bold/italic applied
     """
     if not authors:
         return []
-    
+
     formatted = []
     for author in authors:
         # Clean up author name
         author = clean_bibtex_string(author.strip())
-        
+
         # Skip empty authors
         if not author:
             continue
-        
+
         # Parse "Last, First" format to "First Last"
         if ', ' in author:
             parts = author.split(', ', 1)
             if len(parts) == 2:
                 author = f"{parts[1]} {parts[0]}"
-        
-        # Check if this is a group member
+
+        author_lower = author.lower()
+
+        # PI: always bold
+        if 'denolle' in author_lower:
+            formatted.append(f'**{author}**')
+            continue
+
+        # Mentees: italic — use word-boundary matching to avoid short names like
+        # "Ni" or "Ma" matching inside words like "veronica" or "ilma".
         is_group_member = False
         if group_members:
             for member in group_members:
-                # Match last name (simple heuristic)
-                if member.split()[-1].lower() in author.lower():
+                last = re.escape(member.split()[-1].lower())
+                if re.search(r'\b' + last + r'\b', author_lower):
                     is_group_member = True
                     break
-        
-        # Add asterisk for group members
+
         if is_group_member:
-            formatted.append(f'{author}*')
+            formatted.append(f'*{author}*')
         else:
             formatted.append(author)
-    
+
     return formatted
 
 
@@ -159,30 +181,23 @@ def extract_urls_from_note(note: str) -> List[str]:
     """
     if not note:
         return []
-    
-    # Match \url{URL} or standalone http(s)://URL
-    # Pattern captures URLs inside \url{} and standalone URLs
-    pattern = r'\\url\{([^}]+)\}|https?://[^\s,;\}\]]+'
-    
+
+    # Two capturing groups: (1) inside \url{...}, (2) bare https?://... URL.
+    # re.findall with groups returns (group1, group2) tuples for each match.
+    pattern = r'\\url\{([^}]+)\}|(https?://[^\s,;\}\]]+)'
+
     matches = re.findall(pattern, note)
-    
-    # Flatten tuples from alternation groups
-    # re.findall with groups returns tuples when using |,
-    # so we need to extract the non-empty match
+
     urls = []
     for match in matches:
         if isinstance(match, tuple):
-            # Get the non-empty group from the alternation
-            url = (
-                match[0] if match[0]
-                else match[1] if len(match) > 1
-                else ''
-            )
+            # match = (\url{} captured content, bare URL captured content)
+            url = match[0] if match[0] else match[1]
         else:
             url = match
         if url.strip():
             urls.append(url.strip())
-    
+
     return urls
 
 
@@ -333,16 +348,23 @@ def extract_group_member_publications(
         return json.dumps(group_pubs, indent=2)
 
 
-# Default group members for Marine Denolle's CV
+# Default group members (mentees) for Marine Denolle's CV.
+# Names are sourced from phd_advisees.yaml, postdocs.yaml,
+# undergraduate_students.yaml, and other_graduate_student_supervision.yaml.
+# Both accented and ASCII variants are included where bib entries vary.
 DEFAULT_GROUP_MEMBERS = [
-    'Yiyu Ni',
-    'Manuela Kopefli', 
-    'Akash Kharita',
+    # PhD Advisees — UW (current)
     'Michael Hemmett',
+    'Manuela Koepfli',
+    'Manuela Köpfli',    # accent variant used in bib entries
+    'Akash Kharita',
+    'Yiyu Ni',
+    # PhD Advisees — Harvard (graduated)
     'Congcong Yuan',
     'Stephanie Olinger',
     'Tim Clements',
     'Jiuxun Yin',
+    # Postdoctoral researchers
     'Qibin Shi',
     'Kuan-Fu Feng',
     'Ethan Williams',
@@ -351,15 +373,25 @@ DEFAULT_GROUP_MEMBERS = [
     'Kurama Okubo',
     'Zhitu Ma',
     'Chengxin Jiang',
+    'Chris Van Houtte',
     'Loïc Viens',
-    'Chengxin Jiang',
-    'Pierre Danré',
+    # Undergraduate students (those with publications)
     'Jared Bryan',
     'Julian Schmitt',
-    'Francesca Skene',
     'Albert Aguilar',
-    'Chris Van Houtte',
-    'Thibaud Perol'
+    'Francesca Skene',
+    # Other graduate student supervision
+    'Natasha Toghramadjian',
+    'Zhuo Yang',
+    'Thibault Pérol',
+    'Thibault Perol',    # ASCII variant
+    'Philippe Danré',
+    'Pierre Danré',      # alternative first-name variant
+    'Maleen Kidiwela',
+    'Zoe Krauss',
+    'Parker Sprinkle',
+    'Manuel Florez',
+    'William Flanagan',
 ]
 
 

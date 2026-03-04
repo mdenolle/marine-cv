@@ -577,16 +577,16 @@ python scripts/generate_publications.py marine-cv-docs/my-publications.bib > tem
 - **Non-invasive**: Only shows citations when data is available (no zeros)
 - **Display format**: "Cited by 450" appears below publication URL
 
-### GitHub & PyPI Statistics Tracking
+### GitHub, PyPI & YouTube Statistics Tracking
 
 - **Comprehensive metrics**: Tracks stars, forks, contributors across all repositories
 - **Multi-account support**: Personal account + lab organizations (Denolle-Lab, noisepy, geo-smart, EarthML4PNW)
 - **PyPI downloads**: Automatic download statistics for Python packages
+- **YouTube analytics**: View counts and video counts across lab channels
 - **Temporal trends**: CSV history file tracks growth over time
-- **Auto-update CV**: Script automatically updates statistics in YAML file
-- **Research impact summary**: Aggregate metrics displayed in CV header
+- **Research impact summary**: All metrics written to `research_impact_summary.yaml` and rendered in the CV header
 - **Per-repository stats**: Individual software entries show current statistics
-- **GitHub Actions**: Monthly automated refresh with built-in token (no setup required)
+- **GitHub Actions**: Monthly automated refresh (no setup required for GitHub/PyPI; YouTube requires one secret)
 
 **Configuration:**
 Edit `GITHUB_ACCOUNTS` in `scripts/fetch_github_stats.py` to add organizations:
@@ -605,15 +605,89 @@ PYPI_PACKAGES = [
 ]
 ```
 
+Edit YouTube channel handles in `scripts/fetch_youtube_stats.py`:
+```python
+CHANNEL_HANDLES = ["your-channel-handle"]
+```
+
 **Manual refresh:**
 ```bash
 python scripts/fetch_github_stats.py --force-refresh
+python scripts/fetch_youtube_stats.py      # requires YOUTUBE_API_KEY env var
 python scripts/update_cv_stats.py
 ```
 
-**Files created:**
-- `marine-cv-docs/github_stats_cache.json` - Latest snapshot (7-day cache)
-- `marine-cv-docs/github_stats_history.csv` - Historical trends for analysis
+**Files created/updated:**
+- `marine-cv-docs/github_stats_cache.json` — Latest GitHub/PyPI snapshot (7-day cache)
+- `marine-cv-docs/github_stats_history.csv` — Historical trends for analysis
+- `marine-cv-docs/youtube_stats_cache.json` — YouTube stats snapshot (7-day cache)
+- `marine-cv-docs/research_impact_summary.yaml` — Auto-generated summary rows (do not edit manually)
+- `marine-cv-docs/software.yaml` — Software highlights updated with live star/fork counts
+
+## Monthly Automation (GitHub Actions)
+
+Three scheduled workflows run automatically on the **1st of each month** to keep the CV current.
+
+### Workflows overview
+
+| Workflow file | Schedule | What it does | Secrets needed |
+|---|---|---|---|
+| `update-citations.yml` | 1st @ 2:00 UTC | Fetches Google Scholar citation counts and h-index; writes `citation_cache.json` | none |
+| `update-stats.yml` | 1st @ 3:00 UTC | Fetches GitHub/PyPI/YouTube stats; runs `update_cv_stats.py`; commits updated caches and `research_impact_summary.yaml` | `YOUTUBE_API_KEY` (optional) |
+| `calculate-grants.yml` | on push / manual | Validates grant totals | none |
+
+All workflows can also be triggered manually from **Actions → Run workflow** in the GitHub repository UI.
+
+### Required secrets
+
+Go to **Settings → Secrets and variables → Actions** in your GitHub repository and add:
+
+| Secret name | Required | How to obtain |
+|---|---|---|
+| `YOUTUBE_API_KEY` | Optional but recommended | [Google Cloud Console](https://console.cloud.google.com/) → Enable *YouTube Data API v3* → Create API key |
+
+`GITHUB_TOKEN` is provided automatically by GitHub Actions — no action needed.
+
+### What gets committed each month
+
+After the stats workflow succeeds, a bot commit like `chore: update research impact stats [automated]` appears with these changed files:
+
+```
+marine-cv-docs/github_stats_cache.json       ← GitHub/PyPI raw data
+marine-cv-docs/github_stats_history.csv      ← historical trend data
+marine-cv-docs/youtube_stats_cache.json      ← YouTube view/video counts
+marine-cv-docs/research_impact_summary.yaml  ← all 6 impact summary rows
+marine-cv-docs/software.yaml                 ← NoisePy/mlgeo-book highlights
+```
+
+After the citations workflow succeeds:
+
+```
+marine-cv-docs/citation_cache.json           ← h-index, i10, total citations
+```
+
+### Rendering after automated updates
+
+The workflows commit updated data files but do **not** automatically re-render the PDF. To render after a bot commit, either:
+
+1. **Pull and render locally:**
+   ```bash
+   git pull
+   pixi run -- rendercv render marine-cv-docs/Marine_Denolle_CV.yaml
+   ```
+
+2. **Add a render step** to the stats workflow (requires LaTeX installed on the runner — see [Dockerfile](Dockerfile) for the image).
+
+### Disabling or adjusting the schedule
+
+Edit the `cron` expression in the workflow file. For example, to run on the 15th at noon UTC:
+```yaml
+- cron: '0 12 15 * *'
+```
+
+To disable a workflow without deleting it, add `# ` before the `- cron:` line.
+
+---
 
 ## Troubleshooting
 

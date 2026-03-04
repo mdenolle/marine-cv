@@ -1,0 +1,70 @@
+name: Validate Publications Pipeline
+
+on:
+  push:
+    paths:
+      - marine-cv-docs/denolle-pub.bib
+      - marine-cv-docs/citation_cache.json
+      - scripts/generate_publications.py
+      - src/rendercv/bibtex_parser.py
+      - tests/scripts/test_generate_publications.py
+      - .github/workflows/validate-publications.yml
+  pull_request:
+    paths:
+      - marine-cv-docs/denolle-pub.bib
+      - marine-cv-docs/citation_cache.json
+      - scripts/generate_publications.py
+      - src/rendercv/bibtex_parser.py
+      - tests/scripts/test_generate_publications.py
+      - .github/workflows/validate-publications.yml
+  workflow_dispatch:
+
+jobs:
+  validate-publications:
+    name: Validate BibTeX generation (cache-only)
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install project dependencies
+        run: uv sync --frozen --all-extras
+
+      - name: Run publication generator tests
+        run: uv run --frozen pytest tests/scripts/test_generate_publications.py -q
+
+      - name: Regenerate publications section from BibTeX
+        run: |
+          uv run --frozen python scripts/generate_publications.py > marine-cv-docs/publications_section.yaml
+
+      - name: Verify generated publications_section.yaml is valid YAML array
+        run: |
+          uv run --frozen python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          path = Path("marine-cv-docs/publications_section.yaml")
+          data = yaml.safe_load(path.read_text(encoding="utf-8"))
+          assert isinstance(data, list), "publications_section.yaml must be a YAML list"
+          assert len(data) > 0, "publications_section.yaml should not be empty"
+          required = {"title", "authors", "journal", "date"}
+          missing = required - set(data[0].keys())
+          assert not missing, f"first publication missing fields: {sorted(missing)}"
+          print(f"Validated {len(data)} publications")
+          PY
+
+      - name: Ensure no placeholder DOI values
+        run: |
+          if grep -q "doi: XX" marine-cv-docs/publications_section.yaml; then
+            echo "Found invalid placeholder DOI values (doi: XX)."
+            exit 1
+          fi
+
+      - name: Ensure generated file is committed
+        run: |
+          git diff --exit-code -- marine-cv-docs/publications_section.yaml

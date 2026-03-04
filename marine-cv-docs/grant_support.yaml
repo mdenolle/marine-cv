@@ -1,29 +1,104 @@
-grant_support:
-  - label: 'Total Grant Support'
-    details: 'Over $5M total; $2.2M dedicated to PI research; >$2M brought to UW'
-  - label: 'NSF CS4All: Separating the Signal from the Noise: Promoting Alaskan students inquiry with geographically relevant seismic data and machine learning techniques'
-    date: '2025'
-    amount:
-    details: '$500,000 -- CS4All project (co-PI)'
-  - label: 'NSF CAIG (2025)'
-    details: '$735,074 -- AI-Enhanced Modeling of Wildfire Geohazards (co-PI)'
-  - label: 'NSF (2025)'
-    details: '$880,490 -- Multi-span DAS on Ocean Observatories Initiative (co-PI)'
-  - label: 'NSF (2023)'
-    details: '$226,022 -- Alaska-Aleutian subduction zone DAS analysis (PI)'
-  - label: 'IRIS-DMC (2023)'
-    details: '$98,239 -- Near-real-time shallow tomography with DAS (PI)'
-  - label: 'Murdock Trust (2021)'
-    details: '$950,000 -- UW FiberLab equipment (co-I)'
-  - label: 'NSF CyberTraining (2021)'
-    details: '$995,817 -- GeoSMART ML workforce development (co-PI)'
-  - label: 'NSF SCOPED (2021)'
-    details: '$660,591 -- Seismic Computational Platform (PI, lead-PI Carl Tape)'
-  - label: 'NSF CAREER (2018)'
-    details: '$504,315 -- Dynamics of surface rupturing thrust earthquakes (PI)'
-  - label: 'David and Lucile Packard Foundation (2017)'
-    details: '$875,000 -- Fellowship (PI)'
-  - label: 'NSF PREEVENTS (2017)'
-    details: '$324,495 -- Cascadia Scenario Earthquakes (PI)'
-  - label: 'Multiple SCEC grants'
-    details: '$20,000-$35,000 each -- Various basic research projects (2015-2020)'
+# Grants and Funding
+# Using EducationEntry format: institution=sponsor, area=grant details, date/start_date/end_date=years
+# This enables date display in left sidebar
+
+- institution: 'Jerry and Linda Paros'
+  area: 'Mult-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountaineous regions: $750,000 (lead PI'
+  date: 2025
+  
+- institution: 'UW CRESST - FFST'
+  area: 'Toward Predictive Understanding of Climate-Compounded Geohazards: $300,000 (lead PI'
+  date: 2025
+
+- institution: 'NSF  CS4All'
+  area: 'Separating the Signal from the Noise: Promoting Alaskan students inquiry with geographically relevant seismic data and machine learning techniques: $889,766 (lead PI Lore, Denolle co-PI, $62,000 to UW), DRL-2524060'
+  date: 2025
+
+- institution: 'NSF RISE CAIG'
+  area: 'Collaborative Research: CAIG: Framework for Artificial Intelligence-Enhanced Modeling of Wildfire Geohazards (FAIM-WG): Applications for postfire debris flows across the Western US: $735,074 (lead PI Istanbulluoglu, Denolle co-PI), RISE-2530591'
+  date: 2025
+
+- institution: 'NSF OCE'
+  area: 'Multi-span distributed fiber sensing on the Ocean Observatories Initiative Regional Cabled Array: $880,490 (lead PI Wilcock, Denolle co-PI), OCE-2526198, technology development grant.'
+  date: 2025
+
+- institution: 'NSF OCE'
+  area: 'EXTension on the ENDeavour Segment (EXTEND): Illuminating the seafloor spreading cycle: $785,819.00 (lead PI Wilcock, Denolle co-PI), OCE-2439442'
+  date: 2025
+
+- institution: 'NSF EAR'
+  area: 'Collaborative Research: A seismic investigation of slow slip and fault locking along the Alaska-Aleutian subduction zone: $248,835.00 (Denolle co-PI, collaborative with lead PI Golos), EAR-2346079'
+  date: 2024
+
+- institution: 'NSF OCE'
+  area: 'RAPID: Multiplexed Distributed Acoustic Sensing (DAS) at the Ocean Observatory Initiative (OOI) Regional Cabled Array (RCA): $198,069.00 (lead PI Wilcock, Denolle co-PI), OCE-2415521'
+  date: 2023
+
+- institution: 'Ecole Normal Supérieure de Paris'
+  area: 'Travel Fellowship: $3,500 (Denolle PI)'
+  date: 2023
+
+- institution: 'SCEC'
+  area: 'CyberTraining for Seismology: Data Science and HPC: $35,229 (Denolle PI)'
+  date: 2023
+
+- institution: 'David and Lucile Packard Foundation'
+  area: 'URG Program: $50,000 (PI)'
+  date: 2021
+
+- institution: 'Murdock Charitable Trust Fund'
+  area: 'UW FiberLab equipment: $950,000 (co-PI, lead PI Brad Lipovsky). Built facility for Fiber Sensing.'
+  date: 2021
+
+- institution: 'NSF CyberTraining'
+  area: 'GeoSMART ML workforce development: $995,817 (co-PI). Build a course MLGEO.'
+  date: 2021
+
+- institution: 'NSF OAC-CSSI'
+  area: 'Collaborative Research: Frameworks: Seismic COmputational Platform for Empowering Discovery (SCOPED): $717,441.00 (Denolle PI, lead-PI Carl Tape), OAC-2103701'
+  date: 2021
+
+- institution: 'NSF EAR, PREEVENTS'
+  area: 'Collaborative Research: Cross-Validation of Empirical and Physics-based ground motion predictions: $167,804.00 (Denolle PI), EAR-2125337'
+  date: 2021
+
+
+- institution: 'SCEC grant'
+  area: 'Aftershock patterns and co-seismic off-fault damage elucidate dynamic rupture processes on the 2019 Ridgecrest earthquake sequence: $33,307 (Denolle PI) - returned'
+  date: 2020
+
+- institution: 'Harvard University - David Rockefeller Center for Latin American Studies'
+  area: 'Monitoring Seismic Hazards in Mexico City using Grillo, a Low-Cost Earthquake Early Warning System, Hardware, $85,000 (Denolle PI)'
+  date: 2019
+
+- institution: 'Harvard Data Science Initiative'
+  area: 'Ambient-noise seismology using Cloud Computing: $27,210 (Denolle PI)'
+  date: 2019
+
+- institution: 'NSF EAR, CAREER'
+  area: 'CAREER: Dynamics of surface rupturing thrust earthquakes: $504,315 (PI)'
+  date: 2018
+
+- institution: 'SCEC grant'
+  area: 'Data Collection for Virtual Earthquakes on Cajon Pass: $28,085 (Denolle PI) - field work'
+  date: 2018
+
+- institution: 'David and Lucile Packard Foundation'
+  area: 'Fellowship: $875,000 (PI)'
+  date: 2017
+
+- institution: 'NSF PREEVENTS'
+  area: 'Collaborative Proposal - PREEVENTS Track 2: Cascadia Scenario Earthquakes: Source, Path, and implications for Earthquake Early Warning: $324,495.00 (Denolle PI, collaborative with lead PI Yihe Huang and Amanda Thomas), EAR-1739712'
+  date: 2017
+
+- institution: 'SCEC grant'
+  area: 'Static and dynamic source parameters of global strike-slip earthquakes: $25,000 (Denolle PI)'
+  date: 2017
+
+- institution: 'SCEC grant'
+  area: 'Epistemic uncertainties in ground motion prediction from virtual earthquakes: $26,173 (Denolle PI)'
+  date: 2016
+
+- institution: 'SCEC grant'
+  area: 'Basin Response to Virtual Earthquakes on the San Jacinto Fault and the Itoigawa-Shizuoka Fault: $20,000 (Denolle PI)'
+  date: 2015

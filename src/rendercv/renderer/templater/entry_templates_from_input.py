@@ -138,6 +138,9 @@ def render_entry_templates[EntryType: Entry](
             journal = entry_fields["JOURNAL"]
             doi = entry_fields["DOI"]
             entry_fields["JOURNAL_WITH_DOI"] = f"{journal}, {doi}"
+    elif "JOURNAL" in entry_fields:
+        # No DOI available: JOURNAL_WITH_DOI falls back to journal name only
+        entry_fields["JOURNAL_WITH_DOI"] = entry_fields["JOURNAL"]
 
     if "SUMMARY" in entry_fields:
         entry_fields["SUMMARY"] = process_summary(entry_fields["SUMMARY"])

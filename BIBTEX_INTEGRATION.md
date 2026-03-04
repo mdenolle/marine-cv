@@ -8,20 +8,24 @@ This directory contains tools for automatically generating the publications sect
 
 2. **Regenerate publications YAML**:
    ```bash
-   python scripts/generate_publications.py > marine-cv-docs/temp_publications.yaml
+    python scripts/generate_publications.py > marine-cv-docs/publications_section.yaml
    ```
 
-3. **Review and update main CV**: Copy the generated publications section into `Marine_Denolle_CV.yaml`
+3. **Render CV** (publications are included automatically from `publications_section.yaml`):
+    ```bash
+    pixi run -- rendercv render marine-cv-docs/Marine_Denolle_CV.yaml
+    ```
 
-4. **Render CV**:
+4. **Optional: refresh citations cache before generation**:
    ```bash
-   rendercv render marine-cv-docs/Marine_Denolle_CV.yaml
+    python scripts/fetch_citations.py --force-refresh
    ```
 
 ## Files
 
 - `marine-cv-docs/denolle-pub.bib` - BibTeX file with all publications
-- `marine-cv-docs/Marine_Denolle_CV.yaml` - Main CV YAML file
+- `marine-cv-docs/Marine_Denolle_CV.yaml` - Main CV YAML file (contains `publications: !include publications_section.yaml`)
+- `marine-cv-docs/publications_section.yaml` - Auto-generated publications entries file
 - `src/rendercv/bibtex_parser.py` - BibTeX parser module
 - `scripts/generate_publications.py` - Script to generate publications YAML
 

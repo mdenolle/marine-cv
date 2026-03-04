@@ -1,0 +1,107 @@
+name: Calculate Grant Totals
+
+on:
+  push:
+    paths:
+      - 'marine-cv-docs/grant_support.yaml'
+  pull_request:
+    paths:
+      - 'marine-cv-docs/grant_support.yaml'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  calculate-grants:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+      
+      - name: Calculate grant totals
+        id: grants
+        run: |
+          echo "## Grant Funding Analysis" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Run the script and capture output
+          python scripts/calculate_grant_totals.py > grant_output.txt
+          
+          # Extract key metrics
+          LEAD_PI_TOTAL=$(grep "Lead PI Total:" grant_output.txt | awk '{print $4}')
+          COPI_TOTAL=$(grep "Co-PI/Co-I Total:" grant_output.txt | awk '{print $3}')
+          GRAND_TOTAL=$(grep "Grand Total:" grant_output.txt | awk '{print $3}')
+          LEAD_PI_COUNT=$(grep "Lead PI Total:" grant_output.txt -A 3 | grep "Number of Grants:" | awk '{print $4}')
+          COPI_COUNT=$(grep "Co-PI/Co-I Total:" grant_output.txt -A 3 | grep "Number of Grants:" | awk '{print $4}')
+          
+          # Add summary
+          echo "### Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Category | Count | Total Amount |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|--------------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Lead PI Grants** | ${LEAD_PI_COUNT} | **${LEAD_PI_TOTAL}** |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Co-PI/Co-I Grants*** | ${COPI_COUNT} | **${COPI_TOTAL}** |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Grand Total** | $((LEAD_PI_COUNT + COPI_COUNT)) | **${GRAND_TOTAL}** |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "_*Co-PI indicates either lead PI on a multi-institution grant or co-PI for a collaborative grant within institutions._" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Detailed Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat grant_output.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          
+          # Set outputs for potential PR comment
+          echo "lead_pi_total=$LEAD_PI_TOTAL" >> $GITHUB_OUTPUT
+          echo "copi_total=$COPI_TOTAL" >> $GITHUB_OUTPUT
+          echo "grand_total=$GRAND_TOTAL" >> $GITHUB_OUTPUT
+      
+      - name: Comment on PR (if applicable)
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const output = fs.readFileSync('grant_output.txt', 'utf8');
+            
+            // Extract totals from output
+            const leadPiMatch = output.match(/Lead PI Total:\s+(\$[\d,]+)/);
+            const copiMatch = output.match(/Co-PI\/Co-I Total:\s+(\$[\d,]+)/);
+            const grandMatch = output.match(/Grand Total:\s+(\$[\d,]+)/);
+            
+            const comment = `## 💰 Grant Funding Analysis
+            
+            Grant totals have been calculated based on changes to \`grant_support.yaml\`:
+            
+            | Category | Total Amount |
+            |----------|--------------|
+            | **Lead PI Grants** | **${leadPiMatch ? leadPiMatch[1] : 'N/A'}** |
+            | **Co-PI/Co-I Grants*** | **${copiMatch ? copiMatch[1] : 'N/A'}** |
+            | **Grand Total** | **${grandMatch ? grandMatch[1] : 'N/A'}** |
+            
+            _*Co-PI indicates either lead PI on a multi-institution grant or co-PI for a collaborative grant within institutions._
+            
+            <details>
+            <summary>📊 View Detailed Report</summary>
+            
+            \`\`\`
+            ${output}
+            \`\`\`
+            
+            </details>
+            `;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

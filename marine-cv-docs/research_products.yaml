@@ -1,0 +1,47 @@
+- institution: 'Machine Learning in the Geosciences (Open-Access Jupyter Book)'
+  area: 'Textbook'
+  start_date: 2021
+  end_date: present
+  summary: '[Book](https://geo-smart.github.io/mlgeo-book/) and [course repository](https://github.com/geo-smart/mlgeo-book) provide graduate-level ML curriculum, asynchronous modules, and homework data pipelines for geoscience training.'
+  highlights:
+    - 'Addresses a core gap: no canonical ML textbook existed for geoscience graduate classrooms.'
+    - 'Adoption and contribution interest from peer programs (including Arizona and Berkeley).'
+    - 'Ongoing community development with curated datasets and reproducible teaching workflows.'
+
+- institution: 'NoisePy'
+  area: 'Software'
+  start_date: 2019
+  end_date: present
+  summary: 'Open-source Python software for large-scale ambient-noise seismology. [GitHub](https://github.com/noisepy/NoisePy).'
+  highlights:
+    - 'Community scale: 207 stars, 83 forks, 19 contributors (Jan 2026).'
+    - 'Operational usage: taught in workshops and used for large-scale cross-correlation workflows.'
+    - 'Open, version-controlled development supporting reproducible and cloud-oriented processing.'
+
+- institution: 'SeisNoise.jl'
+  area: 'Software'
+  start_date: 2020
+  end_date: present
+  summary: 'Open-source Julia software for high-performance ambient-noise processing and cross-correlation. [GitHub](https://github.com/tclements/SeisNoise.jl/).'
+  highlights:
+    - 'Extends the Julia seismology ecosystem with core ambient-noise tooling.'
+    - 'Community signal: 50 stars and 17 forks (Apr 2023 snapshot).'
+    - 'Used by group members for production research workflows.'
+
+- institution: 'EarthML4PNW / PNW AI-Ready Seismic Dataset'
+  area: 'Dataset'
+  date: 2023
+  summary: 'Curated ML-ready Pacific Northwest dataset product. [Dataset repository](https://github.com/EarthML4PNW/PNW-ML).'
+  highlights:
+    - 'Publication link: Seismica (2023), DOI [10.26443/seismica.v2i1.368](https://doi.org/10.26443/seismica.v2i1.368).'
+    - 'Version-controlled release and metadata stewardship through GitHub workflows.'
+    - 'Designed for reproducible benchmarking and graduate-level ML coursework.'
+
+- institution: 'Global Seismic Phase Database'
+  area: 'Dataset'
+  date: 2025
+  summary: 'Global seismic data product from cloud-scale waveform processing. [DOI](https://doi.org/10.26443/seismica.v4i2.1738).'
+  highlights:
+    - 'Scale: 4.3 billion phase picks from 1.3 PB of continuous seismic data.'
+    - 'Publication link: Seismica (2025) with DOI-backed archival record.'
+    - 'Supports global monitoring and data-driven geophysics workflows.'

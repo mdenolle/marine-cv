@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Generate publications section for Marine_Denolle_CV.yaml from BibTeX file.
+"""Generate publications section entries from BibTeX file.
 
 This script parses denolle-pub.bib and generates a YAML-formatted publications
 section with group member tagging and media coverage links.
 
 Usage:
-    python scripts/generate_publications.py > publications.yaml
+    python scripts/generate_publications.py > marine-cv-docs/publications_section.yaml
 """
 
 import sys
@@ -60,11 +60,12 @@ def main():
     from rendercv.bibtex_parser import add_citations_to_publications
     publications = add_citations_to_publications(publications)
     
-    # Generate YAML
-    print("    publications:")
-    print("      # AUTO-GENERATED from denolle-pub.bib using scripts/generate_publications.py")
-    print(f"      # {len(publications)} publications with group member tagging (*)")
-    print("      # Citations marked with -1 indicate 'no data available'")
+    # Generate YAML array entries for direct section include
+    print("# AUTO-GENERATED from denolle-pub.bib using scripts/generate_publications.py")
+    print(f"# {len(publications)} publications")
+    print("# Author formatting: **Bold** = Marine A. Denolle (PI); *Italic* = mentored students/postdocs")
+    print("# See publications_legend section in Marine_Denolle_CV.yaml for the rendered legend.")
+    print("# Citations marked with -1 indicate 'no data available'")
     print()
     
     for pub in publications:
@@ -82,33 +83,39 @@ def main():
         if needs_quotes_journal:
             journal = f'"{journal}"'
         
-        print(f'      - title: {title}')
-        print("        authors:")
+        print(f'- title: {title}')
+        print("  authors:")
         for author in pub['authors']:
-            print(f"          - {author}")
+            # Authors starting with * (Markdown bold/italic) must be double-quoted in YAML.
+            # Escape backslashes first, then double-quotes, to produce valid YAML.
+            if author.startswith('*'):
+                safe = author.replace('\\', '\\\\').replace('"', '\\"')
+                print(f'    - "{safe}"')
+            else:
+                print(f"    - {author}")
         
         if 'summary' in pub and pub['summary']:
-            print(f"        summary: {pub['summary']}")
+            print(f"  summary: {pub['summary']}")
         else:
-            print("        summary:")
+            print("  summary:")
         
-        if 'doi' in pub:
-            print(f"        doi: {pub['doi']}")
+        if 'doi' in pub and isinstance(pub['doi'], str) and pub['doi'].startswith('10.'):
+            print(f"  doi: {pub['doi']}")
         
         if 'url' in pub:
-            print(f"        url: {pub['url']}")
+            print(f"  url: {pub['url']}")
         
-        print(f'        journal: {journal}')
-        print(f"        date: {pub['date']}")
+        print(f'  journal: {journal}')
+        print(f"  date: {pub['date']}")
         
         # Citations - always show if available (even if 0 or -1 for 'no data')
         if 'citations' in pub:
-            print(f"        citations: {pub['citations']}")
+            print(f"  citations: {pub['citations']}")
         
         if 'media_coverage' in pub:
-            print("        media_coverage:")
+            print("  media_coverage:")
             for url in pub['media_coverage']:
-                print(f"          - '{url}'")
+                print(f"    - '{url}'")
         
         print()
 

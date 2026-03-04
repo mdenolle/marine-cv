@@ -5,11 +5,11 @@
 # ==============================================================================
 cv:
   name: Marine A. Denolle
-  headline: Associate Professor, Earth and Space Sciences
+  headline: Associate Professor, Earth and Space Sciences, University of Washington
   location: Seattle, WA
   email: mdenolle@uw.edu
   phone:
-  website: https://denolle-lab.github.io/
+  website: https://www.denolle.ai
   social_networks:
     - network: GitHub
       username: mdenolle
@@ -19,19 +19,17 @@ cv:
       username: 0000-0002-1610-2250
     - network: Google Scholar
       username: GR8BOxsAAAAJ
+    - network: YouTube
+      username: scoped6259
+    - network: YouTube
+      username: uwgeophysics6888
+  custom_connections:
+    - fontawesome_icon: flask
+      placeholder: denolle-lab.github.io
+      url: https://denolle-lab.github.io/
   
   sections:
-    research_impact_summary:
-      - label: 'Research Citations'
-        details: '3,398 total citations, h-index: 24, i10-index: 45 (Google Scholar)'
-      - label: 'Publications'
-        details: '66 peer-reviewed publications in Science, Nature Physics, AGU Advances, and top geophysics journals'
-      - label: 'Open-Source Software'
-        details: 'NoisePy (75 citations), SeisNoise.jl (26 citations), SeisIO.jl (11 citations)'
-      - label: 'Training Impact'
-        details: '500+ seismologists trained through workshops and courses'
-      - label: 'Data Products'
-        details: 'Global seismic phase database, PNW AI-ready dataset (35 citations)'
+    research_impact_summary: !include research_impact_summary.yaml
     # Phase 1: Core Academic Sections
     education: !include education.yaml
     
@@ -46,6 +44,10 @@ cv:
     # Student Advisees - Organized by level of involvement
     # PhD Advisees (Primary Advisor)
     phd_advisees: !include phd_advisees.yaml
+
+
+    # postdocs
+    postdocs: !include postdocs.yaml
     
     # Other Graduate Student Supervision  
     other_graduate_student_supervision: !include other_graduate_student_supervision.yaml
@@ -76,6 +78,24 @@ cv:
     review_panels: !include review_panels.yaml
     editorial_service: !include editorial_service.yaml
 
+  # Phase 5b: Publications — legend note + entries
+  # Author notation: **Bold** = Marine A. Denolle (PI); *Italic* = mentored students/postdocs.
+    publications_legend:
+      - label: Author Notation
+        details: >-
+          **Bold**: Marine A. Denolle (PI).
+          *Italic*: graduate students, postdocs, and undergraduate students mentored by MD.
+    publications: !include publications_section.yaml
+
+  # Phase 6: Grants & Funding
+    grants: !include grant_support.yaml
+
+  # Phase 7: Research Products (Textbook, Software, Datasets)
+    research_products: !include research_products.yaml
+
+  # Phase 8: invited Talks & Conference Presentations
+    invited_talks: !include invited_talks.yaml
+# 
 # ==============================================================================
 # DESIGN CONFIGURATION
 # Customize the visual appearance of your CV here
@@ -88,6 +108,8 @@ design:
     bottom_margin: 0.7in
     left_margin: 0.3in
     right_margin: 0.7in
+  sections:
+    space_between_regular_entries: 0.6em  # Reduced from default 1.2em for compact layout
   colors:
     # Color scheme matching original LaTeX CV
     name: rgb(128, 0, 0)  # MyRed - name color (dark red)
@@ -96,15 +118,18 @@ design:
     links: rgb(0, 79, 144)  # Hyperlinks (blue)
   typography:
     font_family:
-      body: 'IBM Plex Serif'  # Main text font
-      section_titles: 'IBM Plex Sans'  # Section header font (bold, sans-serif)
+      body: 'Libertinus Serif'  # Main text font (closest to IBM Plex Serif)
+      section_titles: 'Open Sans'  # Section header font (bold, sans-serif, closest to IBM Plex Sans)
     font_size:
       body: 10pt
       section_titles: 1.4em
   templates:
     single_date: YEAR
     education_entry:
-      main_column: "**INSTITUTION**, AREA\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**INSTITUTION** AREA\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: "DATE"
+    publication_entry:
+      main_column: "AUTHORS (DATE). **TITLE**. JOURNAL_WITH_DOI\nMEDIA_COVERAGE"
       date_and_location_column: "DATE"
     experience_entry:
       main_column: "**POSITION**\nSUMMARY\nURL\nHIGHLIGHTS"

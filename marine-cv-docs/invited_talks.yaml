@@ -1,202 +1,275 @@
-invited_talks:
-  - name: Conference Speaker
-    date: '2026'
-    location: WCCM 2026, Munich
-  - name: Conference Speaker
-    date: '2026'
-    location: European Geophysical Union
-  - name: Department Colloquium
-    date: '2026'
-    location: CERI Memphis
-  - name: Plenary Speaker
-    date: '2025'
-    location: SIAM Geoscience Meeting
-  - name: Plenary Speaker
-    date: '2025'
-    location: Workshop on Earthquake Physics and Applications of AI to Tectonic Faulting, Italy
-  - name: Department Colloquium
-    date: '2025'
-    location: Civil Environmental Engineering, University of Washington
-  - name: Short Talk
-    date: '2025'
-    location: Radcliffe Institute of Advanced Studies, on the road
-  - name: Department Colloquium
-    date: '2025'
-    location: Washington University, Saint Louis
-  - name: Department Colloquium
-    date: '2024'
-    location: University of Southern California
-  - name: Department Colloquium
-    date: '2024'
-    location: University of California, Davis
-  - name: Department Colloquium
-    date: '2024'
-    location: Northern Arizona University
-  - name: Invited Conference Talk
-    date: '2024'
-    location: Passive imaging and monitoring in wave physics (Cargese, France)
-  - name: Plenary Speaker
-    date: '2024'
-    location: Statewide California Earthquake Center
-  - name: Séminaire Departemental
-    date: '2023'
-    location: Ecole Normale Supérieure, Paris
-  - name: Data Science Seminar
-    date: '2023'
-    location: eScience Institute, University of Washington
-  - name: Department Colloquium
-    date: '2023'
-    location: Sandia National Lab, GNEM seminar series
-  - name: Invited Conference Talk
-    date: '2022'
-    location: American Geophysical Union (x2)
-  - name: Department Colloquium
-    date: '2022'
-    location: University of New Mexico
-  - name: Seismo Colloquium
-    date: '2021'
-    location: University of Oregon
-  - name: Seismo Colloquium
-    date: '2021'
-    location: U Utah, Seismo Tea
-  - name: Department Colloquium
-    date: '2021'
-    location: University of Wisconsin
-  - name: Department Colloquium
-    date: '2021'
-    location: Colorado School of Mines
-  - name: Invited Conference Talk
-    date: '2021'
-    location: Mexico a traves de los sismos
-  - name: Department Colloquium
-    date: '2020'
-    location: University of Washington
-  - name: Department Colloquium
-    date: '2020'
-    location: UC Berkeley
-  - name: Department Colloquium
-    date: '2019'
-    location: Yale University
-  - name: Seismo Colloquium
-    date: '2019'
-    location: University of Washington, seismolunch
-  - name: Invited Conference Talk
-    date: '2019'
-    location: EGU annual meeting, Vienna
-  - name: Department Colloquium
-    date: '2019'
-    location: Michigan State University
-  - name: Public Lecture
-    date: '2019'
-    location: Victoria University of Wellington, SN Jepson Lecture, New Zealand
-  - name: Department Colloquium
-    date: '2019'
-    location: GNS-Science, New Zealand
-  - name: Department Colloquium
-    date: '2019'
-    location: Stanford University, Department of Geophysics
-  - name: Department Colloquium
-    date: '2019'
-    location: Tufts University, Civil Engineering seminar
-  - name: Department Colloquium
-    date: '2018'
-    location: Brown University
-  - name: Department Colloquium
-    date: '2018'
-    location: Ecole Normale Superieure, Paris
-  - name: Invited Conference Talk
-    date: '2017'
-    location: AGU, New Orleans
-  - name: Department Colloquium
-    date: '2017'
-    location: Columbia University, Lamont Doherty Earth Observatory
-  - name: Public Lecture
-    date: '2016'
-    location: Harvard Museum of Natural History
-  - name: Department Colloquium
-    date: '2016'
-    location: University of Oregon
-  - name: Department Colloquium
-    date: '2016'
-    location: University of New Hampshire, Chapman Colloquium
-  - name: Department Colloquium
-    date: '2016'
-    location: UC Santa Cruz, IGPP seminar
-  - name: Department Colloquium
-    date: '2016'
-    location: Massachusetts Institute of Technology
-  - name: Department Colloquium
-    date: '2015'
-    location: USGS, Menlo Park, Earthquake Hazard Program
-  - name: Department Colloquium
-    date: '2015'
-    location: University of Victoria, BC, Canada
-  - name: Department Colloquium
-    date: '2015'
-    location: Penn State, Geodynamics seminar
-  - name: Department Colloquium
-    date: '2015'
-    location: Harvard, Earth and Planetary Sciences
-  - name: Department Colloquium
-    date: '2015'
-    location: UT Austin, Solid Earth seminar
-  - name: Department Colloquium
-    date: '2015'
-    location: UCLA, seismology/tectonics seminar
-  - name: Invited Conference Talk
-    date: '2015'
-    location: HOKUDAN International Symposium on Active Faulting, Awaji, Japan
-  - name: Invited Conference Talk
-    date: '2015'
-    location: Information Theory and Applications workshop, La Jolla
-  - name: Department Colloquium
-    date: '2015'
-    location: IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar
-  - name: Department Colloquium
-    date: '2015'
-    location: University of Southern California, Geophysics seminar
-  - name: Invited Conference Talk
-    date: '2014'
-    location: Strong Motion Studies for Future Mega-Quakes, DPRI, Kyoto University, Japan
-  - name: Invited Conference Talk
-    date: '2014'
-    location: AGU-SEG Summer Research workshop, Vancouver, Canada
-  - name: Department Colloquium
-    date: '2014'
-    location: San Diego State University
-  - name: Department Colloquium
-    date: '2014'
-    location: UC Santa Barbara
-  - name: Department Colloquium
-    date: '2014'
-    location: IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar
-  - name: Invited Conference Talk
-    date: '2013'
-    location: AGU, Meeting of the Americas, Cancun, Mexico
-  - name: Department Colloquium
-    date: '2013'
-    location: Caltech Seismo Lab
-  - name: Department Colloquium
-    date: '2013'
-    location: USGS, Menlo Park
-  - name: Department Colloquium
-    date: '2013'
-    location: Stanford ICME seminar
-  - name: Department Colloquium
-    date: '2013'
-    location: Earthquake Research Institute, Tokyo University, Japan
-  - name: Department Colloquium
-    date: '2013'
-    location: Advanced Industrial Science and Technology, Japan
-  - name: Department Colloquium
-    date: '2013'
-    location: Disaster Prevention Research Institute, Japan
-  - name: Invited Conference Talk
-    date: '2012'
-    location: ACOUSTICS, France
-  - name: Department Colloquium
-    date: '2012'
-    location: Berkeley Seismo Lab
-  - name: Department Colloquium
-    date: '2011'
-    location: Institut de Physique du Globe de Paris, Earthquake seminar
+# Invited Talks and Conference Presentations
+# Using EducationEntry format: institution=venue (bold), area=talk type, date=year
+# This enables year display in left sidebar
+
+- institution: 'NGF Science Meeting'
+  area: 'Conference Speaker'
+  date: '2026'
+
+- institution: 'WCCM 2026, Munich'
+  area: 'Conference Speaker'
+  date: '2026'
+
+- institution: 'European Geophysical Union'
+  area: 'Conference Speaker'
+  date: '2026'
+
+- institution: 'CERI Memphis'
+  area: 'Department Colloquium'
+  date: '2026'
+
+- institution: 'SIAM Geoscience Meeting'
+  area: 'Plenary Speaker'
+  date: '2025'
+
+- institution: 'Workshop on Earthquake Physics and Applications of AI to Tectonic Faulting, Italy'
+  area: 'Plenary Speaker'
+  date: '2025'
+
+- institution: 'Civil Environmental Engineering, University of Washington'
+  area: 'Department Colloquium'
+  date: '2025'
+
+- institution: 'Radcliffe Institute of Advanced Studies, on the road'
+  area: 'Short Talk'
+  date: '2025'
+
+- institution: 'Washington University, Saint Louis'
+  area: 'Department Colloquium'
+  date: '2025'
+
+- institution: 'University of Southern California'
+  area: 'Department Colloquium'
+  date: '2024'
+
+- institution: 'University of California, Davis'
+  area: 'Department Colloquium'
+  date: '2024'
+
+- institution: 'Northern Arizona University'
+  area: 'Department Colloquium'
+  date: '2024'
+
+- institution: 'Passive imaging and monitoring in wave physics (Cargese, France)'
+  area: 'Invited Conference Talk'
+  date: '2024'
+
+- institution: 'Statewide California Earthquake Center'
+  area: 'Plenary Speaker'
+  date: '2024'
+
+- institution: 'Ecole Normale Supérieure, Paris'
+  area: 'Séminaire Departemental'
+  date: '2023'
+
+- institution: 'eScience Institute, University of Washington'
+  area: 'Data Science Seminar'
+  date: '2023'
+
+- institution: 'Sandia National Lab, GNEM seminar series'
+  area: 'Department Colloquium'
+  date: '2023'
+
+- institution: 'American Geophysical Union (x2)'
+  area: 'Invited Conference Talk'
+  date: '2022'
+
+- institution: 'University of New Mexico'
+  area: 'Department Colloquium'
+  date: '2022'
+
+- institution: 'University of Oregon'
+  area: 'Seismo Colloquium'
+  date: '2021'
+
+- institution: 'U Utah, Seismo Tea'
+  area: 'Seismo Colloquium'
+  date: '2021'
+
+- institution: 'University of Wisconsin'
+  area: 'Department Colloquium'
+  date: '2021'
+
+- institution: 'Colorado School of Mines'
+  area: 'Department Colloquium'
+  date: '2021'
+
+- institution: 'Mexico a traves de los sismos'
+  area: 'Invited Conference Talk'
+  date: '2021'
+
+- institution: 'University of Washington'
+  area: 'Department Colloquium'
+  date: '2020'
+
+- institution: 'UC Berkeley'
+  area: 'Department Colloquium'
+  date: '2020'
+
+- institution: 'Yale University'
+  area: 'Department Colloquium'
+  date: '2019'
+
+- institution: 'University of Washington, seismolunch'
+  area: 'Seismo Colloquium'
+  date: '2019'
+
+- institution: 'EGU annual meeting, Vienna'
+  area: 'Invited Conference Talk'
+  date: '2019'
+
+- institution: 'Michigan State University'
+  area: 'Department Colloquium'
+  date: '2019'
+
+- institution: 'Victoria University of Wellington, SN Jepson Lecture, New Zealand'
+  area: 'Public Lecture'
+  date: '2019'
+
+- institution: 'GNS-Science, New Zealand'
+  area: 'Department Colloquium'
+  date: '2019'
+
+- institution: 'Stanford University, Department of Geophysics'
+  area: 'Department Colloquium'
+  date: '2019'
+
+- institution: 'Tufts University, Civil Engineering seminar'
+  area: 'Department Colloquium'
+  date: '2019'
+
+- institution: 'Brown University'
+  area: 'Department Colloquium'
+  date: '2018'
+
+- institution: 'Ecole Normale Superieure, Paris'
+  area: 'Department Colloquium'
+  date: '2018'
+
+- institution: 'AGU, New Orleans'
+  area: 'Invited Conference Talk'
+  date: '2017'
+
+- institution: 'Columbia University, Lamont Doherty Earth Observatory'
+  area: 'Department Colloquium'
+  date: '2017'
+
+- institution: 'Harvard Museum of Natural History'
+  area: 'Public Lecture'
+  date: '2016'
+
+- institution: 'University of Oregon'
+  area: 'Department Colloquium'
+  date: '2016'
+
+- institution: 'University of New Hampshire, Chapman Colloquium'
+  area: 'Department Colloquium'
+  date: '2016'
+
+- institution: 'UC Santa Cruz, IGPP seminar'
+  area: 'Department Colloquium'
+  date: '2016'
+
+- institution: 'Massachusetts Institute of Technology'
+  area: 'Department Colloquium'
+  date: '2016'
+
+- institution: 'USGS, Menlo Park, Earthquake Hazard Program'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'University of Victoria, BC, Canada'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'Penn State, Geodynamics seminar'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'Harvard, Earth and Planetary Sciences'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'UT Austin, Solid Earth seminar'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'UCLA, seismology/tectonics seminar'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'HOKUDAN International Symposium on Active Faulting, Awaji, Japan'
+  area: 'Invited Conference Talk'
+  date: '2015'
+
+- institution: 'Information Theory and Applications workshop, La Jolla'
+  area: 'Invited Conference Talk'
+  date: '2015'
+
+- institution: 'IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'University of Southern California, Geophysics seminar'
+  area: 'Department Colloquium'
+  date: '2015'
+
+- institution: 'Strong Motion Studies for Future Mega-Quakes, DPRI, Kyoto University, Japan'
+  area: 'Invited Conference Talk'
+  date: '2014'
+
+- institution: 'AGU-SEG Summer Research workshop, Vancouver, Canada'
+  area: 'Invited Conference Talk'
+  date: '2014'
+
+- institution: 'San Diego State University'
+  area: 'Department Colloquium'
+  date: '2014'
+
+- institution: 'UC Santa Barbara'
+  area: 'Department Colloquium'
+  date: '2014'
+
+- institution: 'IGPP-Scripps Institution of Oceanography, UCSD, Geophysics seminar'
+  area: 'Department Colloquium'
+  date: '2014'
+
+- institution: 'AGU, Meeting of the Americas, Cancun, Mexico'
+  area: 'Invited Conference Talk'
+  date: '2013'
+
+- institution: 'Caltech Seismo Lab'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'USGS, Menlo Park'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'Stanford ICME seminar'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'Earthquake Research Institute, Tokyo University, Japan'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'Advanced Industrial Science and Technology, Japan'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'Disaster Prevention Research Institute, Japan'
+  area: 'Department Colloquium'
+  date: '2013'
+
+- institution: 'ACOUSTICS, France'
+  area: 'Invited Conference Talk'
+  date: '2012'
+
+- institution: 'Berkeley Seismo Lab'
+  area: 'Department Colloquium'
+  date: '2012'
+
+- institution: 'Institut de Physique du Globe de Paris, Earthquake seminar'
+  area: 'Department Colloquium'
+  date: '2011'
