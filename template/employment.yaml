@@ -1,0 +1,20 @@
+# Employment section — one entry per position.
+# Plain array (no section key) so it works with !include in your CV YAML.
+# See marine-cv-docs/employment.yaml for a complete working example.
+
+- company: University Name
+  position: Associate Professor
+  start_date: 2020-07
+  end_date: present
+  location: City, State
+  summary: Department of Your Field
+  highlights:
+    - Key research theme or responsibility
+    - Notable initiative or role
+
+- company: Previous Institution
+  position: Assistant Professor
+  start_date: 2015-09
+  end_date: 2020-06
+  location: City, State
+  summary: Department of Your Field

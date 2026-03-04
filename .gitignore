@@ -167,6 +167,8 @@ cython_debug/
 
 # RenderCV output
 # rendercv_output/
+# Keep PDF, HTML, MD, Typst — exclude per-page PNG previews (16+ binary files per render)
+marine-cv-docs/rendercv_output/*.png
 
 # Include reference files
 !/tests/testdata/**/*.pdf

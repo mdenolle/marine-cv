@@ -1,0 +1,20 @@
+# Education section — one entry per degree.
+# Plain array (no section key) so it works with !include in your CV YAML.
+# See marine-cv-docs/education.yaml for a complete working example.
+
+- institution: University Name
+  area: Your Field
+  degree: PhD
+  start_date: 2010
+  end_date: 2015
+  location: City, State
+  highlights:
+    - 'Supervisor: Dr. Advisor Name'
+    - Dissertation title or key achievement
+
+- institution: University Name
+  area: Your Field
+  degree: Master of Science
+  start_date: 2008
+  end_date: 2010
+  location: City, State
