@@ -624,19 +624,21 @@ python scripts/update_cv_stats.py
 - `marine-cv-docs/research_impact_summary.yaml` — Auto-generated summary rows (do not edit manually)
 - `marine-cv-docs/software.yaml` — Software highlights updated with live star/fork counts
 
-## Monthly Automation (GitHub Actions)
+## GitHub Actions
 
-Three scheduled workflows run automatically on the **1st of each month** to keep the CV current.
+There are **5 workflows** in this repository — no library tests, no PyPI publishing, no executable builds.
 
 ### Workflows overview
 
-| Workflow file | Schedule | What it does | Secrets needed |
+| Workflow file | Trigger | What it does | Secrets needed |
 |---|---|---|---|
-| `update-citations.yml` | 1st @ 2:00 UTC | Fetches Google Scholar citation counts and h-index; writes `citation_cache.json` | none |
-| `update-stats.yml` | 1st @ 3:00 UTC | Fetches GitHub/PyPI/YouTube stats; runs `update_cv_stats.py`; commits updated caches and `research_impact_summary.yaml` | `YOUTUBE_API_KEY` (optional) |
-| `calculate-grants.yml` | on push / manual | Validates grant totals | none |
+| `deploy-cv.yaml` | push to `main` (CV files changed) or manual | Renders CV to PDF/HTML via `rendercv render`; commits output to `rendercv_output/` | none |
+| `validate-publications.yml` | push/PR when `.bib` or scripts change | Regenerates `publications_section.yaml`, validates YAML structure, checks for placeholder DOIs | none |
+| `update-citations.yml` | 1st of month @ 2:00 UTC or manual | Fetches Google Scholar h-index and citation counts; writes `citation_cache.json` | none |
+| `update-stats.yml` | 1st of month @ 3:00 UTC or manual | Fetches GitHub/PyPI/YouTube stats; writes `research_impact_summary.yaml` and `software.yaml` | `YOUTUBE_API_KEY` (optional) |
+| `calculate-grants.yml` | push when `grant_support.yaml` changes or manual | Parses grant totals and posts Lead PI vs Co-PI breakdown summary | none |
 
-All workflows can also be triggered manually from **Actions → Run workflow** in the GitHub repository UI.
+All workflows can be triggered manually from **Actions → Run workflow** in the GitHub repository UI.
 
 ### Required secrets
 
@@ -648,44 +650,27 @@ Go to **Settings → Secrets and variables → Actions** in your GitHub reposito
 
 `GITHUB_TOKEN` is provided automatically by GitHub Actions — no action needed.
 
-### What gets committed each month
+### Automated commit chain
 
-After the stats workflow succeeds, a bot commit like `chore: update research impact stats [automated]` appears with these changed files:
-
-```
-marine-cv-docs/github_stats_cache.json       ← GitHub/PyPI raw data
-marine-cv-docs/github_stats_history.csv      ← historical trend data
-marine-cv-docs/youtube_stats_cache.json      ← YouTube view/video counts
-marine-cv-docs/research_impact_summary.yaml  ← all 6 impact summary rows
-marine-cv-docs/software.yaml                 ← NoisePy/mlgeo-book highlights
-```
-
-After the citations workflow succeeds:
+Each month, three bot commits appear in sequence:
 
 ```
-marine-cv-docs/citation_cache.json           ← h-index, i10, total citations
+1st @ 2:00 UTC  →  citation_cache.json updated
+1st @ 3:00 UTC  →  research_impact_summary.yaml + software.yaml updated
+                   (stats commit triggers deploy-cv.yaml)
+                →  rendercv_output/ updated with fresh PDF/HTML
 ```
 
-### Rendering after automated updates
-
-The workflows commit updated data files but do **not** automatically re-render the PDF. To render after a bot commit, either:
-
-1. **Pull and render locally:**
-   ```bash
-   git pull
-   pixi run -- rendercv render marine-cv-docs/Marine_Denolle_CV.yaml
-   ```
-
-2. **Add a render step** to the stats workflow (requires LaTeX installed on the runner — see [Dockerfile](Dockerfile) for the image).
+Any push to `marine-cv-docs/**` or `src/rendercv/**` also triggers a fresh render.
 
 ### Disabling or adjusting the schedule
 
-Edit the `cron` expression in the workflow file. For example, to run on the 15th at noon UTC:
+Edit the `cron` expression in the relevant workflow file. For example, to run on the 15th at noon UTC:
 ```yaml
 - cron: '0 12 15 * *'
 ```
 
-To disable a workflow without deleting it, add `# ` before the `- cron:` line.
+To disable a workflow without deleting it, comment out the `- cron:` line.
 
 ---
 
