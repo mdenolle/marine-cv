@@ -93,6 +93,22 @@ def _load_json(path: Path):
         return json.load(f)
 
 
+def _normalize_for_matching(text: str) -> str:
+    """Lowercase and collapse punctuation/whitespace for robust keyword matching."""
+    normalized = re.sub(r"[^a-z0-9]+", " ", text.lower())
+    return re.sub(r"\s+", " ", normalized).strip()
+
+
+def _contains_keyword(text: str, keyword: str) -> bool:
+    """Match a keyword as whole token sequence (avoids substring false positives)."""
+    normalized_text = _normalize_for_matching(text)
+    normalized_keyword = _normalize_for_matching(keyword)
+    if not normalized_text or not normalized_keyword:
+        return False
+    pattern = rf"(?:^| ){re.escape(normalized_keyword).replace(r'\\ ', r'\\s+')}(?: |$)"
+    return re.search(pattern, normalized_text) is not None
+
+
 # ==============================================================================
 # METRIC FUNCTIONS
 # ==============================================================================
@@ -145,10 +161,10 @@ def load_publication_tiers():
             "",
             journal_raw,
         )
-        is_preprint = any(kw in journal_clean for kw in PREPRINT_KEYWORDS)
-        is_review = any(kw in journal_clean for kw in REVIEW_KEYWORDS)
-        is_t1 = any(kw in journal_clean for kw in T1_JOURNALS)
-        is_t2 = any(kw in journal_clean for kw in T2_JOURNALS)
+        is_preprint = any(_contains_keyword(journal_clean, kw) for kw in PREPRINT_KEYWORDS)
+        is_review = any(_contains_keyword(journal_clean, kw) for kw in REVIEW_KEYWORDS)
+        is_t1 = any(_contains_keyword(journal_clean, kw) for kw in T1_JOURNALS)
+        is_t2 = any(_contains_keyword(journal_clean, kw) for kw in T2_JOURNALS)
 
         if is_preprint:
             counts["preprint"] += 1
