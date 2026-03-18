@@ -133,10 +133,22 @@ def load_publication_tiers():
             continue
 
         total += 1
-        is_preprint = any(kw in journal_raw for kw in PREPRINT_KEYWORDS)
-        is_review = any(kw in journal_raw for kw in REVIEW_KEYWORDS)
-        is_t1 = any(kw in journal_raw for kw in T1_JOURNALS)
-        is_t2 = any(kw in journal_raw for kw in T2_JOURNALS)
+        # Explicit article_type field takes priority (review, perspective, etc.)
+        article_type = str(entry.get("article_type", "")).lower()
+        if article_type in ("review", "perspective", "commentary"):
+            counts["review"] += 1
+            continue
+
+        # Strip submission-status prefixes ("in review in X") before keyword matching
+        journal_clean = re.sub(
+            r"^(in review in|in press in|accepted in|preprint on|under review)\s+",
+            "",
+            journal_raw,
+        )
+        is_preprint = any(kw in journal_clean for kw in PREPRINT_KEYWORDS)
+        is_review = any(kw in journal_clean for kw in REVIEW_KEYWORDS)
+        is_t1 = any(kw in journal_clean for kw in T1_JOURNALS)
+        is_t2 = any(kw in journal_clean for kw in T2_JOURNALS)
 
         if is_preprint:
             counts["preprint"] += 1

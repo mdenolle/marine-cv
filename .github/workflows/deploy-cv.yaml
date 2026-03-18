@@ -28,15 +28,36 @@ jobs:
       - name: Install project dependencies
         run: uv sync --frozen --all-extras
 
-      - name: Render CV
+      - name: Render full CV
         run: |
-          uv run --frozen rendercv render marine-cv-docs/Marine_Denolle_CV.yaml
+          uv run --frozen rendercv render \
+            marine-cv-docs/Marine_Denolle_CV.yaml \
+            --typst-path rendercv_output/Marine_Denolle_CV.typ \
+            --pdf-path rendercv_output/Marine_Denolle_CV.pdf \
+            --markdown-path rendercv_output/Marine_Denolle_CV.md \
+            --html-path rendercv_output/Marine_Denolle_CV.html \
+            --png-path rendercv_output/Marine_Denolle_CV.png
+
+      - name: Generate department CV sections
+        run: |
+          uv run --frozen python scripts/generate_dept_sections.py
+
+      - name: Render department CV (College of Environment FAR format)
+        run: |
+          uv run --frozen rendercv render \
+            marine-cv-docs/Marine_Denolle_Dept_CV.yaml \
+            --typst-path rendercv_output/Marine_Denolle_Dept_CV.typ \
+            --pdf-path rendercv_output/Marine_Denolle_Dept_CV.pdf \
+            --markdown-path rendercv_output/Marine_Denolle_Dept_CV.md \
+            --html-path rendercv_output/Marine_Denolle_Dept_CV.html \
+            --png-path rendercv_output/Marine_Denolle_Dept_CV.png
 
       - name: Commit rendered output if changed
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add marine-cv-docs/rendercv_output/
+          git add marine-cv-docs/dept_cv_sections/
           git diff --staged --quiet || (
             git commit -m "chore: render CV [automated]" && git push
           )

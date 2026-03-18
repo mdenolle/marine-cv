@@ -4,23 +4,51 @@
   journal = {in review in Seismica},
   year = {2026},
   doi = {XX}
-},
-
-@article{Kharita26,
-  title={Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest},
-  author={Kharita, Akash and Denolle, Marine and Hutko, Alexander R and Hartog, J Renate and Malone, Stephen D},
-  journal={accepted in Seismica, pre-print on Arxiv},
-  doi = {10.48550/arXiv.2510.23795},
-  year={2025}
 }
+
+@article{Xiao26,
+    author = {Xiao, Han and Tilmann, Frederik and van den Ende, Martijn and Rivet, Diane and Loureiro, Afonso and Tsuji, Takeshi and Ugalde, Arantza and Shi, Qibin and Denolle, Marine A},
+    title = {DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data},
+    journal = {Geophysical Journal International},
+    volume = {245},
+    number = {2},
+    pages = {ggag061},
+    year = {2026},
+    month = {02},
+    abstract = {Given the scarcity of seismometers in marine environments, traditional seismology has limited effectiveness in oceanic regions. Submarine Distributed Acoustic Sensing (DAS) systems offer a promising alternative for seismic monitoring in these areas. However, the existing machine learning model trained on land-based DAS data does not perform well with submarine DAS due to differences in noise characteristics, deployment conditions and environmental factors. This study presents a machine learning approach tailored specifically to submarine DAS data to enable automated seismic event detection and P- and S-wave identification. Leveraging DeepLab v3, a neural network architecture optimized for semantic segmentation, we developed a specialized model to handle the unique challenges of submarine DAS data. Our model was trained and validated on a data set comprising nearly 57 million manually and semi-automatically labelled seismic records from multiple globally distributed submarine sites, providing a robust basis for accurate seismic detection. The model adapts to a variety of deployment scenarios and can process DAS data from cables with different lengths, configurations and channel spacings, making it versatile for various ocean environments. We thus provide an adaptable and efficient tool for automated earthquake analysis of DAS data, which has the potential to enhance real-time earthquake monitoring and tsunami early warning in submarine environments.},
+    issn = {1365-246X},
+    doi = {10.1093/gji/ggag061},
+    url = {https://doi.org/10.1093/gji/ggag061},
+    eprint = {https://academic.oup.com/gji/article-pdf/245/2/ggag061/66817494/ggag061.pdf},
+}
+
+
+@article{Kharita26, 
+title={Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest}, 
+volume={5}, 
+url={https://seismica.library.mcgill.ca/article/view/2068}, 
+DOI={10.26443/seismica.v5i1.2068}, 
+abstractNote={&amp;lt;p class=&amp;quot;p1&amp;quot;&amp;gt;Accurately separating tectonic, anthropogenic, and geomorphologic seismic sources is essential for Pacific Northwest (PNW) monitoring but remains difficult as networks densify and signals overlap. Prior work largely treats binary discrimination and seldom compares classical machine learning (feature-engineered) and deep learning (end-to-end) approaches under a common, multi-class setting with operational constraints. We evaluate methods and features for four-way source discrimination – earthquakes, explosions, surface events, and noise – and identify models that are both accurate and deployable. Using ∼200k three-component waveforms from &amp;amp;gt;70k events in an AI-curated PNW dataset, we test random-forest classifiers on TSFEL, physics-informed, and scattering features, and CNNs that ingest time series (1D) or spectrograms (2D); we benchmark on a balanced common test set, a 10k-event network dataset, and out-of-domain data (global surface events; near-field blasts). CNNs taking spectrograms lead with accuracy performance over 92% for within-domain (as a short-and-fat CNN SeismicCNN 2D) and out-of-domain (as a long and skinny CNN QuakeXNet 2D), versus 89% for the best random forest; performance remains strong at low signal-to-noise ratio (SNR) and longer distances, and generalizes to independent network and global datasets. QuakeXNet (2D) is lightweight (70k parameters; 1.2 MB) and integrated into SeisBench. On commodity hardware, it processes a full day of 100 Hz three-component data in 9 s. These results show spectrogram-based CNNs provide state-of-the-art accuracy, efficiency, and robustness for real-time PNW operations and transferable surface-event monitoring.&amp;lt;/p&amp;gt;}, 
+number={1}, 
+journal={Seismica}, 
+author={Kharita, Akash and Denolle, Marine and Hutko, Alexander and Hartog, Renate and Malone, Stephen}, 
+year={2026}, 
+month={Feb.} }
 
 @article{Townend26,
-  author  = {Townend, John and Del Carmen Juarez-Garfias, Ilma and Pita-Sllim, Olivia and Chamberlain, Calum J. and Warren-Smith, Emily and Holden, Caroline and van Wijk, Kasper and Denolle, Marine and Curtis, Andrew and Miyake, Hiroe},
-  title   = {Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)},
-  journal = {in press in Seismological Research Letters},
-  year    = {2026},
-  doi     = {XX}
+    author = {Townend, John and Juarez‐Garfias, Ilma del Carmen and Pita‐Sllim, Olivia and Chamberlain, Calum J. and Warren‐Smith, Emily and Holden, Caroline and van Wijk, Kasper and Denolle, Marine and Curtis, Andrew and Miyake, Hiroe},
+    title = {Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)},
+    journal = {Seismological Research Letters},
+    year = {2026},
+    month = {02},
+    abstract = {The Alpine fault is a major transpressive plate boundary in southwestern New Zealand known on paleoseismological grounds to produce great (Mw∼8) earthquakes on \&lt;300 yr timescales. The fault is now late in its typical and well‐determined interseismic period, having last ruptured in a great earthquake in 1717 C.E. Between October 2021 and November 2023, the Southern Alps Long Skinny Array (SALSA) consisting of 43 broadband and 4 short‐period seismometers, was installed with ∼10 km interstation spacing along a 450 km stretch of the Alpine fault, between Maruia and Milford Sound/Piopiotahi. SALSA’s geometry was designed to enable the synthesis of virtual earthquakes representing slip at arbitrary points on the Alpine fault as part of research into the range of far‐field ground motions that might result from geologically plausible rupture scenarios. Virtual earthquakes provide a means of evaluating ground motions from a much larger number of kinematic rupture scenarios than is computationally tractable using full‐waveform simulations. In addition to providing closely spaced noise measurements, SALSA has yielded novel recordings of microseismicity and tremor along most of the onshore extent of the Alpine fault and will enable ongoing research into the present‐day state of the fault and future rupture behavior. Here, we describe the rationale for deploying SALSA and present initial results and analysis that illustrate the dataset and indicate avenues for future research.},
+    issn = {0895-0695},
+    doi = {10.1785/0220250260},
+    url = {https://doi.org/10.1785/0220250260},
+    eprint = {https://pubs.geoscienceworld.org/ssa/srl/article-pdf/doi/10.1785/0220250260/7756506/srl-2025260.1.pdf},
 }
+
+
 
 @article{Toghramadjian26,
     author = {Toghramadjian, Natasha and Denolle, Marine A. and Ermert, Laura and Jiang, Chengxin},
@@ -52,7 +80,7 @@
   doi     = {10.48550/arXiv.2509.09821}
 }
 
-@article{https://doi.org/10.1029/2024JB030689,
+@article{Feng26,
 author = {Feng, Kuan-Fu and Denolle, Marine and Lin, Fan-Chi and van Dam, Tonie},
 title = {A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States},
 journal = {Journal of Geophysical Research: Solid Earth},
