@@ -12,9 +12,9 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,398 total (h-index: 24, i10: 45) | 2,291 last-5y (h₅: 22, i10₅: 43) | Google Scholar
+**Research Citations:** 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
 
-**Publications:** 66 peer-reviewed | 3 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 17 domain journals (T3) | 3 reviews/perspectives | 3 preprints
+**Publications:** 68 peer-reviewed | 4 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 2 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
@@ -870,7 +870,27 @@ Harvard University
 
 
 
-## John Townend, Ilma Del Carmen Juarez-Garfias, Olivia Pita-Sllim, Calum J. Chamberlain, Emily Warren-Smith, Caroline Holden, Kasper van Wijk, **Marine Denolle**, Andrew Curtis, Hiroe Miyake (2026). **Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)**. in press in Seismological Research Letters
+## *Maleen Kidiwela*, **Marine A. Denolle**, William S. D. Wilcock, *Kuan-Fu Feng* (2026). **Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia**. Science Advances, 12, [10.1126/sciadv.aea3684](https://doi.org/10.1126/sciadv.aea3684)
+
+2026
+
+Featured in: [Npr](https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep?mkt_tok=MTMxLUFRTy0yMjUAAAGgcXIp-QXzGs0WlB22XUVMoYKPipJCRo8S4n33LPNaUafp1sPhgf2znlMDhypipbORq0-bRqsRe0CwLZW5j3bJrR_BVsSsoMwhzvCfexfE5HUYUjD5), [UW News](https://www.washington.edu/news/2026/02/27/stress-testing-the-cascadia-subduction-zone-reveals-variability-that-could-impact-how-earthquakes-spread/)
+
+
+
+## Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, *Qibin Shi*, **Marine A Denolle** (2026). **DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data**. Geophysical Journal International, 245, [10.1093/gji/ggag061](https://doi.org/10.1093/gji/ggag061)
+
+2026
+
+
+
+## *Akash Kharita*, **Marine Denolle**, Alexander Hutko, Renate Hartog, Stephen Malone (2026). **Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest**. Seismica, 5, [10.26443/seismica.v5i1.2068](https://doi.org/10.26443/seismica.v5i1.2068)
+
+2026
+
+
+
+## John Townend, Ilma del Carmen Juarez‐Garfias, Olivia Pita‐Sllim, Calum J. Chamberlain, Emily Warren‐Smith, Caroline Holden, Kasper van Wijk, **Marine Denolle**, Andrew Curtis, Hiroe Miyake (2026). **Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)**. Seismological Research Letters, [10.1785/0220250260](https://doi.org/10.1785/0220250260)
 
 2026
 
@@ -897,12 +917,6 @@ Harvard University
 ## *Kuan-Fu Feng*, **Marine Denolle**, Fan-Chi Lin, Tonie van Dam (2026). **A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States**. Journal of Geophysical Research: Solid Earth, 131
 
 2026
-
-
-
-## *Akash Kharita*, **Marine Denolle**, Alexander R Hutko, J Renate Hartog, Stephen D Malone (2025). **Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest**. accepted in Seismica, pre-print on Arxiv, [10.48550/arXiv.2510.23795](https://doi.org/10.48550/arXiv.2510.23795)
-
-2025
 
 
 

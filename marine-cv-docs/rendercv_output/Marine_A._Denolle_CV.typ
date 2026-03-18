@@ -77,15 +77,15 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 1,
-    day: 16,
+    month: 3,
+    day: 18,
   ),
 )
 
 
 = Marine A. Denolle
 
-  #headline([Associate Professor, Earth and Space Sciences, University of Washington])
+  #headline([Associate Professor, Earth and Space Sciences, University of Washington | College of Environment CV — reverse chronological order; active\/completed 2023–present appear first])
 
 #connections(
   [#connection-with-icon("location-dot")[Seattle, WA]],
@@ -100,20 +100,6 @@
   [#link("https://denolle-lab.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("flask")[denolle-lab.github.io]]],
 )
 
-
-== Research Impact Summary
-
-#strong[Research Citations:] 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
-
-#strong[Publications:] 68 peer-reviewed | 4 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews\/perspectives | 2 preprints
-
-#strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
-
-#strong[Open-Source Software:] 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads\/yr
-
-#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
-
-#strong[Broader Impact:] 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
 
 == Education
 
@@ -175,18 +161,28 @@
   ],
 )
 
+== Research Impact Summary
+
+#strong[Research Citations:] 3,398 total (h-index: 24, i10: 45) | 2,291 last-5y (h₅: 22, i10₅: 43) | Google Scholar
+
+#strong[Publications:] 66 peer-reviewed | 3 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 17 domain journals (T3) | 3 reviews\/perspectives | 3 preprints
+
+#strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
+
+#strong[Open-Source Software:] 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads\/yr
+
+#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
+
+#strong[Broader Impact:] 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
+
 == Employment
 
 #regular-entry(
   [
-    #strong[Co-Founder]
+    #strong[Co-Founder], Applied Environmental Intelligence -- Seattle
 
   ],
   [
-    Applied Environmental Intelligence
-
-    Seattle
-
     2025 – present
 
   ],
@@ -196,79 +192,63 @@
 
 #regular-entry(
   [
-    #strong[Associate Professor]
-
-    #summary[Department of Earth and Space Sciences]
+    #strong[Associate Professor], University of Washington -- Seattle, WA
 
   ],
   [
-    University of Washington
-
-    Seattle, WA
-
     2024 – present
 
   ],
   main-column-second-row: [
+    #summary[Department of Earth and Space Sciences]
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Assistant Professor]
-
-    #summary[Department of Earth and Space Sciences]
+    #strong[Assistant Professor], University of Washington -- Seattle, WA
 
   ],
   [
-    University of Washington
-
-    Seattle, WA
-
     2021 – 2024
 
   ],
   main-column-second-row: [
+    #summary[Department of Earth and Space Sciences]
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Assistant Professor]
-
-    #summary[Department of Earth and Planetary Sciences]
+    #strong[Assistant Professor], Harvard University -- Cambridge, MA
 
   ],
   [
-    Harvard University
-
-    Cambridge, MA
-
     2016 – 2021
 
   ],
   main-column-second-row: [
+    #summary[Department of Earth and Planetary Sciences]
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Green Postdoctoral Fellow]
-
-    #summary[Institute of Geophysics and Planetary Physics]
-
-    - Supervisor Dr. Peter Shearer
+    #strong[Green Postdoctoral Fellow], UC San Diego, Scripps Institution of Oceanography -- La Jolla, CA
 
   ],
   [
-    UC San Diego, Scripps Institution of Oceanography
-
-    La Jolla, CA
-
     2014 – 2016
 
   ],
   main-column-second-row: [
+    #summary[Institute of Geophysics and Planetary Physics]
+
+    - Supervisor Dr. Peter Shearer
+
   ],
 )
 
@@ -434,22 +414,67 @@
 
 #regular-entry(
   [
-    #strong[Machine Learning in the Geosciences]
-
-    #link("https://geo-smart.github.io/mlgeo-book/")[geo-smart.github.io\/mlgeo-book]
-
-    - Taught Fall 2021, 2022, 2023, 2024
+    #strong[Computational\/Advanced Seismology], ESS 563 -- U of Washington
 
   ],
   [
-    ESS 469\/569
+    2023 - 2025
 
-    U of Washington
+  ],
+  main-column-second-row: [
+    - Taught Spring 2023, 2024, 2025
 
+    - Covers ambient noise seismology, earthquake source characterization
+
+    - Julia and Python programming for high-performance computing
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Introduction to Seismology], ESS 412\/512 -- U of Washington
+
+  ],
+  [
+    2023 - 2026
+
+  ],
+  main-column-second-row: [
+    - Taught Winter 2023, 2025, 2026
+
+    - Covers earthquake physics, seismic waves, and hazard assessment
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Geophysics], ESS 314 -- U of Washington
+
+  ],
+  [
+    2022 - 2026
+
+  ],
+  main-column-second-row: [
+    - Taught 2022, 2023, 2024, 2026
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Machine Learning in the Geosciences], ESS 469\/569 -- U of Washington
+
+  ],
+  [
     2021 - 2024
 
   ],
   main-column-second-row: [
+    - Taught Fall 2021, 2022, 2023, 2024
+
     - Open-access Jupyter Book with asynchronous teaching materials
 
     - Course adopted by University of Arizona and UC Berkeley
@@ -461,165 +486,76 @@
 
 #regular-entry(
   [
-    #strong[Computational\/Advanced Seismology]
-
-    #link("https://denolle-lab.github.io/teaching/ess563/")[denolle-lab.github.io\/teaching\/ess563]
-
-    - Taught Spring 2023, 2024, 2025
+    #strong[Machine Learning in Earth and Planetary Sciences], EPS 268 -- Harvard
 
   ],
   [
-    ESS 563
-
-    U of Washington
-
-    2023 - 2025
-
-  ],
-  main-column-second-row: [
-    - Covers ambient noise seismology, earthquake source characterization
-
-    - Julia and Python programming for high-performance computing
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Introduction to Seismology]
-
-    #link("https://denolle-lab.github.io/teaching/ess412/")[denolle-lab.github.io\/teaching\/ess412]
-
-    - Taught Winter 2023, 2025, 2026
-
-  ],
-  [
-    ESS 412\/512
-
-    U of Washington
-
-    2023 - 2026
-
-  ],
-  main-column-second-row: [
-    - Covers earthquake physics, seismic waves, and hazard assessment
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Geophysics]
-
-    #link("https://github.com/UW-geophysics-edu/ESS314-fall23")[github.com\/UW-geophysics-edu\/ESS314-fall23]
-
-    - Taught 2022, 2023, 2024, 2026
-
-  ],
-  [
-    ESS 314
-
-    U of Washington
-
-    2022 - 2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Machine Learning in Earth and Planetary Sciences]
-
-    - Taught Fall 2019
-
-  ],
-  [
-    EPS 268
-
-    Harvard
-
     2019
 
   ],
   main-column-second-row: [
+    - Taught Fall 2019
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Induced Seismicity]
-
-    - Taught Fall 2018
+    #strong[Induced Seismicity], EPS 268 -- Harvard
 
   ],
   [
-    EPS 268
-
-    Harvard
-
     2018
 
   ],
   main-column-second-row: [
+    - Taught Fall 2018
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Earthquakes and Faulting]
-
-    - Taught Fall 2018, 2020
+    #strong[Earthquakes and Faulting], EPS 203 -- Harvard
 
   ],
   [
-    EPS 203
-
-    Harvard
-
     2018 - 2020
 
   ],
   main-column-second-row: [
+    - Taught Fall 2018, 2020
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Earthquakes and Tectonics]
-
-    - Taught Fall 2017, 2020
+    #strong[Earthquakes and Tectonics], EPS 55 -- Harvard
 
   ],
   [
-    EPS 55
-
-    Harvard
-
     2017 - 2020
 
   ],
   main-column-second-row: [
+    - Taught Fall 2017, 2020
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Earthquake Sources]
-
-    - Taught Spring 2016
+    #strong[Earthquake Sources], EPS 204 -- Harvard
 
   ],
   [
-    EPS 204
-
-    Harvard
-
     2016
 
   ],
   main-column-second-row: [
+    - Taught Spring 2016
+
   ],
 )
 
@@ -627,167 +563,135 @@
 
 #regular-entry(
   [
-    #strong[Michael Hemmett]
-
-    #summary[Offshore geophysics]
+    #strong[Michael Hemmett], PhD Pre-Candidate -- UW ESS
 
   ],
   [
-    PhD Pre-Candidate
-
-    UW ESS
-
     2025 - present
 
   ],
   main-column-second-row: [
+    #summary[Offshore geophysics]
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Manuela Koepfli]
+    #strong[Manuela Koepfli], PhD Candidate -- USS
 
+  ],
+  [
+    2022 - present
+
+  ],
+  main-column-second-row: [
     #summary[Geohazard assessment and early warning systems]
 
     - 1 publication, 1 in review, 1 in prep
 
   ],
-  [
-    PhD Candidate
-
-    USS
-
-    2022 - present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Akash Kharita]
+    #strong[Akash Kharita], PhD Pre-Candidate -- UW ESS
 
+  ],
+  [
+    2022 - present
+
+  ],
+  main-column-second-row: [
     #summary[Geohazard characterization using machine learning]
 
     - 2 publications
 
   ],
-  [
-    PhD Pre-Candidate
-
-    UW ESS
-
-    2022 - present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Yiyu Ni]
+    #strong[Yiyu Ni], PhD Candidate -- UW ESS
 
+  ],
+  [
+    2021 - present
+
+  ],
+  main-column-second-row: [
     #summary[Machine learning and big data seismology]
 
     - 8 publications
 
   ],
-  [
-    PhD Candidate
-
-    UW ESS
-
-    2021 - present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Congcong Yuan]
+    #strong[Congcong Yuan], PhD -- Harvard
 
+  ],
+  [
+    2019 - 2024
+
+  ],
+  main-column-second-row: [
     #summary[Time-dependent seismology, solid-fluid interaction. Next position: Cornell postdoc → Faculty position at NTU Singapore]
 
     - 4 publications
 
   ],
-  [
-    PhD
-
-    Harvard
-
-    2019 - 2024
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Stephanie Olinger]
+    #strong[Stephanie Olinger], PhD -- Harvard
 
+  ],
+  [
+    2018 - 2023
+
+  ],
+  main-column-second-row: [
     #summary[Cryo-seismology (50\% co-advised with Brad Lipovsky). Next position: Stanford Thompson Postdoctoral Fellowship → CEO of AEI]
 
     - 4 publications
 
   ],
-  [
-    PhD
-
-    Harvard
-
-    2018 - 2023
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Tim Clements]
+    #strong[Tim Clements], PhD -- Harvard
 
+  ],
+  [
+    2016 - 2021
+
+  ],
+  main-column-second-row: [
     #summary[Hydro-seismology and big-data seismology. Next position: USGS Mendenhall Postdoc → USGS Research Geophysicist]
 
     - 4 publications
 
   ],
-  [
-    PhD
-
-    Harvard
-
-    2016 - 2021
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Jiuxun Yin]
-
-    #summary[Earthquake seismology and source characterization. Next position: Caltech SCSN Postdoc Fellowship → Schlumberger]
-
-    - 6 publications
+    #strong[Jiuxun Yin], PhD -- Harvard
 
   ],
   [
-    PhD
-
-    Harvard
-
     2016 - 2022
 
   ],
   main-column-second-row: [
+    #summary[Earthquake seismology and source characterization. Next position: Caltech SCSN Postdoc Fellowship → Schlumberger]
+
+    - 6 publications
+
   ],
 )
 
@@ -795,75 +699,16 @@
 
 #regular-entry(
   [
-    #strong[Dr. Qibin Shi]
-
-    #summary[DAS, Deep Learning, Earthquake Catalog building, AgroSeismology]
+    #strong[Dr. Stephanie Olinger], University of Washington
 
   ],
   [
-    University of Washington
-
-    2022 - 2024
-
-  ],
-  main-column-second-row: [
-    - Now Postdoctoral Fellow at Rice University
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Dr. Kuan-Fu Feng]
-
-    #summary[Environmental Seismology, Cloud computing]
-
-  ],
-  [
-    University of Washington
-
-    2023 - 2024
-
-  ],
-  main-column-second-row: [
-    - Next position: Postdoc at University of Utah
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Dr. Ethan Williams]
-
-    #summary[DAS]
-
-  ],
-  [
-    University of Washington
-
-    2023 - 2025
-
-  ],
-  main-column-second-row: [
-    - Next position: Assistant Professor at UC Santa Cruz
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Dr. Stephanie Olinger]
-
-    #summary[Cryoseismology, DAS, Ambient noise monitoring]
-
-  ],
-  [
-    University of Washington
-
     2024 - 2025
 
   ],
   main-column-second-row: [
+    #summary[Cryoseismology, DAS, Ambient noise monitoring]
+
     - Next position: Climate Tech → CEO Applied Environmental Intelligence
 
   ],
@@ -871,18 +716,67 @@
 
 #regular-entry(
   [
-    #strong[Dr. Laura Ermert]
-
-    #summary[Environmental seismology]
+    #strong[Dr. Kuan-Fu Feng], University of Washington
 
   ],
   [
-    Harvard University\/University of Washington
+    2023 - 2024
 
+  ],
+  main-column-second-row: [
+    #summary[Environmental Seismology, Cloud computing]
+
+    - Next position: Postdoc at University of Utah
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Dr. Ethan Williams], University of Washington
+
+  ],
+  [
+    2023 - 2025
+
+  ],
+  main-column-second-row: [
+    #summary[DAS]
+
+    - Next position: Assistant Professor at UC Santa Cruz
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Dr. Qibin Shi], University of Washington
+
+  ],
+  [
+    2022 - 2024
+
+  ],
+  main-column-second-row: [
+    #summary[DAS, Deep Learning, Earthquake Catalog building, AgroSeismology]
+
+    - Now Postdoctoral Fellow at Rice University
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Dr. Laura Ermert], Harvard University\/University of Washington
+
+  ],
+  [
     2020 - 2022
 
   ],
   main-column-second-row: [
+    #summary[Environmental seismology]
+
     - Next position: Assistant Professor at ISTerre
 
   ],
@@ -890,18 +784,16 @@
 
 #regular-entry(
   [
-    #strong[Dr. Xiaotao Yang]
-
-    #summary[Ambient noise cross correlation]
+    #strong[Dr. Xiaotao Yang], Harvard University
 
   ],
   [
-    Harvard University
-
     2019 - 2020
 
   ],
   main-column-second-row: [
+    #summary[Ambient noise cross correlation]
+
     - Next position: Assistant Professor at Purdue
 
   ],
@@ -909,18 +801,16 @@
 
 #regular-entry(
   [
-    #strong[Dr. Kurama Okubo]
-
-    #summary[Ambient noise monitoring]
+    #strong[Dr. Kurama Okubo], Harvard University
 
   ],
   [
-    Harvard University
-
     2019 - 2020
 
   ],
   main-column-second-row: [
+    #summary[Ambient noise monitoring]
+
     - Next position: Researcher at NIED, Japan
 
   ],
@@ -928,18 +818,16 @@
 
 #regular-entry(
   [
-    #strong[Dr. Zhitu Ma]
-
-    #summary[Ambient noise cross correlation]
+    #strong[Dr. Zhitu Ma], Harvard University
 
   ],
   [
-    Harvard University
-
     2019 - 2020
 
   ],
   main-column-second-row: [
+    #summary[Ambient noise cross correlation]
+
     - Next position: Assistant Professor at Tongji University, China
 
   ],
@@ -947,18 +835,16 @@
 
 #regular-entry(
   [
-    #strong[Dr. Chengxin Jiang]
-
-    #summary[Ambient noise seismology, computational seismology]
+    #strong[Dr. Chengxin Jiang], Harvard University
 
   ],
   [
-    Harvard University
-
     2018 - 2019
 
   ],
   main-column-second-row: [
+    #summary[Ambient noise seismology, computational seismology]
+
     - Next position: Research Associate at Australian National University
 
   ],
@@ -966,35 +852,31 @@
 
 #regular-entry(
   [
-    #strong[Dr. Chris Van Houtte]
-
-    #summary[Earthquake Source seismology]
+    #strong[Dr. Chris Van Houtte], Harvard University
 
   ],
   [
-    Harvard University
-
     2016 - 2017
 
   ],
   main-column-second-row: [
+    #summary[Earthquake Source seismology]
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Dr. Loïc Viens]
-
-    #summary[ambient noise seismology, ground motion prediction]
+    #strong[Dr. Loïc Viens], Harvard University
 
   ],
   [
-    Harvard University
-
     2016 - 2018
 
   ],
   main-column-second-row: [
+    #summary[ambient noise seismology, ground motion prediction]
+
     - Next position Researcher at Los Alamos
 
   ],
@@ -1010,55 +892,55 @@
 
 #strong[Parker Sprinkle (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2021-present, UW ESS (co-advised) - Earthquake early warning and machine learning
 
+#strong[William Flanagan (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2019, Harvard EPS - Volcano seismology project
+
+#strong[Congcong Yuan (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) :] 2019, USTC China - Master student visiting researcher on time-dependent seismology, resulted in publication
+
 #strong[Natasha Toghramadjian (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2018-2025, Harvard EPS - Seismic attenuation and site effects, resulted in publications
 
 #strong[Zhuo Yang (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2018-2021, Harvard EPS - Machine learning for seismic phase picking, resulted in publication
 
-#strong[William Flanagan (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2019, Harvard EPS - Volcano seismology project
+#strong[Philippe Danré (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2018, Ecole Normale Supérieure Paris - Master thesis on seismic monitoring, resulted in publication
 
 #strong[Thibault Pérol (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2017, Harvard EPS - Deep learning for earthquake detection, resulted in multiple publications
-
-#strong[Congcong Yuan (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) :] 2019, USTC China - Master student visiting researcher on time-dependent seismology, resulted in publication
-
-#strong[Philippe Danré (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2018, Ecole Normale Supérieure Paris - Master thesis on seismic monitoring, resulted in publication
 
 #strong[Manuel Florez (#sym.ast.basic#h(0pt, weak: true) ,#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ):] 2017-2019, MIT - Dissertation committee member for geophysics PhD
 
 == Graduate Student Committees
 
+#strong[Jones, Randall:] Atmospheric Sciences, GSR, 2025-present
+
 #strong[Koepfli, Manuela:] Earth and Space Sciences, Chair, 2024-present
 
 #strong[Ni, Yiyu:] Earth and Space Sciences, Chair, 2024-present
+
+#strong[Pearson, Anna Elaine Rogers:] Earth and Space Sciences, Member, 2024-present
+
+#strong[Kidiwela, Maleen:] School of Oceanography, Member, 2024-present
+
+#strong[Sangmin, Song:] School of Oceanography, GSR, 2024-present
+
+#strong[Sweeney, Aodhan:] Atmospheric Sciences, GSR, 2024-present
 
 #strong[Kharita, Akash:] Earth and Space Sciences, Advisor, 2023-present
 
 #strong[DeGrande, Jensen:] Earth and Space Sciences, Member, 2023-present
 
-#strong[Pearson, Anna Elaine Rogers:] Earth and Space Sciences, Member, 2024-present
-
-#strong[Sprinkle, Parker:] Earth and Space Sciences, Member, 2022-present
-
-#strong[Kidiwela, Maleen:] School of Oceanography, Member, 2024-present
-
-#strong[Krauss, Zoe:] School of Oceanography, GSR, 2022-2024
-
-#strong[Sangmin, Song:] School of Oceanography, GSR, 2024-present
-
 #strong[Zhang, Maochuan:] School of Oceanography, GSR, 2023-present
-
-#strong[Jones, Randall:] Atmospheric Sciences, GSR, 2025-present
 
 #strong[Chien, Mu-Ting:] Atmospheric Sciences, GSR, 2023-2024
 
-#strong[Sweeney, Aodhan:] Atmospheric Sciences, GSR, 2024-present
-
 #strong[Ragland, John:] Electrical and Computer Engineering, GSR, 2023-2024
-
-#strong[Rasanen, Ryan:] Civil and Environmental Engineering, GSR, 2022-2023
 
 #strong[Velappan, Hemalatha:] School of Environmental and Forest Sciences, GSR, 2023-present
 
 #strong[Velegar, Meghana S:] Applied Mathematics, GSR, 2023-2023
+
+#strong[Sprinkle, Parker:] Earth and Space Sciences, Member, 2022-present
+
+#strong[Krauss, Zoe:] School of Oceanography, GSR, 2022-2024
+
+#strong[Rasanen, Ryan:] Civil and Environmental Engineering, GSR, 2022-2023
 
 #strong[Zahn, Olivia:] Physics, GSR, 2022-2024
 
@@ -1144,7 +1026,7 @@
 
 #regular-entry(
   [
-    (2025).
+    #summary[co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)]
 
   ],
   [
@@ -1152,12 +1034,14 @@
 
   ],
   main-column-second-row: [
+    #link("https://scoped-mlscience-book.readthedocs.io/")[scoped-mlscience-book.readthedocs.io]
+
   ],
 )
 
 #regular-entry(
   [
-    (2024).
+    #summary[Lead PI organizer for Cloud\/HPC\/wavefield simulations workshop (100 participants)]
 
   ],
   [
@@ -1165,12 +1049,14 @@
 
   ],
   main-column-second-row: [
+    #link("https://seisscoped.org/HPS-book/intro.html")[seisscoped.org\/HPS-book\/intro.html]
+
   ],
 )
 
 #regular-entry(
   [
-    (2024).
+    #summary[Lead organizer of cloud workshop (80 participants)]
 
   ],
   [
@@ -1178,12 +1064,14 @@
 
   ],
   main-column-second-row: [
+    #link("https://seisscoped.org/SSA-Cloud-101/intro.html")[seisscoped.org\/SSA-Cloud-101\/intro.html]
+
   ],
 )
 
 #regular-entry(
   [
-    (2023).
+    #summary[Lead PI, coordinator, and instructor for HPC and Data Science]
 
   ],
   [
@@ -1191,12 +1079,14 @@
 
   ],
   main-column-second-row: [
+    #link("https://seisscoped.org/HPS-book/intro.html")[seisscoped.org\/HPS-book\/intro.html]
+
   ],
 )
 
 #regular-entry(
   [
-    (2021 – present).
+    #summary[Co-organizer of ML training with Jupyter Book]
 
   ],
   [
@@ -1204,12 +1094,14 @@
 
   ],
   main-column-second-row: [
+    #link("https://geo-smart.github.io/mlgeo-book/")[geo-smart.github.io\/mlgeo-book]
+
   ],
 )
 
 #regular-entry(
   [
-    (2016).
+    #summary[Scientific committee member and instructor]
 
   ],
   [
@@ -1224,97 +1116,85 @@
 
 #regular-entry(
   [
-    #strong[Department Colloquium Committee]
+    #strong[Department Colloquium Committee], University of Washington
 
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
     - Help organizing the department colloquium series
 
   ],
-  [
-    University of Washington
-
-    2026 – present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[AI\@UW Advisory Committee to the VP]
+    #strong[AI\@UW Advisory Committee to the VP], University of Washington
 
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
     - Advising AI strategy and initiatives across the university, commitment \~ 1hr\/week
 
   ],
-  [
-    University of Washington
-
-    2026 – present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Co-director of UW CS4Env]
+    #strong[Co-director of UW CS4Env], University of Washington
 
+  ],
+  [
+    2024 – present
+
+  ],
+  main-column-second-row: [
     - Computer Science for the Environment (CS4Env) is a cross-unit initiative to promote synergies between computer science and environmental research at UW, includes organizing biweekly seminar, reviewing proposals, and organizing an annual symposium.
 
   ],
-  [
-    University of Washington
-
-    2024 – present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Chair of Curriculum Committee]
+    #strong[Chair of Curriculum Committee], UW\/ESS
 
+  ],
+  [
+    2024 – present
+
+  ],
+  main-column-second-row: [
     - Reviewing proposed courses, course changes, undergraduate and graduate program.
 
   ],
-  [
-    UW\/ESS
-
-    2024 – present
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Member of Curriculum Committee and Data Science Oversight Committee]
-
-    - Review the proposed data science option program
+    #strong[Member of Curriculum Committee and Data Science Oversight Committee], UW\/ESS
 
   ],
   [
-    UW\/ESS
-
     2022 – present
 
   ],
   main-column-second-row: [
+    - Review the proposed data science option program
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Member of Executive Committee]
+    #strong[Member of Executive Committee], UW\/ESS
 
   ],
   [
-    UW\/ESS
-
     2022 – 2023
 
   ],
@@ -1324,35 +1204,31 @@
 
 #regular-entry(
   [
-    #strong[Member of Research Faculty Search Committees]
+    #strong[Member of Research Faculty Search Committees], UW\/ESS
 
+  ],
+  [
+    2022 – 2023
+
+  ],
+  main-column-second-row: [
     - Search committee for PNSN Network Manager and Igneous Processes Faculty Search
 
   ],
-  [
-    UW\/ESS
-
-    2022 – 2023
-
-  ],
-  main-column-second-row: [
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Multiple Committee Memberships]
-
-    - Undergraduate Curriculum Committee, Graduate Student Council, IT Committee, Diversity Inclusion and Belonging Committee, Department Colloquium Committee
+    #strong[Multiple Committee Memberships], Harvard University
 
   ],
   [
-    Harvard University
-
     2016 – 2020
 
   ],
   main-column-second-row: [
+    - Undergraduate Curriculum Committee, Graduate Student Council, IT Committee, Diversity Inclusion and Belonging Committee, Department Colloquium Committee
+
   ],
 )
 
@@ -1360,7 +1236,7 @@
 
 #regular-entry(
   [
-    #strong[Member of Board of Directors at Earthscope Consortium]
+    #strong[Member of Board of Directors at Earthscope Consortium],
 
   ],
   [
@@ -1373,20 +1249,7 @@
 
 #regular-entry(
   [
-    #strong[Chair of Integration and Innovation Advisory Committee at Earthscope Consortium]
-
-  ],
-  [
-    2023 – 2025
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Member of Science Steering Committee at SCEC]
+    #strong[Member of Science Steering Committee at SCEC],
 
   ],
   [
@@ -1399,7 +1262,33 @@
 
 #regular-entry(
   [
-    #strong[Member of Data Service Standing Committee at IRIS]
+    #strong[Chair of Integration and Innovation Advisory Committee at Earthscope Consortium],
+
+  ],
+  [
+    2023 – 2025
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Committee Member of Charles Richter Early Career Award Committee at Seismological Society of America],
+
+  ],
+  [
+    2022 – 2022
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Member of Data Service Standing Committee at IRIS],
 
   ],
   [
@@ -1412,7 +1301,7 @@
 
 #regular-entry(
   [
-    #strong[Member of HPC Standing Committee at SCEC]
+    #strong[Member of HPC Standing Committee at SCEC],
 
   ],
   [
@@ -1425,7 +1314,7 @@
 
 #regular-entry(
   [
-    #strong[Chair of Graduate Student Council at Stanford University]
+    #strong[Chair of Graduate Student Council at Stanford University],
 
   ],
   [
@@ -1436,24 +1325,11 @@
   ],
 )
 
-#regular-entry(
-  [
-    #strong[Committee Member of Charles Richter Early Career Award Committee at Seismological Society of America]
-
-  ],
-  [
-    2022 – 2022
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
 == Review Panels
 
 #regular-entry(
   [
-    #strong[NSF Review Panels EAR-Geophysics and GeoInformatics]
+    #strong[NSF Review Panels EAR-Geophysics and GeoInformatics], 
 
   ],
   [
@@ -1468,7 +1344,7 @@
 
 #regular-entry(
   [
-    #strong[USGS Review Panels Earthquake Hazards Program]
+    #strong[USGS Review Panels Earthquake Hazards Program], 
 
   ],
   [
@@ -1485,7 +1361,7 @@
 
 #regular-entry(
   [
-    #strong[Editor at Geophysical Journal International]
+    #strong[Editor at Geophysical Journal International],
 
   ],
   [
@@ -1498,7 +1374,7 @@
 
 #regular-entry(
   [
-    #strong[Associate Editor at Geophysical Research Letters]
+    #strong[Associate Editor at Geophysical Research Letters],
 
   ],
   [
@@ -1511,7 +1387,7 @@
 
 #regular-entry(
   [
-    #strong[Reviewer for multiple journals in geophysics and seismology]
+    #strong[Reviewer for multiple journals in geophysics and seismology], 
 
   ],
   [
@@ -1532,7 +1408,7 @@
 
 #regular-entry(
   [
-    Veronica Gaete-Elgueta, #emph[Manuela Köpfli], Dominik Gräff, Bradley P Lipovsky, #strong[Marine A. Denolle], Weston A. Thelen, Brendan Pratt, Taylor R. Kenyon (2026). #strong[Distributed Acoustic Sensing Records of Earthquakes and Surface Processes at Mount Rainier Volcano]. in review in Seismica
+    #strong[Distributed Acoustic Sensing Records of Earthquakes and Surface Processes at Mount Rainier Volcano]
 
   ],
   [
@@ -1540,12 +1416,16 @@
 
   ],
   main-column-second-row: [
+    Veronica Gaete-Elgueta, #emph[Manuela Köpfli], Dominik Gräff, Bradley P Lipovsky, #strong[Marine A. Denolle], Weston A. Thelen, Brendan Pratt, Taylor R. Kenyon
+
+     (in review in Seismica)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Maleen Kidiwela], #strong[Marine A. Denolle], William S. D. Wilcock, #emph[Kuan-Fu Feng] (2026). #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]. Science Advances, 12, #link("https://doi.org/10.1126/sciadv.aea3684")[10.1126\/sciadv.aea3684]
+    #strong[Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)]
 
   ],
   [
@@ -1553,14 +1433,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep?mkt_tok=MTMxLUFRTy0yMjUAAAGgcXIp-QXzGs0WlB22XUVMoYKPipJCRo8S4n33LPNaUafp1sPhgf2znlMDhypipbORq0-bRqsRe0CwLZW5j3bJrR_BVsSsoMwhzvCfexfE5HUYUjD5")[Npr], #link("https://www.washington.edu/news/2026/02/27/stress-testing-the-cascadia-subduction-zone-reveals-variability-that-could-impact-how-earthquakes-spread/")[UW News]
+    John Townend, Ilma Del Carmen Juarez-Garfias, Olivia Pita-Sllim, Calum J. Chamberlain, Emily Warren-Smith, Caroline Holden, Kasper van Wijk, #strong[Marine Denolle], Andrew Curtis, Hiroe Miyake
+
+     (in press in Seismological Research Letters)
 
   ],
 )
 
 #regular-entry(
   [
-    Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, #emph[Qibin Shi], #strong[Marine A Denolle] (2026). #strong[DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data]. Geophysical Journal International, 245, #link("https://doi.org/10.1093/gji/ggag061")[10.1093\/gji\/ggag061]
+    #strong[Probing the Seattle Basin Edge Using a Dense Urban Nodal Array in 100 Backyards]
 
   ],
   [
@@ -1568,12 +1450,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Natasha Toghramadjian], #strong[Marine A. Denolle], #emph[Laura Ermert], #emph[Chengxin Jiang]
+
+    #link("https://doi.org/10.1785/0220250241")[10.1785\/0220250241] (Seismological Research Letters)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Akash Kharita], #strong[Marine Denolle], Alexander Hutko, Renate Hartog, Stephen Malone (2026). #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]. Seismica, 5, #link("https://doi.org/10.26443/seismica.v5i1.2068")[10.26443\/seismica.v5i1.2068]
+    #strong[The Seismic Wavefield Common Task Framework]
 
   ],
   [
@@ -1581,12 +1467,16 @@
 
   ],
   main-column-second-row: [
+    Alexey Yermakov, Yue Zhao, #strong[Marine Denolle], #emph[Yiyu Ni], Philippe M. Wyder, Judah Goldfeder, Stefano Riva, #emph[Jan Williams], David Zoro, Amy Sara Rude, Matteo Tomasetto, Joe Germany, Joseph Bakarji, Georg Maierhofer, Miles Cranmer, J. Nathan Kutz
+
+    #link("https://doi.org/10.48550/arXiv.2512.19927")[10.48550\/arXiv.2512.19927] (arXiv)
+
   ],
 )
 
 #regular-entry(
   [
-    John Townend, Ilma del Carmen Juarez‐Garfias, Olivia Pita‐Sllim, Calum J. Chamberlain, Emily Warren‐Smith, Caroline Holden, Kasper van Wijk, #strong[Marine Denolle], Andrew Curtis, Hiroe Miyake (2026). #strong[Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)]. Seismological Research Letters, #link("https://doi.org/10.1785/0220250260")[10.1785\/0220250260]
+    #strong[Agroseismology: unraveling the impact of farming practices on soil hydrodynamics]
 
   ],
   [
@@ -1594,12 +1484,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Qibin Shi], David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan Williams], Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]
+
+    #link("https://doi.org/10.48550/arXiv.2509.09821")[10.48550\/arXiv.2509.09821] (in review in Science - preprint on Arxiv)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Natasha Toghramadjian], #strong[Marine A. Denolle], #emph[Laura Ermert], #emph[Chengxin Jiang] (2026). #strong[Probing the Seattle Basin Edge Using a Dense Urban Nodal Array in 100 Backyards]. Seismological Research Letters, #link("https://doi.org/10.1785/0220250241")[10.1785\/0220250241]
+    #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]
 
   ],
   [
@@ -1607,51 +1501,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam
+
+     (Journal of Geophysical Research: Solid Earth, 131)
+
   ],
 )
 
 #regular-entry(
   [
-    Alexey Yermakov, Yue Zhao, #strong[Marine Denolle], #emph[Yiyu Ni], Philippe M. Wyder, Judah Goldfeder, Stefano Riva, #emph[Jan Williams], David Zoro, Amy Sara Rude, Matteo Tomasetto, Joe Germany, Joseph Bakarji, Georg Maierhofer, Miles Cranmer, J. Nathan Kutz (2026). #strong[The Seismic Wavefield Common Task Framework]. arXiv, #link("https://doi.org/10.48550/arXiv.2512.19927")[10.48550\/arXiv.2512.19927]
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[Qibin Shi], David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan Williams], Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle] (2026). #strong[Agroseismology: unraveling the impact of farming practices on soil hydrodynamics]. in review in Science - preprint on Arxiv, #link("https://doi.org/10.48550/arXiv.2509.09821")[10.48550\/arXiv.2509.09821]
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam (2026). #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]. Journal of Geophysical Research: Solid Earth, 131
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[Yiyu Ni], #strong[Marine Denolle], Amanda Thomas, Alex Hamilton, Jannes Münchmeyer, Yinzhi Wang, Loïc Bachelot, Chad Trabant, David Mencin (2025). #strong[A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale]. Seismica, 4, #link("https://doi.org/10.26443/seismica.v4i2.1738")[10.26443\/seismica.v4i2.1738]
+    #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]
 
   ],
   [
@@ -1659,14 +1518,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc")[Video]
+    #emph[Akash Kharita], #strong[Marine Denolle], Alexander R Hutko, J Renate Hartog, Stephen D Malone
+
+    #link("https://doi.org/10.48550/arXiv.2510.23795")[10.48550\/arXiv.2510.23795] (accepted in Seismica, pre-print on Arxiv)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[Yiyu Ni], #strong[Marine A Denolle], Jannes Münchmeyer, Yinzhi Wang, #emph[Kuan-Fu Feng], Carlos Garcia Jurado Suarez, Amanda M Thomas, Chad Trabant, Alex Hamilton, David Mencin (2025). #strong[A Review of Cloud Computing and Storage in Seismology]. Geophysical Journal International, #link("https://doi.org/10.1093/gji/ggaf322")[10.1093\/gji\/ggaf322]
+    #strong[A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale]
 
   ],
   [
@@ -1674,12 +1535,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Yiyu Ni], #strong[Marine Denolle], Amanda Thomas, Alex Hamilton, Jannes Münchmeyer, Yinzhi Wang, Loïc Bachelot, Chad Trabant, David Mencin
+
+    #link("https://doi.org/10.26443/seismica.v4i2.1738")[10.26443\/seismica.v4i2.1738] (Seismica, 4)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Marine A. Denolle], Carl Tape, Ebru Bozdağ, Yinzhi Wang, Felix Waldhauser, Alice‐Agnes Gabriel, Jochen Braunmiller, Bryant Chow, Liang Ding, #emph[Kuan‐Fu Feng], Ayon Ghosh, Nathan Groebner, Aakash Gupta, #emph[Zoe Krauss], Amanda M. McPherson, Masaru Nagaso, Zihua Niu, #emph[Yiyu Ni], Rıdvan Örsvuran, Gary Pavlis, Felix Rodriguez‐Cardozo, Theresa Sawi, David Schaff, Nico Schliwa, David Schneller, #emph[Qibin Shi], Julien Thurin, Chenxiao Wang, Kaiwen Wang, Jeremy Wing Ching Wong, Sebastian Wolf, #emph[Congcong Yuan] (2025). #strong[Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities]. Seismological Research Letters, 96, #link("https://doi.org/10.1785/0220240413")[10.1785\/0220240413]
+    #strong[A Review of Cloud Computing and Storage in Seismology]
 
   ],
   [
@@ -1687,12 +1552,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Yiyu Ni], #strong[Marine A Denolle], Jannes Münchmeyer, Yinzhi Wang, #emph[Kuan-Fu Feng], Carlos Garcia Jurado Suarez, Amanda M Thomas, Chad Trabant, Alex Hamilton, David Mencin
+
+    #link("https://doi.org/10.1093/gji/ggaf322")[10.1093\/gji\/ggaf322] (Geophysical Journal International)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[Marine A. Denolle], #emph[Qibin Shi], #emph[Tim Clements], #emph[Loïc Viens], Veronica Rodriguez-Tribaldos, Fabrice Cotton (2025). #strong[Ambient field seismology in critical zone hydrological sciences]. Comptes Rendus. Géoscience, 357, #link("https://doi.org/10.5802/crgeos.310")[10.5802\/crgeos.310]
+    #strong[Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities]
 
   ],
   [
@@ -1700,12 +1569,16 @@
 
   ],
   main-column-second-row: [
+    #strong[Marine A. Denolle], Carl Tape, Ebru Bozdağ, Yinzhi Wang, Felix Waldhauser, Alice‐Agnes Gabriel, Jochen Braunmiller, Bryant Chow, Liang Ding, #emph[Kuan‐Fu Feng], Ayon Ghosh, Nathan Groebner, Aakash Gupta, #emph[Zoe Krauss], Amanda M. McPherson, Masaru Nagaso, Zihua Niu, #emph[Yiyu Ni], Rıdvan Örsvuran, Gary Pavlis, Felix Rodriguez‐Cardozo, Theresa Sawi, David Schaff, Nico Schliwa, David Schneller, #emph[Qibin Shi], Julien Thurin, Chenxiao Wang, Kaiwen Wang, Jeremy Wing Ching Wong, Sebastian Wolf, #emph[Congcong Yuan]
+
+    #link("https://doi.org/10.1785/0220240413")[10.1785\/0220240413] (Seismological Research Letters, 96)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Q. Shi], #strong[M. A. Denolle], #emph[Y. Ni], #emph[E. F. Williams], N. You (2025). #strong[Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection]. JGR: Solid Earth, 130, #link("https://doi.org/10.1029/2024JB029728")[10.1029\/2024JB029728]
+    #strong[Ambient field seismology in critical zone hydrological sciences]
 
   ],
   [
@@ -1713,12 +1586,16 @@
 
   ],
   main-column-second-row: [
+    #strong[Marine A. Denolle], #emph[Qibin Shi], #emph[Tim Clements], #emph[Loïc Viens], Veronica Rodriguez-Tribaldos, Fabrice Cotton
+
+    #link("https://doi.org/10.5802/crgeos.310")[10.5802\/crgeos.310] (Comptes Rendus. Géoscience, 357)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Q. Shi], #emph[E. F. Williams], B. P. Lipovsky, #strong[M. A. Denolle], W. S. D. Wilcock, D. S. Kelley, K. Schoedl (2025). #strong[Multiplexed Distributed Acoustic Sensing Offshore Central Oregon]. Seismological Research Letters, 96, #link("https://doi.org/10.1785/0220240460")[10.1785\/0220240460]
+    #strong[Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection]
 
   ],
   [
@@ -1726,14 +1603,33 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://www.washington.edu/news/2025/07/24/seismologists-use-fiber-optic-cables-to-study-offshore-faults/")[UW News], #link("https://phys.org/news/2025-07-ai-fiber-optics-reveal-hidden.html")[Phys]
+    #emph[Q. Shi], #strong[M. A. Denolle], #emph[Y. Ni], #emph[E. F. Williams], N. You
+
+    #link("https://doi.org/10.1029/2024JB029728")[10.1029\/2024JB029728] (JGR: Solid Earth, 130)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[Y. Ni], #strong[M. A. Denolle], #emph[Q. Shi], B. P. Lipovsky, S. Pan, J. N. Kutz (2024). #strong[Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing]. Journal of Geophysical Research: Machine Learning and Computation, 1, #link("https://doi.org/10.1029/2024JH000247")[10.1029\/2024JH000247]
+    #strong[Multiplexed Distributed Acoustic Sensing Offshore Central Oregon]
+
+  ],
+  [
+    2025
+
+  ],
+  main-column-second-row: [
+    #emph[Q. Shi], #emph[E. F. Williams], B. P. Lipovsky, #strong[M. A. Denolle], W. S. D. Wilcock, D. S. Kelley, K. Schoedl
+
+    #link("https://doi.org/10.1785/0220240460")[10.1785\/0220240460] (Seismological Research Letters, 96)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing]
 
   ],
   [
@@ -1741,12 +1637,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Y. Ni], #strong[M. A. Denolle], #emph[Q. Shi], B. P. Lipovsky, S. Pan, J. N. Kutz
+
+    #link("https://doi.org/10.1029/2024JH000247")[10.1029\/2024JH000247] (Journal of Geophysical Research: Machine Learning and Computation, 1)
+
   ],
 )
 
 #regular-entry(
   [
-    P. Makus, #strong[M. A. Denolle], C. Sens-Schönfelder, #emph[M. Köpfli], F. Tilmann (2024). #strong[Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220240088")[10.1785\/0220240088]
+    #strong[Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens]
 
   ],
   [
@@ -1754,12 +1654,16 @@
 
   ],
   main-column-second-row: [
+    P. Makus, #strong[M. A. Denolle], C. Sens-Schönfelder, #emph[M. Köpfli], F. Tilmann
+
+    #link("https://doi.org/10.1785/0220240088")[10.1785\/0220240088] (Seismological Research Letters, 95)
+
   ],
 )
 
 #regular-entry(
   [
-    M. Köpli, #strong[M. A. Denolle], W. Thelen, P. Makus, S. Malone (2024). #strong[Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220240079")[10.1785\/0220240079]
+    #strong[Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens]
 
   ],
   [
@@ -1767,12 +1671,16 @@
 
   ],
   main-column-second-row: [
+    M. Köpli, #strong[M. A. Denolle], W. Thelen, P. Makus, S. Malone
+
+    #link("https://doi.org/10.1785/0220240079")[10.1785\/0220240079] (Seismological Research Letters, 95)
+
   ],
 )
 
 #regular-entry(
   [
-    F. Diewald, #strong[M. Denolle], J. J. Timothy, C. Gehlen (2024). #strong[Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete]. Scientific Reports, 14, #link("https://doi.org/10.1038/s41598-024-69564-4")[10.1038\/s41598-024-69564-4]
+    #strong[Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete]
 
   ],
   [
@@ -1780,12 +1688,16 @@
 
   ],
   main-column-second-row: [
+    F. Diewald, #strong[M. Denolle], J. J. Timothy, C. Gehlen
+
+    #link("https://doi.org/10.1038/s41598-024-69564-4")[10.1038\/s41598-024-69564-4] (Scientific Reports, 14)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[K. Okubo], B. Delbridge, #strong[M. Denolle] (2024). #strong[Monitoring velocity change over 20 years at Parkfield]. Journal of Geophysical Research: Solid Earth, 129, #link("https://doi.org/10.1029/2023JB028084")[10.1029\/2023JB028084]
+    #strong[Monitoring velocity change over 20 years at Parkfield]
 
   ],
   [
@@ -1793,12 +1705,16 @@
 
   ],
   main-column-second-row: [
+    #emph[K. Okubo], B. Delbridge, #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2023JB028084")[10.1029\/2023JB028084] (Journal of Geophysical Research: Solid Earth, 129)
+
   ],
 )
 
 #regular-entry(
   [
-    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz (2024). #strong[Extended crack propagation by local nucleation and rapid transverse expansion]. Nature Physics, #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0]
+    #strong[Extended crack propagation by local nucleation and rapid transverse expansion]
 
   ],
   [
@@ -1806,12 +1722,16 @@
 
   ],
   main-column-second-row: [
+    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz
+
+    #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0] (Nature Physics)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[A. Kharita], #strong[M. Denolle], M. West (2023). #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]. Geophysical Journal International, #link("https://doi.org/10.1093/gji/ggae106")[10.1093\/gji\/ggae106]
+    #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]
 
   ],
   [
@@ -1819,12 +1739,16 @@
 
   ],
   main-column-second-row: [
+    #emph[A. Kharita], #strong[M. Denolle], M. West
+
+    #link("https://doi.org/10.1093/gji/ggae106")[10.1093\/gji\/ggae106] (Geophysical Journal International)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[S. Olinger], B. Lipovsky, #strong[M. Denolle] (2023). #strong[Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event]. AGU Advances, 5, #link("https://doi.org/10.1029/2023AV001023")[10.1029\/2023AV001023]
+    #strong[Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event]
 
   ],
   [
@@ -1832,14 +1756,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://www.washington.edu/news/2024/02/28/80-mph-speed-record-for-glacier-fracture-helps-reveal-the-physics-of-ice-sheet-collapse/")[UW News], #link("https://eos.org/editor-highlights/speed-of-ice-shelf-rifting-controlled-by-ocean-ice-interactions")[EOS]
+    #emph[S. Olinger], B. Lipovsky, #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2023AV001023")[10.1029\/2023AV001023] (AGU Advances, 5)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[C. Yuan], T. Cochard, #strong[M. Denolle], J. Gomberg, A. Wech, L. Xiao, D. Weitz (2023). #strong[Laboratory hydrofracture as analogs to tectonic tremors]. AGU Advances, 5, #link("https://doi.org/10.1029/2023AV001002")[10.1029\/2023AV001002]
+    #strong[Laboratory hydrofracture as analogs to tectonic tremors]
 
   ],
   [
@@ -1847,14 +1773,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://www.washington.edu/news/2024/01/29/qa-how-slow-slip-earthquakes-may-be-driven-by-deep-hydraulic-fracturing/")[UW News], #link("https://eos.org/research-spotlights/scientists-model-whats-moving-beneath-earths-surface")[EOS]
+    #emph[C. Yuan], T. Cochard, #strong[M. Denolle], J. Gomberg, A. Wech, L. Xiao, D. Weitz
+
+    #link("https://doi.org/10.1029/2023AV001002")[10.1029\/2023AV001002] (AGU Advances, 5)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[Q. Shi], #strong[M. Denolle] (2023). #strong[Improved observations of deep earthquake ruptures using machine learning]. Journal of Geophysical Research: Solid Earth, 128, #link("https://doi.org/10.1029/2023JB027334")[10.1029\/2023JB027334]
+    #strong[Improved observations of deep earthquake ruptures using machine learning]
 
   ],
   [
@@ -1862,12 +1790,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Q. Shi], #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2023JB027334")[10.1029\/2023JB027334] (Journal of Geophysical Research: Solid Earth, 128)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Congcong Yuan], #emph[Yiyu Ni], Youzuo Lin, #strong[Marine Denolle] (2023). #strong[Better Together: Ensemble Learning for Earthquake Detection and Phase Picking]. IEEE Transactions on Geoscience and Remote Sensing, 61, #link("https://doi.org/10.1109/TGRS.2023.3320148")[10.1109\/TGRS.2023.3320148]
+    #strong[Better Together: Ensemble Learning for Earthquake Detection and Phase Picking]
 
   ],
   [
@@ -1875,12 +1807,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Congcong Yuan], #emph[Yiyu Ni], Youzuo Lin, #strong[Marine Denolle]
+
+    #link("https://doi.org/10.1109/TGRS.2023.3320148")[10.1109\/TGRS.2023.3320148] (IEEE Transactions on Geoscience and Remote Sensing, 61)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2023). #strong[An Object Storage for Distributed Acoustic Sensing]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172]
+    #strong[An Object Storage for Distributed Acoustic Sensing]
 
   ],
   [
@@ -1888,12 +1824,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth
+
+    #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172] (Seismological Research Letters, 95)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Z. Krauss], #emph[Y. Ni], S. Henderson, #strong[M. Denolle] (2023). #strong[Seismology in the cloud: guidance for the individual researcher]. Seismica, 2, #link("https://doi.org/10.26443/seismica.v2i2.979")[10.26443\/seismica.v2i2.979]
+    #strong[Seismology in the cloud: guidance for the individual researcher]
 
   ],
   [
@@ -1901,12 +1841,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Z. Krauss], #emph[Y. Ni], S. Henderson, #strong[M. Denolle]
+
+    #link("https://doi.org/10.26443/seismica.v2i2.979")[10.26443\/seismica.v2i2.979] (Seismica, 2)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Y. Ni], A. Hutko, #emph[F. Skene], #strong[M. Denolle], S. Malone, P. Bodin, R. Hartog, A. Wright (2023). #strong[Curated Pacific Northwest AI-ready Seismic Dataset]. Seismica, 2, #link("https://doi.org/10.26443/seismica.v2i1.368")[10.26443\/seismica.v2i1.368]
+    #strong[Curated Pacific Northwest AI-ready Seismic Dataset]
 
   ],
   [
@@ -1914,12 +1858,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Y. Ni], A. Hutko, #emph[F. Skene], #strong[M. Denolle], S. Malone, P. Bodin, R. Hartog, A. Wright
+
+    #link("https://doi.org/10.26443/seismica.v2i1.368")[10.26443\/seismica.v2i1.368] (Seismica, 2)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[L. Ermert], E. Cabral-Cano, E. Chaussard, D. Solano-Rojas, L. Quintanar, D. Morales Padilla, E. A. Fernandez-Torres, #strong[M. A. Denolle] (2023). #strong[Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field]. Solid Earth (EGU), #link("https://doi.org/10.5194/egusphere-2022-1361")[10.5194\/egusphere-2022-1361]
+    #strong[Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field]
 
   ],
   [
@@ -1927,12 +1875,16 @@
 
   ],
   main-column-second-row: [
+    #emph[L. Ermert], E. Cabral-Cano, E. Chaussard, D. Solano-Rojas, L. Quintanar, D. Morales Padilla, E. A. Fernandez-Torres, #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.5194/egusphere-2022-1361")[10.5194\/egusphere-2022-1361] (Solid Earth (EGU))
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2023). #strong[The Seismic Signature of California's Earthquakes, Droughts, and Floods]. Journal of Geophysical Research: Solid Earth, 128, #link("https://doi.org/10.1029/2022JB025553")[10.1029\/2022JB025553]
+    #strong[The Seismic Signature of California's Earthquakes, Droughts, and Floods]
 
   ],
   [
@@ -1940,12 +1892,16 @@
 
   ],
   main-column-second-row: [
+    #emph[T. Clements], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1029/2022JB025553")[10.1029\/2022JB025553] (Journal of Geophysical Research: Solid Earth, 128)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. A. Denolle], B. He (2022). #strong[A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms]. Geophysical Journal International, 231, #link("https://doi.org/10.1093/gji/ggac290")[10.1093\/gji\/ggac290]
+    #strong[A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms]
 
   ],
   [
@@ -1953,12 +1909,16 @@
 
   ],
   main-column-second-row: [
+    #emph[J. Yin], #strong[M. A. Denolle], B. He
+
+    #link("https://doi.org/10.1093/gji/ggac290")[10.1093\/gji\/ggac290] (Geophysical Journal International, 231)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging]. Journal of Geophysical Research: Solid Earth, 127, #link("https://doi.org/10.1029/2022JB024613")[10.1029\/2022JB024613]
+    #strong[Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging]
 
   ],
   [
@@ -1966,12 +1926,16 @@
 
   ],
   main-column-second-row: [
+    #emph[C. Jiang], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1029/2022JB024613")[10.1029\/2022JB024613] (Journal of Geophysical Research: Solid Earth, 127)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[L. Viens], #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions]. Geophysical Journal International, 230, #link("https://doi.org/10.1093/gji/ggac101")[10.1093\/gji\/ggac101]
+    #strong[Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions]
 
   ],
   [
@@ -1979,12 +1943,16 @@
 
   ],
   main-column-second-row: [
+    #emph[L. Viens], #emph[C. Jiang], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1093/gji/ggac101")[10.1093\/gji\/ggac101] (Geophysical Journal International, 230)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[S. D. Olinger], B. P. Lipovsky, #strong[M. A. Denolle], B. W. Crowell (2022). #strong[Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica]. Geophysical Research Letters, #link("https://doi.org/10.1029/2021GL097604")[10.1029\/2021GL097604]
+    #strong[Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica]
 
   ],
   [
@@ -1992,12 +1960,16 @@
 
   ],
   main-column-second-row: [
+    #emph[S. D. Olinger], B. P. Lipovsky, #strong[M. A. Denolle], B. W. Crowell
+
+    #link("https://doi.org/10.1029/2021GL097604")[10.1029\/2021GL097604] (Geophysical Research Letters)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[Z. Yang], #emph[C. Yuan], #strong[M. A. Denolle] (2022). #strong[Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring]. The Seismic Record, 2, #link("https://doi.org/10.1785/0320210036")[10.1785\/0320210036]
+    #strong[Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring]
 
   ],
   [
@@ -2005,12 +1977,16 @@
 
   ],
   main-column-second-row: [
+    #emph[Z. Yang], #emph[C. Yuan], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1785/0320210036")[10.1785\/0320210036] (The Seismic Record, 2)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. A. Denolle] (2021). #strong[The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes]. AGU Advances, 2, #link("https://doi.org/10.1029/2021AV000413")[10.1029\/2021AV000413]
+    #strong[The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes]
 
   ],
   [
@@ -2018,14 +1994,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes")[EOS]
+    #emph[J. Yin], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1029/2021AV000413")[10.1029\/2021AV000413] (AGU Advances, 2)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[C. Yuan], #emph[J. Bryan], #strong[M. A. Denolle] (2021). #strong[Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains]. Geophysical Journal International, 226, #link("https://doi.org/10.1093/gji/ggab140")[10.1093\/gji\/ggab140]
+    #strong[Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains]
 
   ],
   [
@@ -2033,12 +2011,16 @@
 
   ],
   main-column-second-row: [
+    #emph[C. Yuan], #emph[J. Bryan], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1093/gji/ggab140")[10.1093\/gji\/ggab140] (Geophysical Journal International, 226)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[J. Yin], Z. Li, #strong[M. A. Denolle] (2021). #strong[Source time function clustering reveals patterns in earthquake dynamics]. Seismological Research Letters, 92, #link("https://doi.org/10.1785/0220200403")[10.1785\/0220200403]
+    #strong[Source time function clustering reveals patterns in earthquake dynamics]
 
   ],
   [
@@ -2046,12 +2028,16 @@
 
   ],
   main-column-second-row: [
+    #emph[J. Yin], Z. Li, #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1785/0220200403")[10.1785\/0220200403] (Seismological Research Letters, 92)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2021). #strong[SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia]. Seismological Research Letters, 92, #link("https://doi.org/10.1785/0220200192")[10.1785\/0220200192]
+    #strong[SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia]
 
   ],
   [
@@ -2059,12 +2045,16 @@
 
   ],
   main-column-second-row: [
+    #emph[T. Clements], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1785/0220200192")[10.1785\/0220200192] (Seismological Research Letters, 92)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. A. Denolle], T. Nissen-Meyer (2020). #strong[Quiet Anthropocene, quiet Earth]. Science, 369, #link("https://doi.org/10.1126/science.abd8358")[10.1126\/science.abd8358]
+    #strong[Quiet Anthropocene, quiet Earth]
 
   ],
   [
@@ -2072,12 +2062,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. A. Denolle], T. Nissen-Meyer
+
+    #link("https://doi.org/10.1126/science.abd8358")[10.1126\/science.abd8358] (Science, 369)
+
   ],
 )
 
 #regular-entry(
   [
-    J. P. Jones, #emph[K. Okubo], #emph[T. Clements], #strong[M. A. Denolle] (2020). #strong[SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language]. Seismological Research Letters, 91, #link("https://doi.org/10.1785/0220190295")[10.1785\/0220190295]
+    #strong[SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language]
 
   ],
   [
@@ -2085,12 +2079,16 @@
 
   ],
   main-column-second-row: [
+    J. P. Jones, #emph[K. Okubo], #emph[T. Clements], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1785/0220190295")[10.1785\/0220190295] (Seismological Research Letters, 91)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[C. Jiang], #strong[M. A. Denolle] (2020). #strong[NoisePy: A new high-performance python tool for ambient-noise seismology]. Seismological Research Letters, 91, #link("https://doi.org/10.1785/0220190364")[10.1785\/0220190364]
+    #strong[NoisePy: A new high-performance python tool for ambient-noise seismology]
 
   ],
   [
@@ -2098,12 +2096,16 @@
 
   ],
   main-column-second-row: [
+    #emph[C. Jiang], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1785/0220190364")[10.1785\/0220190364] (Seismological Research Letters, 91)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[P. Danré], #emph[J. Yin], B. Lipovsky, #strong[M. Denolle] (2019). #strong[Earthquakes Within Earthquakes: Patterns in Rupture Complexity]. Geophysical Research Letters, 43, #link("https://doi.org/10.1029/2019GL083093")[10.1029\/2019GL083093]
+    #strong[Earthquakes Within Earthquakes: Patterns in Rupture Complexity]
 
   ],
   [
@@ -2111,14 +2113,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/")[Harvard Gazette]
+    #emph[P. Danré], #emph[J. Yin], B. Lipovsky, #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2019GL083093")[10.1029\/2019GL083093] (Geophysical Research Letters, 43)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle] (2019). #strong[Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan]. Bulletin of the Seismological Society of America, 109, #link("https://doi.org/10.1785/0120180320")[10.1785\/0120180320]
+    #strong[Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan]
 
   ],
   [
@@ -2126,12 +2130,16 @@
 
   ],
   main-column-second-row: [
+    #emph[L. Viens], #strong[M. Denolle]
+
+    #link("https://doi.org/10.1785/0120180320")[10.1785\/0120180320] (Bulletin of the Seismological Society of America, 109)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle] (2019). #strong[Energetic Onset of Earthquakes]. Geophysical Research Letters, 46, #link("https://doi.org/10.1029/2018GL080687")[10.1029\/2018GL080687]
+    #strong[Energetic Onset of Earthquakes]
 
   ],
   [
@@ -2139,12 +2147,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2018GL080687")[10.1029\/2018GL080687] (Geophysical Research Letters, 46)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. Denolle] (2019). #strong[Relating teleseismic backprojection images to earthquake kinematics]. Geophysical Journal International, 217, #link("https://doi.org/10.1093/gji/ggz048")[10.1093\/gji\/ggz048]
+    #strong[Relating teleseismic backprojection images to earthquake kinematics]
 
   ],
   [
@@ -2152,12 +2164,16 @@
 
   ],
   main-column-second-row: [
+    #emph[J. Yin], #strong[M. Denolle]
+
+    #link("https://doi.org/10.1093/gji/ggz048")[10.1093\/gji\/ggz048] (Geophysical Journal International, 217)
+
   ],
 )
 
 #regular-entry(
   [
-    Y. Wang, #strong[M. Denolle], S. M. Day (2019). #strong[Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake]. Journal of Geophysical Research, 124, #link("https://doi.org/10.1029/2018JB016602")[10.1029\/2018JB016602]
+    #strong[Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake]
 
   ],
   [
@@ -2165,12 +2181,16 @@
 
   ],
   main-column-second-row: [
+    Y. Wang, #strong[M. Denolle], S. M. Day
+
+    #link("https://doi.org/10.1029/2018JB016602")[10.1029\/2018JB016602] (Journal of Geophysical Research, 124)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. Denolle] (2018). #strong[Tracking ground water using the ambient seismic field]. (User text suggests possible mismatch of volume\/issue) Geophysical Research Letters, 123, #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706]
+    #strong[Tracking ground water using the ambient seismic field]
 
   ],
   [
@@ -2178,12 +2198,16 @@
 
   ],
   main-column-second-row: [
+    #emph[T. Clements], #strong[M. Denolle]
+
+    #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706] ((User text suggests possible mismatch of volume\/issue) Geophysical Research Letters, 123)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle], N. Hirata, S. Nakagawa (2018). #strong[Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions]. Journal of Geophysical Research: Solid Earth, 123
+    #strong[Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions]
 
   ],
   [
@@ -2191,12 +2215,16 @@
 
   ],
   main-column-second-row: [
+    #emph[L. Viens], #strong[M. Denolle], N. Hirata, S. Nakagawa
+
+     (Journal of Geophysical Research: Solid Earth, 123)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. A. Denolle], P. Boué, N. Hirata, G. C. Beroza (2018). #strong[Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake]. Journal of Geophysical Research: Solid Earth, 123
+    #strong[Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake]
 
   ],
   [
@@ -2204,12 +2232,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. A. Denolle], P. Boué, N. Hirata, G. C. Beroza
+
+     (Journal of Geophysical Research: Solid Earth, 123)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[C. Van Houtte], #strong[M. Denolle] (2018). #strong[Improved model fitting for the empirical Green's function approach using hierarchical models]. Journal of Geophysical Research: Solid Earth, 123
+    #strong[Improved model fitting for the empirical Green's function approach using hierarchical models]
 
   ],
   [
@@ -2217,12 +2249,16 @@
 
   ],
   main-column-second-row: [
+    #emph[C. Van Houtte], #strong[M. Denolle]
+
+     (Journal of Geophysical Research: Solid Earth, 123)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2018). #strong[Tracking groundwater levels using the ambient seismic field]. Geophysical Research Letters, 45, #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706]
+    #strong[Tracking groundwater levels using the ambient seismic field]
 
   ],
   [
@@ -2230,12 +2266,16 @@
 
   ],
   main-column-second-row: [
+    #emph[T. Clements], #strong[M. A. Denolle]
+
+    #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706] (Geophysical Research Letters, 45)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[T. Perol], M. Gharbi, #strong[M. Denolle] (2018). #strong[Convolutional neural network for earthquake detection and location]. Science Advances, 4
+    #strong[Convolutional neural network for earthquake detection and location]
 
   ],
   [
@@ -2243,14 +2283,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://news.harvard.edu/gazette/story/2018/03/researchers-create-algorithm-to-separate-earthquakes-from-seismic-noise/")[Harvard Gazette]
+    #emph[T. Perol], M. Gharbi, #strong[M. Denolle]
+
+     (Science Advances, 4)
 
   ],
 )
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. A. Denolle], H. Yao (2018). #strong[Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile]. Journal of Geophysical Research: Solid Earth, 123, #link("https://doi.org/10.1002/2017JB014265")[10.1002\/2017JB014265]
+    #strong[Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile]
 
   ],
   [
@@ -2258,12 +2300,16 @@
 
   ],
   main-column-second-row: [
+    #emph[J. Yin], #strong[M. A. Denolle], H. Yao
+
+    #link("https://doi.org/10.1002/2017JB014265")[10.1002\/2017JB014265] (Journal of Geophysical Research: Solid Earth, 123)
+
   ],
 )
 
 #regular-entry(
   [
-    Y. Sheng, #strong[M. A. Denolle], G. C. Beroza (2017). #strong[Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction]. Bulletin of the Seismological Society of America, 107, #link("https://doi.org/10.1785/0120170053")[10.1785\/0120170053]
+    #strong[Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction]
 
   ],
   [
@@ -2271,12 +2317,16 @@
 
   ],
   main-column-second-row: [
+    Y. Sheng, #strong[M. A. Denolle], G. C. Beroza
+
+    #link("https://doi.org/10.1785/0120170053")[10.1785\/0120170053] (Bulletin of the Seismological Society of America, 107)
+
   ],
 )
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle], H. Miyake, S. Sakai, S. Nakagawa (2017). #strong[Retrieving impulse response function amplitudes from the ambient seismic field]. Geophysical Journal International, 210, #link("https://doi.org/10.1093/gji/ggx155")[10.1093\/gji\/ggx155]
+    #strong[Retrieving impulse response function amplitudes from the ambient seismic field]
 
   ],
   [
@@ -2284,12 +2334,16 @@
 
   ],
   main-column-second-row: [
+    #emph[L. Viens], #strong[M. Denolle], H. Miyake, S. Sakai, S. Nakagawa
+
+    #link("https://doi.org/10.1093/gji/ggx155")[10.1093\/gji\/ggx155] (Geophysical Journal International, 210)
+
   ],
 )
 
 #regular-entry(
   [
-    P. Boue, #strong[M. Denolle], N. Hirata, S. Nakagawa, G. C. Beroza (2016). #strong[Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field]. Geophysical Journal International, 206, #link("https://doi.org/10.1093/gji/ggw205")[10.1093\/gji\/ggw205]
+    #strong[Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field]
 
   ],
   [
@@ -2297,12 +2351,16 @@
 
   ],
   main-column-second-row: [
+    P. Boue, #strong[M. Denolle], N. Hirata, S. Nakagawa, G. C. Beroza
+
+    #link("https://doi.org/10.1093/gji/ggw205")[10.1093\/gji\/ggw205] (Geophysical Journal International, 206)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], P. M. Shearer (2016). #strong[New perspective on self-similarity of shallow thrust earthquakes]. Journal of Geophysical Research: Solid Earth, 121, #link("https://doi.org/10.1002/2016JB013105")[10.1002\/2016JB013105]
+    #strong[New perspective on self-similarity of shallow thrust earthquakes]
 
   ],
   [
@@ -2310,12 +2368,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle], P. M. Shearer
+
+    #link("https://doi.org/10.1002/2016JB013105")[10.1002\/2016JB013105] (Journal of Geophysical Research: Solid Earth, 121)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], W. Fan, P. M. Shearer (2015). #strong[Dynamics of the M7.8 2015 Nepal Earthquake]. Geophysical Research Letters, 42, #link("https://doi.org/10.1002/2015GL065336")[10.1002\/2015GL065336]
+    #strong[Dynamics of the M7.8 2015 Nepal Earthquake]
 
   ],
   [
@@ -2323,12 +2385,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle], W. Fan, P. M. Shearer
+
+    #link("https://doi.org/10.1002/2015GL065336")[10.1002\/2015GL065336] (Geophysical Research Letters, 42)
+
   ],
 )
 
 #regular-entry(
   [
-    E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, #strong[M. Denolle], G. C. Beroza (2014). #strong[Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods]. Journal of Geophysical Research, 119, #link("https://doi.org/10.1002/2014JB011236")[10.1002\/2014JB011236]
+    #strong[Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods]
 
   ],
   [
@@ -2336,12 +2402,16 @@
 
   ],
   main-column-second-row: [
+    E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, #strong[M. Denolle], G. C. Beroza
+
+    #link("https://doi.org/10.1002/2014JB011236")[10.1002\/2014JB011236] (Journal of Geophysical Research, 119)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza (2014). #strong[Long-period seismic amplification in the Kanto Basin from the ambient seismic field]. Geophysical Research Letters, 41, #link("https://doi.org/10.1002/2014GL059425")[10.1002\/2014GL059425]
+    #strong[Long-period seismic amplification in the Kanto Basin from the ambient seismic field]
 
   ],
   [
@@ -2349,12 +2419,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle], H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza
+
+    #link("https://doi.org/10.1002/2014GL059425")[10.1002\/2014GL059425] (Geophysical Research Letters, 41)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2014). #strong[Strong Ground Motion Prediction using Virtual Earthquakes]. Science, 343, #link("https://doi.org/10.1126/science.1245678")[10.1126\/science.1245678]
+    #strong[Strong Ground Motion Prediction using Virtual Earthquakes]
 
   ],
   [
@@ -2362,14 +2436,16 @@
 
   ],
   main-column-second-row: [
-    Featured in: #link("https://www.youtube.com/watch?v=WTg3GzGCRfA")[Video]
+    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza
+
+    #link("https://doi.org/10.1126/science.1245678")[10.1126\/science.1245678] (Science, 343)
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2013). #strong[Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field]. Journal of Geophysical Research, 118, #link("https://doi.org/10.1029/2012JB009603")[10.1029\/2012JB009603]
+    #strong[Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field]
 
   ],
   [
@@ -2377,12 +2453,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza
+
+    #link("https://doi.org/10.1029/2012JB009603")[10.1029\/2012JB009603] (Journal of Geophysical Research, 118)
+
   ],
 )
 
 #regular-entry(
   [
-    J. F. Lawrence, #strong[M. Denolle], K. J. Seats, G. Prieto (2013). #strong[A numeric evaluation of attenuation from ambient noise correlation functions]. Journal of Geophysical Research, 118, #link("https://doi.org/10.1002/2012JB009513")[10.1002\/2012JB009513]
+    #strong[A numeric evaluation of attenuation from ambient noise correlation functions]
 
   ],
   [
@@ -2390,12 +2470,16 @@
 
   ],
   main-column-second-row: [
+    J. F. Lawrence, #strong[M. Denolle], K. J. Seats, G. Prieto
+
+    #link("https://doi.org/10.1002/2012JB009513")[10.1002\/2012JB009513] (Journal of Geophysical Research, 118)
+
   ],
 )
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. C. Beroza (2012). #strong[Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation]. Bulletin of the Seismological Society of America, 102, #link("https://doi.org/10.1785/0120110183")[10.1785\/0120110183]
+    #strong[Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation]
 
   ],
   [
@@ -2403,12 +2487,16 @@
 
   ],
   main-column-second-row: [
+    #strong[M. Denolle], E. M. Dunham, G. C. Beroza
+
+    #link("https://doi.org/10.1785/0120110183")[10.1785\/0120110183] (Bulletin of the Seismological Society of America, 102)
+
   ],
 )
 
 #regular-entry(
   [
-    G. A. Prieto, #strong[M. Denolle], J. F. Lawrence, G. C. Beroza (2011). #strong[On amplitude carried by the ambient seismic field]. Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343
+    #strong[On amplitude carried by the ambient seismic field]
 
   ],
   [
@@ -2416,12 +2504,16 @@
 
   ],
   main-column-second-row: [
+    G. A. Prieto, #strong[M. Denolle], J. F. Lawrence, G. C. Beroza
+
+     (Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343)
+
   ],
 )
 
 #regular-entry(
   [
-    S. Singh, N. Hananto, A. Chauhan, H. Permana, #strong[M. Denolle], A. Hendriyana, D. Natawidjaja (2010). #strong[Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra]. Geophysical Journal International, 180, #link("https://doi.org/10.1111/j.1365-246X.2009.04458.x")[10.1111\/j.1365-246X.2009.04458.x]
+    #strong[Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra]
 
   ],
   [
@@ -2429,6 +2521,10 @@
 
   ],
   main-column-second-row: [
+    S. Singh, N. Hananto, A. Chauhan, H. Permana, #strong[M. Denolle], A. Hendriyana, D. Natawidjaja
+
+    #link("https://doi.org/10.1111/j.1365-246X.2009.04458.x")[10.1111\/j.1365-246X.2009.04458.x] (Geophysical Journal International, 180)
+
   ],
 )
 
@@ -2763,63 +2859,21 @@
 
 #education-entry(
   [
-    #strong[Machine Learning in the Geosciences (Open-Access Jupyter Book)] Textbook
+    #strong[Global Seismic Phase Database] Dataset
 
   ],
   [
-    2021 – present
+    2025
 
   ],
   main-column-second-row: [
-    #summary[#link("https://geo-smart.github.io/mlgeo-book/")[Book] and #link("https://github.com/geo-smart/mlgeo-book")[course repository] provide graduate-level ML curriculum, asynchronous modules, and homework data pipelines for geoscience training.]
+    #summary[Global seismic data product from cloud-scale waveform processing. #link("https://doi.org/10.26443/seismica.v4i2.1738")[DOI].]
 
-    - Addresses a core gap: no canonical ML textbook existed for geoscience graduate classrooms.
+    - Scale: 4.3 billion phase picks from 1.3 PB of continuous seismic data.
 
-    - Adoption and contribution interest from peer programs (including Arizona and Berkeley).
+    - Publication link: Seismica (2025) with DOI-backed archival record.
 
-    - Ongoing community development with curated datasets and reproducible teaching workflows.
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[NoisePy] Software
-
-  ],
-  [
-    2019 – present
-
-  ],
-  main-column-second-row: [
-    #summary[Open-source Python software for large-scale ambient-noise seismology. #link("https://github.com/noisepy/NoisePy")[GitHub].]
-
-    - Community scale: 207 stars, 83 forks, 19 contributors (Jan 2026).
-
-    - Operational usage: taught in workshops and used for large-scale cross-correlation workflows.
-
-    - Open, version-controlled development supporting reproducible and cloud-oriented processing.
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[SeisNoise.jl] Software
-
-  ],
-  [
-    2020 – present
-
-  ],
-  main-column-second-row: [
-    #summary[Open-source Julia software for high-performance ambient-noise processing and cross-correlation. #link("https://github.com/tclements/SeisNoise.jl/")[GitHub].]
-
-    - Extends the Julia seismology ecosystem with core ambient-noise tooling.
-
-    - Community signal: 50 stars and 17 forks (Apr 2023 snapshot).
-
-    - Used by group members for production research workflows.
+    - Supports global monitoring and data-driven geophysics workflows.
 
   ],
 )
@@ -2847,21 +2901,63 @@
 
 #education-entry(
   [
-    #strong[Global Seismic Phase Database] Dataset
+    #strong[Machine Learning in the Geosciences (Open-Access Jupyter Book)] Textbook
 
   ],
   [
-    2025
+    2021 – present
 
   ],
   main-column-second-row: [
-    #summary[Global seismic data product from cloud-scale waveform processing. #link("https://doi.org/10.26443/seismica.v4i2.1738")[DOI].]
+    #summary[#link("https://geo-smart.github.io/mlgeo-book/")[Book] and #link("https://github.com/geo-smart/mlgeo-book")[course repository] provide graduate-level ML curriculum, asynchronous modules, and homework data pipelines for geoscience training.]
 
-    - Scale: 4.3 billion phase picks from 1.3 PB of continuous seismic data.
+    - Addresses a core gap: no canonical ML textbook existed for geoscience graduate classrooms.
 
-    - Publication link: Seismica (2025) with DOI-backed archival record.
+    - Adoption and contribution interest from peer programs (including Arizona and Berkeley).
 
-    - Supports global monitoring and data-driven geophysics workflows.
+    - Ongoing community development with curated datasets and reproducible teaching workflows.
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[SeisNoise.jl] Software
+
+  ],
+  [
+    2020 – present
+
+  ],
+  main-column-second-row: [
+    #summary[Open-source Julia software for high-performance ambient-noise processing and cross-correlation. #link("https://github.com/tclements/SeisNoise.jl/")[GitHub].]
+
+    - Extends the Julia seismology ecosystem with core ambient-noise tooling.
+
+    - Community signal: 50 stars and 17 forks (Apr 2023 snapshot).
+
+    - Used by group members for production research workflows.
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[NoisePy] Software
+
+  ],
+  [
+    2019 – present
+
+  ],
+  main-column-second-row: [
+    #summary[Open-source Python software for large-scale ambient-noise seismology. #link("https://github.com/noisepy/NoisePy")[GitHub].]
+
+    - Community scale: 207 stars, 83 forks, 19 contributors (Jan 2026).
+
+    - Operational usage: taught in workshops and used for large-scale cross-correlation workflows.
+
+    - Open, version-controlled development supporting reproducible and cloud-oriented processing.
 
   ],
 )
