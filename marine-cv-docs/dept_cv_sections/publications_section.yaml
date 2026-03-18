@@ -132,6 +132,7 @@
   - David Mencin
   doi: 10.1093/gji/ggaf322
   journal: Geophysical Journal International
+  article_type: review
   date: 2025-01
   citations: 2
 - title: 'Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities'
@@ -183,6 +184,7 @@
   doi: 10.5802/crgeos.310
   url: https://doi.org/10.5802/crgeos.310
   journal: Comptes Rendus. Géoscience, 357
+  article_type: review
   date: 2025-01
   citations: 0
 - title: Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection
@@ -509,6 +511,7 @@
   doi: 10.1126/science.abd8358
   url: https://doi.org/10.1126/science.abd8358
   journal: Science, 369
+  article_type: perspective
   date: 2020-01
   citations: 14
 - title: 'SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language'
