@@ -165,7 +165,7 @@
 
 #strong[Research Citations:] 3,398 total (h-index: 24, i10: 45) | 2,291 last-5y (h₅: 22, i10₅: 43) | Google Scholar
 
-#strong[Publications:] 66 peer-reviewed | 7 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 15 domain journals (T3) | 1 reviews\/perspectives | 3 preprints
+#strong[Publications:] 66 peer-reviewed | 5 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 15 domain journals (T3) | 3 reviews\/perspectives | 3 preprints
 
 #strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
@@ -1139,7 +1139,7 @@
 
   ],
   main-column-second-row: [
-    - Advising AI strategy and initiatives across the university
+    - Advising AI strategy and initiatives across the university, commitment \~ 1hr\/week
 
   ],
 )
