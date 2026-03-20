@@ -35,9 +35,9 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,398 total (h-index: 24, i10: 45) | 2,291 last-5y (h₅: 22, i10₅: 43) | Google Scholar
+**Research Citations:** 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
 
-**Publications:** 66 peer-reviewed | 3 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 17 domain journals (T3) | 3 reviews/perspectives | 3 preprints
+**Publications:** 68 peer-reviewed | 5 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 1 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
@@ -546,61 +546,27 @@ ambient noise seismology, ground motion prediction
 **Penprapa Wutthijuk (\*):** 2011, Stanford - Ambient noise seismology, SURGE program
 
 # Training Workshops
-## !!! summary
-
-2025
-
-co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
-
-[scoped-mlscience-book.readthedocs.io](https://scoped-mlscience-book.readthedocs.io/)
+## **[CRESCENT-SCOPED Workshop](https://scoped-mlscience-book.readthedocs.io/)** co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)2025
 
 
 
-## !!! summary
-
-2024
-
-Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)
-
-[seisscoped.org/HPS-book/intro.html](https://seisscoped.org/HPS-book/intro.html)
+## **[SCOPED Workshop](https://seisscoped.org/HPS-book/intro.html)** Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)2024
 
 
 
-## !!! summary
-
-2024
-
-Lead organizer of cloud workshop (80 participants)
-
-[seisscoped.org/SSA-Cloud-101/intro.html](https://seisscoped.org/SSA-Cloud-101/intro.html)
+## **[SSA Cloud 101 & Data Mining](https://seisscoped.org/SSA-Cloud-101/intro.html)** Lead organizer of cloud workshop (80 participants)2024
 
 
 
-## !!! summary
-
-2023
-
-Lead PI, coordinator, and instructor for HPC and Data Science
-
-[seisscoped.org/HPS-book/intro.html](https://seisscoped.org/HPS-book/intro.html)
+## **[CyberTraining Workshop](https://seisscoped.org/HPS-book/intro.html)** Lead PI, coordinator, and instructor for HPC and Data Science2023
 
 
 
-## !!! summary
-
-2021 – present
-
-Co-organizer of ML training with Jupyter Book
-
-[geo-smart.github.io/mlgeo-book](https://geo-smart.github.io/mlgeo-book/)
+## **[GeoSMART ML for Solid Earth Science](https://geo-smart.github.io/mlgeo-book/)** Co-organizer of ML training with Jupyter Book2021 – present
 
 
 
-## !!! summary
-
-2016
-
-Scientific committee member and instructor
+## **SCEC-ERI VISES Summer School** Scientific committee member and instructor2016
 
 
 
@@ -762,13 +728,43 @@ Veronica Gaete-Elgueta, *Manuela Köpfli*, Dominik Gräff, Bradley P Lipovsky, *
 
 
 
+## **Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia**
+
+2026
+
+*Maleen Kidiwela*, **Marine A. Denolle**, William S. D. Wilcock, *Kuan-Fu Feng*
+
+[10.1126/sciadv.aea3684](https://doi.org/10.1126/sciadv.aea3684) (Science Advances, 12)
+
+
+
+## **DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data**
+
+2026
+
+Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, *Qibin Shi*, **Marine A Denolle**
+
+[10.1093/gji/ggag061](https://doi.org/10.1093/gji/ggag061) (Geophysical Journal International, 245)
+
+
+
+## **Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest**
+
+2026
+
+*Akash Kharita*, **Marine Denolle**, Alexander Hutko, Renate Hartog, Stephen Malone
+
+[10.26443/seismica.v5i1.2068](https://doi.org/10.26443/seismica.v5i1.2068) (Seismica, 5)
+
+
+
 ## **Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)**
 
 2026
 
-John Townend, Ilma Del Carmen Juarez-Garfias, Olivia Pita-Sllim, Calum J. Chamberlain, Emily Warren-Smith, Caroline Holden, Kasper van Wijk, **Marine Denolle**, Andrew Curtis, Hiroe Miyake
+John Townend, Ilma del Carmen Juarez‐Garfias, Olivia Pita‐Sllim, Calum J. Chamberlain, Emily Warren‐Smith, Caroline Holden, Kasper van Wijk, **Marine Denolle**, Andrew Curtis, Hiroe Miyake
 
- (in press in Seismological Research Letters)
+[10.1785/0220250260](https://doi.org/10.1785/0220250260) (Seismological Research Letters)
 
 
 
@@ -792,16 +788,6 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 
 
-## **Agroseismology: unraveling the impact of farming practices on soil hydrodynamics**
-
-2026
-
-*Qibin Shi*, David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan Williams*, Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**
-
-[10.48550/arXiv.2509.09821](https://doi.org/10.48550/arXiv.2509.09821) (in review in Science - preprint on Arxiv)
-
-
-
 ## **A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States**
 
 2026
@@ -809,16 +795,6 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 *Kuan-Fu Feng*, **Marine Denolle**, Fan-Chi Lin, Tonie van Dam
 
  (Journal of Geophysical Research: Solid Earth, 131)
-
-
-
-## **Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest**
-
-2025
-
-*Akash Kharita*, **Marine Denolle**, Alexander R Hutko, J Renate Hartog, Stephen D Malone
-
-[10.48550/arXiv.2510.23795](https://doi.org/10.48550/arXiv.2510.23795) (accepted in Seismica, pre-print on Arxiv)
 
 
 
@@ -1412,6 +1388,14 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
+## **Agroseismology and the impact of farming practices on soil hydrodynamics**
+
+*Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**
+
+[10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970) (Science, 0)
+
+
+
 # Grants
 ## **Jerry and Linda Paros** Mult-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountaineous regions: $750,000 (lead PI2025
 
@@ -1579,7 +1563,7 @@ Open-source Python software for large-scale ambient-noise seismology. [GitHub](h
 
 
 
-## **WCCM 2026, Munich** Conference Speaker2026
+## **WCCM 2026, Munich** Keynote Speaker2026
 
 
 
@@ -1588,6 +1572,10 @@ Open-source Python software for large-scale ambient-noise seismology. [GitHub](h
 
 
 ## **CERI Memphis** Department Colloquium2026
+
+
+
+## **IEEE New Era AI World Leader Summit, Bothell** Keynote Speaker2025
 
 
 
