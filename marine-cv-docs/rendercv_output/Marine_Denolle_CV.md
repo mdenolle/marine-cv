@@ -14,7 +14,7 @@
 # Research Impact Summary
 **Research Citations:** 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
 
-**Publications:** 68 peer-reviewed | 4 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 2 preprints
+**Publications:** 68 peer-reviewed | 5 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 1 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
@@ -908,12 +908,6 @@ Featured in: [Npr](https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-sci
 
 
 
-## *Qibin Shi*, David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan Williams*, Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle** (2026). **Agroseismology: unraveling the impact of farming practices on soil hydrodynamics**. in review in Science - preprint on Arxiv, [10.48550/arXiv.2509.09821](https://doi.org/10.48550/arXiv.2509.09821)
-
-2026
-
-
-
 ## *Kuan-Fu Feng*, **Marine Denolle**, Fan-Chi Lin, Tonie van Dam (2026). **A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States**. Journal of Geophysical Research: Solid Earth, 131
 
 2026
@@ -1290,6 +1284,10 @@ Featured in: [Video](https://www.youtube.com/watch?v=WTg3GzGCRfA)
 
 
 
+## *Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**  **Agroseismology and the impact of farming practices on soil hydrodynamics**. Science, 0, [10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970)
+
+
+
 # Grants
 ## **Jerry and Linda Paros** Mult-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountaineous regions: $750,000 (lead PI2025
 
@@ -1457,7 +1455,7 @@ Global seismic data product from cloud-scale waveform processing. [DOI](https://
 
 
 
-## **WCCM 2026, Munich** Conference Speaker2026
+## **WCCM 2026, Munich** Keynote Speaker2026
 
 
 
@@ -1466,6 +1464,10 @@ Global seismic data product from cloud-scale waveform processing. [DOI](https://
 
 
 ## **CERI Memphis** Department Colloquium2026
+
+
+
+## **IEEE New Era AI World Leader Summit, Bothell** Keynote Speaker2025
 
 
 

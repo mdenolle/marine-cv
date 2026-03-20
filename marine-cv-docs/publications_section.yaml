@@ -29,7 +29,7 @@
   doi: 10.1126/sciadv.aea3684
   journal: Science Advances, 12
   date: 2026-01
-  citations: -1
+  citations: 0
   media_coverage:
     - 'https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep?mkt_tok=MTMxLUFRTy0yMjUAAAGgcXIp-QXzGs0WlB22XUVMoYKPipJCRo8S4n33LPNaUafp1sPhgf2znlMDhypipbORq0-bRqsRe0CwLZW5j3bJrR_BVsSsoMwhzvCfexfE5HUYUjD5'
     - 'https://www.washington.edu/news/2026/02/27/stress-testing-the-cascadia-subduction-zone-reveals-variability-that-could-impact-how-earthquakes-spread/'
@@ -119,27 +119,6 @@
   date: 2026-01
   citations: 0
 
-- title: "Agroseismology: unraveling the impact of farming practices on soil hydrodynamics"
-  authors:
-    - "*Qibin Shi*"
-    - David Montgomery
-    - Abigail L.S. Swann
-    - Nicoleta C. Cristea
-    - "*Ethan Williams*"
-    - Nan You
-    - Joe Collins
-    - Ana Prada Barrio
-    - Simon Jeffrey
-    - Ana Misiewicz
-    - Tarje Nissen-Meyer
-    - "**Marine A. Denolle**"
-  summary:
-  doi: 10.48550/arXiv.2509.09821
-  url: https://doi.org/10.48550/arXiv.2509.09821
-  journal: in review in Science - preprint on Arxiv
-  date: 2026-01
-  citations: 0
-
 - title: A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States
   authors:
     - "*Kuan-Fu Feng*"
@@ -185,9 +164,9 @@
   summary:
   doi: 10.1093/gji/ggaf322
   journal: Geophysical Journal International
-  article_type: review
   date: 2025-01
   citations: 4
+  article_type: review
 
 - title: "Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities"
   authors:
@@ -241,9 +220,9 @@
   doi: 10.5802/crgeos.310
   url: https://doi.org/10.5802/crgeos.310
   journal: Comptes Rendus. Géoscience, 357
-  article_type: review
   date: 2025-01
   citations: 1
+  article_type: review
 
 - title: Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection
   authors:
@@ -624,9 +603,9 @@
   doi: 10.1126/science.abd8358
   url: https://doi.org/10.1126/science.abd8358
   journal: Science, 369
-  article_type: perspective
   date: 2020-01
   citations: 13
+  article_type: perspective
 
 - title: "SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language"
   authors:
@@ -959,4 +938,24 @@
   journal: Geophysical Journal International, 180
   date: 2010-01
   citations: 116
+
+- title: Agroseismology and the impact of farming practices on soil hydrodynamics
+  authors:
+    - "*Qibin Shi*"
+    - David R. Montgomery
+    - Abigail L.S. Swann
+    - Nicoleta C. Cristea
+    - "*Ethan F. Williams*"
+    - Nan You
+    - Simon Jeffery
+    - Joe Collins
+    - Ana Prada Barrio
+    - Paula A. Misiewicz
+    - Tarje Nissen-Meyer
+    - "**Marine A. Denolle**"
+  summary:
+  doi: 10.1126/science.aec0970
+  journal: Science, 0
+  date: 
+  citations: 0
 

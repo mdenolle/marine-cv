@@ -105,7 +105,7 @@
 
 #strong[Research Citations:] 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
 
-#strong[Publications:] 68 peer-reviewed | 4 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews\/perspectives | 2 preprints
+#strong[Publications:] 68 peer-reviewed | 5 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews\/perspectives | 1 preprints
 
 #strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
@@ -1625,19 +1625,6 @@
 
 #regular-entry(
   [
-    #emph[Qibin Shi], David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan Williams], Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle] (2026). #strong[Agroseismology: unraveling the impact of farming practices on soil hydrodynamics]. in review in Science - preprint on Arxiv, #link("https://doi.org/10.48550/arXiv.2509.09821")[10.48550\/arXiv.2509.09821]
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
     #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam (2026). #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]. Journal of Geophysical Research: Solid Earth, 131
 
   ],
@@ -2432,6 +2419,17 @@
   ],
 )
 
+  #regular-entry(
+  [
+    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]  #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]. Science, 0, #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+  ],
+)
+
 == Grants
 
 #education-entry(
@@ -2883,7 +2881,7 @@
 
 #education-entry(
   [
-    #strong[WCCM 2026, Munich] Conference Speaker
+    #strong[WCCM 2026, Munich] Keynote Speaker
 
   ],
   [
@@ -2914,6 +2912,19 @@
   ],
   [
     2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[IEEE New Era AI World Leader Summit, Bothell] Keynote Speaker
+
+  ],
+  [
+    2025
 
   ],
   main-column-second-row: [
