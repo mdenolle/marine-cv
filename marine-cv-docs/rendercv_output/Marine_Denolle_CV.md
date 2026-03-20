@@ -664,39 +664,27 @@ ambient noise seismology, ground motion prediction
 **Penprapa Wutthijuk (\*):** 2011, Stanford - Ambient noise seismology, SURGE program
 
 # Training Workshops
-## (2025).
-
-2025
+## **[CRESCENT-SCOPED Workshop](https://scoped-mlscience-book.readthedocs.io/)** co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)2025
 
 
 
-## (2024).
-
-2024
+## **[SCOPED Workshop](https://seisscoped.org/HPS-book/intro.html)** Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)2024
 
 
 
-## (2024).
-
-2024
+## **[SSA Cloud 101 & Data Mining](https://seisscoped.org/SSA-Cloud-101/intro.html)** Lead organizer of cloud workshop (80 participants)2024
 
 
 
-## (2023).
-
-2023
+## **[CyberTraining Workshop](https://seisscoped.org/HPS-book/intro.html)** Lead PI, coordinator, and instructor for HPC and Data Science2023
 
 
 
-## (2021 – present).
-
-2021 – present
+## **[GeoSMART ML for Solid Earth Science](https://geo-smart.github.io/mlgeo-book/)** Co-organizer of ML training with Jupyter Book2021 – present
 
 
 
-## (2016).
-
-2016
+## **SCEC-ERI VISES Summer School** Scientific committee member and instructor2016
 
 
 

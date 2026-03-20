@@ -1,36 +1,19 @@
-  - name: CRESCENT-SCOPED Workshop
+  - institution: '[CRESCENT-SCOPED Workshop](https://scoped-mlscience-book.readthedocs.io/)'
+    area: co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
     date: '2025'
-    url: https://scoped-mlscience-book.readthedocs.io/
-    summary: co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']
-  - name: SCOPED Workshop
+  - institution: '[SCOPED Workshop](https://seisscoped.org/HPS-book/intro.html)'
+    area: Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)
     date: '2024'
-    url: https://seisscoped.org/HPS-book/intro.html
-    summary: Lead PI organizer for Cloud/HPC/wavefield simulations workshop (100 participants)
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']
-  - name: SSA Cloud 101 & Data Mining
+  - institution: '[SSA Cloud 101 & Data Mining](https://seisscoped.org/SSA-Cloud-101/intro.html)'
+    area: Lead organizer of cloud workshop (80 participants)
     date: '2024'
-    url: https://seisscoped.org/SSA-Cloud-101/intro.html
-    summary: Lead organizer of cloud workshop (80 participants)
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']
-  - name: CyberTraining Workshop
+  - institution: '[CyberTraining Workshop](https://seisscoped.org/HPS-book/intro.html)'
+    area: Lead PI, coordinator, and instructor for HPC and Data Science
     date: '2023'
-    url: https://seisscoped.org/HPS-book/intro.html
-    summary: Lead PI, coordinator, and instructor for HPC and Data Science
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']
-  - name: GeoSMART ML for Solid Earth Science
+  - institution: '[GeoSMART ML for Solid Earth Science](https://geo-smart.github.io/mlgeo-book/)'
+    area: Co-organizer of ML training with Jupyter Book
     start_date: 2021
     end_date: present
-    url: https://geo-smart.github.io/mlgeo-book/
-    summary: Co-organizer of ML training with Jupyter Book
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']
-  - name: SCEC-ERI VISES Summer School
+  - institution: SCEC-ERI VISES Summer School
+    area: Scientific committee member and instructor
     date: '2016'
-    summary: Scientific committee member and instructor
-    title: '__HIDDEN__'
-    authors: ['__HIDDEN__']

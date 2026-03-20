@@ -1142,9 +1142,9 @@
 
 == Training Workshops
 
-#regular-entry(
+#education-entry(
   [
-    (2025).
+    #strong[#link("https://scoped-mlscience-book.readthedocs.io/")[CRESCENT-SCOPED Workshop]] co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
 
   ],
   [
@@ -1155,22 +1155,9 @@
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    (2024).
-
-  ],
-  [
-    2024
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    (2024).
+    #strong[#link("https://seisscoped.org/HPS-book/intro.html")[SCOPED Workshop]] Lead PI organizer for Cloud\/HPC\/wavefield simulations workshop (100 participants)
 
   ],
   [
@@ -1181,9 +1168,22 @@
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    (2023).
+    #strong[#link("https://seisscoped.org/SSA-Cloud-101/intro.html")[SSA Cloud 101 & Data Mining]] Lead organizer of cloud workshop (80 participants)
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[#link("https://seisscoped.org/HPS-book/intro.html")[CyberTraining Workshop]] Lead PI, coordinator, and instructor for HPC and Data Science
 
   ],
   [
@@ -1194,9 +1194,9 @@
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    (2021 – present).
+    #strong[#link("https://geo-smart.github.io/mlgeo-book/")[GeoSMART ML for Solid Earth Science]] Co-organizer of ML training with Jupyter Book
 
   ],
   [
@@ -1207,9 +1207,9 @@
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    (2016).
+    #strong[SCEC-ERI VISES Summer School] Scientific committee member and instructor
 
   ],
   [
