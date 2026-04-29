@@ -55,13 +55,16 @@ def calculate_yoy_growth(cites_per_year: Dict[str, int]) -> Optional[str]:
     if not cites_per_year or len(cites_per_year) < 2:
         return None
     
-    # Get the two most recent years with data
-    years = sorted([int(y) for y in cites_per_year.keys()])
-    if len(years) < 2:
+    # Use only fully completed years (exclude the current calendar year)
+    current_calendar_year = datetime.now().year
+    completed_years = sorted(
+        [int(y) for y in cites_per_year.keys() if int(y) < current_calendar_year]
+    )
+    if len(completed_years) < 2:
         return None
     
-    current_year = years[-1]
-    previous_year = years[-2]
+    current_year = completed_years[-1]
+    previous_year = completed_years[-2]
     
     current_citations = cites_per_year.get(str(current_year), 0)
     previous_citations = cites_per_year.get(str(previous_year), 0)
@@ -89,85 +92,93 @@ def update_cv_with_metrics(cache: Dict[str, Any]) -> bool:
         return False
     
     metrics = cache['metrics']
-    
-    # Extract metrics
-    total_citations = metrics.get('total_citations', 0)
-    h_index = metrics.get('h_index', 0)
+
+    # Extract OpenAlex metrics (primary, live source)
+    oa_total = metrics.get('openalex_total_citations', metrics.get('total_citations', 0))
+    oa_h = metrics.get('openalex_h_index', metrics.get('h_index', 0))
     i10_index = metrics.get('i10_index', 0)
     cites_per_year = metrics.get('cites_per_year', {})
-    
+
+    # Extract archival Google Scholar metrics (last known)
+    gs_h = metrics.get('gs_h_index', 0)
+    gs_total = metrics.get('gs_total_citations', 0)
+
     # Calculate year-over-year growth
     yoy_growth = calculate_yoy_growth(cites_per_year)
-    
-    # Format the citation details
-    citation_details = f"{total_citations:,} total citations, h-index: {h_index}, i10-index: {i10_index}"
+
+    # Format the citation details — show both sources
+    oa_part = f"{oa_total:,} total (h-index: {oa_h}, i10: {i10_index})"
     if yoy_growth:
-        citation_details += f" ({yoy_growth})"
-    citation_details += " (Google Scholar)"
-    
+        oa_part += f" {yoy_growth}"
+    oa_part += " (OpenAlex)"
+
+    if gs_h:
+        gs_part = f"h-index: {gs_h}"
+        if gs_total:
+            gs_part = f"{gs_total:,} total, " + gs_part
+        gs_part += " (Google Scholar, last known)"
+        citation_details = f"{oa_part} | {gs_part}"
+    else:
+        citation_details = oa_part
+
     print(f"\nCitation Metrics:")
-    print(f"  Total citations: {total_citations:,}")
-    print(f"  h-index: {h_index}")
-    print(f"  i10-index: {i10_index}")
+    print(f"  Total citations (OpenAlex): {oa_total:,}")
+    print(f"  h-index (OpenAlex): {oa_h}")
+    print(f"  i10-index (OpenAlex): {i10_index}")
+    if gs_h:
+        print(f"  h-index (Google Scholar, last known): {gs_h}")
     if yoy_growth:
         print(f"  Year-over-year growth: {yoy_growth}")
-    
-    # Load CV YAML
+
+    # Load research_impact_summary.yaml directly
+    # (Marine_Denolle_CV.yaml uses !include which ruamel.yaml does not resolve)
+    impact_file = CV_DIR / 'research_impact_summary.yaml'
     yaml = YAML()
     yaml.preserve_quotes = True
     yaml.default_flow_style = False
     yaml.width = 4096  # Prevent line wrapping
-    
+
     try:
-        with open(CV_FILE, 'r') as f:
-            cv_data = yaml.load(f)
+        with open(impact_file, 'r') as f:
+            impact_summary = yaml.load(f)
     except Exception as e:
-        print(f"Error loading CV file: {e}")
+        print(f"Error loading {impact_file}: {e}")
         return False
-    
-    # Navigate to research_impact_summary
-    if 'cv' not in cv_data:
-        print("Error: 'cv' section not found in CV YAML")
+
+    if not isinstance(impact_summary, list):
+        print(f"Error: {impact_file} does not contain a YAML list")
         return False
-    
-    if 'sections' not in cv_data['cv']:
-        print("Error: 'sections' not found in CV YAML")
-        return False
-    
-    if 'research_impact_summary' not in cv_data['cv']['sections']:
-        print("Error: 'research_impact_summary' section not found in CV YAML")
-        return False
-    
-    impact_summary = cv_data['cv']['sections']['research_impact_summary']
-    
+
     # Find or create the Research Citations entry
     citation_entry = None
     for entry in impact_summary:
-        if entry.get('label') == 'Research Citations':
+        if isinstance(entry, dict) and entry.get('label') == 'Research Citations':
             citation_entry = entry
             break
-    
+
     if citation_entry:
-        # Update existing entry
         citation_entry['details'] = citation_details
         print(f"\n✓ Updated 'Research Citations' entry")
     else:
-        # Add new entry at the beginning
-        new_entry = {
-            'label': 'Research Citations',
-            'details': citation_details
-        }
+        import ruamel.yaml.comments as _ryc
+        new_entry = _ryc.CommentedMap({'label': 'Research Citations', 'details': citation_details})
         impact_summary.insert(0, new_entry)
         print(f"\n✓ Added 'Research Citations' entry")
-    
-    # Save updated CV
+
+    # Save updated research_impact_summary.yaml
     try:
-        with open(CV_FILE, 'w') as f:
-            yaml.dump(cv_data, f)
-        print(f"✓ Saved updated CV to {CV_FILE}\n")
+        # Clear any accumulated document-level comments (prevent duplicate headers)
+        if hasattr(impact_summary, 'ca') and impact_summary.ca.items:
+            impact_summary.ca.items.clear()
+        if hasattr(impact_summary, 'ca') and impact_summary.ca.comment:
+            impact_summary.ca.comment = None
+        with open(impact_file, 'w') as f:
+            f.write("# AUTO-GENERATED by scripts/update_cv_citations.py — do not edit manually\n")
+            yaml.dump(impact_summary, f)
+        print(f"✓ Saved updated {impact_file}\n")
         return True
     except Exception as e:
-        print(f"Error saving CV file: {e}")
+        print(f"Error saving {impact_file}: {e}")
         return False
 
 
