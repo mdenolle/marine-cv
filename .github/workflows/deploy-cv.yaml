@@ -8,6 +8,7 @@ on:
       - "src/rendercv/**"
       - ".github/workflows/deploy-cv.yaml"
   workflow_dispatch:  # manual trigger
+  workflow_call:      # callable from other workflows
 
 permissions:
   contents: write

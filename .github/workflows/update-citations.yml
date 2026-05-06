@@ -32,9 +32,19 @@ jobs:
           python scripts/update_cv_citations.py
       
       - name: Commit and push if changed
+        id: commit
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add marine-cv-docs/citation_cache.json marine-cv-docs/research_impact_summary.yaml
-          git diff --staged --quiet || git commit -m "Update citation counts and metrics [automated]"
-          git push
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Update citation counts and metrics [automated]"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+  render-cv:
+    needs: update-citations
+    uses: ./.github/workflows/deploy-cv.yaml
