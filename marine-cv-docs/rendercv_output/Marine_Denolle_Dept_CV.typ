@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 20,
+    month: 5,
+    day: 6,
   ),
 )
 
@@ -163,17 +163,17 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
+#strong[Research Citations:] 3,024 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-#strong[Publications:] 68 peer-reviewed | 5 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews\/perspectives | 1 preprints
+#strong[Publications:] 68 peer-reviewed | 6 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 #strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
-#strong[Open-Source Software:] 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads\/yr
+#strong[Open-Source Software:] 403 GitHub stars | 255 forks | 21 active repos | NoisePy: 210 stars, 83 forks, 19 contributors | 684+ PyPI downloads\/yr
 
-#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
+#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
-#strong[Broader Impact:] 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
+#strong[Broader Impact:] mlgeo-book: 13 GitHub stars
 
 == Employment
 
@@ -992,6 +992,8 @@
 
 #strong[Note:] My undergraduate advising includes research opportunities through summer programs and independent studies (ESS 499 for credit during academic year, hourly pay during summer\/breaks). I mentor students toward conference presentations and publications, and support competitive fellowship applications. Legend: (#sym.ast.basic#h(0pt, weak: true) ) Conference presentation | (#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) Peer-reviewed publication | (#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) Publication in prep | (+) NSF GRFP recipient
 
+#strong[Derek Yao:] 2026-present, CSE - various agents for Geosciences
+
 #strong[Alex Rose :] 2025-present, UW Oceanography - DAS data processing research
 
 #strong[Anjani Mirchandi:] 2024-present, UW Applied Math - DAS data processing research
@@ -1103,6 +1105,21 @@
 )
 
 == University Service
+
+#regular-entry(
+  [
+    #strong[AI Minor task force member], University of Washington
+
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
+    - reviewing AI Minor proposal for cross-university program, \~ 1hr\/week for spring quarter
+
+  ],
+)
 
 #regular-entry(
   [
@@ -2988,6 +3005,19 @@
 
 #education-entry(
   [
+    #strong[National Academy of Sciences - COSEG] Seminar Speaker
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
     #strong[NGF Science Meeting] Conference Speaker
 
   ],
@@ -3014,7 +3044,7 @@
 
 #education-entry(
   [
-    #strong[European Geophysical Union] Conference Speaker
+    #strong[European Geophysical Union 3x] Conference Speaker
 
   ],
   [

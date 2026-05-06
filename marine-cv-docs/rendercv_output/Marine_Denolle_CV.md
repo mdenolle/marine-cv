@@ -12,17 +12,17 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
+**Research Citations:** 3,024 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-**Publications:** 68 peer-reviewed | 5 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 1 preprints
+**Publications:** 68 peer-reviewed | 6 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
-**Open-Source Software:** 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads/yr
+**Open-Source Software:** 403 GitHub stars | 255 forks | 21 active repos | NoisePy: 210 stars, 83 forks, 19 contributors | 684+ PyPI downloads/yr
 
-**Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
+**Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
-**Broader Impact:** 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
+**Broader Impact:** mlgeo-book: 13 GitHub stars
 
 # Education
 ## **Stanford University** Geophysics2008 – 2014
@@ -220,7 +220,7 @@ U of Washington
 
 2022 - 2026
 
-[github.com/UW-geophysics-edu/ESS314-fall23](https://github.com/UW-geophysics-edu/ESS314-fall23)
+[uw-geophysics-edu.github.io/ess314](https://uw-geophysics-edu.github.io/ess314)
 
 - Taught 2022, 2023, 2024, 2026
 
@@ -633,6 +633,8 @@ ambient noise seismology, ground motion prediction
 # Undergraduate Students
 **Note:** My undergraduate advising includes research opportunities through summer programs and independent studies (ESS 499 for credit during academic year, hourly pay during summer/breaks). I mentor students toward conference presentations and publications, and support competitive fellowship applications. Legend: (\*) Conference presentation | (\*\*) Peer-reviewed publication | (\*\*\*) Publication in prep | (+) NSF GRFP recipient
 
+**Derek Yao:** 2026-present, CSE - various agents for Geosciences
+
 **Alex Rose :** 2025-present, UW Oceanography - DAS data processing research
 
 **Anjani Mirchandi:** 2024-present, UW Applied Math - DAS data processing research
@@ -689,6 +691,16 @@ ambient noise seismology, ground motion prediction
 
 
 # University Service
+## **AI Minor task force member**
+
+University of Washington
+
+2026 – present
+
+- reviewing AI Minor proposal for cross-university program, ~ 1hr/week for spring quarter
+
+
+
 ## **Department Colloquium Committee**
 
 University of Washington
@@ -1274,6 +1286,8 @@ Featured in: [Video](https://www.youtube.com/watch?v=WTg3GzGCRfA)
 
 ## *Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**  **Agroseismology and the impact of farming practices on soil hydrodynamics**. Science, 0, [10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970)
 
+Featured in: [UW News](https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/), [Grist](https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/)
+
 
 
 # Grants
@@ -1439,6 +1453,10 @@ Global seismic data product from cloud-scale waveform processing. [DOI](https://
 
 
 # Invited Talks
+## **National Academy of Sciences - COSEG** Seminar Speaker2026
+
+
+
 ## **NGF Science Meeting** Conference Speaker2026
 
 
@@ -1447,7 +1465,7 @@ Global seismic data product from cloud-scale waveform processing. [DOI](https://
 
 
 
-## **European Geophysical Union** Conference Speaker2026
+## **European Geophysical Union 3x** Conference Speaker2026
 
 
 

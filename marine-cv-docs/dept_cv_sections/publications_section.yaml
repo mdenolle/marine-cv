@@ -40,7 +40,7 @@
   doi: 10.1093/gji/ggag061
   journal: Geophysical Journal International, 245
   date: 2026-01
-  citations: 1
+  citations: 0
 - title: Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest
   authors:
   - '*Akash Kharita*'
@@ -51,7 +51,7 @@
   doi: 10.26443/seismica.v5i1.2068
   journal: Seismica, 5
   date: 2026-01
-  citations: -1
+  citations: 0
 - title: Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)
   authors:
   - John Townend
@@ -67,7 +67,7 @@
   doi: 10.1785/0220250260
   journal: Seismological Research Letters
   date: 2026-01
-  citations: 1
+  citations: 0
 - title: Probing the Seattle Basin Edge Using a Dense Urban Nodal Array in 100 Backyards
   authors:
   - '*Natasha Toghramadjian*'
@@ -77,7 +77,7 @@
   doi: 10.1785/0220250241
   journal: Seismological Research Letters
   date: 2026-01
-  citations: 0
+  citations: 1
 - title: The Seismic Wavefield Common Task Framework
   authors:
   - Alexey Yermakov
@@ -124,7 +124,7 @@
   doi: 10.26443/seismica.v4i2.1738
   journal: Seismica, 4
   date: 2025-01
-  citations: -1
+  citations: 2
   media_coverage:
   - https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc
 - title: A Review of Cloud Computing and Storage in Seismology
@@ -142,8 +142,7 @@
   doi: 10.1093/gji/ggaf322
   journal: Geophysical Journal International
   date: 2025-01
-  citations: 4
-  article_type: review
+  citations: 3
 - title: 'Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities'
   authors:
   - '**Marine A. Denolle**'
@@ -181,7 +180,7 @@
   doi: 10.1785/0220240413
   journal: Seismological Research Letters, 96
   date: 2025-01
-  citations: 6
+  citations: 4
 - title: Ambient field seismology in critical zone hydrological sciences
   authors:
   - '**Marine A. Denolle**'
@@ -194,8 +193,7 @@
   url: https://doi.org/10.5802/crgeos.310
   journal: Comptes Rendus. Géoscience, 357
   date: 2025-01
-  citations: 1
-  article_type: review
+  citations: 3
 - title: Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection
   authors:
   - '*Q. Shi*'
@@ -207,7 +205,7 @@
   url: https://doi.org/10.1029/2024JB029728
   journal: 'JGR: Solid Earth, 130'
   date: 2025-01
-  citations: 12
+  citations: 10
 - title: Multiplexed Distributed Acoustic Sensing Offshore Central Oregon
   authors:
   - '*Q. Shi*'
@@ -221,7 +219,7 @@
   url: https://doi.org/10.1785/0220240460
   journal: Seismological Research Letters, 96
   date: 2025-01
-  citations: 13
+  citations: 11
   media_coverage:
   - https://www.washington.edu/news/2025/07/24/seismologists-use-fiber-optic-cables-to-study-offshore-faults/
   - https://phys.org/news/2025-07-ai-fiber-optics-reveal-hidden.html
@@ -237,7 +235,7 @@
   url: https://doi.org/10.1029/2024JH000247
   journal: 'Journal of Geophysical Research: Machine Learning and Computation, 1'
   date: 2024-01
-  citations: 11
+  citations: 6
 - title: Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens
   authors:
   - P. Makus
@@ -272,7 +270,7 @@
   url: https://doi.org/10.1038/s41598-024-69564-4
   journal: Scientific Reports, 14
   date: 2024-01
-  citations: 20
+  citations: 14
 - title: Monitoring velocity change over 20 years at Parkfield
   authors:
   - '*K. Okubo*'
@@ -282,7 +280,7 @@
   url: https://doi.org/10.1029/2023JB028084
   journal: 'Journal of Geophysical Research: Solid Earth, 129'
   date: 2024-01
-  citations: 17
+  citations: 11
 - title: Extended crack propagation by local nucleation and rapid transverse expansion
   authors:
   - T. Cochard
@@ -300,7 +298,7 @@
   url: https://doi.org/10.1038/s41567-023-02365-0
   journal: Nature Physics
   date: 2024-01
-  citations: -1
+  citations: 21
 - title: 'Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm'
   authors:
   - '*A. Kharita*'
@@ -310,7 +308,7 @@
   url: https://doi.org/10.1093/gji/ggae106
   journal: Geophysical Journal International
   date: 2023-01
-  citations: 6
+  citations: 5
 - title: Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event
   authors:
   - '*S. Olinger*'
@@ -320,7 +318,7 @@
   url: https://doi.org/10.1029/2023AV001023
   journal: AGU Advances, 5
   date: 2023-01
-  citations: 8
+  citations: 6
   media_coverage:
   - https://www.washington.edu/news/2024/02/28/80-mph-speed-record-for-glacier-fracture-helps-reveal-the-physics-of-ice-sheet-collapse/
   - https://eos.org/editor-highlights/speed-of-ice-shelf-rifting-controlled-by-ocean-ice-interactions
@@ -337,7 +335,7 @@
   url: https://doi.org/10.1029/2023AV001002
   journal: AGU Advances, 5
   date: 2023-01
-  citations: 7
+  citations: 4
   media_coverage:
   - https://www.washington.edu/news/2024/01/29/qa-how-slow-slip-earthquakes-may-be-driven-by-deep-hydraulic-fracturing/
   - https://eos.org/research-spotlights/scientists-model-whats-moving-beneath-earths-surface
@@ -349,7 +347,7 @@
   url: https://doi.org/10.1029/2023JB027334
   journal: 'Journal of Geophysical Research: Solid Earth, 128'
   date: 2023-01
-  citations: 12
+  citations: 10
 - title: 'Better Together: Ensemble Learning for Earthquake Detection and Phase Picking'
   authors:
   - '*Congcong Yuan*'
@@ -360,7 +358,7 @@
   url: https://doi.org/10.1109/TGRS.2023.3320148
   journal: IEEE Transactions on Geoscience and Remote Sensing, 61
   date: 2023-01
-  citations: 23
+  citations: 20
 - title: An Object Storage for Distributed Acoustic Sensing
   authors:
   - '*Yiyu Ni*'
@@ -372,7 +370,7 @@
   doi: 10.1785/0220230172
   journal: Seismological Research Letters, 95
   date: 2023-01
-  citations: 13
+  citations: 6
 - title: 'Seismology in the cloud: guidance for the individual researcher'
   authors:
   - '*Z. Krauss*'
@@ -383,7 +381,7 @@
   url: https://doi.org/10.26443/seismica.v2i2.979
   journal: Seismica, 2
   date: 2023-01
-  citations: 7
+  citations: 4
 - title: Curated Pacific Northwest AI-ready Seismic Dataset
   authors:
   - '*Y. Ni*'
@@ -398,7 +396,7 @@
   url: https://doi.org/10.26443/seismica.v2i1.368
   journal: Seismica, 2
   date: 2023-01
-  citations: 39
+  citations: 29
 - title: Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field
   authors:
   - '*L. Ermert*'
@@ -413,7 +411,7 @@
   url: https://doi.org/10.5194/egusphere-2022-1361
   journal: Solid Earth (EGU)
   date: 2023-01
-  citations: 14
+  citations: 1
 - title: The Seismic Signature of California's Earthquakes, Droughts, and Floods
   authors:
   - '*T. Clements*'
@@ -422,7 +420,7 @@
   url: https://doi.org/10.1029/2022JB025553
   journal: 'Journal of Geophysical Research: Solid Earth, 128'
   date: 2023-01
-  citations: -1
+  citations: 31
 - title: A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms
   authors:
   - '*J. Yin*'
@@ -432,7 +430,7 @@
   url: https://doi.org/10.1093/gji/ggac290
   journal: Geophysical Journal International, 231
   date: 2022-01
-  citations: 25
+  citations: 17
 - title: 'Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging'
   authors:
   - '*C. Jiang*'
@@ -451,7 +449,7 @@
   url: https://doi.org/10.1093/gji/ggac101
   journal: Geophysical Journal International, 230
   date: 2022-01
-  citations: 18
+  citations: 16
 - title: 'Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica'
   authors:
   - '*S. D. Olinger*'
@@ -462,7 +460,7 @@
   url: https://doi.org/10.1029/2021GL097604
   journal: Geophysical Research Letters
   date: 2022-01
-  citations: 28
+  citations: 22
 - title: Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring
   authors:
   - '*Z. Yang*'
@@ -472,7 +470,7 @@
   url: https://doi.org/10.1785/0320210036
   journal: The Seismic Record, 2
   date: 2022-01
-  citations: 5
+  citations: 7
 - title: The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes
   authors:
   - '*J. Yin*'
@@ -493,7 +491,7 @@
   url: https://doi.org/10.1093/gji/ggab140
   journal: Geophysical Journal International, 226
   date: 2021-01
-  citations: -1
+  citations: 47
 - title: Source time function clustering reveals patterns in earthquake dynamics
   authors:
   - '*J. Yin*'
@@ -503,7 +501,7 @@
   url: https://doi.org/10.1785/0220200403
   journal: Seismological Research Letters, 92
   date: 2021-01
-  citations: 28
+  citations: 25
 - title: 'SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia'
   authors:
   - '*T. Clements*'
@@ -512,7 +510,7 @@
   url: https://doi.org/10.1785/0220200192
   journal: Seismological Research Letters, 92
   date: 2021-01
-  citations: 31
+  citations: 17
 - title: Quiet Anthropocene, quiet Earth
   authors:
   - '**M. A. Denolle**'
@@ -521,8 +519,7 @@
   url: https://doi.org/10.1126/science.abd8358
   journal: Science, 369
   date: 2020-01
-  citations: 13
-  article_type: perspective
+  citations: 15
 - title: 'SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language'
   authors:
   - J. P. Jones
@@ -533,7 +530,7 @@
   url: https://doi.org/10.1785/0220190295
   journal: Seismological Research Letters, 91
   date: 2020-01
-  citations: 11
+  citations: 10
 - title: 'NoisePy: A new high-performance python tool for ambient-noise seismology'
   authors:
   - '*C. Jiang*'
@@ -542,7 +539,7 @@
   url: https://doi.org/10.1785/0220190364
   journal: Seismological Research Letters, 91
   date: 2020-01
-  citations: 82
+  citations: 61
 - title: 'Earthquakes Within Earthquakes: Patterns in Rupture Complexity'
   authors:
   - '*P. Danré*'
@@ -553,7 +550,7 @@
   url: https://doi.org/10.1029/2019GL083093
   journal: Geophysical Research Letters, 43
   date: 2019-01
-  citations: 39
+  citations: 33
   media_coverage:
   - https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/
 - title: Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan
@@ -564,7 +561,7 @@
   url: https://doi.org/10.1785/0120180320
   journal: Bulletin of the Seismological Society of America, 109
   date: 2019-01
-  citations: 11
+  citations: 13
 - title: Energetic Onset of Earthquakes
   authors:
   - '**M. Denolle**'
@@ -572,7 +569,7 @@
   url: https://doi.org/10.1029/2018GL080687
   journal: Geophysical Research Letters, 46
   date: 2019-01
-  citations: 24
+  citations: 20
 - title: Relating teleseismic backprojection images to earthquake kinematics
   authors:
   - '*J. Yin*'
@@ -581,7 +578,7 @@
   url: https://doi.org/10.1093/gji/ggz048
   journal: Geophysical Journal International, 217
   date: 2019-01
-  citations: 28
+  citations: 24
 - title: Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake
   authors:
   - Y. Wang
@@ -591,7 +588,7 @@
   url: https://doi.org/10.1029/2018JB016602
   journal: Journal of Geophysical Research, 124
   date: 2019-01
-  citations: 22
+  citations: 26
 - title: Tracking ground water using the ambient seismic field
   authors:
   - '*T. Clements*'
@@ -600,7 +597,7 @@
   url: https://doi.org/10.1029/2018GL077706
   journal: (User text suggests possible mismatch of volume/issue) Geophysical Research Letters, 123
   date: 2018-01
-  citations: 221
+  citations: 200
 - title: Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions
   authors:
   - '*L. Viens*'
@@ -618,14 +615,14 @@
   - G. C. Beroza
   journal: 'Journal of Geophysical Research: Solid Earth, 123'
   date: 2018-01
-  citations: 22
+  citations: 19
 - title: Improved model fitting for the empirical Green's function approach using hierarchical models
   authors:
   - '*C. Van Houtte*'
   - '**M. Denolle**'
   journal: 'Journal of Geophysical Research: Solid Earth, 123'
   date: 2018-01
-  citations: 17
+  citations: 16
 - title: Tracking groundwater levels using the ambient seismic field
   authors:
   - '*T. Clements*'
@@ -634,7 +631,7 @@
   url: https://doi.org/10.1029/2018GL077706
   journal: Geophysical Research Letters, 45
   date: 2018-01
-  citations: 221
+  citations: 200
 - title: Convolutional neural network for earthquake detection and location
   authors:
   - '*T. Perol*'
@@ -642,7 +639,7 @@
   - '**M. Denolle**'
   journal: Science Advances, 4
   date: 2018-01
-  citations: 1140
+  citations: 2
   media_coverage:
   - https://news.harvard.edu/gazette/story/2018/03/researchers-create-algorithm-to-separate-earthquakes-from-seismic-noise/
 - title: 'Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile'
@@ -664,7 +661,7 @@
   url: https://doi.org/10.1785/0120170053
   journal: Bulletin of the Seismological Society of America, 107
   date: 2017-01
-  citations: 14
+  citations: 11
 - title: Retrieving impulse response function amplitudes from the ambient seismic field
   authors:
   - '*L. Viens*'
@@ -676,7 +673,7 @@
   url: https://doi.org/10.1093/gji/ggx155
   journal: Geophysical Journal International, 210
   date: 2017-01
-  citations: 33
+  citations: 32
 - title: 'Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field'
   authors:
   - P. Boue
@@ -688,7 +685,7 @@
   url: https://doi.org/10.1093/gji/ggw205
   journal: Geophysical Journal International, 206
   date: 2016-01
-  citations: 66
+  citations: 60
 - title: New perspective on self-similarity of shallow thrust earthquakes
   authors:
   - '**M. Denolle**'
@@ -697,7 +694,7 @@
   url: https://doi.org/10.1002/2016JB013105
   journal: 'Journal of Geophysical Research: Solid Earth, 121'
   date: 2016-01
-  citations: 123
+  citations: 129
 - title: Dynamics of the M7.8 2015 Nepal Earthquake
   authors:
   - '**M. Denolle**'
@@ -707,7 +704,7 @@
   url: https://doi.org/10.1002/2015GL065336
   journal: Geophysical Research Letters, 42
   date: 2015-01
-  citations: 67
+  citations: 55
 - title: Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods
   authors:
   - E.-J. Lee
@@ -720,7 +717,7 @@
   url: https://doi.org/10.1002/2014JB011236
   journal: Journal of Geophysical Research, 119
   date: 2014-01
-  citations: 291
+  citations: 251
 - title: Long-period seismic amplification in the Kanto Basin from the ambient seismic field
   authors:
   - '**M. Denolle**'
@@ -732,7 +729,7 @@
   url: https://doi.org/10.1002/2014GL059425
   journal: Geophysical Research Letters, 41
   date: 2014-01
-  citations: 75
+  citations: 60
 - title: Strong Ground Motion Prediction using Virtual Earthquakes
   authors:
   - '**M. Denolle**'
@@ -743,7 +740,7 @@
   url: https://doi.org/10.1126/science.1245678
   journal: Science, 343
   date: 2014-01
-  citations: 145
+  citations: 132
   media_coverage:
   - https://www.youtube.com/watch?v=WTg3GzGCRfA
 - title: Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field
@@ -756,7 +753,7 @@
   url: https://doi.org/10.1029/2012JB009603
   journal: Journal of Geophysical Research, 118
   date: 2013-01
-  citations: 90
+  citations: 70
 - title: A numeric evaluation of attenuation from ambient noise correlation functions
   authors:
   - J. F. Lawrence
@@ -767,7 +764,7 @@
   url: https://doi.org/10.1002/2012JB009513
   journal: Journal of Geophysical Research, 118
   date: 2013-01
-  citations: 76
+  citations: 61
 - title: Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation
   authors:
   - '**M. Denolle**'
@@ -777,7 +774,7 @@
   url: https://doi.org/10.1785/0120110183
   journal: Bulletin of the Seismological Society of America, 102
   date: 2012-01
-  citations: 42
+  citations: 37
 - title: On amplitude carried by the ambient seismic field
   authors:
   - G. A. Prieto
@@ -786,7 +783,7 @@
   - G. C. Beroza
   journal: 'Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343'
   date: 2011-01
-  citations: 120
+  citations: 94
 - title: Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra
   authors:
   - S. Singh
@@ -800,7 +797,7 @@
   url: https://doi.org/10.1111/j.1365-246X.2009.04458.x
   journal: Geophysical Journal International, 180
   date: 2010-01
-  citations: 116
+  citations: 75
 - title: Agroseismology and the impact of farming practices on soil hydrodynamics
   authors:
   - '*Qibin Shi*'
@@ -818,3 +815,6 @@
   doi: 10.1126/science.aec0970
   journal: Science, 0
   citations: 0
+  media_coverage:
+  - https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/
+  - https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/

@@ -35,17 +35,17 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,513 total (h-index: 25, i10: 47) | 2,422 last-5y (h₅: 23, i10₅: 45) | Google Scholar
+**Research Citations:** 3,024 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-**Publications:** 68 peer-reviewed | 5 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 19 domain journals (T3) | 3 reviews/perspectives | 1 preprints
+**Publications:** 68 peer-reviewed | 6 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
-**Open-Source Software:** 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads/yr
+**Open-Source Software:** 403 GitHub stars | 255 forks | 21 active repos | NoisePy: 210 stars, 83 forks, 19 contributors | 684+ PyPI downloads/yr
 
-**Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
+**Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
-**Broader Impact:** 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
+**Broader Impact:** mlgeo-book: 13 GitHub stars
 
 # Employment
 ## **Co-Founder**, Applied Environmental Intelligence -- Seattle
@@ -515,6 +515,8 @@ ambient noise seismology, ground motion prediction
 # Undergraduate Students
 **Note:** My undergraduate advising includes research opportunities through summer programs and independent studies (ESS 499 for credit during academic year, hourly pay during summer/breaks). I mentor students toward conference presentations and publications, and support competitive fellowship applications. Legend: (\*) Conference presentation | (\*\*) Peer-reviewed publication | (\*\*\*) Publication in prep | (+) NSF GRFP recipient
 
+**Derek Yao:** 2026-present, CSE - various agents for Geosciences
+
 **Alex Rose :** 2025-present, UW Oceanography - DAS data processing research
 
 **Anjani Mirchandi:** 2024-present, UW Applied Math - DAS data processing research
@@ -571,6 +573,14 @@ ambient noise seismology, ground motion prediction
 
 
 # University Service
+## **AI Minor task force member**, University of Washington
+
+2026 – present
+
+- reviewing AI Minor proposal for cross-university program, ~ 1hr/week for spring quarter
+
+
+
 ## **Department Colloquium Committee**, University of Washington
 
 2026 – present
@@ -1559,6 +1569,10 @@ Open-source Python software for large-scale ambient-noise seismology. [GitHub](h
 
 
 # Invited Talks
+## **National Academy of Sciences - COSEG** Seminar Speaker2026
+
+
+
 ## **NGF Science Meeting** Conference Speaker2026
 
 
@@ -1567,7 +1581,7 @@ Open-source Python software for large-scale ambient-noise seismology. [GitHub](h
 
 
 
-## **European Geophysical Union** Conference Speaker2026
+## **European Geophysical Union 3x** Conference Speaker2026
 
 
 
