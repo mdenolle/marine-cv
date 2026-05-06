@@ -13,6 +13,28 @@
   journal: in review in Seismica
   date: 2026-01
   citations: -1
+- title: Agroseismology and the impact of farming practices on soil hydrodynamics
+  authors:
+  - '*Qibin Shi*'
+  - David R. Montgomery
+  - Abigail L.S. Swann
+  - Nicoleta C. Cristea
+  - '*Ethan F. Williams*'
+  - Nan You
+  - Simon Jeffery
+  - Joe Collins
+  - Ana Prada Barrio
+  - Paula A. Misiewicz
+  - Tarje Nissen-Meyer
+  - '**Marine A. Denolle**'
+  doi: 10.1126/science.aec0970
+  journal: Science, 392
+  date: 2026-01
+  citations: 0
+  media_coverage:
+  - https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/
+  - https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/
+  - https://www.dailyuw.com/article/uw-study-on-soil-structure-helps-explain-the-why-in-plowing-debate-20260421
 - title: 'Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia'
   authors:
   - '*Maleen Kidiwela*'
@@ -798,23 +820,3 @@
   journal: Geophysical Journal International, 180
   date: 2010-01
   citations: 75
-- title: Agroseismology and the impact of farming practices on soil hydrodynamics
-  authors:
-  - '*Qibin Shi*'
-  - David R. Montgomery
-  - Abigail L.S. Swann
-  - Nicoleta C. Cristea
-  - '*Ethan F. Williams*'
-  - Nan You
-  - Simon Jeffery
-  - Joe Collins
-  - Ana Prada Barrio
-  - Paula A. Misiewicz
-  - Tarje Nissen-Meyer
-  - '**Marine A. Denolle**'
-  doi: 10.1126/science.aec0970
-  journal: Science, 0
-  citations: 0
-  media_coverage:
-  - https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/
-  - https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/

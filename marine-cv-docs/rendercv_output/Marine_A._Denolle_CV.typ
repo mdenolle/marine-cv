@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 18,
+    month: 5,
+    day: 6,
   ),
 )
 
@@ -163,17 +163,17 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,398 total (h-index: 24, i10: 45) | 2,291 last-5y (h₅: 22, i10₅: 43) | Google Scholar
+#strong[Research Citations:] 3,024 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-#strong[Publications:] 66 peer-reviewed | 3 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 17 domain journals (T3) | 3 reviews\/perspectives | 3 preprints
+#strong[Publications:] 68 peer-reviewed | 6 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 #strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
-#strong[Open-Source Software:] 372 GitHub stars | 241 forks | 18 active repos | NoisePy: 207 stars, 83 forks, 19 contributors | 1,692+ PyPI downloads\/yr
+#strong[Open-Source Software:] 403 GitHub stars | 255 forks | 21 active repos | NoisePy: 210 stars, 83 forks, 19 contributors | 684+ PyPI downloads\/yr
 
-#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 15+ undergrads | 10 co-supervised grad students | 5 became faculty
+#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
-#strong[Broader Impact:] 6 workshops, 215+ seismologists trained | mlgeo-book: 11 GitHub stars
+#strong[Broader Impact:] mlgeo-book: 13 GitHub stars
 
 == Employment
 
@@ -992,6 +992,8 @@
 
 #strong[Note:] My undergraduate advising includes research opportunities through summer programs and independent studies (ESS 499 for credit during academic year, hourly pay during summer\/breaks). I mentor students toward conference presentations and publications, and support competitive fellowship applications. Legend: (#sym.ast.basic#h(0pt, weak: true) ) Conference presentation | (#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) Peer-reviewed publication | (#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) ) Publication in prep | (+) NSF GRFP recipient
 
+#strong[Derek Yao:] 2026-present, CSE - various agents for Geosciences
+
 #strong[Alex Rose :] 2025-present, UW Oceanography - DAS data processing research
 
 #strong[Anjani Mirchandi:] 2024-present, UW Applied Math - DAS data processing research
@@ -1024,9 +1026,9 @@
 
 == Training Workshops
 
-#regular-entry(
+#education-entry(
   [
-    #summary[co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)]
+    #strong[#link("https://scoped-mlscience-book.readthedocs.io/")[CRESCENT-SCOPED Workshop]] co-PI organizer for ML and Earthquake Catalog Building workshop (35 participants)
 
   ],
   [
@@ -1034,14 +1036,12 @@
 
   ],
   main-column-second-row: [
-    #link("https://scoped-mlscience-book.readthedocs.io/")[scoped-mlscience-book.readthedocs.io]
-
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    #summary[Lead PI organizer for Cloud\/HPC\/wavefield simulations workshop (100 participants)]
+    #strong[#link("https://seisscoped.org/HPS-book/intro.html")[SCOPED Workshop]] Lead PI organizer for Cloud\/HPC\/wavefield simulations workshop (100 participants)
 
   ],
   [
@@ -1049,14 +1049,12 @@
 
   ],
   main-column-second-row: [
-    #link("https://seisscoped.org/HPS-book/intro.html")[seisscoped.org\/HPS-book\/intro.html]
-
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    #summary[Lead organizer of cloud workshop (80 participants)]
+    #strong[#link("https://seisscoped.org/SSA-Cloud-101/intro.html")[SSA Cloud 101 & Data Mining]] Lead organizer of cloud workshop (80 participants)
 
   ],
   [
@@ -1064,14 +1062,12 @@
 
   ],
   main-column-second-row: [
-    #link("https://seisscoped.org/SSA-Cloud-101/intro.html")[seisscoped.org\/SSA-Cloud-101\/intro.html]
-
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    #summary[Lead PI, coordinator, and instructor for HPC and Data Science]
+    #strong[#link("https://seisscoped.org/HPS-book/intro.html")[CyberTraining Workshop]] Lead PI, coordinator, and instructor for HPC and Data Science
 
   ],
   [
@@ -1079,14 +1075,12 @@
 
   ],
   main-column-second-row: [
-    #link("https://seisscoped.org/HPS-book/intro.html")[seisscoped.org\/HPS-book\/intro.html]
-
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    #summary[Co-organizer of ML training with Jupyter Book]
+    #strong[#link("https://geo-smart.github.io/mlgeo-book/")[GeoSMART ML for Solid Earth Science]] Co-organizer of ML training with Jupyter Book
 
   ],
   [
@@ -1094,14 +1088,12 @@
 
   ],
   main-column-second-row: [
-    #link("https://geo-smart.github.io/mlgeo-book/")[geo-smart.github.io\/mlgeo-book]
-
   ],
 )
 
-#regular-entry(
+#education-entry(
   [
-    #summary[Scientific committee member and instructor]
+    #strong[SCEC-ERI VISES Summer School] Scientific committee member and instructor
 
   ],
   [
@@ -1113,6 +1105,21 @@
 )
 
 == University Service
+
+#regular-entry(
+  [
+    #strong[AI Minor task force member], University of Washington
+
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
+    - reviewing AI Minor proposal for cross-university program, \~ 1hr\/week for spring quarter
+
+  ],
+)
 
 #regular-entry(
   [
@@ -1425,6 +1432,74 @@
 
 #regular-entry(
   [
+    #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]
+
+    #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970] (Science, 392)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    #emph[Maleen Kidiwela], #strong[Marine A. Denolle], William S. D. Wilcock, #emph[Kuan-Fu Feng]
+
+    #link("https://doi.org/10.1126/sciadv.aea3684")[10.1126\/sciadv.aea3684] (Science Advances, 12)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, #emph[Qibin Shi], #strong[Marine A Denolle]
+
+    #link("https://doi.org/10.1093/gji/ggag061")[10.1093\/gji\/ggag061] (Geophysical Journal International, 245)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    #emph[Akash Kharita], #strong[Marine Denolle], Alexander Hutko, Renate Hartog, Stephen Malone
+
+    #link("https://doi.org/10.26443/seismica.v5i1.2068")[10.26443\/seismica.v5i1.2068] (Seismica, 5)
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Seismological Analysis of Contemporary and Future Alpine Fault Earthquakes Using the Southern Alps Long Skinny Array (SALSA)]
 
   ],
@@ -1433,9 +1508,9 @@
 
   ],
   main-column-second-row: [
-    John Townend, Ilma Del Carmen Juarez-Garfias, Olivia Pita-Sllim, Calum J. Chamberlain, Emily Warren-Smith, Caroline Holden, Kasper van Wijk, #strong[Marine Denolle], Andrew Curtis, Hiroe Miyake
+    John Townend, Ilma del Carmen Juarez‐Garfias, Olivia Pita‐Sllim, Calum J. Chamberlain, Emily Warren‐Smith, Caroline Holden, Kasper van Wijk, #strong[Marine Denolle], Andrew Curtis, Hiroe Miyake
 
-     (in press in Seismological Research Letters)
+    #link("https://doi.org/10.1785/0220250260")[10.1785\/0220250260] (Seismological Research Letters)
 
   ],
 )
@@ -1476,23 +1551,6 @@
 
 #regular-entry(
   [
-    #strong[Agroseismology: unraveling the impact of farming practices on soil hydrodynamics]
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-    #emph[Qibin Shi], David Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan Williams], Nan You, Joe Collins, Ana Prada Barrio, Simon Jeffrey, Ana Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]
-
-    #link("https://doi.org/10.48550/arXiv.2509.09821")[10.48550\/arXiv.2509.09821] (in review in Science - preprint on Arxiv)
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]
 
   ],
@@ -1504,23 +1562,6 @@
     #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam
 
      (Journal of Geophysical Research: Solid Earth, 131)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]
-
-  ],
-  [
-    2025
-
-  ],
-  main-column-second-row: [
-    #emph[Akash Kharita], #strong[Marine Denolle], Alexander R Hutko, J Renate Hartog, Stephen D Malone
-
-    #link("https://doi.org/10.48550/arXiv.2510.23795")[10.48550\/arXiv.2510.23795] (accepted in Seismica, pre-print on Arxiv)
 
   ],
 )
@@ -2966,6 +3007,19 @@
 
 #education-entry(
   [
+    #strong[National Academy of Sciences - COSEG] Seminar Speaker
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
     #strong[NGF Science Meeting] Conference Speaker
 
   ],
@@ -2979,7 +3033,7 @@
 
 #education-entry(
   [
-    #strong[WCCM 2026, Munich] Conference Speaker
+    #strong[WCCM 2026, Munich] Keynote Speaker
 
   ],
   [
@@ -2992,7 +3046,7 @@
 
 #education-entry(
   [
-    #strong[European Geophysical Union] Conference Speaker
+    #strong[European Geophysical Union 3x] Conference Speaker
 
   ],
   [
@@ -3010,6 +3064,19 @@
   ],
   [
     2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[IEEE New Era AI World Leader Summit, Bothell] Keynote Speaker
+
+  ],
+  [
+    2025
 
   ],
   main-column-second-row: [

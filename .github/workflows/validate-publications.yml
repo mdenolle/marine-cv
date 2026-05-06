@@ -67,12 +67,19 @@ jobs:
 
       # On push to main: auto-commit so the file is always up-to-date.
       - name: Commit regenerated publications if changed (push)
+        id: commit
         if: github.event_name != 'pull_request'
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add marine-cv-docs/publications_section.yaml
-          git diff --staged --quiet || (git commit -m "chore: regenerate publications_section.yaml [automated]" && git push)
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: regenerate publications_section.yaml [automated]"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       # On PRs: block merge if the file is stale so the author commits it.
       - name: Ensure publications_section.yaml is up-to-date (PR check)
@@ -84,3 +91,8 @@ jobs:
             echo "Then commit and push the updated file."
             exit 1
           }
+
+  render-cv:
+    needs: validate-publications
+    if: github.event_name != 'pull_request'
+    uses: ./.github/workflows/deploy-cv.yaml

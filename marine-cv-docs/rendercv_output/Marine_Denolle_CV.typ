@@ -1564,6 +1564,21 @@
 
 #regular-entry(
   [
+    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle] (2026). #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]. Science, 392, #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    Featured in: #link("https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/")[UW News], #link("https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/")[Grist], #link("https://www.dailyuw.com/article/uw-study-on-soil-structure-helps-explain-the-why-in-plowing-debate-20260421")[Dailyuw]
+
+  ],
+)
+
+#regular-entry(
+  [
     #emph[Maleen Kidiwela], #strong[Marine A. Denolle], William S. D. Wilcock, #emph[Kuan-Fu Feng] (2026). #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]. Science Advances, 12, #link("https://doi.org/10.1126/sciadv.aea3684")[10.1126\/sciadv.aea3684]
 
   ],
@@ -2435,19 +2450,6 @@
 
   ],
   main-column-second-row: [
-  ],
-)
-
-  #regular-entry(
-  [
-    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]  #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]. Science, 0, #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    Featured in: #link("https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/")[UW News], #link("https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/")[Grist]
-
   ],
 )
 

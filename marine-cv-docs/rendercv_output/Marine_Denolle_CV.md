@@ -870,6 +870,14 @@ Harvard University
 
 
 
+## *Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle** (2026). **Agroseismology and the impact of farming practices on soil hydrodynamics**. Science, 392, [10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970)
+
+2026
+
+Featured in: [UW News](https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/), [Grist](https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/), [Dailyuw](https://www.dailyuw.com/article/uw-study-on-soil-structure-helps-explain-the-why-in-plowing-debate-20260421)
+
+
+
 ## *Maleen Kidiwela*, **Marine A. Denolle**, William S. D. Wilcock, *Kuan-Fu Feng* (2026). **Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia**. Science Advances, 12, [10.1126/sciadv.aea3684](https://doi.org/10.1126/sciadv.aea3684)
 
 2026
@@ -1281,12 +1289,6 @@ Featured in: [Video](https://www.youtube.com/watch?v=WTg3GzGCRfA)
 ## S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. Natawidjaja (2010). **Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra**. Geophysical Journal International, 180, [10.1111/j.1365-246X.2009.04458.x](https://doi.org/10.1111/j.1365-246X.2009.04458.x)
 
 2010
-
-
-
-## *Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**  **Agroseismology and the impact of farming practices on soil hydrodynamics**. Science, 0, [10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970)
-
-Featured in: [UW News](https://www.washington.edu/news/2026/03/19/earthquake-scientists-reveal-how-overplowing-weakens-soil-at-experimental-farm/), [Grist](https://grist.org/drought/fiber-optic-cables-reveal-a-serious-problem-at-the-heart-of-modern-farming/)
 
 
 

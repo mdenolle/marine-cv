@@ -738,6 +738,16 @@ Veronica Gaete-Elgueta, *Manuela Köpfli*, Dominik Gräff, Bradley P Lipovsky, *
 
 
 
+## **Agroseismology and the impact of farming practices on soil hydrodynamics**
+
+2026
+
+*Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**
+
+[10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970) (Science, 392)
+
+
+
 ## **Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia**
 
 2026
@@ -1395,14 +1405,6 @@ G. A. Prieto, **M. Denolle**, J. F. Lawrence, G. C. Beroza
 S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. Natawidjaja
 
 [10.1111/j.1365-246X.2009.04458.x](https://doi.org/10.1111/j.1365-246X.2009.04458.x) (Geophysical Journal International, 180)
-
-
-
-## **Agroseismology and the impact of farming practices on soil hydrodynamics**
-
-*Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**
-
-[10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970) (Science, 0)
 
 
 
