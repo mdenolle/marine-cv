@@ -1432,6 +1432,23 @@
 
 #regular-entry(
   [
+    #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]
+
+    #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970] (Science, 392)
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]
 
   ],
@@ -2548,21 +2565,6 @@
     S. Singh, N. Hananto, A. Chauhan, H. Permana, #strong[M. Denolle], A. Hendriyana, D. Natawidjaja
 
     #link("https://doi.org/10.1111/j.1365-246X.2009.04458.x")[10.1111\/j.1365-246X.2009.04458.x] (Geophysical Journal International, 180)
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle]
-
-    #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970] (Science, 0)
 
   ],
 )
