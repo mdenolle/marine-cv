@@ -1,5 +1,9 @@
 name: Validate Publications Pipeline
 
+concurrency:
+  group: publications-main
+  cancel-in-progress: false
+
 on:
   push:
     paths:
@@ -70,16 +74,31 @@ jobs:
         id: commit
         if: github.event_name != 'pull_request'
         run: |
+          set -euo pipefail
+
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Rebase onto latest remote main to avoid non-fast-forward pushes
+          git fetch origin main
+          git rebase origin/main
+
           git add marine-cv-docs/publications_section.yaml
           if git diff --staged --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "chore: regenerate publications_section.yaml [automated]"
-            git push
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "chore: regenerate publications_section.yaml [automated]"
+
+          # Push; if another run updated main between commit and push, rebase and retry once
+          if ! git push origin HEAD:main; then
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       # On PRs: block merge if the file is stale so the author commits it.
       - name: Ensure publications_section.yaml is up-to-date (PR check)

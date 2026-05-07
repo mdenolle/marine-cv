@@ -1,5 +1,9 @@
 name: Update Citation Counts (OpenAlex)
 
+concurrency:
+  group: citations-main
+  cancel-in-progress: false
+
 on:
   schedule:
     # Run monthly on the 1st at 2am UTC
@@ -34,16 +38,29 @@ jobs:
       - name: Commit and push if changed
         id: commit
         run: |
+          set -euo pipefail
+
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git fetch origin main
+          git rebase origin/main
+
           git add marine-cv-docs/citation_cache.json marine-cv-docs/research_impact_summary.yaml
           if git diff --staged --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "Update citation counts and metrics [automated]"
-            git push
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "Update citation counts and metrics [automated]"
+
+          if ! git push origin HEAD:main; then
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
   render-cv:
     needs: update-citations
