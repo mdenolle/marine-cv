@@ -48,6 +48,14 @@
 **Broader Impact:** mlgeo-book: 13 GitHub stars
 
 # Employment
+## **Consultant**, Aligned HQ -- Remote
+
+2026 – present
+
+Scientific Research & Frontier AI
+
+
+
 ## **Co-Founder**, Applied Environmental Intelligence -- Seattle
 
 2025 – present

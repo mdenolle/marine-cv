@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 5,
-    day: 7,
+    day: 23,
   ),
 )
 
@@ -176,6 +176,21 @@
 #strong[Broader Impact:] mlgeo-book: 13 GitHub stars
 
 == Employment
+
+#regular-entry(
+  [
+    #strong[Consultant], Aligned HQ -- Remote
+
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
+    #summary[Scientific Research & Frontier AI]
+
+  ],
+)
 
 #regular-entry(
   [

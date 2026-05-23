@@ -179,6 +179,25 @@
 
 #regular-entry(
   [
+    #strong[Consultant]
+
+    #summary[Scientific Research & Frontier AI]
+
+  ],
+  [
+    Aligned HQ
+
+    Remote
+
+    2026 – present
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Co-Founder]
 
   ],
