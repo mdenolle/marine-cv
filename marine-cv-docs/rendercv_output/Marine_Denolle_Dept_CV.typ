@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 23,
+    month: 6,
+    day: 8,
   ),
 )
 
@@ -163,13 +163,13 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,024 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
+#strong[Research Citations:] 3,071 total (h-index: 24, i10: 48) -54.4\% from 2024 to 2025 (OpenAlex) | 3,513 total, h-index: 25 (Google Scholar, last known)
 
 #strong[Publications:] 68 peer-reviewed | 6 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 #strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
-#strong[Open-Source Software:] 403 GitHub stars | 255 forks | 21 active repos | NoisePy: 210 stars, 83 forks, 19 contributors | 684+ PyPI downloads\/yr
+#strong[Open-Source Software:] 412 GitHub stars | 267 forks | 20 active repos | NoisePy: 211 stars, 83 forks, 19 contributors
 
 #strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
