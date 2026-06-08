@@ -70,16 +70,19 @@ jobs:
 
           for attempt in 1 2 3; do
             git fetch origin main
-            git rebase origin/main
+            if ! git rebase origin/main; then
+              echo "::error::Rebase failed while updating rendered CV output. Manual resolution is required."
+              exit 1
+            fi
 
             if git push origin HEAD:main; then
               exit 0
             fi
 
-            if [ "$attempt" -eq 3 ]; then
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 2))
+            else
               echo "::error::Failed to push rendered CV output after 3 attempts."
               exit 1
             fi
-
-            sleep $((attempt * 2))
           done
