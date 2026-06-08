@@ -156,14 +156,18 @@ sections:
 
 The first section of the CV auto-computes 6 metrics from local data files:
 
-| Row | Source |
-|---|---|
-| Research Citations | `citation_cache.json` (Google Scholar) |
-| Publications | `publications_section.yaml` (T1/T2/T3 tier counts) |
-| Research Funding | `grant_support.yaml` (Lead PI vs Co-PI totals) |
-| Open-Source Software | `github_stats_cache.json` + PyPI |
-| Mentoring | `phd_advisees.yaml`, `postdocs.yaml`, `undergraduate_students.yaml` |
-| Broader Impact | `training_schools.yaml` + YouTube stats |
+| Row | Source | Auto-updated? |
+|---|---|---|
+| Research Citations | `citation_cache.json` (OpenAlex + Google Scholar) | Monthly (OpenAlex) / Manual (Google Scholar) |
+| Publications | `publications_section.yaml` (T1/T2/T3 tier counts) | On-push |
+| Research Funding | `grant_support.yaml` (Lead PI vs Co-PI totals) | On-push |
+| Open-Source Software | `github_stats_cache.json` + PyPI | Monthly |
+| Mentoring | `phd_advisees.yaml`, `postdocs.yaml`, `undergraduate_students.yaml` | Manual |
+| Broader Impact | `training_schools.yaml` + YouTube stats | Monthly |
+
+**Citation sources:**
+- **OpenAlex** (primary, auto-updated monthly) — fetched reliably from GitHub Actions
+- **Google Scholar** (reference, manual) — fetched locally on your machine (Google blocks CI automation)
 
 Regenerate at any time:
 
@@ -181,7 +185,7 @@ No library tests, no PyPI publishing, no executable builds.
 |---|---|---|
 | `deploy-cv.yaml` | push to `marine-cv-docs/**` or manual | Renders CV, commits PDF/HTML |
 | `validate-publications.yml` | push to `.bib` or scripts | Regenerates + validates YAML, auto-commits |
-| `update-citations.yml` | 1st of month @ 2:00 UTC | Fetches Google Scholar metrics |
+| `update-citations.yml` | 1st of month @ 2:00 UTC | Fetches OpenAlex citation metrics |
 | `update-stats.yml` | 1st of month @ 3:00 UTC | Fetches GitHub/PyPI/YouTube stats |
 | `calculate-grants.yml` | push to `grant_support.yaml` | Computes grant totals |
 
@@ -196,6 +200,61 @@ The automated chain each month:
                    (triggers deploy-cv.yaml)
                 →  rendercv_output/ updated with fresh PDF
 ```
+
+---
+
+## Manually updating Google Scholar citations
+
+Since Google Scholar blocks automated requests from CI environments, manual updates are handled locally:
+
+### Option 1: Use the helper script (recommended)
+
+```bash
+# Fetches your Google Scholar h-index and citation count
+python scripts/fetch_google_scholar.py
+
+# Updates CV with both OpenAlex and Google Scholar metrics
+python scripts/update_cv_citations.py
+```
+
+### Option 2: Hand-edit the cache
+
+Manually add Google Scholar metrics to [`marine-cv-docs/citation_cache.json`](marine-cv-docs/citation_cache.json):
+
+```json
+{
+  "metrics": {
+    "gs_h_index": 42,
+    "gs_total_citations": 8000,
+    "gs_last_updated": "2026-06-08T14:30:00"
+  }
+}
+```
+
+Then update the CV:
+
+```bash
+python scripts/update_cv_citations.py
+```
+
+### Cache structure
+
+Both sources coexist in `citation_cache.json`:
+
+```json
+{
+  "metrics": {
+    "openalex_total_citations": 5000,     ← Auto-updated monthly (CI)
+    "openalex_h_index": 35,                ← Auto-updated monthly (CI)
+    "i10_index": 28,                       ← Auto-updated monthly (CI)
+    "gs_h_index": 42,                      ← Manual update (this script)
+    "gs_total_citations": 8000,            ← Manual update (this script)
+    "gs_last_updated": "ISO timestamp"    ← When you last updated
+  }
+}
+```
+
+Your CV displays both: *"5000 citations (OpenAlex) | 8000 citations, h-index: 42 (Google Scholar, last known)"*
 
 ---
 
@@ -237,8 +296,8 @@ design:
 → Use 2 spaces, never tabs. Quote strings containing `:` or `#`.
 
 **Citations not appearing**
-→ Run `python scripts/fetch_citations.py` first.
-Scholar may rate-limit — wait a few minutes and retry with `--force-refresh`.
+→ For OpenAlex (auto): Run `python scripts/fetch_citations.py --force-refresh`
+→ For Google Scholar (manual): Run `python scripts/fetch_google_scholar.py` or hand-edit `citation_cache.json` (see above)
 
 **Publications YAML invalid**
 → Run `python scripts/generate_publications.py` locally and check stderr for
@@ -247,6 +306,9 @@ the full traceback.
 **`url: https://doi.org/XX` appears for in-review papers**
 → This is filtered automatically. Re-run `generate_publications.py` if you see
 placeholder URLs in the output.
+
+**Google Scholar fetcher fails with network errors**
+→ This is expected behind some firewalls/VPNs. Hand-edit `citation_cache.json` instead (see "Manually updating Google Scholar citations" above).
 
 ---
 
