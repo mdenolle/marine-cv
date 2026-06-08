@@ -71,6 +71,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             if ! git rebase origin/main; then
+              git rebase --abort || true
               echo "::error::Rebase failed while updating rendered CV output. Manual resolution is required."
               exit 1
             fi
