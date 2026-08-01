@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-07-01T04:37:35.395081",
+  "last_updated": "2026-08-01T04:12:02.886300",
   "github": {
     "aggregate": {
-      "total_repos": 142,
-      "total_stars": 425,
-      "total_forks": 267,
-      "total_watchers": 425,
-      "total_open_issues": 95,
-      "active_repos": 20,
+      "total_repos": 143,
+      "total_stars": 435,
+      "total_forks": 266,
+      "total_watchers": 435,
+      "total_open_issues": 88,
+      "active_repos": 21,
       "languages": {
         "JavaScript": 2,
         "Python": 11,
         "HTML": 4,
         "Jupyter Notebook": 54,
         "Matlab": 2,
-        "TeX": 1,
+        "TeX": 2,
         "MATLAB": 1,
         "HCL": 1,
         "Shell": 1,
@@ -24,11 +24,11 @@
     "per_account": {
       "mdenolle": {
         "total_repos": 25,
-        "total_stars": 38,
-        "total_forks": 17,
-        "total_watchers": 38,
-        "total_open_issues": 10,
-        "active_repos": 4,
+        "total_stars": 41,
+        "total_forks": 16,
+        "total_watchers": 41,
+        "total_open_issues": 6,
+        "active_repos": 5,
         "languages": {
           "JavaScript": 1,
           "Python": 2,
@@ -40,11 +40,11 @@
         }
       },
       "Denolle-Lab": {
-        "total_repos": 49,
-        "total_stars": 64,
-        "total_forks": 24,
-        "total_watchers": 64,
-        "total_open_issues": 25,
+        "total_repos": 50,
+        "total_stars": 69,
+        "total_forks": 25,
+        "total_watchers": 69,
+        "total_open_issues": 21,
         "active_repos": 12,
         "languages": {
           "HCL": 1,
@@ -52,14 +52,15 @@
           "Jupyter Notebook": 22,
           "Dockerfile": 1,
           "Python": 3,
-          "HTML": 1
+          "HTML": 1,
+          "TeX": 1
         }
       },
       "noisepy": {
         "total_repos": 2,
-        "total_stars": 218,
+        "total_stars": 220,
         "total_forks": 83,
-        "total_watchers": 218,
+        "total_watchers": 220,
         "total_open_issues": 13,
         "active_repos": 2,
         "languages": {
@@ -69,9 +70,9 @@
       "geo-smart": {
         "total_repos": 65,
         "total_stars": 105,
-        "total_forks": 143,
+        "total_forks": 142,
         "total_watchers": 105,
-        "total_open_issues": 47,
+        "total_open_issues": 48,
         "active_repos": 2,
         "languages": {
           "Python": 4,
@@ -96,15 +97,15 @@
         "owner": "noisepy",
         "url": "https://github.com/noisepy/NoisePy",
         "description": "Ambient-Noise Seismology Package",
-        "stars": 217,
+        "stars": 219,
         "forks": 83,
-        "watchers": 217,
+        "watchers": 219,
         "open_issues": 12,
         "contributors": 19,
         "language": "Python",
         "created_at": "2018-11-16T13:30:48Z",
-        "updated_at": "2026-06-24T18:54:08Z",
-        "pushed_at": "2026-05-27T16:53:53Z"
+        "updated_at": "2026-07-16T12:10:30Z",
+        "pushed_at": "2026-07-10T21:35:00Z"
       },
       "geo-smart/deep-snow": {
         "name": "deep-snow",
@@ -114,27 +115,42 @@
         "stars": 26,
         "forks": 23,
         "watchers": 26,
-        "open_issues": 0,
+        "open_issues": 1,
         "contributors": 23,
         "language": "Jupyter Notebook",
         "created_at": "2023-09-15T21:28:38Z",
-        "updated_at": "2026-06-25T23:17:00Z",
-        "pushed_at": "2026-06-25T23:16:55Z"
+        "updated_at": "2026-07-29T08:34:34Z",
+        "pushed_at": "2026-07-01T23:27:24Z"
       },
       "Denolle-Lab/Shi_etal_2023_denoiseDAS": {
         "name": "Shi_etal_2023_denoiseDAS",
         "owner": "Denolle-Lab",
         "url": "https://github.com/Denolle-Lab/Shi_etal_2023_denoiseDAS",
         "description": null,
-        "stars": 16,
+        "stars": 17,
         "forks": 6,
-        "watchers": 16,
+        "watchers": 17,
         "open_issues": 0,
         "contributors": 2,
         "language": "Jupyter Notebook",
         "created_at": "2023-11-07T23:30:39Z",
-        "updated_at": "2026-05-29T01:24:50Z",
+        "updated_at": "2026-07-02T02:08:25Z",
         "pushed_at": "2025-12-14T17:39:01Z"
+      },
+      "mdenolle/academic-practice-agents": {
+        "name": "academic-practice-agents",
+        "owner": "mdenolle",
+        "url": "https://github.com/mdenolle/academic-practice-agents",
+        "description": "collection of skills to support academic professional life",
+        "stars": 14,
+        "forks": 0,
+        "watchers": 14,
+        "open_issues": 1,
+        "contributors": 2,
+        "language": "JavaScript",
+        "created_at": "2026-02-27T17:17:18Z",
+        "updated_at": "2026-07-22T20:18:21Z",
+        "pushed_at": "2026-07-22T10:26:40Z"
       },
       "Denolle-Lab/greenlanDAS": {
         "name": "greenlanDAS",
@@ -165,21 +181,6 @@
         "created_at": "2022-09-29T06:39:59Z",
         "updated_at": "2026-04-03T17:11:31Z",
         "pushed_at": "2025-10-15T19:30:08Z"
-      },
-      "mdenolle/academic-practice-agents": {
-        "name": "academic-practice-agents",
-        "owner": "mdenolle",
-        "url": "https://github.com/mdenolle/academic-practice-agents",
-        "description": "collection of skills to support academic professional life",
-        "stars": 12,
-        "forks": 0,
-        "watchers": 12,
-        "open_issues": 0,
-        "contributors": 2,
-        "language": "JavaScript",
-        "created_at": "2026-02-27T17:17:18Z",
-        "updated_at": "2026-06-30T19:12:19Z",
-        "pushed_at": "2026-06-30T19:12:15Z"
       },
       "Denolle-Lab/seismicloud": {
         "name": "seismicloud",
@@ -226,6 +227,21 @@
         "updated_at": "2025-09-16T20:38:22Z",
         "pushed_at": "2023-11-27T07:00:25Z"
       },
+      "mdenolle/dvv-coupling-framework": {
+        "name": "dvv-coupling-framework",
+        "owner": "mdenolle",
+        "url": "https://github.com/mdenolle/dvv-coupling-framework",
+        "description": "repository for exploring unifying framework for dvv in stress, strain, and the overlapping effects from tectonics, environmental, volcanic",
+        "stars": 7,
+        "forks": 0,
+        "watchers": 7,
+        "open_issues": 4,
+        "contributors": 1,
+        "language": "Jupyter Notebook",
+        "created_at": "2026-04-01T19:40:02Z",
+        "updated_at": "2026-07-05T23:47:02Z",
+        "pushed_at": "2026-07-05T23:46:58Z"
+      },
       "Denolle-Lab/FarmDAS": {
         "name": "FarmDAS",
         "owner": "Denolle-Lab",
@@ -255,21 +271,6 @@
         "created_at": "2023-01-20T21:35:50Z",
         "updated_at": "2024-08-20T16:20:23Z",
         "pushed_at": "2023-03-17T23:44:20Z"
-      },
-      "mdenolle/dvv-coupling-framework": {
-        "name": "dvv-coupling-framework",
-        "owner": "mdenolle",
-        "url": "https://github.com/mdenolle/dvv-coupling-framework",
-        "description": "repository for exploring unifying framework for dvv in stress, strain, and the overlapping effects from tectonics, environmental, volcanic",
-        "stars": 6,
-        "forks": 0,
-        "watchers": 6,
-        "open_issues": 9,
-        "contributors": 1,
-        "language": "Jupyter Notebook",
-        "created_at": "2026-04-01T19:40:02Z",
-        "updated_at": "2026-06-30T15:57:12Z",
-        "pushed_at": "2026-06-30T14:15:14Z"
       },
       "Denolle-Lab/expand_redpy": {
         "name": "expand_redpy",
@@ -365,9 +366,9 @@
   },
   "pypi": {
     "noisepy": {
-      "last_day": 3,
-      "last_week": 16,
-      "last_month": 173
+      "last_day": 2,
+      "last_week": 15,
+      "last_month": 63
     }
   }
 }
