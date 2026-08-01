@@ -35,13 +35,13 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,071 total (h-index: 24, i10: 48) -54.4% from 2024 to 2025 (OpenAlex) | 3,513 total, h-index: 25 (Google Scholar, last known)
+**Research Citations:** 3,088 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
 **Publications:** 68 peer-reviewed | 6 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 **Research Funding:** Lead PI: $3.1M (14 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
-**Open-Source Software:** 412 GitHub stars | 267 forks | 20 active repos | NoisePy: 211 stars, 83 forks, 19 contributors
+**Open-Source Software:** 425 GitHub stars | 267 forks | 20 active repos | NoisePy: 217 stars, 83 forks, 19 contributors | 2,076+ PyPI downloads/yr
 
 **Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
