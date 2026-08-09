@@ -103,13 +103,13 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,088 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
+#strong[Research Citations:] 3,129 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
 #strong[Publications:] 68 peer-reviewed | 6 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
-#strong[Research Funding:] Lead PI: \$3.1M (14 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
+#strong[Research Funding:] Lead PI: \$5.3M (15 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
-#strong[Open-Source Software:] 425 GitHub stars | 267 forks | 20 active repos | NoisePy: 217 stars, 83 forks, 19 contributors | 2,076+ PyPI downloads\/yr
+#strong[Open-Source Software:] 435 GitHub stars | 266 forks | 21 active repos | NoisePy: 219 stars, 83 forks, 19 contributors | 756+ PyPI downloads\/yr
 
 #strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
@@ -2473,6 +2473,19 @@
 )
 
 == Grants
+
+#education-entry(
+  [
+    #strong[NSF OAC-CSSI] Collaborative Research: Frameworks: Geophysical AI-driven Integration & Assimilation (GAIA): \$2,209,093 to UW (PI), \$4,400,000 total across institutions, OAC-2608509
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
 
 #education-entry(
   [
