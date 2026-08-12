@@ -105,7 +105,7 @@
 
 #strong[Research Citations:] 3,129 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-#strong[Publications:] 68 peer-reviewed | 6 Nature\/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
+#strong[Publications:] 67 peer-reviewed | 6 Nature\/Science-family (T1) | 39 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 #strong[Research Funding:] Lead PI: \$5.3M (15 grants) | Co-PI\/Co-I: \$4.9M (8 grants) | Fellowships: \$878K (2)
 
@@ -1583,7 +1583,7 @@
 
 #regular-entry(
   [
-    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle] (2026). #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]. Science, 392, #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970]
+    #emph[Qibin Shi], David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, #emph[Ethan F. Williams], Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, #strong[Marine A. Denolle] (2026). #strong[Agroseismology and the impact of farming practices on soil hydrodynamics]. Science, 392(6795), 306–310, #link("https://doi.org/10.1126/science.aec0970")[10.1126\/science.aec0970]
 
   ],
   [
@@ -1598,7 +1598,7 @@
 
 #regular-entry(
   [
-    #emph[Maleen Kidiwela], #strong[Marine A. Denolle], William S. D. Wilcock, #emph[Kuan-Fu Feng] (2026). #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]. Science Advances, 12, #link("https://doi.org/10.1126/sciadv.aea3684")[10.1126\/sciadv.aea3684]
+    #emph[Maleen Kidiwela], #strong[Marine A. Denolle], William S. D. Wilcock, #emph[Kuan-Fu Feng] (2026). #strong[Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia]. Science Advances, 12(9), eaea3684, #link("https://doi.org/10.1126/sciadv.aea3684")[10.1126\/sciadv.aea3684]
 
   ],
   [
@@ -1613,7 +1613,7 @@
 
 #regular-entry(
   [
-    Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, #emph[Qibin Shi], #strong[Marine A Denolle] (2026). #strong[DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data]. Geophysical Journal International, 245, #link("https://doi.org/10.1093/gji/ggag061")[10.1093\/gji\/ggag061]
+    Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, #emph[Qibin Shi], #strong[Marine A Denolle] (2026). #strong[DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data]. Geophysical Journal International, 245(2), ggag061, #link("https://doi.org/10.1093/gji/ggag061")[10.1093\/gji\/ggag061]
 
   ],
   [
@@ -1626,7 +1626,7 @@
 
 #regular-entry(
   [
-    #emph[Akash Kharita], #strong[Marine Denolle], Alexander Hutko, Renate Hartog, Stephen Malone (2026). #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]. Seismica, 5, #link("https://doi.org/10.26443/seismica.v5i1.2068")[10.26443\/seismica.v5i1.2068]
+    #emph[Akash Kharita], #strong[Marine Denolle], Alexander Hutko, Renate Hartog, Stephen Malone (2026). #strong[Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest]. Seismica, 5(1), #link("https://doi.org/10.26443/seismica.v5i1.2068")[10.26443\/seismica.v5i1.2068]
 
   ],
   [
@@ -1652,7 +1652,7 @@
 
 #regular-entry(
   [
-    #emph[Natasha Toghramadjian], #strong[Marine A. Denolle], #emph[Laura Ermert], #emph[Chengxin Jiang] (2026). #strong[Probing the Seattle Basin Edge Using a Dense Urban Nodal Array in 100 Backyards]. Seismological Research Letters, #link("https://doi.org/10.1785/0220250241")[10.1785\/0220250241]
+    #emph[Natasha Toghramadjian], #strong[Marine A. Denolle], #emph[Laura Ermert], #emph[Chengxin Jiang] (2026). #strong[Probing the Seattle Basin Edge Using a Dense Urban Nodal Array in 100 Backyards]. Seismological Research Letters, 97(4), 2803–2816, #link("https://doi.org/10.1785/0220250241")[10.1785\/0220250241]
 
   ],
   [
@@ -1678,7 +1678,7 @@
 
 #regular-entry(
   [
-    #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam (2026). #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]. Journal of Geophysical Research: Solid Earth, 131
+    #emph[Kuan-Fu Feng], #strong[Marine Denolle], Fan-Chi Lin, Tonie van Dam (2026). #strong[A Decadal Survey of the Near-Surface Seismic Velocity Response to Hydrological Variations in Utah, United States]. Journal of Geophysical Research: Solid Earth, 131(1), e2024JB030689, #link("https://doi.org/10.1029/2024JB030689")[10.1029\/2024JB030689]
 
   ],
   [
@@ -1691,7 +1691,7 @@
 
 #regular-entry(
   [
-    #emph[Yiyu Ni], #strong[Marine Denolle], Amanda Thomas, Alex Hamilton, Jannes Münchmeyer, Yinzhi Wang, Loïc Bachelot, Chad Trabant, David Mencin (2025). #strong[A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale]. Seismica, 4, #link("https://doi.org/10.26443/seismica.v4i2.1738")[10.26443\/seismica.v4i2.1738]
+    #emph[Yiyu Ni], #strong[Marine Denolle], Amanda Thomas, Alex Hamilton, Jannes Münchmeyer, Yinzhi Wang, Loïc Bachelot, Chad Trabant, David Mencin (2025). #strong[A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale]. Seismica, 4(2), #link("https://doi.org/10.26443/seismica.v4i2.1738")[10.26443\/seismica.v4i2.1738]
 
   ],
   [
@@ -1706,7 +1706,7 @@
 
 #regular-entry(
   [
-    #emph[Yiyu Ni], #strong[Marine A Denolle], Jannes Münchmeyer, Yinzhi Wang, #emph[Kuan-Fu Feng], Carlos Garcia Jurado Suarez, Amanda M Thomas, Chad Trabant, Alex Hamilton, David Mencin (2025). #strong[A Review of Cloud Computing and Storage in Seismology]. Geophysical Journal International, #link("https://doi.org/10.1093/gji/ggaf322")[10.1093\/gji\/ggaf322]
+    #emph[Yiyu Ni], #strong[Marine A Denolle], Jannes Münchmeyer, Yinzhi Wang, #emph[Kuan-Fu Feng], Carlos Garcia Jurado Suarez, Amanda M Thomas, Chad Trabant, Alex Hamilton, David Mencin (2025). #strong[A Review of Cloud Computing and Storage in Seismology]. Geophysical Journal International, 243(1), ggaf322, #link("https://doi.org/10.1093/gji/ggaf322")[10.1093\/gji\/ggaf322]
 
   ],
   [
@@ -1719,7 +1719,7 @@
 
 #regular-entry(
   [
-    #strong[Marine A. Denolle], Carl Tape, Ebru Bozdağ, Yinzhi Wang, Felix Waldhauser, Alice‐Agnes Gabriel, Jochen Braunmiller, Bryant Chow, Liang Ding, #emph[Kuan‐Fu Feng], Ayon Ghosh, Nathan Groebner, Aakash Gupta, #emph[Zoe Krauss], Amanda M. McPherson, Masaru Nagaso, Zihua Niu, #emph[Yiyu Ni], Rıdvan Örsvuran, Gary Pavlis, Felix Rodriguez‐Cardozo, Theresa Sawi, David Schaff, Nico Schliwa, David Schneller, #emph[Qibin Shi], Julien Thurin, Chenxiao Wang, Kaiwen Wang, Jeremy Wing Ching Wong, Sebastian Wolf, #emph[Congcong Yuan] (2025). #strong[Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities]. Seismological Research Letters, 96, #link("https://doi.org/10.1785/0220240413")[10.1785\/0220240413]
+    #strong[Marine A. Denolle], Carl Tape, Ebru Bozdağ, Yinzhi Wang, Felix Waldhauser, Alice‐Agnes Gabriel, Jochen Braunmiller, Bryant Chow, Liang Ding, #emph[Kuan‐Fu Feng], Ayon Ghosh, Nathan Groebner, Aakash Gupta, #emph[Zoe Krauss], Amanda M. McPherson, Masaru Nagaso, Zihua Niu, #emph[Yiyu Ni], Rıdvan Örsvuran, Gary Pavlis, Felix Rodriguez‐Cardozo, Theresa Sawi, David Schaff, Nico Schliwa, David Schneller, #emph[Qibin Shi], Julien Thurin, Chenxiao Wang, Kaiwen Wang, Jeremy Wing Ching Wong, Sebastian Wolf, #emph[Congcong Yuan] (2025). #strong[Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities]. Seismological Research Letters, 96(5), 3265–3279, #link("https://doi.org/10.1785/0220240413")[10.1785\/0220240413]
 
   ],
   [
@@ -1732,7 +1732,7 @@
 
 #regular-entry(
   [
-    #strong[Marine A. Denolle], #emph[Qibin Shi], #emph[Tim Clements], #emph[Loïc Viens], Veronica Rodriguez-Tribaldos, Fabrice Cotton (2025). #strong[Ambient field seismology in critical zone hydrological sciences]. Comptes Rendus. Géoscience, 357, #link("https://doi.org/10.5802/crgeos.310")[10.5802\/crgeos.310]
+    #strong[Marine A. Denolle], #emph[Qibin Shi], #emph[Tim Clements], #emph[Loïc Viens], Veronica Rodriguez-Tribaldos, Fabrice Cotton (2025). #strong[Ambient field seismology in critical zone hydrological sciences]. Comptes Rendus. Géoscience, 357(G1), 425–451, #link("https://doi.org/10.5802/crgeos.310")[10.5802\/crgeos.310]
 
   ],
   [
@@ -1745,7 +1745,7 @@
 
 #regular-entry(
   [
-    #emph[Q. Shi], #strong[M. A. Denolle], #emph[Y. Ni], #emph[E. F. Williams], N. You (2025). #strong[Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection]. JGR: Solid Earth, 130, #link("https://doi.org/10.1029/2024JB029728")[10.1029\/2024JB029728]
+    #emph[Q. Shi], #strong[M. A. Denolle], #emph[Y. Ni], #emph[E. F. Williams], N. You (2025). #strong[Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection]. Journal of Geophysical Research: Solid Earth, 130(2), e2024JB029728, #link("https://doi.org/10.1029/2024JB029728")[10.1029\/2024JB029728]
 
   ],
   [
@@ -1758,7 +1758,7 @@
 
 #regular-entry(
   [
-    #emph[Q. Shi], #emph[E. F. Williams], B. P. Lipovsky, #strong[M. A. Denolle], W. S. D. Wilcock, D. S. Kelley, K. Schoedl (2025). #strong[Multiplexed Distributed Acoustic Sensing Offshore Central Oregon]. Seismological Research Letters, 96, #link("https://doi.org/10.1785/0220240460")[10.1785\/0220240460]
+    #emph[Q. Shi], #emph[E. F. Williams], B. P. Lipovsky, #strong[M. A. Denolle], W. S. D. Wilcock, D. S. Kelley, K. Schoedl (2025). #strong[Multiplexed Distributed Acoustic Sensing Offshore Central Oregon]. Seismological Research Letters, 96(2A), 784–800, #link("https://doi.org/10.1785/0220240460")[10.1785\/0220240460]
 
   ],
   [
@@ -1773,7 +1773,7 @@
 
 #regular-entry(
   [
-    #emph[Y. Ni], #strong[M. A. Denolle], #emph[Q. Shi], B. P. Lipovsky, S. Pan, J. N. Kutz (2024). #strong[Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing]. Journal of Geophysical Research: Machine Learning and Computation, 1, #link("https://doi.org/10.1029/2024JH000247")[10.1029\/2024JH000247]
+    #emph[Y. Ni], #strong[M. A. Denolle], #emph[Q. Shi], B. P. Lipovsky, S. Pan, J. N. Kutz (2024). #strong[Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing]. Journal of Geophysical Research: Machine Learning and Computation, 1(3), e2024JH000247, #link("https://doi.org/10.1029/2024JH000247")[10.1029\/2024JH000247]
 
   ],
   [
@@ -1786,7 +1786,7 @@
 
 #regular-entry(
   [
-    P. Makus, #strong[M. A. Denolle], C. Sens-Schönfelder, #emph[M. Köpfli], F. Tilmann (2024). #strong[Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220240088")[10.1785\/0220240088]
+    P. Makus, #strong[M. A. Denolle], C. Sens-Schönfelder, #emph[M. Köpfli], F. Tilmann (2024). #strong[Analyzing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens]. Seismological Research Letters, 95(5), 2674–2688, #link("https://doi.org/10.1785/0220240088")[10.1785\/0220240088]
 
   ],
   [
@@ -1799,7 +1799,7 @@
 
 #regular-entry(
   [
-    M. Köpli, #strong[M. A. Denolle], W. Thelen, P. Makus, S. Malone (2024). #strong[Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220240079")[10.1785\/0220240079]
+    M. Köpli, #strong[M. A. Denolle], W. Thelen, P. Makus, S. Malone (2024). #strong[Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens]. Seismological Research Letters, 95(5), 2622–2636, #link("https://doi.org/10.1785/0220240079")[10.1785\/0220240079]
 
   ],
   [
@@ -1812,7 +1812,7 @@
 
 #regular-entry(
   [
-    F. Diewald, #strong[M. Denolle], J. J. Timothy, C. Gehlen (2024). #strong[Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete]. Scientific Reports, 14, #link("https://doi.org/10.1038/s41598-024-69564-4")[10.1038\/s41598-024-69564-4]
+    F. Diewald, #strong[M. Denolle], J. J. Timothy, C. Gehlen (2024). #strong[Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete]. Scientific Reports, 14(1), 18861, #link("https://doi.org/10.1038/s41598-024-69564-4")[10.1038\/s41598-024-69564-4]
 
   ],
   [
@@ -1825,7 +1825,7 @@
 
 #regular-entry(
   [
-    #emph[K. Okubo], B. Delbridge, #strong[M. Denolle] (2024). #strong[Monitoring velocity change over 20 years at Parkfield]. Journal of Geophysical Research: Solid Earth, 129, #link("https://doi.org/10.1029/2023JB028084")[10.1029\/2023JB028084]
+    #emph[K. Okubo], B. Delbridge, #strong[M. Denolle] (2024). #strong[Monitoring velocity change over 20 years at Parkfield]. Journal of Geophysical Research: Solid Earth, 129(4), e2023JB028084, #link("https://doi.org/10.1029/2023JB028084")[10.1029\/2023JB028084]
 
   ],
   [
@@ -1838,7 +1838,7 @@
 
 #regular-entry(
   [
-    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz (2024). #strong[Extended crack propagation by local nucleation and rapid transverse expansion]. Nature Physics, #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0]
+    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz (2024). #strong[Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion]. Nature Physics, 20(4), 660–665, #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0]
 
   ],
   [
@@ -1851,11 +1851,11 @@
 
 #regular-entry(
   [
-    #emph[A. Kharita], #strong[M. Denolle], M. West (2023). #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]. Geophysical Journal International, #link("https://doi.org/10.1093/gji/ggae106")[10.1093\/gji\/ggae106]
+    #emph[A. Kharita], #strong[M. Denolle], M. West (2024). #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]. Geophysical Journal International, 237(2), 1189–1207, #link("https://doi.org/10.1093/gji/ggae106")[10.1093\/gji\/ggae106]
 
   ],
   [
-    2023
+    2024
 
   ],
   main-column-second-row: [
@@ -1864,11 +1864,11 @@
 
 #regular-entry(
   [
-    #emph[S. Olinger], B. Lipovsky, #strong[M. Denolle] (2023). #strong[Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event]. AGU Advances, 5, #link("https://doi.org/10.1029/2023AV001023")[10.1029\/2023AV001023]
+    #emph[S. Olinger], B. Lipovsky, #strong[M. Denolle] (2024). #strong[Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event]. AGU Advances, 5(1), e2023AV001023, #link("https://doi.org/10.1029/2023AV001023")[10.1029\/2023AV001023]
 
   ],
   [
-    2023
+    2024
 
   ],
   main-column-second-row: [
@@ -1879,11 +1879,11 @@
 
 #regular-entry(
   [
-    #emph[C. Yuan], T. Cochard, #strong[M. Denolle], J. Gomberg, A. Wech, L. Xiao, D. Weitz (2023). #strong[Laboratory hydrofracture as analogs to tectonic tremors]. AGU Advances, 5, #link("https://doi.org/10.1029/2023AV001002")[10.1029\/2023AV001002]
+    #emph[C. Yuan], T. Cochard, #strong[M. Denolle], J. Gomberg, A. Wech, L. Xiao, D. Weitz (2024). #strong[Laboratory Hydrofractures as Analogs to Tectonic Tremors]. AGU Advances, 5(1), e2023AV001002, #link("https://doi.org/10.1029/2023AV001002")[10.1029\/2023AV001002]
 
   ],
   [
-    2023
+    2024
 
   ],
   main-column-second-row: [
@@ -1894,7 +1894,7 @@
 
 #regular-entry(
   [
-    #emph[Q. Shi], #strong[M. Denolle] (2023). #strong[Improved observations of deep earthquake ruptures using machine learning]. Journal of Geophysical Research: Solid Earth, 128, #link("https://doi.org/10.1029/2023JB027334")[10.1029\/2023JB027334]
+    #emph[Q. Shi], #strong[M. Denolle] (2023). #strong[Improved observations of deep earthquake ruptures using machine learning]. Journal of Geophysical Research: Solid Earth, 128(12), e2023JB027334, #link("https://doi.org/10.1029/2023JB027334")[10.1029\/2023JB027334]
 
   ],
   [
@@ -1907,7 +1907,7 @@
 
 #regular-entry(
   [
-    #emph[Congcong Yuan], #emph[Yiyu Ni], Youzuo Lin, #strong[Marine Denolle] (2023). #strong[Better Together: Ensemble Learning for Earthquake Detection and Phase Picking]. IEEE Transactions on Geoscience and Remote Sensing, 61, #link("https://doi.org/10.1109/TGRS.2023.3320148")[10.1109\/TGRS.2023.3320148]
+    #emph[Congcong Yuan], #emph[Yiyu Ni], Youzuo Lin, #strong[Marine Denolle] (2023). #strong[Better Together: Ensemble Learning for Earthquake Detection and Phase Picking]. IEEE Transactions on Geoscience and Remote Sensing, 61, 1–17, #link("https://doi.org/10.1109/TGRS.2023.3320148")[10.1109\/TGRS.2023.3320148]
 
   ],
   [
@@ -1920,7 +1920,20 @@
 
 #regular-entry(
   [
-    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2023). #strong[An Object Storage for Distributed Acoustic Sensing]. Seismological Research Letters, 95, #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172]
+    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2024). #strong[An Object Storage for Distributed Acoustic Sensing]. Seismological Research Letters, 95(1), 499–511, #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172]
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #emph[Z. Krauss], #emph[Y. Ni], S. Henderson, #strong[M. Denolle] (2023). #strong[Seismology in the cloud: guidance for the individual researcher]. Seismica, 2(2), #link("https://doi.org/10.26443/seismica.v2i2.979")[10.26443\/seismica.v2i2.979]
 
   ],
   [
@@ -1933,7 +1946,7 @@
 
 #regular-entry(
   [
-    #emph[Z. Krauss], #emph[Y. Ni], S. Henderson, #strong[M. Denolle] (2023). #strong[Seismology in the cloud: guidance for the individual researcher]. Seismica, 2, #link("https://doi.org/10.26443/seismica.v2i2.979")[10.26443\/seismica.v2i2.979]
+    #emph[Y. Ni], A. Hutko, #emph[F. Skene], #strong[M. Denolle], S. Malone, P. Bodin, R. Hartog, A. Wright (2023). #strong[Curated Pacific Northwest AI-ready Seismic Dataset]. Seismica, 2(1), #link("https://doi.org/10.26443/seismica.v2i1.368")[10.26443\/seismica.v2i1.368]
 
   ],
   [
@@ -1946,7 +1959,7 @@
 
 #regular-entry(
   [
-    #emph[Y. Ni], A. Hutko, #emph[F. Skene], #strong[M. Denolle], S. Malone, P. Bodin, R. Hartog, A. Wright (2023). #strong[Curated Pacific Northwest AI-ready Seismic Dataset]. Seismica, 2, #link("https://doi.org/10.26443/seismica.v2i1.368")[10.26443\/seismica.v2i1.368]
+    #emph[L. Ermert], E. Cabral-Cano, E. Chaussard, D. Solano-Rojas, L. Quintanar, D. Morales Padilla, E. A. Fernandez-Torres, #strong[M. A. Denolle] (2023). #strong[Probing environmental and tectonic changes underneath Mexico City with the urban seismic field]. Solid Earth, 14(5), 529–549, #link("https://doi.org/10.5194/se-14-529-2023")[10.5194\/se-14-529-2023]
 
   ],
   [
@@ -1959,7 +1972,7 @@
 
 #regular-entry(
   [
-    #emph[L. Ermert], E. Cabral-Cano, E. Chaussard, D. Solano-Rojas, L. Quintanar, D. Morales Padilla, E. A. Fernandez-Torres, #strong[M. A. Denolle] (2023). #strong[Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field]. Solid Earth (EGU), #link("https://doi.org/10.5194/egusphere-2022-1361")[10.5194\/egusphere-2022-1361]
+    #emph[T. Clements], #strong[M. A. Denolle] (2023). #strong[The Seismic Signature of California's Earthquakes, Droughts, and Floods]. Journal of Geophysical Research: Solid Earth, 128(1), e2022JB025553, #link("https://doi.org/10.1029/2022JB025553")[10.1029\/2022JB025553]
 
   ],
   [
@@ -1972,20 +1985,7 @@
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2023). #strong[The Seismic Signature of California's Earthquakes, Droughts, and Floods]. Journal of Geophysical Research: Solid Earth, 128, #link("https://doi.org/10.1029/2022JB025553")[10.1029\/2022JB025553]
-
-  ],
-  [
-    2023
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[J. Yin], #strong[M. A. Denolle], B. He (2022). #strong[A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms]. Geophysical Journal International, 231, #link("https://doi.org/10.1093/gji/ggac290")[10.1093\/gji\/ggac290]
+    #emph[J. Yin], #strong[M. A. Denolle], B. He (2022). #strong[A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms]. Geophysical Journal International, 231(3), 1806–1822, #link("https://doi.org/10.1093/gji/ggac290")[10.1093\/gji\/ggac290]
 
   ],
   [
@@ -1998,7 +1998,7 @@
 
 #regular-entry(
   [
-    #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging]. Journal of Geophysical Research: Solid Earth, 127, #link("https://doi.org/10.1029/2022JB024613")[10.1029\/2022JB024613]
+    #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging]. Journal of Geophysical Research: Solid Earth, 127(8), e2022JB024613, #link("https://doi.org/10.1029/2022JB024613")[10.1029\/2022JB024613]
 
   ],
   [
@@ -2011,7 +2011,7 @@
 
 #regular-entry(
   [
-    #emph[L. Viens], #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions]. Geophysical Journal International, 230, #link("https://doi.org/10.1093/gji/ggac101")[10.1093\/gji\/ggac101]
+    #emph[L. Viens], #emph[C. Jiang], #strong[M. A. Denolle] (2022). #strong[Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions]. Geophysical Journal International, 230(2), 1080–1091, #link("https://doi.org/10.1093/gji/ggac101")[10.1093\/gji\/ggac101]
 
   ],
   [
@@ -2024,7 +2024,7 @@
 
 #regular-entry(
   [
-    #emph[S. D. Olinger], B. P. Lipovsky, #strong[M. A. Denolle], B. W. Crowell (2022). #strong[Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica]. Geophysical Research Letters, #link("https://doi.org/10.1029/2021GL097604")[10.1029\/2021GL097604]
+    #emph[S. D. Olinger], B. P. Lipovsky, #strong[M. A. Denolle], B. W. Crowell (2022). #strong[Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica]. Geophysical Research Letters, 49(10), e2021GL097604, #link("https://doi.org/10.1029/2021GL097604")[10.1029\/2021GL097604]
 
   ],
   [
@@ -2037,7 +2037,7 @@
 
 #regular-entry(
   [
-    #emph[Z. Yang], #emph[C. Yuan], #strong[M. A. Denolle] (2022). #strong[Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring]. The Seismic Record, 2, #link("https://doi.org/10.1785/0320210036")[10.1785\/0320210036]
+    #emph[Z. Yang], #emph[C. Yuan], #strong[M. A. Denolle] (2022). #strong[Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring]. The Seismic Record, 2(1), 38–49, #link("https://doi.org/10.1785/0320210036")[10.1785\/0320210036]
 
   ],
   [
@@ -2050,7 +2050,7 @@
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. A. Denolle] (2021). #strong[The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes]. AGU Advances, 2, #link("https://doi.org/10.1029/2021AV000413")[10.1029\/2021AV000413]
+    #emph[J. Yin], #strong[M. A. Denolle] (2021). #strong[The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes]. AGU Advances, 2(3), e2021AV000413, #link("https://doi.org/10.1029/2021AV000413")[10.1029\/2021AV000413]
 
   ],
   [
@@ -2065,7 +2065,7 @@
 
 #regular-entry(
   [
-    #emph[C. Yuan], #emph[J. Bryan], #strong[M. A. Denolle] (2021). #strong[Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains]. Geophysical Journal International, 226, #link("https://doi.org/10.1093/gji/ggab140")[10.1093\/gji\/ggab140]
+    #emph[C. Yuan], #emph[J. Bryan], #strong[M. A. Denolle] (2021). #strong[Numerical comparison of time-, frequency- and wavelet-domain methods for coda wave interferometry]. Geophysical Journal International, 226(2), 828–846, #link("https://doi.org/10.1093/gji/ggab140")[10.1093\/gji\/ggab140]
 
   ],
   [
@@ -2078,7 +2078,7 @@
 
 #regular-entry(
   [
-    #emph[J. Yin], Z. Li, #strong[M. A. Denolle] (2021). #strong[Source time function clustering reveals patterns in earthquake dynamics]. Seismological Research Letters, 92, #link("https://doi.org/10.1785/0220200403")[10.1785\/0220200403]
+    #emph[J. Yin], Z. Li, #strong[M. A. Denolle] (2021). #strong[Source time function clustering reveals patterns in earthquake dynamics]. Seismological Research Letters, 92(4), 2343–2353, #link("https://doi.org/10.1785/0220200403")[10.1785\/0220200403]
 
   ],
   [
@@ -2091,7 +2091,7 @@
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2021). #strong[SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia]. Seismological Research Letters, 92, #link("https://doi.org/10.1785/0220200192")[10.1785\/0220200192]
+    #emph[T. Clements], #strong[M. A. Denolle] (2021). #strong[SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU in Julia]. Seismological Research Letters, 92(1), 517–527, #link("https://doi.org/10.1785/0220200192")[10.1785\/0220200192]
 
   ],
   [
@@ -2104,7 +2104,7 @@
 
 #regular-entry(
   [
-    #strong[M. A. Denolle], T. Nissen-Meyer (2020). #strong[Quiet Anthropocene, quiet Earth]. Science, 369, #link("https://doi.org/10.1126/science.abd8358")[10.1126\/science.abd8358]
+    #strong[M. A. Denolle], T. Nissen-Meyer (2020). #strong[Quiet Anthropocene, quiet Earth]. Science, 369(6509), 1299–1300, #link("https://doi.org/10.1126/science.abd8358")[10.1126\/science.abd8358]
 
   ],
   [
@@ -2117,7 +2117,7 @@
 
 #regular-entry(
   [
-    J. P. Jones, #emph[K. Okubo], #emph[T. Clements], #strong[M. A. Denolle] (2020). #strong[SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language]. Seismological Research Letters, 91, #link("https://doi.org/10.1785/0220190295")[10.1785\/0220190295]
+    J. P. Jones, #emph[K. Okubo], #emph[T. Clements], #strong[M. A. Denolle] (2020). #strong[SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language]. Seismological Research Letters, 91(4), 2368–2377, #link("https://doi.org/10.1785/0220190295")[10.1785\/0220190295]
 
   ],
   [
@@ -2130,7 +2130,7 @@
 
 #regular-entry(
   [
-    #emph[C. Jiang], #strong[M. A. Denolle] (2020). #strong[NoisePy: A new high-performance python tool for ambient-noise seismology]. Seismological Research Letters, 91, #link("https://doi.org/10.1785/0220190364")[10.1785\/0220190364]
+    #emph[C. Jiang], #strong[M. A. Denolle] (2020). #strong[NoisePy: A new high-performance python tool for ambient-noise seismology]. Seismological Research Letters, 91(3), 1853–1866, #link("https://doi.org/10.1785/0220190364")[10.1785\/0220190364]
 
   ],
   [
@@ -2143,7 +2143,7 @@
 
 #regular-entry(
   [
-    #emph[P. Danré], #emph[J. Yin], B. Lipovsky, #strong[M. Denolle] (2019). #strong[Earthquakes Within Earthquakes: Patterns in Rupture Complexity]. Geophysical Research Letters, 43, #link("https://doi.org/10.1029/2019GL083093")[10.1029\/2019GL083093]
+    #emph[P. Danré], #emph[J. Yin], B. Lipovsky, #strong[M. Denolle] (2019). #strong[Earthquakes Within Earthquakes: Patterns in Rupture Complexity]. Geophysical Research Letters, 46(13), 7352–7360, #link("https://doi.org/10.1029/2019GL083093")[10.1029\/2019GL083093]
 
   ],
   [
@@ -2158,7 +2158,7 @@
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle] (2019). #strong[Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan]. Bulletin of the Seismological Society of America, 109, #link("https://doi.org/10.1785/0120180320")[10.1785\/0120180320]
+    #emph[L. Viens], #strong[M. Denolle] (2019). #strong[Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan]. Bulletin of the Seismological Society of America, 109(4), 1312–1330, #link("https://doi.org/10.1785/0120180320")[10.1785\/0120180320]
 
   ],
   [
@@ -2171,7 +2171,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle] (2019). #strong[Energetic Onset of Earthquakes]. Geophysical Research Letters, 46, #link("https://doi.org/10.1029/2018GL080687")[10.1029\/2018GL080687]
+    #strong[M. Denolle] (2019). #strong[Energetic Onset of Earthquakes]. Geophysical Research Letters, 46(5), 2458–2466, #link("https://doi.org/10.1029/2018GL080687")[10.1029\/2018GL080687]
 
   ],
   [
@@ -2184,7 +2184,7 @@
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. Denolle] (2019). #strong[Relating teleseismic backprojection images to earthquake kinematics]. Geophysical Journal International, 217, #link("https://doi.org/10.1093/gji/ggz048")[10.1093\/gji\/ggz048]
+    #emph[J. Yin], #strong[M. Denolle] (2019). #strong[Relating teleseismic backprojection images to earthquake kinematics]. Geophysical Journal International, 217(2), 729–747, #link("https://doi.org/10.1093/gji/ggz048")[10.1093\/gji\/ggz048]
 
   ],
   [
@@ -2197,7 +2197,7 @@
 
 #regular-entry(
   [
-    Y. Wang, #strong[M. Denolle], S. M. Day (2019). #strong[Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake]. Journal of Geophysical Research, 124, #link("https://doi.org/10.1029/2018JB016602")[10.1029\/2018JB016602]
+    Y. Wang, #strong[M. Denolle], S. M. Day (2019). #strong[Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake]. Journal of Geophysical Research: Solid Earth, 124(2), 1544–1568, #link("https://doi.org/10.1029/2018JB016602")[10.1029\/2018JB016602]
 
   ],
   [
@@ -2210,7 +2210,7 @@
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. Denolle] (2018). #strong[Tracking ground water using the ambient seismic field]. (User text suggests possible mismatch of volume\/issue) Geophysical Research Letters, 123, #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706]
+    #emph[L. Viens], #strong[M. Denolle], N. Hirata, S. Nakagawa (2018). #strong[Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions]. Journal of Geophysical Research: Solid Earth, 123(7), 5710–5729, #link("https://doi.org/10.1029/2018JB015697")[10.1029\/2018JB015697]
 
   ],
   [
@@ -2223,7 +2223,7 @@
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle], N. Hirata, S. Nakagawa (2018). #strong[Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions]. Journal of Geophysical Research: Solid Earth, 123
+    #strong[M. A. Denolle], P. Boué, N. Hirata, G. C. Beroza (2018). #strong[Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake]. Journal of Geophysical Research: Solid Earth, 123(5), 3968–3992, #link("https://doi.org/10.1029/2017JB015184")[10.1029\/2017JB015184]
 
   ],
   [
@@ -2236,7 +2236,7 @@
 
 #regular-entry(
   [
-    #strong[M. A. Denolle], P. Boué, N. Hirata, G. C. Beroza (2018). #strong[Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake]. Journal of Geophysical Research: Solid Earth, 123
+    #emph[C. Van Houtte], #strong[M. Denolle] (2018). #strong[Improved model fitting for the empirical Green's function approach using hierarchical models]. Journal of Geophysical Research: Solid Earth, 123(4), 2923–2942, #link("https://doi.org/10.1002/2017JB014943")[10.1002\/2017JB014943]
 
   ],
   [
@@ -2249,7 +2249,7 @@
 
 #regular-entry(
   [
-    #emph[C. Van Houtte], #strong[M. Denolle] (2018). #strong[Improved model fitting for the empirical Green's function approach using hierarchical models]. Journal of Geophysical Research: Solid Earth, 123
+    #emph[T. Clements], #strong[M. A. Denolle] (2018). #strong[Tracking groundwater levels using the ambient seismic field]. Geophysical Research Letters, 45(13), 6459–6465, #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706]
 
   ],
   [
@@ -2262,20 +2262,7 @@
 
 #regular-entry(
   [
-    #emph[T. Clements], #strong[M. A. Denolle] (2018). #strong[Tracking groundwater levels using the ambient seismic field]. Geophysical Research Letters, 45, #link("https://doi.org/10.1029/2018GL077706")[10.1029\/2018GL077706]
-
-  ],
-  [
-    2018
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[T. Perol], M. Gharbi, #strong[M. Denolle] (2018). #strong[Convolutional neural network for earthquake detection and location]. Science Advances, 4
+    #emph[T. Perol], M. Gharbi, #strong[M. Denolle] (2018). #strong[Convolutional neural network for earthquake detection and location]. Science Advances, 4(2), e1700578, #link("https://doi.org/10.1126/sciadv.1700578")[10.1126\/sciadv.1700578]
 
   ],
   [
@@ -2290,7 +2277,7 @@
 
 #regular-entry(
   [
-    #emph[J. Yin], #strong[M. A. Denolle], H. Yao (2018). #strong[Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile]. Journal of Geophysical Research: Solid Earth, 123, #link("https://doi.org/10.1002/2017JB014265")[10.1002\/2017JB014265]
+    #emph[J. Yin], #strong[M. A. Denolle], H. Yao (2018). #strong[Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile]. Journal of Geophysical Research: Solid Earth, 123(1), 344–367, #link("https://doi.org/10.1002/2017JB014265")[10.1002\/2017JB014265]
 
   ],
   [
@@ -2303,7 +2290,7 @@
 
 #regular-entry(
   [
-    Y. Sheng, #strong[M. A. Denolle], G. C. Beroza (2017). #strong[Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction]. Bulletin of the Seismological Society of America, 107, #link("https://doi.org/10.1785/0120170053")[10.1785\/0120170053]
+    Y. Sheng, #strong[M. A. Denolle], G. C. Beroza (2017). #strong[Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction]. Bulletin of the Seismological Society of America, 107(6), 2836–2845, #link("https://doi.org/10.1785/0120170053")[10.1785\/0120170053]
 
   ],
   [
@@ -2316,7 +2303,7 @@
 
 #regular-entry(
   [
-    #emph[L. Viens], #strong[M. Denolle], H. Miyake, S. Sakai, S. Nakagawa (2017). #strong[Retrieving impulse response function amplitudes from the ambient seismic field]. Geophysical Journal International, 210, #link("https://doi.org/10.1093/gji/ggx155")[10.1093\/gji\/ggx155]
+    #emph[L. Viens], #strong[M. Denolle], H. Miyake, S. Sakai, S. Nakagawa (2017). #strong[Retrieving impulse response function amplitudes from the ambient seismic field]. Geophysical Journal International, 210(1), 210–222, #link("https://doi.org/10.1093/gji/ggx155")[10.1093\/gji\/ggx155]
 
   ],
   [
@@ -2329,7 +2316,7 @@
 
 #regular-entry(
   [
-    P. Boue, #strong[M. Denolle], N. Hirata, S. Nakagawa, G. C. Beroza (2016). #strong[Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field]. Geophysical Journal International, 206, #link("https://doi.org/10.1093/gji/ggw205")[10.1093\/gji\/ggw205]
+    P. Boue, #strong[M. Denolle], N. Hirata, S. Nakagawa, G. C. Beroza (2016). #strong[Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field]. Geophysical Journal International, 206(2), 1261–1272, #link("https://doi.org/10.1093/gji/ggw205")[10.1093\/gji\/ggw205]
 
   ],
   [
@@ -2342,7 +2329,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], P. M. Shearer (2016). #strong[New perspective on self-similarity of shallow thrust earthquakes]. Journal of Geophysical Research: Solid Earth, 121, #link("https://doi.org/10.1002/2016JB013105")[10.1002\/2016JB013105]
+    #strong[M. Denolle], P. M. Shearer (2016). #strong[New perspectives on self-similarity for shallow thrust earthquakes]. Journal of Geophysical Research: Solid Earth, 121(9), 6533–6565, #link("https://doi.org/10.1002/2016JB013105")[10.1002\/2016JB013105]
 
   ],
   [
@@ -2355,7 +2342,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], W. Fan, P. M. Shearer (2015). #strong[Dynamics of the M7.8 2015 Nepal Earthquake]. Geophysical Research Letters, 42, #link("https://doi.org/10.1002/2015GL065336")[10.1002\/2015GL065336]
+    #strong[M. Denolle], W. Fan, P. M. Shearer (2015). #strong[Dynamics of the 2015 M7.8 Nepal earthquake]. Geophysical Research Letters, 42(18), 7467–7475, #link("https://doi.org/10.1002/2015GL065336")[10.1002\/2015GL065336]
 
   ],
   [
@@ -2368,7 +2355,7 @@
 
 #regular-entry(
   [
-    E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, #strong[M. Denolle], G. C. Beroza (2014). #strong[Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods]. Journal of Geophysical Research, 119, #link("https://doi.org/10.1002/2014JB011236")[10.1002\/2014JB011236]
+    E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, #strong[M. Denolle], G. C. Beroza (2014). #strong[Full-3-D tomography for crustal structure in Southern California based on the scattering-integral and the adjoint-wavefield methods]. Journal of Geophysical Research: Solid Earth, 119(8), 6421–6451, #link("https://doi.org/10.1002/2014JB011346")[10.1002\/2014JB011346]
 
   ],
   [
@@ -2381,7 +2368,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza (2014). #strong[Long-period seismic amplification in the Kanto Basin from the ambient seismic field]. Geophysical Research Letters, 41, #link("https://doi.org/10.1002/2014GL059425")[10.1002\/2014GL059425]
+    #strong[M. Denolle], H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza (2014). #strong[Long-period seismic amplification in the Kanto Basin from the ambient seismic field]. Geophysical Research Letters, 41(7), 2319–2325, #link("https://doi.org/10.1002/2014GL059425")[10.1002\/2014GL059425]
 
   ],
   [
@@ -2394,7 +2381,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2014). #strong[Strong Ground Motion Prediction using Virtual Earthquakes]. Science, 343, #link("https://doi.org/10.1126/science.1245678")[10.1126\/science.1245678]
+    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2014). #strong[Strong Ground Motion Prediction using Virtual Earthquakes]. Science, 343(6169), 399–403, #link("https://doi.org/10.1126/science.1245678")[10.1126\/science.1245678]
 
   ],
   [
@@ -2409,7 +2396,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2013). #strong[Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field]. Journal of Geophysical Research, 118, #link("https://doi.org/10.1029/2012JB009603")[10.1029\/2012JB009603]
+    #strong[M. Denolle], E. M. Dunham, G. A. Prieto, G. C. Beroza (2013). #strong[Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field]. Journal of Geophysical Research: Solid Earth, 118(5), 2102–2118, #link("https://doi.org/10.1029/2012JB009603")[10.1029\/2012JB009603]
 
   ],
   [
@@ -2422,7 +2409,7 @@
 
 #regular-entry(
   [
-    J. F. Lawrence, #strong[M. Denolle], K. J. Seats, G. Prieto (2013). #strong[A numeric evaluation of attenuation from ambient noise correlation functions]. Journal of Geophysical Research, 118, #link("https://doi.org/10.1002/2012JB009513")[10.1002\/2012JB009513]
+    J. F. Lawrence, #strong[M. Denolle], K. J. Seats, G. Prieto (2013). #strong[A numeric evaluation of attenuation from ambient noise correlation functions]. Journal of Geophysical Research: Solid Earth, 118(12), 6134–6145, #link("https://doi.org/10.1002/2012JB009513")[10.1002\/2012JB009513]
 
   ],
   [
@@ -2435,7 +2422,7 @@
 
 #regular-entry(
   [
-    #strong[M. Denolle], E. M. Dunham, G. C. Beroza (2012). #strong[Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation]. Bulletin of the Seismological Society of America, 102, #link("https://doi.org/10.1785/0120110183")[10.1785\/0120110183]
+    #strong[M. Denolle], E. M. Dunham, G. C. Beroza (2012). #strong[Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation]. Bulletin of the Seismological Society of America, 102(3), 1214–1223, #link("https://doi.org/10.1785/0120110183")[10.1785\/0120110183]
 
   ],
   [
@@ -2448,7 +2435,7 @@
 
 #regular-entry(
   [
-    G. A. Prieto, #strong[M. Denolle], J. F. Lawrence, G. C. Beroza (2011). #strong[On amplitude carried by the ambient seismic field]. Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343
+    G. A. Prieto, #strong[M. Denolle], J. F. Lawrence, G. C. Beroza (2011). #strong[On amplitude information carried by the ambient seismic field]. Comptes Rendus. Géoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343(8-9), 600–614, #link("https://doi.org/10.1016/j.crte.2011.03.006")[10.1016\/j.crte.2011.03.006]
 
   ],
   [
@@ -2461,7 +2448,7 @@
 
 #regular-entry(
   [
-    S. Singh, N. Hananto, A. Chauhan, H. Permana, #strong[M. Denolle], A. Hendriyana, D. Natawidjaja (2010). #strong[Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra]. Geophysical Journal International, 180, #link("https://doi.org/10.1111/j.1365-246X.2009.04458.x")[10.1111\/j.1365-246X.2009.04458.x]
+    S. Singh, N. Hananto, A. Chauhan, H. Permana, #strong[M. Denolle], A. Hendriyana, D. Natawidjaja (2010). #strong[Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra]. Geophysical Journal International, 180(2), 703–714, #link("https://doi.org/10.1111/j.1365-246X.2009.04458.x")[10.1111\/j.1365-246X.2009.04458.x]
 
   ],
   [

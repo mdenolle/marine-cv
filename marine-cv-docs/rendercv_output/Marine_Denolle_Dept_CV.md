@@ -37,7 +37,7 @@
 # Research Impact Summary
 **Research Citations:** 3,129 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
-**Publications:** 68 peer-reviewed | 6 Nature/Science-family (T1) | 40 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
+**Publications:** 67 peer-reviewed | 6 Nature/Science-family (T1) | 39 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
 **Research Funding:** Lead PI: $5.3M (15 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
 
@@ -752,7 +752,7 @@ Veronica Gaete-Elgueta, *Manuela Köpfli*, Dominik Gräff, Bradley P Lipovsky, *
 
 *Qibin Shi*, David R. Montgomery, Abigail L.S. Swann, Nicoleta C. Cristea, *Ethan F. Williams*, Nan You, Simon Jeffery, Joe Collins, Ana Prada Barrio, Paula A. Misiewicz, Tarje Nissen-Meyer, **Marine A. Denolle**
 
-[10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970) (Science, 392)
+[10.1126/science.aec0970](https://doi.org/10.1126/science.aec0970) (Science, 392(6795), 306–310)
 
 
 
@@ -762,7 +762,7 @@ Veronica Gaete-Elgueta, *Manuela Köpfli*, Dominik Gräff, Bradley P Lipovsky, *
 
 *Maleen Kidiwela*, **Marine A. Denolle**, William S. D. Wilcock, *Kuan-Fu Feng*
 
-[10.1126/sciadv.aea3684](https://doi.org/10.1126/sciadv.aea3684) (Science Advances, 12)
+[10.1126/sciadv.aea3684](https://doi.org/10.1126/sciadv.aea3684) (Science Advances, 12(9), eaea3684)
 
 
 
@@ -772,7 +772,7 @@ Veronica Gaete-Elgueta, *Manuela Köpfli*, Dominik Gräff, Bradley P Lipovsky, *
 
 Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro, Takeshi Tsuji, Arantza Ugalde, *Qibin Shi*, **Marine A Denolle**
 
-[10.1093/gji/ggag061](https://doi.org/10.1093/gji/ggag061) (Geophysical Journal International, 245)
+[10.1093/gji/ggag061](https://doi.org/10.1093/gji/ggag061) (Geophysical Journal International, 245(2), ggag061)
 
 
 
@@ -782,7 +782,7 @@ Han Xiao, Frederik Tilmann, Martijn van den Ende, Diane Rivet, Afonso Loureiro
 
 *Akash Kharita*, **Marine Denolle**, Alexander Hutko, Renate Hartog, Stephen Malone
 
-[10.26443/seismica.v5i1.2068](https://doi.org/10.26443/seismica.v5i1.2068) (Seismica, 5)
+[10.26443/seismica.v5i1.2068](https://doi.org/10.26443/seismica.v5i1.2068) (Seismica, 5(1))
 
 
 
@@ -802,7 +802,7 @@ John Townend, Ilma del Carmen Juarez‐Garfias, Olivia Pita‐Sllim, Calum J. Ch
 
 *Natasha Toghramadjian*, **Marine A. Denolle**, *Laura Ermert*, *Chengxin Jiang*
 
-[10.1785/0220250241](https://doi.org/10.1785/0220250241) (Seismological Research Letters)
+[10.1785/0220250241](https://doi.org/10.1785/0220250241) (Seismological Research Letters, 97(4), 2803–2816)
 
 
 
@@ -822,7 +822,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Kuan-Fu Feng*, **Marine Denolle**, Fan-Chi Lin, Tonie van Dam
 
- (Journal of Geophysical Research: Solid Earth, 131)
+[10.1029/2024JB030689](https://doi.org/10.1029/2024JB030689) (Journal of Geophysical Research: Solid Earth, 131(1), e2024JB030689)
 
 
 
@@ -832,7 +832,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Yiyu Ni*, **Marine Denolle**, Amanda Thomas, Alex Hamilton, Jannes Münchmeyer, Yinzhi Wang, Loïc Bachelot, Chad Trabant, David Mencin
 
-[10.26443/seismica.v4i2.1738](https://doi.org/10.26443/seismica.v4i2.1738) (Seismica, 4)
+[10.26443/seismica.v4i2.1738](https://doi.org/10.26443/seismica.v4i2.1738) (Seismica, 4(2))
 
 
 
@@ -842,7 +842,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Yiyu Ni*, **Marine A Denolle**, Jannes Münchmeyer, Yinzhi Wang, *Kuan-Fu Feng*, Carlos Garcia Jurado Suarez, Amanda M Thomas, Chad Trabant, Alex Hamilton, David Mencin
 
-[10.1093/gji/ggaf322](https://doi.org/10.1093/gji/ggaf322) (Geophysical Journal International)
+[10.1093/gji/ggaf322](https://doi.org/10.1093/gji/ggaf322) (Geophysical Journal International, 243(1), ggaf322)
 
 
 
@@ -852,7 +852,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 **Marine A. Denolle**, Carl Tape, Ebru Bozdağ, Yinzhi Wang, Felix Waldhauser, Alice‐Agnes Gabriel, Jochen Braunmiller, Bryant Chow, Liang Ding, *Kuan‐Fu Feng*, Ayon Ghosh, Nathan Groebner, Aakash Gupta, *Zoe Krauss*, Amanda M. McPherson, Masaru Nagaso, Zihua Niu, *Yiyu Ni*, Rıdvan Örsvuran, Gary Pavlis, Felix Rodriguez‐Cardozo, Theresa Sawi, David Schaff, Nico Schliwa, David Schneller, *Qibin Shi*, Julien Thurin, Chenxiao Wang, Kaiwen Wang, Jeremy Wing Ching Wong, Sebastian Wolf, *Congcong Yuan*
 
-[10.1785/0220240413](https://doi.org/10.1785/0220240413) (Seismological Research Letters, 96)
+[10.1785/0220240413](https://doi.org/10.1785/0220240413) (Seismological Research Letters, 96(5), 3265–3279)
 
 
 
@@ -862,7 +862,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 **Marine A. Denolle**, *Qibin Shi*, *Tim Clements*, *Loïc Viens*, Veronica Rodriguez-Tribaldos, Fabrice Cotton
 
-[10.5802/crgeos.310](https://doi.org/10.5802/crgeos.310) (Comptes Rendus. Géoscience, 357)
+[10.5802/crgeos.310](https://doi.org/10.5802/crgeos.310) (Comptes Rendus. Géoscience, 357(G1), 425–451)
 
 
 
@@ -872,7 +872,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Q. Shi*, **M. A. Denolle**, *Y. Ni*, *E. F. Williams*, N. You
 
-[10.1029/2024JB029728](https://doi.org/10.1029/2024JB029728) (JGR: Solid Earth, 130)
+[10.1029/2024JB029728](https://doi.org/10.1029/2024JB029728) (Journal of Geophysical Research: Solid Earth, 130(2), e2024JB029728)
 
 
 
@@ -882,7 +882,7 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Q. Shi*, *E. F. Williams*, B. P. Lipovsky, **M. A. Denolle**, W. S. D. Wilcock, D. S. Kelley, K. Schoedl
 
-[10.1785/0220240460](https://doi.org/10.1785/0220240460) (Seismological Research Letters, 96)
+[10.1785/0220240460](https://doi.org/10.1785/0220240460) (Seismological Research Letters, 96(2A), 784–800)
 
 
 
@@ -892,17 +892,17 @@ Alexey Yermakov, Yue Zhao, **Marine Denolle**, *Yiyu Ni*, Philippe M. Wyder, Jud
 
 *Y. Ni*, **M. A. Denolle**, *Q. Shi*, B. P. Lipovsky, S. Pan, J. N. Kutz
 
-[10.1029/2024JH000247](https://doi.org/10.1029/2024JH000247) (Journal of Geophysical Research: Machine Learning and Computation, 1)
+[10.1029/2024JH000247](https://doi.org/10.1029/2024JH000247) (Journal of Geophysical Research: Machine Learning and Computation, 1(3), e2024JH000247)
 
 
 
-## **Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens**
+## **Analyzing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens**
 
 2024
 
 P. Makus, **M. A. Denolle**, C. Sens-Schönfelder, *M. Köpfli*, F. Tilmann
 
-[10.1785/0220240088](https://doi.org/10.1785/0220240088) (Seismological Research Letters, 95)
+[10.1785/0220240088](https://doi.org/10.1785/0220240088) (Seismological Research Letters, 95(5), 2674–2688)
 
 
 
@@ -912,7 +912,7 @@ P. Makus, **M. A. Denolle**, C. Sens-Schönfelder, *M. Köpfli*, F. Tilmann
 
 M. Köpli, **M. A. Denolle**, W. Thelen, P. Makus, S. Malone
 
-[10.1785/0220240079](https://doi.org/10.1785/0220240079) (Seismological Research Letters, 95)
+[10.1785/0220240079](https://doi.org/10.1785/0220240079) (Seismological Research Letters, 95(5), 2622–2636)
 
 
 
@@ -922,7 +922,7 @@ M. Köpli, **M. A. Denolle**, W. Thelen, P. Makus, S. Malone
 
 F. Diewald, **M. Denolle**, J. J. Timothy, C. Gehlen
 
-[10.1038/s41598-024-69564-4](https://doi.org/10.1038/s41598-024-69564-4) (Scientific Reports, 14)
+[10.1038/s41598-024-69564-4](https://doi.org/10.1038/s41598-024-69564-4) (Scientific Reports, 14(1), 18861)
 
 
 
@@ -932,47 +932,57 @@ F. Diewald, **M. Denolle**, J. J. Timothy, C. Gehlen
 
 *K. Okubo*, B. Delbridge, **M. Denolle**
 
-[10.1029/2023JB028084](https://doi.org/10.1029/2023JB028084) (Journal of Geophysical Research: Solid Earth, 129)
+[10.1029/2023JB028084](https://doi.org/10.1029/2023JB028084) (Journal of Geophysical Research: Solid Earth, 129(4), e2023JB028084)
 
 
 
-## **Extended crack propagation by local nucleation and rapid transverse expansion**
+## **Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion**
 
 2024
 
 T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, *C. Yuan*, **M. Denolle**, Y.-Q. Song, L. Xiao, D. A. Weitz
 
-[10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0) (Nature Physics)
+[10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0) (Nature Physics, 20(4), 660–665)
 
 
 
 ## **Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm**
 
-2023
+2024
 
 *A. Kharita*, **M. Denolle**, M. West
 
-[10.1093/gji/ggae106](https://doi.org/10.1093/gji/ggae106) (Geophysical Journal International)
+[10.1093/gji/ggae106](https://doi.org/10.1093/gji/ggae106) (Geophysical Journal International, 237(2), 1189–1207)
 
 
 
 ## **Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event**
 
-2023
+2024
 
 *S. Olinger*, B. Lipovsky, **M. Denolle**
 
-[10.1029/2023AV001023](https://doi.org/10.1029/2023AV001023) (AGU Advances, 5)
+[10.1029/2023AV001023](https://doi.org/10.1029/2023AV001023) (AGU Advances, 5(1), e2023AV001023)
 
 
 
-## **Laboratory hydrofracture as analogs to tectonic tremors**
+## **Laboratory Hydrofractures as Analogs to Tectonic Tremors**
 
-2023
+2024
 
 *C. Yuan*, T. Cochard, **M. Denolle**, J. Gomberg, A. Wech, L. Xiao, D. Weitz
 
-[10.1029/2023AV001002](https://doi.org/10.1029/2023AV001002) (AGU Advances, 5)
+[10.1029/2023AV001002](https://doi.org/10.1029/2023AV001002) (AGU Advances, 5(1), e2023AV001002)
+
+
+
+## **An Object Storage for Distributed Acoustic Sensing**
+
+2024
+
+*Yiyu Ni*, **Marine A. Denolle**, Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth
+
+[10.1785/0220230172](https://doi.org/10.1785/0220230172) (Seismological Research Letters, 95(1), 499–511)
 
 
 
@@ -982,7 +992,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *Q. Shi*, **M. Denolle**
 
-[10.1029/2023JB027334](https://doi.org/10.1029/2023JB027334) (Journal of Geophysical Research: Solid Earth, 128)
+[10.1029/2023JB027334](https://doi.org/10.1029/2023JB027334) (Journal of Geophysical Research: Solid Earth, 128(12), e2023JB027334)
 
 
 
@@ -992,17 +1002,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *Congcong Yuan*, *Yiyu Ni*, Youzuo Lin, **Marine Denolle**
 
-[10.1109/TGRS.2023.3320148](https://doi.org/10.1109/TGRS.2023.3320148) (IEEE Transactions on Geoscience and Remote Sensing, 61)
-
-
-
-## **An Object Storage for Distributed Acoustic Sensing**
-
-2023
-
-*Yiyu Ni*, **Marine A. Denolle**, Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth
-
-[10.1785/0220230172](https://doi.org/10.1785/0220230172) (Seismological Research Letters, 95)
+[10.1109/TGRS.2023.3320148](https://doi.org/10.1109/TGRS.2023.3320148) (IEEE Transactions on Geoscience and Remote Sensing, 61, 1–17)
 
 
 
@@ -1012,7 +1012,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *Z. Krauss*, *Y. Ni*, S. Henderson, **M. Denolle**
 
-[10.26443/seismica.v2i2.979](https://doi.org/10.26443/seismica.v2i2.979) (Seismica, 2)
+[10.26443/seismica.v2i2.979](https://doi.org/10.26443/seismica.v2i2.979) (Seismica, 2(2))
 
 
 
@@ -1022,17 +1022,17 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *Y. Ni*, A. Hutko, *F. Skene*, **M. Denolle**, S. Malone, P. Bodin, R. Hartog, A. Wright
 
-[10.26443/seismica.v2i1.368](https://doi.org/10.26443/seismica.v2i1.368) (Seismica, 2)
+[10.26443/seismica.v2i1.368](https://doi.org/10.26443/seismica.v2i1.368) (Seismica, 2(1))
 
 
 
-## **Probing environmental and tectonic changes underneath Ciudad de México with the urban seismic field**
+## **Probing environmental and tectonic changes underneath Mexico City with the urban seismic field**
 
 2023
 
 *L. Ermert*, E. Cabral-Cano, E. Chaussard, D. Solano-Rojas, L. Quintanar, D. Morales Padilla, E. A. Fernandez-Torres, **M. A. Denolle**
 
-[10.5194/egusphere-2022-1361](https://doi.org/10.5194/egusphere-2022-1361) (Solid Earth (EGU))
+[10.5194/se-14-529-2023](https://doi.org/10.5194/se-14-529-2023) (Solid Earth, 14(5), 529–549)
 
 
 
@@ -1042,7 +1042,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *T. Clements*, **M. A. Denolle**
 
-[10.1029/2022JB025553](https://doi.org/10.1029/2022JB025553) (Journal of Geophysical Research: Solid Earth, 128)
+[10.1029/2022JB025553](https://doi.org/10.1029/2022JB025553) (Journal of Geophysical Research: Solid Earth, 128(1), e2022JB025553)
 
 
 
@@ -1052,7 +1052,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *J. Yin*, **M. A. Denolle**, B. He
 
-[10.1093/gji/ggac290](https://doi.org/10.1093/gji/ggac290) (Geophysical Journal International, 231)
+[10.1093/gji/ggac290](https://doi.org/10.1093/gji/ggac290) (Geophysical Journal International, 231(3), 1806–1822)
 
 
 
@@ -1062,7 +1062,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *C. Jiang*, **M. A. Denolle**
 
-[10.1029/2022JB024613](https://doi.org/10.1029/2022JB024613) (Journal of Geophysical Research: Solid Earth, 127)
+[10.1029/2022JB024613](https://doi.org/10.1029/2022JB024613) (Journal of Geophysical Research: Solid Earth, 127(8), e2022JB024613)
 
 
 
@@ -1072,7 +1072,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *L. Viens*, *C. Jiang*, **M. A. Denolle**
 
-[10.1093/gji/ggac101](https://doi.org/10.1093/gji/ggac101) (Geophysical Journal International, 230)
+[10.1093/gji/ggac101](https://doi.org/10.1093/gji/ggac101) (Geophysical Journal International, 230(2), 1080–1091)
 
 
 
@@ -1082,7 +1082,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *S. D. Olinger*, B. P. Lipovsky, **M. A. Denolle**, B. W. Crowell
 
-[10.1029/2021GL097604](https://doi.org/10.1029/2021GL097604) (Geophysical Research Letters)
+[10.1029/2021GL097604](https://doi.org/10.1029/2021GL097604) (Geophysical Research Letters, 49(10), e2021GL097604)
 
 
 
@@ -1092,7 +1092,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *Z. Yang*, *C. Yuan*, **M. A. Denolle**
 
-[10.1785/0320210036](https://doi.org/10.1785/0320210036) (The Seismic Record, 2)
+[10.1785/0320210036](https://doi.org/10.1785/0320210036) (The Seismic Record, 2(1), 38–49)
 
 
 
@@ -1102,17 +1102,17 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *J. Yin*, **M. A. Denolle**
 
-[10.1029/2021AV000413](https://doi.org/10.1029/2021AV000413) (AGU Advances, 2)
+[10.1029/2021AV000413](https://doi.org/10.1029/2021AV000413) (AGU Advances, 2(3), e2021AV000413)
 
 
 
-## **Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains**
+## **Numerical comparison of time-, frequency- and wavelet-domain methods for coda wave interferometry**
 
 2021
 
 *C. Yuan*, *J. Bryan*, **M. A. Denolle**
 
-[10.1093/gji/ggab140](https://doi.org/10.1093/gji/ggab140) (Geophysical Journal International, 226)
+[10.1093/gji/ggab140](https://doi.org/10.1093/gji/ggab140) (Geophysical Journal International, 226(2), 828–846)
 
 
 
@@ -1122,7 +1122,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *J. Yin*, Z. Li, **M. A. Denolle**
 
-[10.1785/0220200403](https://doi.org/10.1785/0220200403) (Seismological Research Letters, 92)
+[10.1785/0220200403](https://doi.org/10.1785/0220200403) (Seismological Research Letters, 92(4), 2343–2353)
 
 
 
@@ -1132,7 +1132,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 *T. Clements*, **M. A. Denolle**
 
-[10.1785/0220200192](https://doi.org/10.1785/0220200192) (Seismological Research Letters, 92)
+[10.1785/0220200192](https://doi.org/10.1785/0220200192) (Seismological Research Letters, 92(1), 517–527)
 
 
 
@@ -1142,7 +1142,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 **M. A. Denolle**, T. Nissen-Meyer
 
-[10.1126/science.abd8358](https://doi.org/10.1126/science.abd8358) (Science, 369)
+[10.1126/science.abd8358](https://doi.org/10.1126/science.abd8358) (Science, 369(6509), 1299–1300)
 
 
 
@@ -1152,7 +1152,7 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 
 J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
-[10.1785/0220190295](https://doi.org/10.1785/0220190295) (Seismological Research Letters, 91)
+[10.1785/0220190295](https://doi.org/10.1785/0220190295) (Seismological Research Letters, 91(4), 2368–2377)
 
 
 
@@ -1162,7 +1162,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 *C. Jiang*, **M. A. Denolle**
 
-[10.1785/0220190364](https://doi.org/10.1785/0220190364) (Seismological Research Letters, 91)
+[10.1785/0220190364](https://doi.org/10.1785/0220190364) (Seismological Research Letters, 91(3), 1853–1866)
 
 
 
@@ -1172,7 +1172,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 *P. Danré*, *J. Yin*, B. Lipovsky, **M. Denolle**
 
-[10.1029/2019GL083093](https://doi.org/10.1029/2019GL083093) (Geophysical Research Letters, 43)
+[10.1029/2019GL083093](https://doi.org/10.1029/2019GL083093) (Geophysical Research Letters, 46(13), 7352–7360)
 
 
 
@@ -1182,7 +1182,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 *L. Viens*, **M. Denolle**
 
-[10.1785/0120180320](https://doi.org/10.1785/0120180320) (Bulletin of the Seismological Society of America, 109)
+[10.1785/0120180320](https://doi.org/10.1785/0120180320) (Bulletin of the Seismological Society of America, 109(4), 1312–1330)
 
 
 
@@ -1192,7 +1192,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 **M. Denolle**
 
-[10.1029/2018GL080687](https://doi.org/10.1029/2018GL080687) (Geophysical Research Letters, 46)
+[10.1029/2018GL080687](https://doi.org/10.1029/2018GL080687) (Geophysical Research Letters, 46(5), 2458–2466)
 
 
 
@@ -1202,7 +1202,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 *J. Yin*, **M. Denolle**
 
-[10.1093/gji/ggz048](https://doi.org/10.1093/gji/ggz048) (Geophysical Journal International, 217)
+[10.1093/gji/ggz048](https://doi.org/10.1093/gji/ggz048) (Geophysical Journal International, 217(2), 729–747)
 
 
 
@@ -1212,17 +1212,7 @@ J. P. Jones, *K. Okubo*, *T. Clements*, **M. A. Denolle**
 
 Y. Wang, **M. Denolle**, S. M. Day
 
-[10.1029/2018JB016602](https://doi.org/10.1029/2018JB016602) (Journal of Geophysical Research, 124)
-
-
-
-## **Tracking ground water using the ambient seismic field**
-
-2018
-
-*T. Clements*, **M. Denolle**
-
-[10.1029/2018GL077706](https://doi.org/10.1029/2018GL077706) ((User text suggests possible mismatch of volume/issue) Geophysical Research Letters, 123)
+[10.1029/2018JB016602](https://doi.org/10.1029/2018JB016602) (Journal of Geophysical Research: Solid Earth, 124(2), 1544–1568)
 
 
 
@@ -1232,7 +1222,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 *L. Viens*, **M. Denolle**, N. Hirata, S. Nakagawa
 
- (Journal of Geophysical Research: Solid Earth, 123)
+[10.1029/2018JB015697](https://doi.org/10.1029/2018JB015697) (Journal of Geophysical Research: Solid Earth, 123(7), 5710–5729)
 
 
 
@@ -1242,7 +1232,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 **M. A. Denolle**, P. Boué, N. Hirata, G. C. Beroza
 
- (Journal of Geophysical Research: Solid Earth, 123)
+[10.1029/2017JB015184](https://doi.org/10.1029/2017JB015184) (Journal of Geophysical Research: Solid Earth, 123(5), 3968–3992)
 
 
 
@@ -1252,7 +1242,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 *C. Van Houtte*, **M. Denolle**
 
- (Journal of Geophysical Research: Solid Earth, 123)
+[10.1002/2017JB014943](https://doi.org/10.1002/2017JB014943) (Journal of Geophysical Research: Solid Earth, 123(4), 2923–2942)
 
 
 
@@ -1262,7 +1252,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 *T. Clements*, **M. A. Denolle**
 
-[10.1029/2018GL077706](https://doi.org/10.1029/2018GL077706) (Geophysical Research Letters, 45)
+[10.1029/2018GL077706](https://doi.org/10.1029/2018GL077706) (Geophysical Research Letters, 45(13), 6459–6465)
 
 
 
@@ -1272,7 +1262,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 *T. Perol*, M. Gharbi, **M. Denolle**
 
- (Science Advances, 4)
+[10.1126/sciadv.1700578](https://doi.org/10.1126/sciadv.1700578) (Science Advances, 4(2), e1700578)
 
 
 
@@ -1282,7 +1272,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 *J. Yin*, **M. A. Denolle**, H. Yao
 
-[10.1002/2017JB014265](https://doi.org/10.1002/2017JB014265) (Journal of Geophysical Research: Solid Earth, 123)
+[10.1002/2017JB014265](https://doi.org/10.1002/2017JB014265) (Journal of Geophysical Research: Solid Earth, 123(1), 344–367)
 
 
 
@@ -1292,7 +1282,7 @@ Y. Wang, **M. Denolle**, S. M. Day
 
 Y. Sheng, **M. A. Denolle**, G. C. Beroza
 
-[10.1785/0120170053](https://doi.org/10.1785/0120170053) (Bulletin of the Seismological Society of America, 107)
+[10.1785/0120170053](https://doi.org/10.1785/0120170053) (Bulletin of the Seismological Society of America, 107(6), 2836–2845)
 
 
 
@@ -1302,7 +1292,7 @@ Y. Sheng, **M. A. Denolle**, G. C. Beroza
 
 *L. Viens*, **M. Denolle**, H. Miyake, S. Sakai, S. Nakagawa
 
-[10.1093/gji/ggx155](https://doi.org/10.1093/gji/ggx155) (Geophysical Journal International, 210)
+[10.1093/gji/ggx155](https://doi.org/10.1093/gji/ggx155) (Geophysical Journal International, 210(1), 210–222)
 
 
 
@@ -1312,37 +1302,37 @@ Y. Sheng, **M. A. Denolle**, G. C. Beroza
 
 P. Boue, **M. Denolle**, N. Hirata, S. Nakagawa, G. C. Beroza
 
-[10.1093/gji/ggw205](https://doi.org/10.1093/gji/ggw205) (Geophysical Journal International, 206)
+[10.1093/gji/ggw205](https://doi.org/10.1093/gji/ggw205) (Geophysical Journal International, 206(2), 1261–1272)
 
 
 
-## **New perspective on self-similarity of shallow thrust earthquakes**
+## **New perspectives on self-similarity for shallow thrust earthquakes**
 
 2016
 
 **M. Denolle**, P. M. Shearer
 
-[10.1002/2016JB013105](https://doi.org/10.1002/2016JB013105) (Journal of Geophysical Research: Solid Earth, 121)
+[10.1002/2016JB013105](https://doi.org/10.1002/2016JB013105) (Journal of Geophysical Research: Solid Earth, 121(9), 6533–6565)
 
 
 
-## **Dynamics of the M7.8 2015 Nepal Earthquake**
+## **Dynamics of the 2015 M7.8 Nepal earthquake**
 
 2015
 
 **M. Denolle**, W. Fan, P. M. Shearer
 
-[10.1002/2015GL065336](https://doi.org/10.1002/2015GL065336) (Geophysical Research Letters, 42)
+[10.1002/2015GL065336](https://doi.org/10.1002/2015GL065336) (Geophysical Research Letters, 42(18), 7467–7475)
 
 
 
-## **Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods**
+## **Full-3-D tomography for crustal structure in Southern California based on the scattering-integral and the adjoint-wavefield methods**
 
 2014
 
 E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, **M. Denolle**, G. C. Beroza
 
-[10.1002/2014JB011236](https://doi.org/10.1002/2014JB011236) (Journal of Geophysical Research, 119)
+[10.1002/2014JB011346](https://doi.org/10.1002/2014JB011346) (Journal of Geophysical Research: Solid Earth, 119(8), 6421–6451)
 
 
 
@@ -1352,7 +1342,7 @@ E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, **M. Denolle**, G. C. Beroza
 
 **M. Denolle**, H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza
 
-[10.1002/2014GL059425](https://doi.org/10.1002/2014GL059425) (Geophysical Research Letters, 41)
+[10.1002/2014GL059425](https://doi.org/10.1002/2014GL059425) (Geophysical Research Letters, 41(7), 2319–2325)
 
 
 
@@ -1362,7 +1352,7 @@ E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, **M. Denolle**, G. C. Beroza
 
 **M. Denolle**, E. M. Dunham, G. A. Prieto, G. C. Beroza
 
-[10.1126/science.1245678](https://doi.org/10.1126/science.1245678) (Science, 343)
+[10.1126/science.1245678](https://doi.org/10.1126/science.1245678) (Science, 343(6169), 399–403)
 
 
 
@@ -1372,7 +1362,7 @@ E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, **M. Denolle**, G. C. Beroza
 
 **M. Denolle**, E. M. Dunham, G. A. Prieto, G. C. Beroza
 
-[10.1029/2012JB009603](https://doi.org/10.1029/2012JB009603) (Journal of Geophysical Research, 118)
+[10.1029/2012JB009603](https://doi.org/10.1029/2012JB009603) (Journal of Geophysical Research: Solid Earth, 118(5), 2102–2118)
 
 
 
@@ -1382,7 +1372,7 @@ E.-J. Lee, P. Chen, T. H. Jordan, P. B. Maechling, **M. Denolle**, G. C. Beroza
 
 J. F. Lawrence, **M. Denolle**, K. J. Seats, G. Prieto
 
-[10.1002/2012JB009513](https://doi.org/10.1002/2012JB009513) (Journal of Geophysical Research, 118)
+[10.1002/2012JB009513](https://doi.org/10.1002/2012JB009513) (Journal of Geophysical Research: Solid Earth, 118(12), 6134–6145)
 
 
 
@@ -1392,17 +1382,17 @@ J. F. Lawrence, **M. Denolle**, K. J. Seats, G. Prieto
 
 **M. Denolle**, E. M. Dunham, G. C. Beroza
 
-[10.1785/0120110183](https://doi.org/10.1785/0120110183) (Bulletin of the Seismological Society of America, 102)
+[10.1785/0120110183](https://doi.org/10.1785/0120110183) (Bulletin of the Seismological Society of America, 102(3), 1214–1223)
 
 
 
-## **On amplitude carried by the ambient seismic field**
+## **On amplitude information carried by the ambient seismic field**
 
 2011
 
 G. A. Prieto, **M. Denolle**, J. F. Lawrence, G. C. Beroza
 
- (Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343)
+[10.1016/j.crte.2011.03.006](https://doi.org/10.1016/j.crte.2011.03.006) (Comptes Rendus. Géoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise), 343(8-9), 600–614)
 
 
 
@@ -1412,7 +1402,7 @@ G. A. Prieto, **M. Denolle**, J. F. Lawrence, G. C. Beroza
 
 S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. Natawidjaja
 
-[10.1111/j.1365-246X.2009.04458.x](https://doi.org/10.1111/j.1365-246X.2009.04458.x) (Geophysical Journal International, 180)
+[10.1111/j.1365-246X.2009.04458.x](https://doi.org/10.1111/j.1365-246X.2009.04458.x) (Geophysical Journal International, 180(2), 703–714)
 
 
 
