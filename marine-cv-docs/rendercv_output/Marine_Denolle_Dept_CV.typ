@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 12,
+    month: 9,
+    day: 1,
   ),
 )
 
