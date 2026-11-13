@@ -111,7 +111,7 @@
 
 #strong[Open-Source Software:] 453 GitHub stars | 270 forks | 29 active repos | NoisePy: 225 stars, 83 forks, 20 contributors | 468+ PyPI downloads\/yr
 
-#strong[Mentoring:] 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
+#strong[Mentoring:] 8 PhD (3 current, 5 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
 #strong[Broader Impact:] mlgeo-book: 21 GitHub stars
 
@@ -709,17 +709,17 @@
   [
     #strong[Yiyu Ni]
 
-    #summary[Machine learning and big data seismology]
+    #summary[Machine learning and big data seismology. Dissertation: \"Scaling Up Data-Driven Earthquake Monitoring\"]
 
     - 8 publications
 
   ],
   [
-    PhD Candidate
+    PhD
 
     UW ESS
 
-    2021 - present
+    2021 - 2026
 
   ],
   main-column-second-row: [
@@ -1047,7 +1047,7 @@
 
 #strong[Koepfli, Manuela:] Earth and Space Sciences, Chair, 2024-present
 
-#strong[Ni, Yiyu:] Earth and Space Sciences, Chair, 2024-present
+#strong[Ni, Yiyu:] Earth and Space Sciences, Chair, 2024-2026
 
 #strong[Kharita, Akash:] Earth and Space Sciences, Advisor, 2023-present
 

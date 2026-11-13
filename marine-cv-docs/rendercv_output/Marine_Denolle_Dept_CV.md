@@ -43,7 +43,7 @@
 
 **Open-Source Software:** 453 GitHub stars | 270 forks | 29 active repos | NoisePy: 225 stars, 83 forks, 20 contributors | 468+ PyPI downloads/yr
 
-**Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
+**Mentoring:** 8 PhD (3 current, 5 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
 **Broader Impact:** mlgeo-book: 21 GitHub stars
 
@@ -259,11 +259,11 @@ Geohazard characterization using machine learning
 
 
 
-## **Yiyu Ni**, PhD Candidate -- UW ESS
+## **Yiyu Ni**, PhD -- UW ESS
 
-2021 - present
+2021 - 2026
 
-Machine learning and big data seismology
+Machine learning and big data seismology. Dissertation: "Scaling Up Data-Driven Earthquake Monitoring"
 
 - 8 publications
 
@@ -446,7 +446,7 @@ ambient noise seismology, ground motion prediction
 
 **Koepfli, Manuela:** Earth and Space Sciences, Chair, 2024-present
 
-**Ni, Yiyu:** Earth and Space Sciences, Chair, 2024-present
+**Ni, Yiyu:** Earth and Space Sciences, Chair, 2024-2026
 
 **Pearson, Anna Elaine Rogers:** Earth and Space Sciences, Member, 2024-present
 
