@@ -25,7 +25,8 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests fuzzywuzzy python-Levenshtein bibtexparser ruamel.yaml
+          # bibtexparser 2.x removed bibtexparser.load(); keep the v1 API (same pin as pyproject.toml)
+          pip install requests fuzzywuzzy python-Levenshtein 'bibtexparser>=1.4.1,<2.0' ruamel.yaml
       
       - name: Fetch citations
         run: |
