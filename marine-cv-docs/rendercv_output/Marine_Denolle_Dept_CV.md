@@ -35,17 +35,17 @@
 
 
 # Research Impact Summary
-**Research Citations:** 3,129 total (h-index: 24, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
+**Research Citations:** 3,181 total (h-index: 25, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
 
 **Publications:** 67 peer-reviewed | 6 Nature/Science-family (T1) | 39 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
-**Research Funding:** Lead PI: $5.3M (15 grants) | Co-PI/Co-I: $4.9M (8 grants) | Fellowships: $878K (2)
+**Research Funding:** Lead PI: $5.5M (17 grants) | Co-PI/Co-I: $4.6M (7 grants) | Fellowships: $878K (2)
 
-**Open-Source Software:** 435 GitHub stars | 266 forks | 21 active repos | NoisePy: 219 stars, 83 forks, 19 contributors | 756+ PyPI downloads/yr
+**Open-Source Software:** 453 GitHub stars | 270 forks | 29 active repos | NoisePy: 225 stars, 83 forks, 20 contributors | 468+ PyPI downloads/yr
 
 **Mentoring:** 8 PhD (4 current, 4 graduated) | 11 postdocs | 16+ undergrads | 10 co-supervised grad students | 5 became faculty
 
-**Broader Impact:** mlgeo-book: 13 GitHub stars
+**Broader Impact:** mlgeo-book: 21 GitHub stars
 
 # Employment
 ## **Consultant**, Aligned HQ -- Remote
@@ -1411,7 +1411,11 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **Jerry and Linda Paros** Mult-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountaineous regions: $750,000 (lead PI2025
+## **SCEC** West-Coast Wide Earthquake Catalog: $30,636 (PI), SCON-000083382025 – 2026
+
+
+
+## **Jerry and Linda Paros** Multi-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountainous Regions: $750,000 (lead PI)2025
 
 
 
@@ -1419,7 +1423,7 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **NSF  CS4All** Separating the Signal from the Noise: Promoting Alaskan students inquiry with geographically relevant seismic data and machine learning techniques: $889,766 (lead PI Lore, Denolle co-PI, $62,000 to UW), DRL-25240602025
+## **NSF  CS4All** Separating the Signal from the Noise: Promoting Alaskan students inquiry with geographically relevant seismic data and machine learning techniques: $62,000 to UW (Denolle co-PI, lead PI Lore), $889,766 total across institutions, DRL-25240602025
 
 
 
@@ -1435,7 +1439,7 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **NSF EAR** Collaborative Research: A seismic investigation of slow slip and fault locking along the Alaska-Aleutian subduction zone: $248,835.00 (Denolle co-PI, collaborative with lead PI Golos), EAR-23460792024
+## **NSF EAR** Collaborative Research: A seismic investigation of slow slip and fault locking along the Alaska-Aleutian subduction zone: $248,835.00 to UW (PI), collaborative with Golos (separate award), EAR-23460792024
 
 
 
@@ -1443,11 +1447,11 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **Ecole Normal Supérieure de Paris** Travel Fellowship: $3,500 (Denolle PI)2023
+## **Ecole Normal Supérieure de Paris** Travel Fellowship: $3,500 (PI)2023
 
 
 
-## **SCEC** CyberTraining for Seismology: Data Science and HPC: $35,229 (Denolle PI)2023
+## **SCEC** CyberTraining for Seismology: Data Science and HPC: $35,229 (PI)2023
 
 
 
@@ -1463,11 +1467,11 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **NSF OAC-CSSI** Collaborative Research: Frameworks: Seismic COmputational Platform for Empowering Discovery (SCOPED): $717,441.00 (Denolle PI, lead-PI Carl Tape), OAC-21037012021
+## **NSF OAC-CSSI** Collaborative Research: Frameworks: Seismic COmputational Platform for Empowering Discovery (SCOPED): $717,441.00 to UW (PI), collaborative with UAF (lead PI Carl Tape), Columbia, UT Austin and Colorado School of Mines, OAC-21037012021
 
 
 
-## **NSF EAR, PREEVENTS** Collaborative Research: Cross-Validation of Empirical and Physics-based ground motion predictions: $167,804.00 (Denolle PI), EAR-21253372021
+## **NSF EAR, PREEVENTS** Collaborative Research: Cross-Validation of Empirical and Physics-based ground motion predictions: $167,804.00 (PI), EAR-21253372021
 
 
 
@@ -1475,11 +1479,11 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **Harvard University - David Rockefeller Center for Latin American Studies** Monitoring Seismic Hazards in Mexico City using Grillo, a Low-Cost Earthquake Early Warning System, Hardware, $85,000 (Denolle PI)2019
+## **Harvard University - David Rockefeller Center for Latin American Studies** Monitoring Seismic Hazards in Mexico City using Grillo, a Low-Cost Earthquake Early Warning System, Hardware, $85,000 (PI)2019
 
 
 
-## **Harvard Data Science Initiative** Ambient-noise seismology using Cloud Computing: $27,210 (Denolle PI)2019
+## **Harvard Data Science Initiative** Ambient-noise seismology using Cloud Computing: $27,210 (PI)2019
 
 
 
@@ -1487,7 +1491,7 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **SCEC grant** Data Collection for Virtual Earthquakes on Cajon Pass: $28,085 (Denolle PI) - field work2018
+## **SCEC grant** Data Collection for Virtual Earthquakes on Cajon Pass: $28,085 (PI) - field work2018
 
 
 
@@ -1495,19 +1499,19 @@ S. Singh, N. Hananto, A. Chauhan, H. Permana, **M. Denolle**, A. Hendriyana, D. 
 
 
 
-## **NSF PREEVENTS** Collaborative Proposal - PREEVENTS Track 2: Cascadia Scenario Earthquakes: Source, Path, and implications for Earthquake Early Warning: $324,495.00 (Denolle PI, collaborative with lead PI Yihe Huang and Amanda Thomas), EAR-17397122017
+## **NSF PREEVENTS** Collaborative Proposal - PREEVENTS Track 2: Cascadia Scenario Earthquakes: Source, Path, and implications for Earthquake Early Warning: $324,495.00 to UW (PI), collaborative with lead PI Yihe Huang and Amanda Thomas, EAR-17397122017
 
 
 
-## **SCEC grant** Static and dynamic source parameters of global strike-slip earthquakes: $25,000 (Denolle PI)2017
+## **SCEC grant** Static and dynamic source parameters of global strike-slip earthquakes: $25,000 (PI)2017
 
 
 
-## **SCEC grant** Epistemic uncertainties in ground motion prediction from virtual earthquakes: $26,173 (Denolle PI)2016
+## **SCEC grant** Epistemic uncertainties in ground motion prediction from virtual earthquakes: $26,173 (PI)2016
 
 
 
-## **SCEC grant** Basin Response to Virtual Earthquakes on the San Jacinto Fault and the Itoigawa-Shizuoka Fault: $20,000 (Denolle PI)2015
+## **SCEC grant** Basin Response to Virtual Earthquakes on the San Jacinto Fault and the Itoigawa-Shizuoka Fault: $20,000 (PI)2015
 
 
 
