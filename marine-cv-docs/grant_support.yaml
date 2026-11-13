@@ -6,8 +6,13 @@
   area: 'Collaborative Research: Frameworks: Geophysical AI-driven Integration & Assimilation (GAIA): $2,209,093 to UW (PI), $4,400,000 total across institutions, OAC-2608509'
   date: 2026
 
+- institution: 'SCEC'
+  area: 'West-Coast Wide Earthquake Catalog: $30,636 (Denolle PI), SCON-00008338'
+  start_date: 2025
+  end_date: 2026
+
 - institution: 'Jerry and Linda Paros'
-  area: 'Mult-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountaineous regions: $750,000 (lead PI'
+  area: 'Multi-Sensor, Multi-Geohazards Monitoring at Mt Rainier and Mountainous Regions: $750,000 (lead PI)'
   date: 2025
   
 - institution: 'UW CRESST - FFST'
