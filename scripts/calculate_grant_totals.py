@@ -41,7 +41,8 @@ def parse_amount(area_text: str) -> Tuple[float, str]:
             role = "lead-PI"
         else:
             role = "co-PI"
-    elif re.search(r'\(co-PI\)', area_text):
+    # "(co-PI)", "(co-PI, lead PI <Name>)" and "Denolle co-PI" all count as co-PI.
+    elif re.search(r'\(co-PI[),]|Denolle co-PI', area_text):
         role = "co-PI"
     elif re.search(r'\(co-I\)', area_text):
         role = "co-I"
