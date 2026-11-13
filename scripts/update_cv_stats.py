@@ -435,11 +435,15 @@ def build_summary():
     workshops = count_workshop_metrics()
 
     # 1. Research Citations
-    cit_line = (
-        f"{cit['total']:,} total (h-index: {cit['h']}, i10: {cit['i10']}) | "
-        f"{cit['total_5y']:,} last-5y (h\u2085: {cit['h_5y']}, i10\u2085: {cit['i10_5y']}) | "
-        f"Google Scholar"
-    )
+    # Totals come from OpenAlex (scripts/fetch_citations.py). The 5-year
+    # fields are not fetched yet, so the block is shown only when present.
+    cit_parts = [f"{cit['total']:,} total (h-index: {cit['h']}, i10: {cit['i10']})"]
+    if cit["total_5y"]:
+        cit_parts.append(
+            f"{cit['total_5y']:,} last-5y (h\u2085: {cit['h_5y']}, i10\u2085: {cit['i10_5y']})"
+        )
+    cit_parts.append("OpenAlex")
+    cit_line = " | ".join(cit_parts)
 
     # 2. Publications
     pub_total = pubs.get("total", 0)
