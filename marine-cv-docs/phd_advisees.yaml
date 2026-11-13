@@ -29,11 +29,12 @@
   highlights:
     - "2 publications"
 
+# Graduated PhD Students (UW)
 - position: Yiyu Ni
-  company: PhD Candidate
+  company: PhD
   location: UW ESS
-  date: 2021 - present
-  summary: Machine learning and big data seismology
+  date: 2021 - 2026
+  summary: 'Machine learning and big data seismology. Dissertation: "Scaling Up Data-Driven Earthquake Monitoring"'
   highlights:
     - "8 publications"
 
