@@ -46,11 +46,7 @@ def parse_amount(area_text: str) -> Tuple[float, str]:
         role = "co-PI"
     elif re.search(r'\(co-I\)', area_text):
         role = "co-I"
-    
-    # Special case: "PI, lead-PI Carl Tape" means she's PI but Carl Tape is lead
-    if "lead-PI Carl Tape" in area_text or "lead-PI " in area_text.replace("(PI, lead-PI", "("):
-        role = "co-PI"
-    
+
     return amount, role
 
 
