@@ -33,7 +33,9 @@ def parse_amount(area_text: str) -> Tuple[float, str]:
     
     # Extract role - look for (PI), (co-PI), (co-I), etc.
     role = "unknown"
-    if re.search(r'\(PI\)', area_text):
+    # "(lead PI)" or an unclosed "(lead PI" at the end of the text counts as lead PI;
+    # "(lead PI <Name>, Denolle co-PI)" names someone else as lead and does not match.
+    if re.search(r'\(PI\)', area_text) or re.search(r'\(lead PI(?:\)|\s*$)', area_text):
         # Check if it's actually a lead PI role (not co-PI)
         if not re.search(r'\(co-PI\)', area_text):
             role = "lead-PI"
