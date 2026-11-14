@@ -1351,6 +1351,21 @@
 
 #regular-entry(
   [
+    #strong[Icelandic Research Fund Review Panel, Mathematics and Physical Sciences], 
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Reviewed 29 proposals
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[NSF Review Panels EAR-Geophysics and GeoInformatics], 
 
   ],

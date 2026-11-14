@@ -835,6 +835,14 @@ Harvard University
 
 
 # Review Panels
+## **Icelandic Research Fund Review Panel, Mathematics and Physical Sciences**
+
+2026
+
+- Reviewed 29 proposals
+
+
+
 ## **NSF Review Panels EAR-Geophysics and GeoInformatics**
 
 2020,2024
