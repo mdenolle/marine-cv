@@ -26,7 +26,7 @@ Cache structure:
             "gs_h_index": <int>,            # Google Scholar (last known, archival)
             "gs_total_citations": <int>,    # Google Scholar (last known, archival)
             "gs_i10_index": <int>,          # Google Scholar (last known, archival)
-            "gs_last_updated": <iso date>   # when the GS values were read
+            "gs_last_updated": <ISO 8601>   # date or datetime the GS values were read
         }
     }
 """

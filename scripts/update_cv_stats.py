@@ -450,9 +450,10 @@ def build_summary():
     # (OpenAlex plus last-known Google Scholar); keep it if present.
     existing_cit_line = _existing_details("Research Citations")
     # Fallback: totals come from OpenAlex (scripts/fetch_citations.py). The
-    # 5-year fields are not fetched yet, so the block is shown only when present.
+    # 5-year fields are not fetched yet and default to 0, so the block is shown
+    # only when total_5y is non-zero.
     cit_parts = [f"{cit['total']:,} total (h-index: {cit['h']}, i10: {cit['i10']})"]
-    if cit["total_5y"]:
+    if cit.get("total_5y"):
         cit_parts.append(
             f"{cit['total_5y']:,} last-5y (h\u2085: {cit['h_5y']}, i10\u2085: {cit['i10_5y']})"
         )

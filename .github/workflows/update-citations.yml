@@ -45,6 +45,13 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Only a run on main may commit to main (workflow_dispatch can start from any ref)
+          if [ "${GITHUB_REF}" != "refs/heads/main" ]; then
+            echo "::notice::Run on ${GITHUB_REF}, not main: skipping commit and push"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 

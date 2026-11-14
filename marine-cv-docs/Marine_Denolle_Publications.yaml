@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 
 # ==============================================================================
-# PUBLICATIONS LIST — peer-reviewed publications only
+# PUBLICATIONS LIST: publications only, including manuscripts in review
 #
 # Entries come from publications_section.yaml (generated from denolle-pub.bib by
 # scripts/generate_publications.py), the same source as the full CV. DOIs link
