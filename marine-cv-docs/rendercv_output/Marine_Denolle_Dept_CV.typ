@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 13,
+    day: 14,
   ),
 )
 
@@ -163,7 +163,7 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,181 total (h-index: 25, i10: 48) | 0 last-5y (h₅: 0, i10₅: 0) | Google Scholar
+#strong[Research Citations:] 3,181 total (h-index: 25, i10: 48) (OpenAlex) | 3,678 total, h-index: 26 (Google Scholar, last known)
 
 #strong[Publications:] 67 peer-reviewed | 6 Nature\/Science-family (T1) | 39 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
