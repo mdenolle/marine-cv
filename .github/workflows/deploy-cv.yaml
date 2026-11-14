@@ -53,6 +53,16 @@ jobs:
             --html-path rendercv_output/Marine_Denolle_Dept_CV.html \
             --png-path rendercv_output/Marine_Denolle_Dept_CV.png
 
+      - name: Render publications list
+        run: |
+          uv run --frozen rendercv render \
+            marine-cv-docs/Marine_Denolle_Publications.yaml \
+            --typst-path rendercv_output/Marine_Denolle_Publications.typ \
+            --pdf-path rendercv_output/Marine_Denolle_Publications.pdf \
+            --markdown-path rendercv_output/Marine_Denolle_Publications.md \
+            --html-path rendercv_output/Marine_Denolle_Publications.html \
+            --png-path rendercv_output/Marine_Denolle_Publications.png
+
       - name: Commit rendered output if changed
         run: |
           set -euo pipefail

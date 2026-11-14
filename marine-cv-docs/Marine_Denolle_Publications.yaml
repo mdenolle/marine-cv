@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+
+# ==============================================================================
+# PUBLICATIONS LIST — peer-reviewed publications only
+#
+# Entries come from publications_section.yaml (generated from denolle-pub.bib by
+# scripts/generate_publications.py), the same source as the full CV. DOIs link
+# to https://doi.org/. Rendered by .github/workflows/deploy-cv.yaml.
+# ==============================================================================
+cv:
+  name: Marine A. Denolle
+  headline: Publications | Associate Professor, Earth and Space Sciences, University of Washington
+  location: Seattle, WA
+  email: mdenolle@uw.edu
+  phone:
+  website: https://www.denolle.ai
+  social_networks:
+    - network: GitHub
+      username: mdenolle
+    - network: GitHub
+      username: Denolle-Lab
+    - network: ORCID
+      username: 0000-0002-1610-2250
+    - network: Google Scholar
+      username: GR8BOxsAAAAJ
+    - network: YouTube
+      username: scoped6259
+    - network: YouTube
+      username: uwgeophysics6888
+  custom_connections:
+    - fontawesome_icon: flask
+      placeholder: denolle-lab.github.io
+      url: https://denolle-lab.github.io/
+  
+  sections:
+    publications_legend:
+      - label: Author Notation
+        details: >-
+          **Bold**: Marine A. Denolle (PI).
+          *Italic*: graduate students, postdocs, and undergraduate students mentored by MD.
+    publications: !include publications_section.yaml
+
+# Same design as the full CV (Marine_Denolle_CV.yaml)
+design:
+  theme: moderncv  # Options: moderncv, classic, engineeringresumes, sb2nov, engineeringclassic
+  page:
+    size: us-letter  # Paper size: us-letter or a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.3in
+    right_margin: 0.7in
+  sections:
+    space_between_regular_entries: 0.6em  # Reduced from default 1.2em for compact layout
+  colors:
+    # Color scheme matching original LaTeX CV
+    name: rgb(128, 0, 0)  # MyRed - name color (dark red)
+    section_titles: rgb(69, 128, 179)  # MyBlue - section headers (blue)
+    connections: rgb(0, 0, 0)  # Contact info (black)
+    links: rgb(0, 79, 144)  # Hyperlinks (blue)
+  typography:
+    font_family:
+      body: 'Libertinus Serif'  # Main text font (closest to IBM Plex Serif)
+      section_titles: 'Open Sans'  # Section header font (bold, sans-serif, closest to IBM Plex Sans)
+    font_size:
+      body: 10pt
+      section_titles: 1.4em
+  templates:
+    single_date: YEAR
+    education_entry:
+      main_column: "**INSTITUTION** AREA\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: "DATE"
+    publication_entry:
+      main_column: "AUTHORS (DATE). **TITLE**. JOURNAL_WITH_DOI\nMEDIA_COVERAGE"
+      date_and_location_column: "DATE"
+    experience_entry:
+      main_column: "**POSITION**\nSUMMARY\nURL\nHIGHLIGHTS"
+      date_and_location_column: "COMPANY\nLOCATION\nDATE"
+locale:
+  language: english
+
+settings:
+  render_command:
+    typst_path: rendercv_output/Marine_Denolle_Publications.typ
+    pdf_path: rendercv_output/Marine_Denolle_Publications.pdf
+    markdown_path: rendercv_output/Marine_Denolle_Publications.md
+    html_path: rendercv_output/Marine_Denolle_Publications.html
+    png_path: rendercv_output/Marine_Denolle_Publications.png
