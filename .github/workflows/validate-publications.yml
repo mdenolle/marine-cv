@@ -6,6 +6,8 @@ concurrency:
 
 on:
   push:
+    # Only main: the push job commits to main, so a feature-branch push must never run it
+    branches: [main]
     paths:
       - marine-cv-docs/denolle-pub.bib
       - marine-cv-docs/citation_cache.json
@@ -79,10 +81,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Rebase onto latest remote main to avoid non-fast-forward pushes
-          git fetch origin main
-          git rebase origin/main
-
           git add marine-cv-docs/publications_section.yaml
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -90,6 +88,10 @@ jobs:
           fi
 
           git commit -m "chore: regenerate publications_section.yaml [automated]"
+
+          # Rebase onto latest remote main after committing (a dirty tree blocks rebase)
+          git fetch origin main
+          git rebase origin/main
 
           # Push; if another run updated main between commit and push, rebase and retry once
           if ! git push origin HEAD:main; then

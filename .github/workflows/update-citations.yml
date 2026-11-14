@@ -35,6 +35,10 @@ jobs:
       - name: Update CV with metrics
         run: |
           python scripts/update_cv_citations.py
+
+      - name: Regenerate publications with per-paper citation counts
+        run: |
+          python scripts/generate_publications.py > marine-cv-docs/publications_section.yaml
       
       - name: Commit and push if changed
         id: commit
@@ -44,7 +48,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-          git add marine-cv-docs/citation_cache.json marine-cv-docs/research_impact_summary.yaml
+          git add marine-cv-docs/citation_cache.json marine-cv-docs/research_impact_summary.yaml marine-cv-docs/publications_section.yaml
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0

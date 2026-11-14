@@ -78,3 +78,15 @@ def test_generate_publications_bold_pi_italic_mentees() -> None:
         assert not (name.endswith("*") and not name.endswith("**") and not name.startswith("*")), (
             f"Old asterisk-suffix style detected: {name!r}"
         )
+
+
+def test_committed_publications_section_matches_generator() -> None:
+    """publications_section.yaml must be reproducible from denolle-pub.bib.
+
+    Fix metadata in the .bib file and regenerate; hand edits to the YAML are
+    lost on the next regeneration.
+    """
+    committed = (REPO_ROOT / "marine-cv-docs" / "publications_section.yaml").read_text(
+        encoding="utf-8"
+    )
+    assert run_generator() == committed
