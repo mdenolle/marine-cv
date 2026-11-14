@@ -103,7 +103,7 @@
 
 == Research Impact Summary
 
-#strong[Research Citations:] 3,394 total (h-index: 26, i10: 52) (OpenAlex) | 3,678 total, h-index: 26 (Google Scholar, last known)
+#strong[Research Citations:] 3,394 total (h-index: 26, i10: 52) (OpenAlex) | 4,036 total (h-index: 30, i10: 54) (Google Scholar, Nov 2026)
 
 #strong[Publications:] 67 peer-reviewed | 6 Nature\/Science-family (T1) | 39 AGU-flagship (T2) | 21 domain journals (T3) | 1 preprints
 
