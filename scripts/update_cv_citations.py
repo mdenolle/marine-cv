@@ -78,7 +78,11 @@ def calculate_yoy_growth(cites_per_year: Dict[str, int]) -> Optional[str]:
 
 
 def _format_source(total: int, h: int, i10: int, label: str) -> str:
-    """Format one source as '<total> total (h-index: <h>, i10: <i10>) (<label>)'."""
+    """Format one source, e.g. '3,394 total (h-index: 26, i10: 52) (OpenAlex)'.
+
+    The i10 part is left out when i10 is 0, and the '<total> total (...)'
+    wrapper when total is 0, giving 'h-index: <h> (<label>)'.
+    """
     stats = [f"h-index: {h}"]
     if i10:
         stats.append(f"i10: {i10}")
