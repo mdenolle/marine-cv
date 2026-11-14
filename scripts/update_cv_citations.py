@@ -106,11 +106,9 @@ def update_cv_with_metrics(cache: Dict[str, Any]) -> bool:
     # Calculate year-over-year growth
     yoy_growth = calculate_yoy_growth(cites_per_year)
 
-    # Format the citation details — show both sources
-    oa_part = f"{oa_total:,} total (h-index: {oa_h}, i10: {i10_index})"
-    if yoy_growth:
-        oa_part += f" {yoy_growth}"
-    oa_part += " (OpenAlex)"
+    # Format the citation details — show both sources. Year-over-year growth
+    # is printed below for reference but kept off the CV.
+    oa_part = f"{oa_total:,} total (h-index: {oa_h}, i10: {i10_index}) (OpenAlex)"
 
     if gs_h:
         gs_part = f"h-index: {gs_h}"

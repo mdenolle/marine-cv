@@ -113,6 +113,17 @@ def _contains_keyword(text: str, keyword: str) -> bool:
 # METRIC FUNCTIONS
 # ==============================================================================
 
+def _existing_details(label: str):
+    """Return the details string of a row in research_impact_summary.yaml."""
+    if not SUMMARY_YAML.exists():
+        return None
+    rows = _load_yaml(SUMMARY_YAML) or []
+    for row in rows:
+        if isinstance(row, dict) and row.get("label") == label:
+            return row.get("details") or None
+    return None
+
+
 def load_citation_metrics():
     """Read total/h/i10 from citation_cache.json."""
     data = _load_json(CITATION_CACHE)
@@ -435,11 +446,18 @@ def build_summary():
     workshops = count_workshop_metrics()
 
     # 1. Research Citations
-    cit_line = (
-        f"{cit['total']:,} total (h-index: {cit['h']}, i10: {cit['i10']}) | "
-        f"{cit['total_5y']:,} last-5y (h\u2085: {cit['h_5y']}, i10\u2085: {cit['i10_5y']}) | "
-        f"Google Scholar"
-    )
+    # The Research Citations row is owned by scripts/update_cv_citations.py
+    # (OpenAlex plus last-known Google Scholar); keep it if present.
+    existing_cit_line = _existing_details("Research Citations")
+    # Fallback: totals come from OpenAlex (scripts/fetch_citations.py). The
+    # 5-year fields are not fetched yet, so the block is shown only when present.
+    cit_parts = [f"{cit['total']:,} total (h-index: {cit['h']}, i10: {cit['i10']})"]
+    if cit["total_5y"]:
+        cit_parts.append(
+            f"{cit['total_5y']:,} last-5y (h\u2085: {cit['h_5y']}, i10\u2085: {cit['i10_5y']})"
+        )
+    cit_parts.append("OpenAlex")
+    cit_line = existing_cit_line or " | ".join(cit_parts)
 
     # 2. Publications
     pub_total = pubs.get("total", 0)
