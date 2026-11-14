@@ -35,6 +35,7 @@ def parse_bibtex_file(bib_file: str) -> List[Dict]:
             'year': entry.get('year', ''),
             'journal': clean_bibtex_string(entry.get('journal', '')),
             'volume': entry.get('volume', ''),
+            'number': entry.get('number', '') or entry.get('issue', ''),
             'pages': entry.get('pages', ''),
             'doi': entry.get('doi', ''),
             'url': entry.get('url', ''),
@@ -201,6 +202,24 @@ def extract_urls_from_note(note: str) -> List[str]:
     return urls
 
 
+def format_journal(journal: str, volume: str = '', number: str = '', pages: str = '') -> str:
+    """Format an APA-style source: 'Journal, volume(issue), pages'.
+
+    The issue is shown only with a volume. A BibTeX page range '306--310'
+    becomes '306–310'; an article number such as 'eaea3684' is kept as is.
+    """
+    out = journal
+    volume, number, pages = (str(x).strip() for x in (volume, number, pages))
+    if volume:
+        out += f", {volume}"
+        if number:
+            out += f"({number})"
+    if pages:
+        pages = re.sub(r'\s*-{1,3}\s*', '\u2013', pages)
+        out += f", {pages}"
+    return out
+
+
 def bibtex_to_rendercv(
     bib_file: str,
     group_members: Optional[List[str]] = None,
@@ -237,8 +256,9 @@ def bibtex_to_rendercv(
         elif pub['url']:
             entry['url'] = pub['url']
         
-        if pub['volume']:
-            entry['journal'] += f", {pub['volume']}"
+        entry['journal'] = format_journal(
+            pub['journal'], pub['volume'], pub.get('number', ''), pub.get('pages', '')
+        )
         
         # Add media coverage from manual dict or auto-extract from note field
         if media_coverage and pub['citation_key'] in media_coverage:
