@@ -24,7 +24,9 @@ Cache structure:
             "openalex_total_citations": <int>,
             "openalex_h_index": <int>,
             "gs_h_index": <int>,            # Google Scholar (last known, archival)
-            "gs_total_citations": <int>     # Google Scholar (last known, archival)
+            "gs_total_citations": <int>,    # Google Scholar (last known, archival)
+            "gs_i10_index": <int>,          # Google Scholar (last known, archival)
+            "gs_last_updated": <iso date>   # when the GS values were read
         }
     }
 """
@@ -397,9 +399,10 @@ def main():
         author_metrics['gs_h_index'] = existing_metrics.get('h_index', 0)
         author_metrics['gs_total_citations'] = existing_metrics.get('total_citations', 0)
     else:
-        # Carry forward archival GS values if they exist
-        author_metrics['gs_h_index'] = existing_metrics.get('gs_h_index', 0)
-        author_metrics['gs_total_citations'] = existing_metrics.get('gs_total_citations', 0)
+        # Carry forward all archival GS values (h-index, total, i10, date)
+        for key, value in existing_metrics.items():
+            if key.startswith('gs_'):
+                author_metrics[key] = value
 
     # Fetch per-paper citations
     openalex_lookup = fetch_paper_citations_openalex(orcid)

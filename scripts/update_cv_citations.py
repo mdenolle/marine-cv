@@ -77,6 +77,43 @@ def calculate_yoy_growth(cites_per_year: Dict[str, int]) -> Optional[str]:
     return f"{growth_pct:+.1f}% from {previous_year} to {current_year}"
 
 
+def _format_source(total: int, h: int, i10: int, label: str) -> str:
+    """Format one source as '<total> total (h-index: <h>, i10: <i10>) (<label>)'."""
+    stats = [f"h-index: {h}"]
+    if i10:
+        stats.append(f"i10: {i10}")
+    head = f"{total:,} total ({', '.join(stats)})" if total else ", ".join(stats)
+    return f"{head} ({label})"
+
+
+def format_citation_details(metrics: Dict[str, Any]) -> str:
+    """Build the Research Citations row: OpenAlex, then Google Scholar if known.
+
+    Google Scholar cannot be fetched from CI, so its values are entered by hand
+    (or with scripts/fetch_google_scholar.py) and labelled with the month they
+    were read, from gs_last_updated; without a date they are 'last known'.
+    """
+    oa_total = metrics.get('openalex_total_citations', metrics.get('total_citations', 0))
+    oa_h = metrics.get('openalex_h_index', metrics.get('h_index', 0))
+    oa_part = _format_source(oa_total, oa_h, metrics.get('i10_index', 0), "OpenAlex")
+
+    gs_h = metrics.get('gs_h_index', 0)
+    if not gs_h:
+        return oa_part
+
+    gs_label = "Google Scholar, last known"
+    gs_date = metrics.get('gs_last_updated')
+    if gs_date:
+        try:
+            gs_label = f"Google Scholar, {datetime.fromisoformat(gs_date):%b %Y}"
+        except ValueError:
+            pass
+    gs_part = _format_source(
+        metrics.get('gs_total_citations', 0), gs_h, metrics.get('gs_i10_index', 0), gs_label
+    )
+    return f"{oa_part} | {gs_part}"
+
+
 def update_cv_with_metrics(cache: Dict[str, Any]) -> bool:
     """Update CV YAML file with citation metrics.
     
@@ -99,25 +136,13 @@ def update_cv_with_metrics(cache: Dict[str, Any]) -> bool:
     i10_index = metrics.get('i10_index', 0)
     cites_per_year = metrics.get('cites_per_year', {})
 
-    # Extract archival Google Scholar metrics (last known)
     gs_h = metrics.get('gs_h_index', 0)
-    gs_total = metrics.get('gs_total_citations', 0)
 
     # Calculate year-over-year growth
     yoy_growth = calculate_yoy_growth(cites_per_year)
 
-    # Format the citation details — show both sources. Year-over-year growth
-    # is printed below for reference but kept off the CV.
-    oa_part = f"{oa_total:,} total (h-index: {oa_h}, i10: {i10_index}) (OpenAlex)"
-
-    if gs_h:
-        gs_part = f"h-index: {gs_h}"
-        if gs_total:
-            gs_part = f"{gs_total:,} total, " + gs_part
-        gs_part += " (Google Scholar, last known)"
-        citation_details = f"{oa_part} | {gs_part}"
-    else:
-        citation_details = oa_part
+    # Year-over-year growth is printed below for reference but kept off the CV.
+    citation_details = format_citation_details(metrics)
 
     print(f"\nCitation Metrics:")
     print(f"  Total citations (OpenAlex): {oa_total:,}")

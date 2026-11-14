@@ -96,7 +96,9 @@
     },
     "openalex_total_citations": 3394,
     "openalex_h_index": 26,
-    "gs_h_index": 26,
-    "gs_total_citations": 3678
+    "gs_h_index": 30,
+    "gs_total_citations": 4036,
+    "gs_i10_index": 54,
+    "gs_last_updated": "2026-11-14"
   }
 }
