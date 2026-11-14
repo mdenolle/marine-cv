@@ -80,14 +80,18 @@ def fetch_google_scholar_metrics(scholar_id: str) -> Dict[str, Any]:
         author = next(scholarly.search_author(scholar_id))
         author_filled = scholarly.fill(author)
         
-        h_index = author_filled.get('h_index', 0)
+        # scholarly names these 'hindex' and 'i10index'
+        h_index = author_filled.get('hindex', author_filled.get('h_index', 0))
+        i10_index = author_filled.get('i10index', 0)
         citations = author_filled.get('citedby', 0)
         
         print(f"  ✓ Total citations: {citations:,}")
         print(f"  ✓ h-index: {h_index}")
+        print(f"  ✓ i10-index: {i10_index}")
         
         return {
             'h_index': h_index,
+            'i10_index': i10_index,
             'total_citations': citations
         }
     except StopIteration:
@@ -131,6 +135,7 @@ def update_cache_with_gs_metrics(metrics: Dict[str, Any]) -> bool:
     # Update with Google Scholar data (marked as archival)
     cache['metrics']['gs_h_index'] = metrics.get('h_index', 0)
     cache['metrics']['gs_total_citations'] = metrics.get('total_citations', 0)
+    cache['metrics']['gs_i10_index'] = metrics.get('i10_index', 0)
     cache['metrics']['gs_last_updated'] = datetime.now().isoformat()
     
     # Save updated cache
