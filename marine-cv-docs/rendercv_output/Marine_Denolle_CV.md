@@ -1004,12 +1004,6 @@ Featured in: [UW News](https://www.washington.edu/news/2025/07/24/seismologists-
 
 
 
-## T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, *C. Yuan*, **M. Denolle**, Y.-Q. Song, L. Xiao, D. A. Weitz (2024). **Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion**. Nature Physics, 20(4), 660–665, [10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0)
-
-2024
-
-
-
 ## *A. Kharita*, **M. Denolle**, M. West (2024). **Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm**. Geophysical Journal International, 237(2), 1189–1207, [10.1093/gji/ggae106](https://doi.org/10.1093/gji/ggae106)
 
 2024
@@ -1032,6 +1026,18 @@ Featured in: [UW News](https://www.washington.edu/news/2024/01/29/qa-how-slow-sl
 
 
 
+## T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, *C. Yuan*, **M. Denolle**, Y.-Q. Song, L. Xiao, D. A. Weitz (2024). **Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion**. Nature Physics, 20(4), 660–665, [10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0)
+
+2024
+
+
+
+## *Yiyu Ni*, **Marine A. Denolle**, Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2024). **An Object Storage for Distributed Acoustic Sensing**. Seismological Research Letters, 95(1), 499–511, [10.1785/0220230172](https://doi.org/10.1785/0220230172)
+
+2024
+
+
+
 ## *Q. Shi*, **M. Denolle** (2023). **Improved observations of deep earthquake ruptures using machine learning**. Journal of Geophysical Research: Solid Earth, 128(12), e2023JB027334, [10.1029/2023JB027334](https://doi.org/10.1029/2023JB027334)
 
 2023
@@ -1041,12 +1047,6 @@ Featured in: [UW News](https://www.washington.edu/news/2024/01/29/qa-how-slow-sl
 ## *Congcong Yuan*, *Yiyu Ni*, Youzuo Lin, **Marine Denolle** (2023). **Better Together: Ensemble Learning for Earthquake Detection and Phase Picking**. IEEE Transactions on Geoscience and Remote Sensing, 61, 1–17, [10.1109/TGRS.2023.3320148](https://doi.org/10.1109/TGRS.2023.3320148)
 
 2023
-
-
-
-## *Yiyu Ni*, **Marine A. Denolle**, Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2024). **An Object Storage for Distributed Acoustic Sensing**. Seismological Research Letters, 95(1), 499–511, [10.1785/0220230172](https://doi.org/10.1785/0220230172)
-
-2024
 
 
 

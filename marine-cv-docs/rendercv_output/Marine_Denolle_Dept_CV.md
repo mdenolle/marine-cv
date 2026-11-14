@@ -936,16 +936,6 @@ F. Diewald, **M. Denolle**, J. J. Timothy, C. Gehlen
 
 
 
-## **Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion**
-
-2024
-
-T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, *C. Yuan*, **M. Denolle**, Y.-Q. Song, L. Xiao, D. A. Weitz
-
-[10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0) (Nature Physics, 20(4), 660–665)
-
-
-
 ## **Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm**
 
 2024
@@ -973,6 +963,16 @@ T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaep
 *C. Yuan*, T. Cochard, **M. Denolle**, J. Gomberg, A. Wech, L. Xiao, D. Weitz
 
 [10.1029/2023AV001002](https://doi.org/10.1029/2023AV001002) (AGU Advances, 5(1), e2023AV001002)
+
+
+
+## **Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion**
+
+2024
+
+T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, *C. Yuan*, **M. Denolle**, Y.-Q. Song, L. Xiao, D. A. Weitz
+
+[10.1038/s41567-023-02365-0](https://doi.org/10.1038/s41567-023-02365-0) (Nature Physics, 20(4), 660–665)
 
 
 

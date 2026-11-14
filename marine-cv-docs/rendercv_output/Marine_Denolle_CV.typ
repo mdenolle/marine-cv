@@ -1838,19 +1838,6 @@
 
 #regular-entry(
   [
-    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz (2024). #strong[Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion]. Nature Physics, 20(4), 660–665, #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0]
-
-  ],
-  [
-    2024
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
     #emph[A. Kharita], #strong[M. Denolle], M. West (2024). #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]. Geophysical Journal International, 237(2), 1189–1207, #link("https://doi.org/10.1093/gji/ggae106")[10.1093\/gji\/ggae106]
 
   ],
@@ -1894,6 +1881,32 @@
 
 #regular-entry(
   [
+    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz (2024). #strong[Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion]. Nature Physics, 20(4), 660–665, #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0]
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2024). #strong[An Object Storage for Distributed Acoustic Sensing]. Seismological Research Letters, 95(1), 499–511, #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172]
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
     #emph[Q. Shi], #strong[M. Denolle] (2023). #strong[Improved observations of deep earthquake ruptures using machine learning]. Journal of Geophysical Research: Solid Earth, 128(12), e2023JB027334, #link("https://doi.org/10.1029/2023JB027334")[10.1029\/2023JB027334]
 
   ],
@@ -1912,19 +1925,6 @@
   ],
   [
     2023
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #emph[Yiyu Ni], #strong[Marine A. Denolle], Rob Fatland, Naomi Alterman, Bradley P. Lipovsky, Friedrich Knuth (2024). #strong[An Object Storage for Distributed Acoustic Sensing]. Seismological Research Letters, 95(1), 499–511, #link("https://doi.org/10.1785/0220230172")[10.1785\/0220230172]
-
-  ],
-  [
-    2024
 
   ],
   main-column-second-row: [

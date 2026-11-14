@@ -1770,23 +1770,6 @@
 
 #regular-entry(
   [
-    #strong[Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion]
-
-  ],
-  [
-    2024
-
-  ],
-  main-column-second-row: [
-    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz
-
-    #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0] (Nature Physics, 20(4), 660–665)
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm]
 
   ],
@@ -1832,6 +1815,23 @@
     #emph[C. Yuan], T. Cochard, #strong[M. Denolle], J. Gomberg, A. Wech, L. Xiao, D. Weitz
 
     #link("https://doi.org/10.1029/2023AV001002")[10.1029\/2023AV001002] (AGU Advances, 5(1), e2023AV001002)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Propagation of extended fractures by local nucleation and rapid transverse expansion of crack-front distortion]
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+    T. Cochard, I. Svetlizky, G. Albertini, R. C. Viesca, S. M. Rubinstein, F. Spaepen, #emph[C. Yuan], #strong[M. Denolle], Y.-Q. Song, L. Xiao, D. A. Weitz
+
+    #link("https://doi.org/10.1038/s41567-023-02365-0")[10.1038\/s41567-023-02365-0] (Nature Physics, 20(4), 660–665)
 
   ],
 )
